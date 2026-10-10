@@ -1,133 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RealmCrafter - Offline Viewer</title>
-  <style>
-    body { margin: 0; overflow: hidden; background: #87CEEB; }
-    #overlay {
-      position: absolute; top: 12px; left: 12px;
-      color: #fff; font-family: monospace; background: rgba(0,0,0,0.65);
-      padding: 10px 14px; border-radius: 6px; pointer-events: none;
-      z-index: 10;
-    }
-  </style>
+async function loadRealm() {
+  try {
+    // 1. Fetch assets map and config
+    const [assetsRes, configRes] = await Promise.all([
+      fetch('./world.assets.yaml'),
+      fetch('./world.config.yaml')
+    ]);
 
-  <!-- External standalone YAML parser -->
-  <script src="https://unpkg.com/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    if (!assetsRes.ok || !configRes.ok) throw new Error("Could not fetch YAML configuration files");
 
-  <!-- Modern Three.js Import Map -->
-  <script type="importmap">
-    {
-      "imports": {
-        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
-      }
-    }
-  </script>
-</head>
-<body>
-  <div id="overlay">RealmCrafter Viewer | Left Click + Drag to Rotate | Scroll to Zoom</div>
+    const assetsData = jsyaml.load(await assetsRes.text());
+    const configData = jsyaml.load(await configRes.text());
 
-  <script type="module">
-    import * as THREE from 'three';
-    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-    import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+    // Spawn puts assets under an 'assets' dictionary key
+    const assetRegistry = assetsData.assets || assetsData;
+    console.log("Parsed Asset Registry:", assetRegistry);
 
-    // 1. Scene & Atmosphere Setup
-    const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0xa0c8f0);
-    scene.fog = new THREE.FogExp2(0xa0c8f0, 0.002);
+    // 2. Locate the active place definition (e.g. 'main')
+    const placeName = configData.defaultPlace || 'main';
+    let placeData = null;
 
-    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.5, 2000);
-    camera.position.set(0, 45, 90);
-
-    const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.shadowMap.enabled = true;
-    document.body.appendChild(renderer.domElement);
-
-    // 2. Controls
-    const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableDamping = true;
-    controls.dampingFactor = 0.05;
-    controls.target.set(0, 0, 0);
-    controls.update();
-
-    // 3. Lighting
-    const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1.2);
-    hemiLight.position.set(0, 200, 0);
-    scene.add(hemiLight);
-
-    const dirLight = new THREE.DirectionalLight(0xfff0dd, 1.5);
-    dirLight.position.set(100, 150, 50);
-    dirLight.castShadow = true;
-    scene.add(dirLight);
-
-    // 4. Testing Floor Grid
-    const groundGeo = new THREE.PlaneGeometry(800, 800);
-    const groundMat = new THREE.MeshLambertMaterial({ color: 0x5a7d36 });
-    const ground = new THREE.Mesh(groundGeo, groundMat);
-    ground.rotation.x = -Math.PI / 2;
-    ground.receiveShadow = true;
-    scene.add(ground);
-
-    const grid = new THREE.GridHelper(800, 80, 0xffffff, 0x3d5423);
-    grid.position.y = 0.05;
-    scene.add(grid);
-
-    // 5. Asset Loading
-    const gltfLoader = new GLTFLoader();
-
-    async function loadRealm() {
-      try {
-        const [assetsRes, configRes] = await Promise.all([
-          fetch('./world.assets.yaml'),
-          fetch('./world.config.yaml')
-        ]);
-
-        if (!assetsRes.ok || !configRes.ok) throw new Error("Could not fetch YAML files");
-
-        const assetsData = jsyaml.load(await assetsRes.text());
-        const configData = jsyaml.load(await configRes.text());
-
-        console.log("Assets loaded:", assetsData);
-        console.log("Config loaded:", configData);
-
-        const entities = configData.entities || configData.objects || [];
-        entities.forEach(item => {
-          const modelUrl = assetsData[item.assetId]?.url || item.url;
-          if (!modelUrl) return;
-
-          gltfLoader.load(modelUrl, (gltf) => {
-            const root = gltf.scene;
-            if (item.position) root.position.set(item.position.x || 0, item.position.y || 0, item.position.z || 0);
-            if (item.scale) root.scale.set(item.scale.x || 1, item.scale.y || 1, item.scale.z || 1);
-            scene.add(root);
-          });
-        });
-      } catch (err) {
-        console.warn("YAML structure check:", err);
+    // Try fetching places/main.json, fallback to places/main.yaml
+    let placeRes = await fetch(`./places/${placeName}.json`);
+    if (placeRes.ok) {
+      placeData = await placeRes.json();
+    } else {
+      placeRes = await fetch(`./places/${placeName}.yaml`);
+      if (placeRes.ok) {
+        placeData = jsyaml.load(await placeRes.text());
       }
     }
 
-    loadRealm();
+    console.log(`Place [${placeName}] Data:`, placeData);
 
-    // Resize Handler
-    window.addEventListener('resize', () => {
-      camera.aspect = window.innerWidth / window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
+    if (!placeData) {
+      console.warn(`Could not find place file at ./places/${placeName}.json or .yaml`);
+      return;
+    }
+
+    // 3. Extract items/entities from the place file
+    const items = placeData.entities || placeData.objects || placeData.items || placeData.props || [];
+    console.log(`Found ${items.length} place entities to spawn.`);
+
+    items.forEach((item) => {
+      // Find matching asset definition by ID or template
+      const assetKey = item.assetId || item.asset || item.template || item.type;
+      const assetDef = assetRegistry[assetKey];
+      const modelUrl = assetDef?.url || assetDef?.file || assetDef?.path || item.url;
+
+      if (!modelUrl) return;
+
+      gltfLoader.load(
+        modelUrl,
+        (gltf) => {
+          const root = gltf.scene;
+          
+          // Position
+          if (item.position) {
+            const p = item.position;
+            root.position.set(
+              Array.isArray(p) ? p[0] : (p.x || 0),
+              Array.isArray(p) ? p[1] : (p.y || 0),
+              Array.isArray(p) ? p[2] : (p.z || 0)
+            );
+          }
+
+          // Rotation
+          if (item.rotation) {
+            const r = item.rotation;
+            root.rotation.set(
+              Array.isArray(r) ? r[0] : (r.x || 0),
+              Array.isArray(r) ? r[1] : (r.y || 0),
+              Array.isArray(r) ? r[2] : (r.z || 0)
+            );
+          }
+
+          // Scale
+          if (item.scale !== undefined) {
+            const s = item.scale;
+            if (typeof s === 'number') {
+              root.scale.set(s, s, s);
+            } else {
+              root.scale.set(
+                Array.isArray(s) ? s[0] : (s.x || 1),
+                Array.isArray(s) ? s[1] : (s.y || 1),
+                Array.isArray(s) ? s[2] : (s.z || 1)
+              );
+            }
+          }
+
+          scene.add(root);
+        },
+        undefined,
+        (err) => console.error(`Failed to load asset ${assetKey} from ${modelUrl}:`, err)
+      );
     });
 
-    // Render Loop
-    function animate() {
-      requestAnimationFrame(animate);
-      controls.update();
-      renderer.render(scene, camera);
-    }
-    animate();
-  </script>
-</body>
-</html>
+  } catch (err) {
+    console.error("World loader error:", err);
+  }
+}
