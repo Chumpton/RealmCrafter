@@ -1,0 +1,23 @@
+# spawn-scene v2 yaml x0z-3
+sv-rock-358:
+  castShadow: true
+  feetPosition: {x: -11.14, y: {terrain: 0}, z: -325.48}
+  id: sv-rock-358
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 212}
+  scale: 0.0567
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 140}
+svg-grove-53:
+  castShadow: true
+  feetPosition: {x: 44.28090153658634, y: 4.580966186044479, z: -322.6669077744476}
+  id: svg-grove-53
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 211.99969493411464}
+  scale: 0.9786330430901763
+  tags: [sv-grove]
+  visibleRange: {max: 700}

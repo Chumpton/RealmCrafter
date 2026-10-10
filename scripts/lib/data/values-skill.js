@@ -1,0 +1,20 @@
+// OSRS item values (wiki infobox, fetched 2026-10-05) for the ores, bars and smithed gear: what the general store pays 40 % of. data/shop.js merges these under its own rows.
+export const VALUE_SKILL = {
+  'ore-copper': 3, 'ore-tin': 3, 'ore-iron': 17, 'ore-coal': 45, 'ore-mithril': 162, 'ore-adamant': 400, 'ore-runite': 3200, 'bar-bronze': 8,
+  'bar-iron': 28, 'bar-steel': 100, 'bar-mithril': 300, 'bar-adamant': 640, 'bar-rune': 5000, 'bronze-dagger': 10, 'bronze-mace': 18,
+  'bronze-med-helm': 24, 'bronze-sword': 26, 'bronze-scimitar': 32, 'bronze-longsword': 40, 'bronze-full-helm': 44, 'bronze-sq-shield': 48,
+  'bronze-warhammer': 47, 'bronze-battleaxe': 52, 'bronze-chainbody': 60, 'bronze-kiteshield': 68, 'bronze-platelegs': 80, 'bronze-2h-sword': 80,
+  'bronze-platebody': 160, 'iron-dagger': 35, 'iron-mace': 63, 'iron-med-helm': 84, 'iron-sword': 91, 'iron-scimitar': 112, 'iron-longsword': 140,
+  'iron-full-helm': 154, 'iron-sq-shield': 168, 'iron-warhammer': 173, 'iron-battleaxe': 182, 'iron-chainbody': 210, 'iron-kiteshield': 238,
+  'iron-platelegs': 280, 'iron-2h-sword': 280, 'iron-platebody': 560, 'steel-dagger': 125, 'steel-mace': 225, 'steel-med-helm': 300, 'steel-sword': 325,
+  'steel-scimitar': 400, 'steel-longsword': 500, 'steel-full-helm': 550, 'steel-sq-shield': 600, 'steel-warhammer': 640, 'steel-battleaxe': 650,
+  'steel-chainbody': 750, 'steel-kiteshield': 850, 'steel-platelegs': 1000, 'steel-2h-sword': 1000, 'steel-platebody': 2000, 'mithril-dagger': 325,
+  'mithril-mace': 585, 'mithril-med-helm': 780, 'mithril-sword': 845, 'mithril-scimitar': 1040, 'mithril-longsword': 1300, 'mithril-full-helm': 1430,
+  'mithril-sq-shield': 1560, 'mithril-warhammer': 1660, 'mithril-battleaxe': 1690, 'mithril-chainbody': 1950, 'mithril-kiteshield': 2210,
+  'mithril-platelegs': 2600, 'mithril-2h-sword': 2600, 'mithril-platebody': 5200, 'adamant-dagger': 800, 'adamant-mace': 1440, 'adamant-med-helm': 1920,
+  'adamant-sword': 2080, 'adamant-scimitar': 2560, 'adamant-longsword': 3200, 'adamant-full-helm': 3520, 'adamant-sq-shield': 3840,
+  'adamant-warhammer': 4120, 'adamant-battleaxe': 4160, 'adamant-chainbody': 4800, 'adamant-kiteshield': 5440, 'adamant-platelegs': 6400,
+  'adamant-2h-sword': 6400, 'adamant-platebody': 16640, 'rune-dagger': 8000, 'rune-mace': 14400, 'rune-med-helm': 19200, 'rune-sword': 20800,
+  'rune-scimitar': 25600, 'rune-longsword': 32000, 'rune-full-helm': 35200, 'rune-sq-shield': 38400, 'rune-warhammer': 41500, 'rune-battleaxe': 41600,
+  'rune-chainbody': 50000, 'rune-kiteshield': 54400, 'rune-platelegs': 64000, 'rune-2h-sword': 64000, 'rune-platebody': 65000,
+};

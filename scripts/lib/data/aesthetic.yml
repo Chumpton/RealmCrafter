@@ -1,0 +1,12 @@
+name: first-den-lamplight
+family: lowpoly-cozy
+palette: ['#f2e6cf','#4f3828','#ba8950','#9baf84','#5dada9','#343c43']
+finish: ['buttercream lime plaster','hand-joined walnut','honey oak planks','linen','weathered pale limestone','still teal water']
+era: timeless handmade starting home
+mood: warm before it is furnished, a small house above an immense lake
+hour: 12
+clouds: { density: 0.18, opacity: 0.7 }
+fog: { near: 220, far: 1250 }
+ground: oklch(0.64 0.10 120)
+grade: { exposure: 1.02, saturation: 0.99, contrast: 1.02, temperature: 0.035 }
+reference: Three-room home, whole right wing turned 45 degrees, nearly empty shelves and a beautiful lake view.

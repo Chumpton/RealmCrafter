@@ -1,0 +1,138 @@
+# spawn-scene v2 yaml x0z4
+mtn-bench-72:
+  castShadow: true
+  feetPosition: {x: 1.5, y: {terrain: 0}, z: 465.04947212152183}
+  id: mtn-bench-72
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 180}
+  scale: 1
+  visibleRange: {max: 500}
+mtn-bench-73:
+  castShadow: true
+  feetPosition: {x: 8.5, y: {terrain: 0}, z: 465.04947212152183}
+  id: mtn-bench-73
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 180}
+  scale: 1
+  visibleRange: {max: 500}
+mtn-campfire-71:
+  castShadow: true
+  feetPosition: {x: 5, y: {terrain: 0}, z: 468.04947212152183}
+  id: mtn-campfire-71
+  model: /cdn/value.585bfbade7e48212f57b69c837deb9f24b41c88bdb24d189007805520eab254f.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 1
+  visibleRange: {max: 600}
+mtn-log-74:
+  castShadow: true
+  feetPosition: {x: 5, y: {terrain: 0}, z: 471.54947212152183}
+  id: mtn-log-74
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 0.34
+  visibleRange: {max: 300}
+mtn-wood-75:
+  castShadow: true
+  feetPosition: {x: 10, y: {terrain: 0}, z: 470.04947212152183}
+  id: mtn-wood-75
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 30}
+  scale: 2
+  visibleRange: {max: 300}
+mtnd-berry-189:
+  castShadow: true
+  feetPosition: {x: 52.84165567152279, y: 88.92095208305209, z: 448.40620420147025}
+  id: mtnd-berry-189
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 319.2437372725661}
+  scale: 1.0119916340857706
+  visibleRange: {max: 300}
+mtnd-bush-172:
+  castShadow: true
+  feetPosition: {x: 23.673124210291135, y: 84.71155268242372, z: 456.54746678310795}
+  id: mtnd-bush-172
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  rotation: {yaw: 148.43814987150867}
+  scale: 0.26296697640929695
+  visibleRange: {max: 400}
+mtnd-bush-46:
+  castShadow: true
+  feetPosition: {x: -3.9441917505786677, y: 84.24879235955068, z: 448.88176204398354}
+  id: mtnd-bush-46
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  rotation: {yaw: 43.4961440989264}
+  scale: 0.3429975207722734
+  visibleRange: {max: 400}
+mtnd-fern-200:
+  castShadow: false
+  feetPosition: {x: -19.166164148676287, y: 85.83108301107205, z: 456.69346517077344}
+  id: mtnd-fern-200
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 3750}
+  rotation: {yaw: 255.72063145028454}
+  scale: 1.440637664934917
+  visibleRange: {max: 120}
+mtnd-fern-42:
+  castShadow: false
+  feetPosition: {x: 6.051678397251138, y: 84.41730577493631, z: 449.9503659624375}
+  id: mtnd-fern-42
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 1754}
+  rotation: {yaw: 193.01202114346066}
+  scale: 1.4583730172637726
+  visibleRange: {max: 120}
+mtnd-flowers-213:
+  castShadow: false
+  feetPosition: {x: 10.421465526065532, y: 85.78929043183655, z: 455.41011255765807}
+  id: mtnd-flowers-213
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 9025}
+  rotation: {yaw: 15.668747078473096}
+  scale: 1.2686396212636677
+  visibleRange: {max: 150}
+mtnd-flowers-230:
+  castShadow: false
+  feetPosition: {x: -2.458833124236591, y: 85.87674270089084, z: 456.8974217320315}
+  id: mtnd-flowers-230
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 998}
+  rotation: {yaw: 40.956396591363664}
+  scale: 1.4742350366312242
+  visibleRange: {max: 150}
+mtnd-flowers-244:
+  castShadow: false
+  feetPosition: {x: 4.871267564534804, y: 84.79352518191669, z: 451.464047309693}
+  id: mtnd-flowers-244
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 2077}
+  rotation: {yaw: 99.24672803806453}
+  scale: 1.2407309699061937
+  visibleRange: {max: 150}
+mtnd-flowers-269:
+  castShadow: false
+  feetPosition: {x: 30.84157494168801, y: 84.39641885400398, z: 456.82195647285414}
+  id: mtnd-flowers-269
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 7262}
+  rotation: {yaw: 340.9815024309705}
+  scale: 1.3958688821624354
+  visibleRange: {max: 150}
+mtnd-lantern-368:
+  castShadow: true
+  feetPosition: {x: 6.746127723732242, y: 85.86, z: 467.9758775753175}
+  id: mtnd-lantern-368
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  rotation: {yaw: -137.81028598639776}
+  scale: 0.8
+  visibleRange: {max: 900}

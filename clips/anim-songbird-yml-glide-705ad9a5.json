@@ -1,0 +1,5 @@
+{"contentHash":"370:39724b8d","duration":1,"fps":30,"identity":"anim/songbird.yml#glide","tracks":[
+{"bone":"wingL","prop":"rotation","times":[0,0.5,1],"values":[0,0,0.06976,0.99756,0,0,0.0349,0.99939,0,0,0.06976,0.99756]},
+{"bone":"wingR","prop":"rotation","times":[0,0.5,1],"values":[0,0,-0.06976,0.99756,0,0,-0.0349,0.99939,0,0,-0.06976,0.99756]},
+{"bone":"tail","prop":"rotation","times":[0,0.5,1],"values":[0,0,0,1,0,0,0,1,0,0,0,1]}
+]}

@@ -1,0 +1,162 @@
+# Summer zone: Sunreach Vale. A valley ringed by ridges, gate terrace at the origin looking south to the Azora mesa.
+mode: 3d
+gravity:
+  x: 0
+  y: -24
+  z: 0
+atmosphere:
+  sky:
+    kind: realistic
+    model: hosek
+    turbidity: 1.9
+  sun:
+    orbit:
+      maxElevation: 66
+      noonYaw: 200
+  moon:
+    intensity: 3.5
+    enabled: true
+    phase: 0.45
+  stars:
+    density: 0.6
+    enabled: true
+    milkyWay: 0
+  clouds:
+    altitude: 700
+    density: 0.42
+    enabled: true
+    opacity: 0.85
+    speed: 0.9
+    color: '#ffffff'
+  wind:
+    direction: 245
+    speed: 2.5
+  cycle:
+    frozen: 13.5
+  ambient:
+    light:
+      color: '#cfe0ff'
+      intensity: 0.6
+  hemisphere:
+    skyColor: '#a9cdf5'
+    groundColor: '#6f8a4e'
+    intensity: 0.55
+  timeOfDay: 13.5
+  look:
+    script: scripts/look-den.js
+    params:
+      bloomRadius: 0.7
+      bloomStrength: 0.3
+      bloomThreshold: 0.9
+      exposure: 1.55
+      vignette: 0.1
+      csCover: 0
+      csK: 0.14
+      csScale: 150
+      csSeed: 831
+      csSoft: 0.22
+      nightK: 0
+      twExp: 0
+      twSat: 0.02
+      twTemp: 0.02
+      wetG: 0
+      csN: 0.04
+      inkPx: 3
+      aerialK: 0.15
+      aoK: 0.78
+      aoR: 0.008
+      bloomThrUser: 0.9
+      bloomUser: 0.35
+      celK: 0.3
+      celSteps: 3
+      contrast: 1.12
+      creaseLo: 0.28
+      daySat: 1.05
+      fogFarX: 3
+      fogNearX: 3.2
+      glintK: 0.7
+      mistK: 0.08
+      posterK: 0.15
+      shB: 1.02
+      shG: 0.9
+      shR: 0.98
+      sunsetK: 0
+      gradeHaze: 0.05
+      inkFar: 520
+      inkStrength: 1
+  fog:
+    kind: exp2
+    density: 0.0017
+    color: '#c9dcef'
+terrain:
+  kind: heightmap
+  water: {kind: water, color: 'oklch(0.78 0.12 192)', clarity: 0.85, turbulence: 0.3, waves: 0.1}
+  decorations:
+    bindings:
+      grass: [blades]
+      ground: [blades]
+      flowers: [blades]
+    layers:
+      blades:
+        density: 14
+        items: [{colorJitter: {hue: 0.012, value: 0.06}, kind: scripted, maxDistance: 30, params: {height: 0.3}, randomRotation: true, scale: [0.8, 1.2], script: scripts/gen/valley-meadow.js, seed: 11, useTerrainColor: false, wind: {force: 0.09, scale: 1.3, speed: 0.7}}]
+        constraints: {slopeRange: [0, 0.28]}
+    settings: {budget: 30000, enabled: true, fadeDistance: 10, maxDistance: 40}
+  generator: scripts/zone-summer-ground.js
+  materials:
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-lush-sunlit-golden-green-summer-meadow-grass.png, antiTiling: stochastic, id: ground, macro: {hue: 0.02, scale: 50, value: 0.08}, normalStrength: 0.25, pbr: true, roughnessIntensity: 0.75, textureScale: 4, tint: oklch(0.98 0.02 120)}
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-summer-meadow-grass-dense-red-yellow-white-wildflowers.png, antiTiling: stochastic, id: flowers, macro: {hue: 0.02, scale: 40, value: 0.06}, normalStrength: 0.2, pbr: true, roughnessIntensity: 0.75, textureScale: 4, tint: oklch(1 0 0)}
+  - {albedo: /cdn/10803e8e1cdd4bf4f20d4a49492bcc4f94355e937271d62cbef9f77b9a5f39ff-u0zoehkca.webp, antiTiling: stochastic, id: grass, macro: {hue: 0.015, scale: 45, value: 0.075}, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.7, textureScale: 3, tint: oklch(0.98 0.01 120)}
+  - {albedo: cdn/texture-terrain-wow-classic-hand-painted-grey-rock-strata-broad-brushstrokes-cool-purple-crevices-warm-sunlit-tops.png, antiTiling: stochastic, id: rock, macro: {hue: 0.03, scale: 90, value: 0.16}, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.84, textureScale: 16, tint: oklch(0.78 0.04 75)}
+  - {albedo: cdn/texture-terrain-sand-realistic-albedo.png, antiTiling: stochastic, id: sand, normalStrength: 0.25, pbr: true, roughnessIntensity: 0.7, textureScale: 2.5, tint: oklch(0.86 0.06 85)}
+  - {albedo: cdn/texture-terrain-stylized-painted-golden-wheat-field-rows-lowpoly.png, antiTiling: stochastic, id: wheat, normalStrength: 0.2, pbr: true, roughnessIntensity: 0.8, textureScale: 4, tint: oklch(0.86 0.09 88)}
+  - {albedo: cdn/texture-terrain-stylized-painted-tilled-soil-furrows-lowpoly.png, antiTiling: stochastic, id: soil, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.9, textureScale: 3, tint: oklch(0.62 0.06 55)}
+  - {albedo: /cdn/value.1ad36c231a9134867589eb73ca8ac91efb65d573620355c0def8e4a2912e417b.png, antiTiling: stochastic, id: gravel, normalStrength: 0.5, pbr: true, roughnessIntensity: 0.82, textureScale: 1.9, tint: oklch(0.98 0.012 82)}
+  - {albedo: cdn/texture-terrain-wow-hand-painted-worn-limestone-flagstones.png, antiTiling: stochastic, id: flag, normalStrength: 0.9, pbr: true, roughnessIntensity: 0.75, textureScale: 3, tint: oklch(0.97 0.015 85)}
+  marks:
+    road-main: {kind: path, grade: true, maxGrade: 0.3, width: 6, material: gravel, edgeMaterial: grass, noise: 0.4, points: [[0, -12], [0, -40], [8, -80], [6, -140], [0, -200], [-2, -250], [-16, -262], [14, -276], [-10, -290], [0, -300]]}
+    road-rut-l: {kind: path, grade: false, width: 0.75, material: soil, noise: 0.25, falloff: 0.25, points: [[-1.05, -12.0], [-1.04, -40.12], [6.95, -80.06], [4.95, -139.93], [-1.05, -199.92], [-3.02, -249.74], [-16.89, -262.55], [12.97, -276.22], [-10.91, -289.47], [-0.74, -300.74]]}
+    road-rut-r: {kind: path, grade: false, width: 0.75, material: soil, noise: 0.25, falloff: 0.25, points: [[1.05, -12.0], [1.04, -39.88], [9.05, -79.94], [7.05, -140.07], [1.05, -200.08], [-0.98, -250.26], [-15.11, -261.45], [15.03, -275.78], [-9.09, -290.53], [0.74, -299.26]]}
+    road-crown: {kind: path, grade: false, width: 0.5, material: grass, noise: 0.5, falloff: 0.35, clearScatter: false, points: [[0.0, -12.0], [0.0, -40.0], [8.0, -80.0], [6.0, -140.0], [0.0, -200.0], [-2.0, -250.0], [-16.0, -262.0], [14.0, -276.0], [-10.0, -290.0], [0.0, -300.0]]}
+    path-farm: {kind: path, grade: true, width: 4, material: gravel, edgeMaterial: grass, noise: 0.6, points: [[7, -78], [-30, -90], [-62, -104], [-82, -110]]}
+    path-fair: {kind: path, grade: true, width: 4, material: gravel, edgeMaterial: grass, noise: 0.6, points: [[2, -48], [28, -56], [48, -60]]}
+    path-outpost: {kind: path, grade: true, maxGrade: 0.35, width: 3, material: gravel, edgeMaterial: grass, noise: 0.8, points: [[70, -70], [95, -108], [112, -140], [126, -162]]}
+    path-pond: {kind: path, grade: true, width: 3, material: gravel, edgeMaterial: grass, noise: 0.8, points: [[-88, -132], [-96, -165], [-82, -200]]}
+    path-pond-road: {kind: path, grade: true, width: 3, material: gravel, edgeMaterial: grass, noise: 0.8, points: [[-46, -228], [-20, -224], [-1, -214]]}
+    path-hollow: {kind: path, grade: true, width: 3, material: gravel, edgeMaterial: grass, noise: 0.8, points: [[3, -232], [50, -248], [90, -258]]}
+    plaza-gate: {kind: flatten, center: {x: 0, z: -2}, height: 6, shape: {kind: circle, radius: 9}, falloff: 6, material: flag, edgeMaterial: gravel}
+    plaza-dirt-0: {kind: path, width: 2.2, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[8.7, -2.8], [13.7, -1.6]]}
+    plaza-dirt-1: {kind: path, width: 3.4, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[5.6, 4.5], [7.5, 9.1]]}
+    plaza-dirt-2: {kind: path, width: 2.2, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[2.7, 6.2], [2.5, 10.6]]}
+    plaza-dirt-3: {kind: path, width: 2.2, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[-2.9, 6.7], [-6.2, 11.2]]}
+    plaza-dirt-4: {kind: path, width: 2.2, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[-9.4, -0.8], [-14.2, -1.9]]}
+    plaza-dirt-5: {kind: path, width: 2.2, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[-8.4, -5.4], [-13.1, -9.3]]}
+    plaza-dirt-6: {kind: path, width: 3.4, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[-4.1, -9.7], [-4.8, -14.1]]}
+    plaza-dirt-7: {kind: path, width: 2.2, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[-0.1, -11.0], [1.5, -16.3]]}
+    plaza-dirt-8: {kind: path, width: 2.2, material: gravel, edgeMaterial: grass, noise: 1, falloff: 1.5, clearScatter: false, points: [[5.8, -9.3], [9.2, -11.1]]}
+    creek: {kind: river, width: 4, depth: 1.1, bedMaterial: sand, points: [[64, -146], [40, -158], [25, -165], [12, -170], [4, -172], [-6, -178], [-20, -190], [-35, -204], [-46, -213], [-54, -221]]}
+    farm-mud-house: {kind: path, width: 2.4, material: soil, edgeMaterial: grass, noise: 0.7, falloff: 1, points: [[-82, -110], [-92, -104], [-98, -102]]}
+    farm-mud-gate: {kind: path, width: 2.2, material: soil, edgeMaterial: grass, noise: 0.7, falloff: 1, points: [[-98, -102], [-108.5, -101], [-109.5, -90], [-108, -82.5], [-104, -79]]}
+    farm-mud-barn: {kind: path, width: 2.4, material: soil, edgeMaterial: grass, noise: 0.7, falloff: 1, points: [[-98, -102], [-106, -104], [-111, -106]]}
+    farm-mud-silo: {kind: path, width: 2, material: soil, edgeMaterial: grass, noise: 0.8, falloff: 1, points: [[-109.5, -94], [-114, -92], [-118, -90]]}
+    farm-mud-crops: {kind: path, width: 2.2, material: gravel, edgeMaterial: grass, noise: 0.8, falloff: 1, points: [[-92, -104], [-84, -114], [-77, -120]], grade: true}
+    farm-mud-rows: {kind: path, width: 2, material: gravel, edgeMaterial: grass, noise: 0.8, falloff: 1, points: [[-84, -114], [-92, -130], [-100, -148]], grade: true}
+    sunpond: {kind: lake, at: {x: -70, z: -230}, radius: 30, level: 0.6, bedMaterial: sand}
+    farm-rut-l: {falloff: 0.25, grade: false, kind: path, material: soil, noise: 0.3, points: [[-30, -89], [-61.6, -103], [-81.6, -109]], width: 0.7}
+    farm-rut-r: {falloff: 0.25, grade: false, kind: path, material: soil, noise: 0.3, points: [[-30, -91], [-62.4, -105], [-82.4, -111]], width: 0.7}
+    farm-mud-split: {falloff: 1.2, grade: false, kind: path, material: soil, noise: 0.9, points: [[-80, -108.5], [-84, -110.5]], width: 2.6}
+    farm-mud-split2: {falloff: 1, grade: false, kind: path, material: soil, noise: 0.9, points: [[-75.5, -106.5], [-73.5, -107]], width: 1.8}
+    farm-rut-cl: {falloff: 0.2, grade: false, kind: path, material: soil, noise: 0.3, points: [[-91.53147871433418, -103.62518297146734], [-83.55540782913842, -113.59708834515668], [-77.09303193836016, -119.5591179332235]], width: 0.55}
+    farm-rut-cr: {falloff: 0.2, grade: false, kind: path, material: soil, noise: 0.3, points: [[-92.46852128566582, -104.37481702853266], [-84.44459217086158, -114.40291165484332], [-77.90696806163984, -120.4408820667765]], width: 0.55}
+    farm-rut-wl: {falloff: 0.2, grade: false, kind: path, material: soil, noise: 0.3, points: [[-83.50806504495004, -114.24596747752497], [-91.50234971378946, -130.23418836998144], [-99.49740364825885, -148.2233761563294]], width: 0.55}
+    farm-rut-wr: {falloff: 0.2, grade: false, kind: path, material: soil, noise: 0.3, points: [[-84.49193495504996, -113.75403252247503], [-92.49765028621054, -129.76581163001856], [-100.50259635174115, -147.7766238436706]], width: 0.55}
+    farm-mud-fork: {falloff: 1.2, grade: false, kind: path, material: soil, noise: 0.9, points: [[-83, -112.5], [-85.5, -115.5]], width: 2.4}
+defaultSpawnPoint:
+  x: 0
+  z: -2
+  y:
+    terrain: 0.2
+worldBounds:
+  bottom: -60
+arrivalBudget:
+  bytes: 3000000 # same as main: creator 2026-09-28 a 10-15 s first load is fine

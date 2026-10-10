@@ -1,0 +1,159 @@
+arrivalBudget:
+  bytes: 3000000 # creator 2026-09-28: a 10-15 s first load is fine; 3 MB is ~11 s on 4G at Spawn's own rate (450 KB ~ 1.7 s)
+atmosphere:
+  clouds:
+    altitude: 700
+    density: 0.36
+    enabled: true
+    opacity: 0.85
+    speed: 0.9
+    color: "#ffffff"
+  fog:
+    far: 507
+    kind: linear
+    near: 73
+    color: "#80a8b3"
+    height: {base: 2, falloff: 30}
+  look:
+    script: scripts/look-den.js
+    params: {bloomRadius: 0.7, bloomStrength: 0.3, bloomThreshold: 0.9, exposure: 1.55, vignette: 0.1, csCover: 0, csK: 0.14, csScale: 150, csSeed: 831, csSoft: 0.22, nightK: 0, twExp: 0, twSat: 0.02, twTemp: 0.02, wetG: 0, csN: 0.04, inkPx: 3, aerialK: 0.15, aoK: 0.78, aoR: 0.008, bloomThrUser: 0.9, bloomUser: 0.35, celK: 0.3, celSteps: 3, contrast: 1.12, creaseLo: 0.28, daySat: 1.05, fogFarX: 3, fogNearX: 3.2, glintK: 0.7, mistK: 0.08, posterK: 0.15, shB: 1.02, shG: 0.9, shR: 0.98, sunsetK: 0.55, gradeHaze: 0.05, inkFar: 520, inkStrength: 1}
+  moon:
+    intensity: 3.5
+    enabled: true
+    phase: 0.45
+  sky:
+    kind: realistic
+    model: hosek
+    turbidity: 2.4
+  stars:
+    density: 0.6
+    enabled: true
+    milkyWay: 0
+  timeOfDay: 12
+  wind:
+    direction: 245
+    speed: 2.5
+  cycle:
+    epoch: -5400000
+    periodMs: 10800000
+    bands: [[5.5, 1], [6.3, 0.45], [8, 1], [15.8, 0.45], [18, 1]]
+  sun:
+    orbit: {maxElevation: 24, noonYaw: 200}
+  ambient:
+    light: {intensity: 1.9}
+defaultSpawnPoint:
+  # Campton 2026-10-09: where he stood, facing the Buddha
+  x: -31.78
+  y: {terrain: 0}
+  z: 33.15
+gravity:
+  x: 0
+  y: -24
+  z: 0
+mode: 3d
+terrain:
+  decorations:
+    bindings:
+      grass:
+        - grass
+    layers:
+      grass:
+        density: 40
+        items: [{colorJitter: {hue: 0.012, value: 0.06}, kind: scripted, maxDistance: 38, params: {height: 0.19}, randomRotation: true, scale: [0.78, 1.12], script: scripts/gen/valley-meadow.js, seed: 7, useTerrainColor: false, wind: {force: 0.085, scale: 1.3, speed: 0.7}}]
+        constraints: {heightRange: [1.2, 115], slopeRange: [0, 0.24]}
+    settings: {budget: 56000, enabled: true, fadeDistance: 22, maxDistance: 840}
+  generator: scripts/flat-starter-terrain.js
+  kind: heightmap
+  marks:
+    buddhaRise: {kind: flatten, center: {x: -18.47, z: 51.4}, height: 3.6, shape: {kind: circle, radius: 8}, falloff: 14, falloffCurve: smooth, material: grass}
+    zs-spring: {center: {x: 41.68, z: 31.26}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: grass, shape: {kind: circle, radius: 7}}
+    zs-summer: {center: {x: 70.6, z: -3.2}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: grass, shape: {kind: circle, radius: 7}}
+    zs-autumn: {center: {x: 81.48, z: -46.85}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: grass, shape: {kind: circle, radius: 7}}
+    zs-winter: {center: {x: 72.13, z: -90.86}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: grass, shape: {kind: circle, radius: 7}}
+    zs-city: {center: {x: 44.43, z: -126.31}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: cobble, shape: {kind: circle, radius: 7}}
+    zs-village: {center: {x: 4, z: -146.04}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: grass, shape: {kind: circle, radius: 7}}
+    zs-road: {center: {x: -41, z: -146.04}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: wowDirt, shape: {kind: circle, radius: 7}}
+    zs-harbor: {center: {x: -81.43, z: -126.31}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: cobble, shape: {kind: circle, radius: 7}}
+    zs-caves: {center: {x: -109.13, z: -90.86}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: wowDirt, shape: {kind: circle, radius: 7}}
+    zs-desert: {center: {x: -118.48, z: -46.85}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: wowDirt, shape: {kind: circle, radius: 7}}
+    zs-swamp: {center: {x: -107.6, z: -3.2}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: grass, shape: {kind: circle, radius: 7}}
+    zs-creatures: {center: {x: -78.68, z: 31.26}, falloff: 10, falloffCurve: smooth, height: 2.6, kind: flatten, material: grass, shape: {kind: circle, radius: 7}}
+    inn-cellar: {kind: hole, points: [[-49.29, 108.56], [-43.53, 109.26], [-44.81, 119.68], [-50.57, 118.98]]}
+    te-raise-nx1sd-0: {center: {x: -75.63, z: 79.12}, falloff: 6.7, falloffCurve: smooth, height: 1.5, kind: flatten, shape: {kind: circle, radius: 3.3}}
+    te-pathpaint-o5xm9-54: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[-39.5, 48.28], [-39.64, 50.12], [-39.72, 51.78], [-39.81, 53.59], [-39.83, 55.51], [-39.68, 57.18], [-39.34, 58.82], [-38.94, 60.49], [-38.71, 62.11], [-38.74, 63.76], [-39.12, 65.51], [-39.68, 67.2], [-40.19, 68.85], [-40.46, 70.43], [-40.56, 71.97], [-40.59, 73.52], [-40.63, 75.08], [-40.73, 76.78], [-40.8, 78.93], [-40.78, 80.2]], width: 2.9}
+    te-pathpaint-p948o-12: {edgeMaterial: wowDirtRut, falloff: 0.8, grade: false, kind: path, material: upland, noise: 0.3, points: [[-58.38, 118.67], [-58.28, 118.67]], width: 2}
+    home-pond: {at: {x: -100, z: 92}, bedMaterial: shoreline, depth: 0, kind: lake, level: -0.35, liquid: {caustics: 0.4, clarity: 0.35, color: oklch(0.48 0.07 205), kind: water, shoreFoam: 0.05, turbulence: 0.1, waves: 0.04, crestFoam: 0, refraction: 0.3}, radius: 55}
+    home-pond-bowl-0: {center: {x: -80, z: 68}, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, shape: {kind: circle, radius: 8}}
+    home-pond-bowl-1: {center: {x: -90.4, z: 76}, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, shape: {kind: circle, radius: 13}}
+    home-pond-bowl-2: {center: {x: -102.8, z: 90}, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, shape: {kind: circle, radius: 18}}
+    home-pond-bowl-3: {center: {x: -106.2, z: 99}, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, shape: {kind: circle, radius: 19}}
+    home-pond-bowl-4: {center: {x: -119.6, z: 106}, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, shape: {kind: circle, radius: 16}}
+    home-pond-bowl-5: {center: {x: -124.59, z: 118.5}, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, shape: {kind: circle, radius: 11}}
+    te-pathpaint-pond-trail: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[-42.49, 70.61], [-44.57, 70.27], [-46.5, 70.03], [-48.42, 69.75], [-50.31, 69.22], [-52.31, 68.58], [-54.12, 67.9], [-56.04, 67.41], [-58.14, 67.01], [-60.31, 66.73], [-62.24, 66.54], [-64.28, 66.56], [-66.36, 66.45], [-68.09, 66.28], [-68.69, 66.28]], width: 2.9}
+    te-pondbowl-plwg9-0: {center: {x: -73.07, z: 82.57}, edgeMaterial: shoreline, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, material: shoreline, shape: {kind: path, points: [[-70.06, 74.02], [-70.71, 76.46], [-71.41, 78.88], [-72.21, 81.33], [-73.32, 83.82], [-74.44, 86.34], [-75.58, 88.7], [-76.8, 91.03]], width: 10}}
+    te-pondbowl-plzgl-2: {center: {x: -77.6, z: 92.55}, edgeMaterial: shoreline, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, material: shoreline, shape: {kind: path, points: [[-77.65, 92.55], [-77.55, 92.55]], width: 10}}
+    te-pondbowl-pm06i-4: {center: {x: -82.6, z: 99.52}, edgeMaterial: shoreline, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, material: shoreline, shape: {kind: path, points: [[-78.33, 94.11], [-79.91, 96.15], [-81.9, 97.95], [-83.45, 100.36], [-85.15, 103.33], [-86.84, 105.24]], width: 10}}
+    te-pondbowl-pm2oc-6: {center: {x: -91.91, z: 79.47}, edgeMaterial: shoreline, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, material: shoreline, shape: {kind: path, points: [[-94.85, 78.24], [-94.96, 75.25], [-94.95, 72.73], [-94.46, 69.93], [-93.71, 67.52], [-93.83, 71.65], [-93.61, 75.59], [-93, 78.3], [-91.72, 82.62], [-90.16, 86.71], [-88.69, 89.46], [-86.96, 91.66], [-83.9, 93.44]], width: 10}}
+    te-pondbowl-pmp2t-12: {center: {x: -90.35, z: 58.59}, edgeMaterial: shoreline, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, material: shoreline, shape: {kind: path, points: [[-90.4, 58.59], [-90.3, 58.59]], width: 5}}
+    te-pondbowl-pn7d5-20: {center: {x: -89.2, z: 84.61}, edgeMaterial: shoreline, falloff: 5, falloffCurve: smooth, height: -2, kind: flatten, material: shoreline, shape: {kind: path, points: [[-94.91, 63.94], [-95.35, 65.18], [-95.73, 67.32], [-95.74, 68.95], [-95.77, 70.2], [-95.75, 71.54], [-95.42, 73.51], [-94.98, 75.17], [-94.2, 76.97], [-93.8, 78.16], [-93.21, 80.37], [-92.92, 81.65], [-92.45, 82.85], [-92.04, 84.05], [-91.45, 85.41], [-90.85, 86.55], [-89.81, 87.91], [-88.84, 89.38], [-87.5, 90.76], [-86.27, 92.58], [-85.36, 93.94], [-83.46, 94.84], [-82.17, 94.33], [-80.89, 93.23], [-79.87, 91.96], [-81.24, 93.1], [-83.14, 94.91], [-89.34, 103.76], [-90.59, 103.91], [-85.07, 93.34], [-83.76, 91.22], [-83.08, 89.37], [-84.11, 88.55], [-87.66, 87.92], [-90.47, 86.03], [-92.26, 85.29], [-93.18, 83.69], [-92.51, 81.23], [-92.85, 76.48], [-93.7, 73.58], [-94.92, 72.6], [-96.19, 72.66], [-94.28, 75.71], [-88.73, 87.43], [-86.98, 89.29], [-84.82, 90.06], [-83.12, 91.88], [-81.15, 92.68], [-79.78, 92.81], [-78.5, 92.35]], width: 5}}
+    mtn-trail: {clearScatter: true, edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: true, kind: path, material: beatenDirt, maxGrade: 0.2, noise: 0.25, points: [[5, 150], [5, 165], [3, 176], [0, 186], [-6, 192], [-20, 196], [-13, 199.3], [-6, 202.4], [1, 205.3], [8, 207.9], [15, 210], [22, 211.8], [29, 213.3], [36, 214.7], [40.5, 217.7], [39, 222.2], [29.1, 225.2], [22.2, 226.7], [15.3, 228.5], [8.4, 230.5], [1.6, 232.8], [-5.3, 235.4], [-12.2, 238.3], [-19.1, 241.4], [-26, 244.6], [-30.5, 247.6], [-29, 252.1], [-19.1, 256.8], [-12.2, 259.9], [-5.3, 262.8], [1.6, 265.5], [8.4, 267.9], [15.3, 269.9], [22.2, 271.7], [29.1, 273.3], [36, 274.9], [40.5, 277.9], [39, 282.4], [29.1, 285.2], [22.2, 286.6], [15.3, 288.3], [8.4, 290.2], [1.6, 292.4], [-5.3, 294.9], [-12.2, 297.6], [-19.1, 300.6], [-26, 303.7], [-30.5, 306.7], [-29, 311.2], [-19.1, 316.1], [-12.2, 319.4], [-5.3, 322.5], [1.6, 325.4], [8.4, 328], [15.3, 330.2], [22.2, 332.2], [29.1, 334.1], [36, 335.8], [40.5, 338.8], [39, 343.3], [29.1, 346.4], [22.2, 348.1], [15.3, 350], [8.4, 352.2], [1.6, 354.7], [-5.3, 357.5], [-12.2, 360.5], [-19.1, 363.7], [-26, 367], [-30.5, 370], [-29, 374.5], [-19.1, 383.6], [-12.2, 391], [-5.3, 398.2], [1.6, 405.2], [8.4, 411.8], [15.3, 418.2], [22.2, 424.3], [29.1, 430.2], [36, 436], [20.5, 452], [5, 466.04947212152183]], width: 3.4}
+    mtn-landing-0: {center: {x: 39, z: 219.72760911472142}, falloff: 5, falloffCurve: smooth, height: 12.44, kind: flatten, shape: {kind: circle, radius: 6.5}}
+    mtn-landing-1: {center: {x: -29, z: 249.55808451399207}, falloff: 5, falloffCurve: smooth, height: 24.79, kind: flatten, shape: {kind: circle, radius: 6.5}}
+    mtn-landing-2: {center: {x: 39, z: 279.85599658079445}, falloff: 5, falloffCurve: smooth, height: 36.11, kind: flatten, shape: {kind: circle, radius: 6.5}}
+    mtn-landing-3: {center: {x: -29, z: 308.6511937826872}, falloff: 5, falloffCurve: smooth, height: 48.47, kind: flatten, shape: {kind: circle, radius: 6.5}}
+    mtn-landing-4: {center: {x: 39, z: 340.77845079638064}, falloff: 5, falloffCurve: smooth, height: 61.18, kind: flatten, shape: {kind: circle, radius: 6.5}}
+    mtn-landing-5: {center: {x: -29, z: 372.0494721494615}, falloff: 5, falloffCurve: smooth, height: 73.56, kind: flatten, shape: {kind: circle, radius: 6.5}}
+    mtn-summit: {center: {x: 5, z: 466.04947212152183}, falloff: 8, falloffCurve: smooth, height: 85.91, kind: flatten, shape: {kind: ellipse, radiusX: 13, radiusZ: 10}}
+    mtn-trailhead: {center: {x: 4, z: 176}, edgeMaterial: beatenDirtEdge, falloff: 6, falloffCurve: smooth, height: 0, kind: flatten, material: beatenDirt, shape: {kind: circle, radius: 7}}
+    te-pathpaint-ptghs-2: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[-58.28, 65.92], [-56.16, 65.44], [-54.17, 64.93], [-52.12, 64.44], [-50.06, 63.99], [-48.07, 63.49], [-46.1, 62.88], [-44.03, 62.23], [-42.13, 61.45], [-40.3, 60.46], [-41.38, 60.69], [-43.25, 61.54], [-45.27, 62.35], [-47.21, 63.12], [-49.26, 63.72], [-51.36, 64.3], [-53.34, 64.84], [-55.31, 65.33], [-56.45, 65.6]], width: 2}
+    pond-point: {center: {x: -114, z: 78}, falloff: 5, falloffCurve: smooth, height: 0.22, kind: flatten, shape: {kind: path, points: [[-124, 68], [-115, 77], [-107, 85]], width: 11}}
+    pond-bulge: {center: {x: -76, z: 107}, falloff: 4.5, falloffCurve: smooth, height: 0.22, kind: flatten, shape: {kind: path, points: [[-70, 113], [-77, 106]], width: 8}}
+    te-pathpaint-qervp-5: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[-38.84, 63.58], [-37.94, 65.52], [-37.05, 67.45], [-36, 69.36], [-34.94, 71.23], [-34.01, 73.05], [-32.94, 74.98], [-32.01, 76.79], [-31.02, 78.77], [-30.05, 80.56], [-29.08, 82.44], [-28.24, 84.35], [-27.37, 86.35], [-26.53, 88.26], [-25.65, 90.15], [-24.69, 91.97], [-23.67, 93.81], [-22.74, 95.67], [-21.78, 97.65], [-20.89, 99.48], [-19.88, 101.58], [-18.99, 103.39], [-18.07, 105.3], [-17.02, 107.26], [-16.07, 109.2], [-15.08, 111.02], [-14.11, 112.95], [-13.12, 114.73], [-12.15, 116.52], [-11.25, 118.36], [-10.26, 120.17], [-9.27, 122.14], [-8.19, 124.06], [-7.25, 125.93], [-6, 128.04], [-4.95, 129.98], [-3.93, 131.83], [-2.89, 133.87], [-1.77, 135.84], [-0.69, 137.98], [0.24, 139.86], [1.18, 141.74], [2.15, 143.69], [3.22, 145.82], [3.98, 147.35]], width: 2}
+    mtnd-falls-bowl: {center: {x: -43, z: 358}, falloff: 3, falloffCurve: smooth, height: 73.6, kind: flatten, shape: {kind: circle, radius: 5}}
+    mtnd-falls-pool: {at: {x: -43, z: 358}, depth: 0, kind: lake, level: 74.5, radius: 6.5}
+    plaza-floor: {center: {x: -18.5, z: -63.6}, edgeMaterial: wowCobble, falloff: 1.5, falloffCurve: smooth, height: 0, kind: flatten, material: wowFlagWorn, shape: {kind: circle, radius: 17}}
+    te-pathpaint-rbxh5-0: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[11.76, 103.59], [11.86, 103.59]], width: 2}
+    te-pathpaint-rc5jw-1: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[-2.72, 96.94], [-0.71, 96.24], [1.11, 95.58]], width: 2}
+    te-pathpaint-rc69t-2: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[22.79, 105.99], [25.87, 107.19], [27.81, 107.86], [29.89, 108.29], [31.49, 108.57]], width: 2}
+    te-pathpaint-rcbf0-3: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[12.94, 93.87], [14.79, 92.73], [16.08, 91.39], [13.6, 90.94], [11.9, 92.06], [10.43, 93.53], [12.44, 93.62], [12.57, 93.59]], width: 2}
+    te-pathpaint-rccit-4: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[13.15, 93.66], [11.15, 94.84], [10.95, 94.53], [11.76, 94.26]], width: 2}
+    te-pathpaint-rcdcg-5: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[13.02, 93.89], [15.24, 93.63], [17.35, 93.63], [18.21, 93.32]], width: 2}
+    te-pathpaint-rcyvg-6: {edgeMaterial: beatenDirtEdge, falloff: 1.1, grade: false, kind: path, material: beatenDirt, noise: 0.3, points: [[2.44, 98.67], [2.54, 98.67]], width: 2}
+    meadow-trail: {edgeMaterial: beatenDirtEdge, falloff: 1.4, grade: true, kind: path, material: beatenDirt, noise: 0.35, points: [[-182, 89.2], [-190, 88.6], [-200, 88.2], [-210.1, 84.3], [-208.1, 79.9], [-205.8, 74.6], [-203.2, 68.8], [-200.4, 62.8], [-197.8, 56.8], [-195.3, 51.2], [-193.1, 46.2], [-190.5, 40.4], [-188, 34.9], [-185.6, 29.8], [-183.5, 24.9], [-181.6, 20.1], [-180.1, 15.4], [-178.8, 8.6], [-178.3, 2.2], [-178, -3.9], [-177, -10], [-174.9, -16], [-172.3, -21.7], [-169.7, -27.5], [-168, -33.4], [-167.7, -39.6], [-168.4, -45.9], [-169.1, -52.2], [-168.8, -58.3], [-167.2, -64.1], [-164.8, -69.8], [-162, -75.4], [-159.4, -81], [-157, -86.7], [-154.6, -92.5], [-152, -98.3], [-149.3, -104], [-146.2, -109.4], [-142.7, -114.6], [-139.3, -120.1], [-136.3, -126.3], [-134.6, -132.4], [-133.3, -139.2], [-132.1, -146.3], [-130.3, -152.8], [-127.6, -158], [-123.5, -161.7], [-118.5, -164.4], [-112.9, -166.4], [-107.2, -168.3], [-101.7, -170.3], [-96.5, -172.5], [-91.3, -174.6], [-86.1, -176.6], [-80.8, -178.7], [-75.6, -181], [-70.4, -183.7], [-65.2, -186.6], [-60, -189.6], [-54.7, -192.2], [-49.2, -194.2], [-43.5, -195.5], [-37.7, -196.2], [-31.8, -196.5], [-25.9, -196.6], [-20, -196.5], [-14.2, -196.2], [-8.3, -195.7], [-2.5, -195], [3.3, -194.1], [9, -193], [14.7, -191.8], [20.4, -190.5], [26, -189], [31.6, -187.2], [36.9, -185.1], [42.1, -182.6], [47.1, -179.6], [52, -176.5], [56.7, -173.1], [61.4, -169.8], [66, -166.4], [70.5, -163], [74.9, -159.5], [79.1, -155.8], [83.1, -151.9], [86.8, -147.8], [90.4, -143.5], [93.7, -139.1], [97, -134.6], [100.2, -130.2], [104.3, -124.8], [108.4, -119.5], [112.1, -114], [115.2, -108.2], [117.5, -102], [119.2, -95.4], [120.5, -88.8], [121.8, -82.3], [123.1, -76], [124.1, -69.8], [125.1, -63.6], [126.2, -57.5], [127.4, -51.5], [128.8, -45.6], [130, -39.8], [130.7, -33.9], [130.9, -27.9], [130.7, -21.9], [130.3, -15.9], [129.7, -10], [129, -4.2], [128.1, 1.6], [127.1, 7.4], [126.2, 13.2], [125.7, 19.1], [125.4, 25.1], [124.8, 31], [123.5, 36.6], [121.1, 41.9], [117.9, 46.9], [114.5, 51.8], [111.4, 56.9], [108.8, 62.2], [106.4, 67.5], [104.1, 72.9], [101.5, 78.3], [98.4, 84.1], [94.9, 90.2], [91.7, 95.7], [89.5, 99.5], [80, 108], [66, 118], [50, 127], [34, 135], [20, 142], [9, 148], [5, 152]], width: 2.6}
+  materials:
+    - {albedo: /cdn/10803e8e1cdd4bf4f20d4a49492bcc4f94355e937271d62cbef9f77b9a5f39ff-u0zoehkca.webp, antiTiling: stochastic, id: grass, macro: {hue: 0.015, scale: 45, value: 0.075}, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.7, textureScale: 3, tint: oklch(0.98 0.01 120)}
+    - {albedo: /cdn/value.1ad36c231a9134867589eb73ca8ac91efb65d573620355c0def8e4a2912e417b.png, antiTiling: stochastic, id: gravel, normalStrength: 0.5, pbr: true, roughnessIntensity: 0.82, textureScale: 1.9, tint: oklch(0.98 0.012 82)}
+    - {albedo: scripts/tex-portal-earth.js, antiTiling: stochastic, id: portalEarth, normalStrength: 0.16, pbr: true, roughnessIntensity: 0.86, textureScale: 1.5, tint: oklch(0.98 0.008 90)}
+    - {albedo: cdn/texture-terrain-wow-classic-hand-painted-grey-rock-strata-broad-brushstrokes-cool-purple-crevices-warm-sunlit-tops.png, antiTiling: stochastic, id: rock, macro: {hue: 0.03, scale: 90, value: 0.16}, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.84, textureScale: 16, tint: oklch(0.72 0.035 105)}
+    - {albedo: cdn/texture-terrain-wow-classic-hand-painted-grey-rock-strata-broad-brushstrokes-cool-purple-crevices-warm-sunlit-tops.png, antiTiling: stochastic, id: wetRock, macro: {hue: 0.03, scale: 90, value: 0.16}, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.3, textureScale: 16, tint: oklch(0.30 0.012 250)}
+    - {albedo: cdn/texture-terrain-wow-classic-hand-painted-mossy-rock-ledges-green-moss-in-cracks-broad-brushstrokes.png, antiTiling: stochastic, id: mossRock, macro: {hue: 0.03, scale: 80, value: 0.14}, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.84, textureScale: 13, tint: oklch(0.46 0.06 140)}
+    - {albedo: cdn/texture-terrain-hand-painted-warcraft-redridge-golden-orange-fallen-leaves-scattered-on-yellow-green-grass.png, antiTiling: stochastic, id: fallFloor, macro: {hue: 0.02, scale: 48, value: 0.08}, normalStrength: 0.2, pbr: true, roughnessIntensity: 0.7, textureScale: 5, tint: oklch(1 0.02 80)}
+    - {albedo: /cdn/10803e8e1cdd4bf4f20d4a49492bcc4f94355e937271d62cbef9f77b9a5f39ff-u0zoehkca.webp, antiTiling: stochastic, id: fallGrass, macro: {hue: 0.02, scale: 45, value: 0.08}, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.75, textureScale: 3, tint: oklch(0.97 0.15 108)}
+    - {albedo: cdn/texture-terrain-hand-painted-warcraft-dark-moist-forest-soil-with-brown-leaf-litter.png, antiTiling: stochastic, id: leafLitter, macro: {hue: 0.02, scale: 40, value: 0.1}, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.8, textureScale: 4, tint: oklch(0.97 0.02 70)}
+    - {albedo: cdn/texture-terrain-hand-painted-warcraft-dry-pale-straw-grass-sunlit-hilltop.png, antiTiling: stochastic, id: dryGrass, macro: {hue: 0.02, scale: 50, value: 0.08}, normalStrength: 0.25, pbr: true, roughnessIntensity: 0.75, textureScale: 4, tint: oklch(0.98 0.03 90)}
+    - {albedo: cdn/texture-terrain-stylized-painted-forest-floor-big-soft-leaf-clumps-lowpoly.png, antiTiling: stochastic, id: forest, macro: {hue: 0.012, scale: 52, value: 0.065}, normalStrength: 0.15, pbr: true, roughnessIntensity: 0.6, textureScale: 5, tint: oklch(0.89 0.034 174)}
+    - {albedo: scripts/tex-valley-chalkrock.js, antiTiling: stochastic, id: chalkrock, macro: {hue: 0.018, scale: 33, value: 0.14}, normalStrength: 0.18, pbr: true, roughnessIntensity: 0.8, textureScale: 7.5, tint: oklch(0.88 0.02 170)}
+    - {albedo: cdn/texture-terrain-stylized-painted-riverbank-mud-soft-brush-lowpoly.png, antiTiling: stochastic, id: shoreline, normalStrength: 0.15, pbr: true, roughnessIntensity: 0.6, textureScale: 5, tint: oklch(0.98 0.012 98)}
+    - {albedo: scripts/tex-valley-chalkrock.js?tone=mountain, antiTiling: stochastic, id: mountain, macro: {hue: 0.018, scale: 69, value: 0.045}, normalStrength: 0.1, pbr: true, roughnessIntensity: 0.85, textureScale: 10, tint: oklch(0.77 0.066 226)}
+    - {albedo: /cdn/value.8901d1e2946b48bc74a44f88a37ec4471abc03543c7798d15ce1da9371e21acb.png, antiTiling: stochastic, id: upland, macro: {hue: 0.015, scale: 53, value: 0.055}, normalStrength: 0.15, pbr: true, roughnessIntensity: 0.85, textureScale: 4.8, tint: oklch(0.82 0.054 202)}
+    - {albedo: scripts/tex-valley-chalkrock.js?tone=mountain, antiTiling: stochastic, id: basalt, macro: {hue: 0.01, scale: 30, value: 0.1}, normalStrength: 0.5, pbr: true, roughnessIntensity: 0.9, textureScale: 6, tint: oklch(0.6 0.02 35)}
+    - {albedo: scripts/tex-valley-gravel.js, antiTiling: stochastic, id: ash, macro: {hue: 0.01, scale: 24, value: 0.08}, normalStrength: 0.45, pbr: true, roughnessIntensity: 0.9, textureScale: 2.6, tint: oklch(0.66 0.012 50)}
+    - {albedo: cdn/texture-terrain-wet-sand-realistic-albedo.png, antiTiling: stochastic, id: wetsand, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.55, textureScale: 2.2, tint: oklch(0.62 0.04 70)}
+    - {albedo: cdn/texture-terrain-stylized-painted-snow-soft-drifts-lowpoly.png, antiTiling: stochastic, id: snow, normalStrength: 0.2, pbr: true, roughnessIntensity: 0.7, textureScale: 6, tint: oklch(0.97 0.01 240)}
+    - {albedo: cdn/texture-terrain-stylized-painted-golden-wheat-field-rows-lowpoly.png, antiTiling: stochastic, id: wheat, normalStrength: 0.2, pbr: true, roughnessIntensity: 0.8, textureScale: 4, tint: oklch(0.86 0.09 88)}
+    - {albedo: cdn/texture-terrain-stylized-painted-tilled-soil-furrows-lowpoly.png, antiTiling: stochastic, id: soil, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.9, textureScale: 3, tint: oklch(0.62 0.06 55)}
+    - {albedo: /cdn/value.09783255b3813a5d12dac7bb72e9af749c6bc90559e9e80a9e30bb4b73037b5a.png, antiTiling: stochastic, id: crop, normalStrength: 0.2, pbr: true, roughnessIntensity: 0.8, textureScale: 4, tint: oklch(0.8 0.1 130)}
+    - {albedo: cdn/texture-terrain-sand-realistic-albedo.png, antiTiling: stochastic, id: sand, normalStrength: 0.25, pbr: true, roughnessIntensity: 0.7, textureScale: 2.5, tint: oklch(0.86 0.06 85)}
+    - {albedo: cdn/texture-terrain-mossy-cobblestone-square.png, id: cobble, pbr: true, textureScale: 2.6, tint: oklch(0.9 0.028 72)}
+    - {albedo: /cdn/value.96e008930bbd4997348d53686c120c9ea25194233dbb361a89028dbd5b3655a9.png, antiTiling: stochastic, id: wowCobble, normalStrength: 1.6, pbr: true, roughnessIntensity: 0.7, textureScale: 2.3, tint: oklch(0.98 0.015 80)}
+    - {albedo: /cdn/value.96e008930bbd4997348d53686c120c9ea25194233dbb361a89028dbd5b3655a9.png, antiTiling: stochastic, id: wowCobbleWet, normalStrength: 1.5, pbr: true, roughnessIntensity: 0.35, textureScale: 1.4, tint: oklch(0.72 0.045 65)}
+    - {albedo: /cdn/value.2699b4f10dc3f0e6d763c009dd82a44113c01ebb47a381e2bb123607e5499787.png, antiTiling: stochastic, id: wowGravel, normalStrength: 0.7, pbr: true, roughnessIntensity: 0.85, textureScale: 2.2, tint: oklch(0.96 0.02 100)}
+    - {albedo: /cdn/value.fdf0c908325a3a6f496113e61fcbe13a8f0996c89e93980995681e86191eae01.png, antiTiling: stochastic, id: wowDirt, normalStrength: 0.35, pbr: true, roughnessIntensity: 0.9, textureScale: 2.6, tint: oklch(0.86 0.05 65)}
+    - {albedo: /cdn/value.fdf0c908325a3a6f496113e61fcbe13a8f0996c89e93980995681e86191eae01.png, antiTiling: stochastic, id: wowDirtRut, normalStrength: 0.35, pbr: true, roughnessIntensity: 0.75, textureScale: 2.6, tint: oklch(0.66 0.055 55)}
+    - {albedo: cdn/texture-terrain-wow-hand-painted-worn-limestone-flagstones.png, antiTiling: stochastic, id: wowFlagWorn, normalStrength: 0.9, pbr: true, roughnessIntensity: 0.75, textureScale: 3, tint: oklch(0.97 0.015 85)}
+    - {albedo: cdn/texture-terrain-wow-hand-painted-mossy-damp-cobblestones-green-moss-in-joints.png, antiTiling: stochastic, id: wowCobbleMoss, normalStrength: 1.4, pbr: true, roughnessIntensity: 0.45, textureScale: 2.3, tint: oklch(0.9 0.03 120)}
+    - {albedo: cdn/texture-terrain-hand-painted-warcraft-light-tan-dusty-hiking-trail-packed-earth-small-pebbles.png, antiTiling: stochastic, id: beatenDirt, macro: {hue: 0.008, scale: 30, value: 0.04}, normalStrength: 0.35, pbr: true, roughnessIntensity: 0.9, textureScale: 3, tint: oklch(0.8 0.1 62)}
+    - {albedo: cdn/texture-terrain-hand-painted-warcraft-light-tan-dusty-hiking-trail-packed-earth-small-pebbles.png, antiTiling: stochastic, id: beatenDirtEdge, macro: {hue: 0.015, scale: 30, value: 0.08}, normalStrength: 0.35, pbr: true, roughnessIntensity: 0.85, textureScale: 3, tint: oklch(0.7 0.09 58)}
+  seed: 1819
+worldBounds:
+  bottom: -90

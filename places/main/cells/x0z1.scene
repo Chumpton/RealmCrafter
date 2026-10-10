@@ -1,0 +1,1301 @@
+# spawn-scene v2 yaml x0z1
+garden-bush-5:
+  feetPosition: {x: 0.018399934382774763, y: {terrain: -0.1}, z: 73.48241224701087}
+  id: garden-bush-5
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  rotation: {yaw: 164}
+  scale: 0.4
+  tags: [buddha-garden]
+garden-bush-6:
+  feetPosition: {x: -30.873, y: -0.1, z: 70.588}
+  id: garden-bush-6
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {w: 0.2164396196603775, x: 0, y: -0.9762960076332092, z: 0}
+  scale: {x: 0.550000011920929, y: 0.550000011920929, z: 0.550000011920929}
+  tags: [buddha-garden]
+garden-bush-7:
+  feetPosition: {x: -42.338387482902355, y: {terrain: -0.1}, z: 65.78528590396236}
+  id: garden-bush-7
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  rotation: {yaw: 246}
+  scale: 0.4
+  tags: [buddha-garden]
+garden-drift-4:
+  castShadow: false
+  feetPosition: {x: -9.02016931503131, y: {terrain: 0}, z: 66.49742558580584}
+  id: garden-drift-4
+  primitive: {kind: scripted, params: {patch: {gx: -0.169, gz: -0.27, kinds: [[daisy, 3], [buttercup, 1.4]], n: 90, r: 3.581580023374409, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 920}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-6:
+  castShadow: false
+  feetPosition: {x: -15.417295698749648, y: {terrain: 0}, z: 68.57213726352097}
+  id: garden-drift-6
+  primitive: {kind: scripted, params: {patch: {gx: -0.059, gz: -0.328, kinds: [[heather, 3], [daisy, 1.4]], n: 53, r: 2.7614414343144746, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 922}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-7:
+  castShadow: false
+  feetPosition: {x: -19.52170144924663, y: {terrain: 0}, z: 64.92522315304637}
+  id: garden-drift-7
+  primitive: {kind: scripted, params: {patch: {gx: 0.029, gz: -0.363, kinds: [[bluebell, 3], [heather, 1.4]], n: 81, r: 3.400924229808152, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 923}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-rock-7:
+  feetPosition: {x: -45.227, y: -0.15, z: 67.701}
+  id: garden-rock-7
+  model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb
+  physics: static
+  rotation: {w: 0.9335803985595703, x: 0, y: 0.3583679497241974, z: 0}
+  scale: {x: 0.11999999731779099, y: 0.11999999731779099, z: 0.11999999731779099}
+  tags: [buddha-garden]
+garden-tree-5:
+  children: [{id: trunk, physics: static, primitive: {height: 4, kind: cylinder, radiusBottom: 0.5, radiusTop: 0.4}, scale: 4.166666666666667, visible: false}]
+  feetPosition: {x: 1.456415900282721, y: {terrain: -0.1}, z: 75.14737773668831}
+  id: garden-tree-5
+  model: /cdn/value.c2c3fa4d71cbe595b66faa858f46355152cd4c1f2e9324d411d284de2df50599.glb
+  rotation: {yaw: 292}
+  scale: 0.24
+  tags: [buddha-garden]
+garden-tree-6:
+  children: [{id: trunk, physics: static, primitive: {height: 4, kind: cylinder, radiusBottom: 0.5, radiusTop: 0.4}, scale: 0.9090909090909091, visible: false}]
+  feetPosition: {x: -30.22, y: -0.09, z: 69.52}
+  id: garden-tree-6
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  rotation: {yaw: 5}
+  scale: 1.1
+  tags: [buddha-garden]
+garden-tree-7:
+  children: [{id: trunk, physics: static, primitive: {height: 4, kind: cylinder, radiusBottom: 0.5, radiusTop: 0.4}, scale: 2.272727272727273, visible: false}]
+  feetPosition: {x: -44.761, y: -0.1, z: 64.52}
+  id: garden-tree-7
+  model: /cdn/value.c969fca372ffdf322feaa608b7057e27c6b31d6fcd070d8a41b9b906611740c7.glb
+  rotation: {w: 0.7771459817886353, x: 0, y: 0.6293203830718994, z: 0}
+  scale: {x: 0.4399999976158142, y: 0.4399999976158142, z: 0.4399999976158142}
+  tags: [buddha-garden]
+hearth-inn:
+  feetPosition: {x: -40.3, y: 0.3, z: 69.6}
+  id: hearth-inn
+  material: {color: oklch(0.7 0.12 250 / 0.5)}
+  primitive: {height: 0.05, kind: cylinder, radiusBottom: 0.4, radiusTop: 0.4}
+  rotation: {yaw: 173}
+  tags: [hearth-anchor]
+  visibleTo: editors
+inn-barrel-1:
+  castShadow: true
+  feetPosition: {x: -43.4, y: 0, z: 72.7}
+  id: inn-barrel-1
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 20}
+  scale: 0.935
+  state: {pf: elw-barrel}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 900}
+inn-barrel-2:
+  castShadow: true
+  feetPosition: {x: -44.3, y: 0, z: 73.3}
+  id: inn-barrel-2
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 75}
+  scale: 0.8800000000000001
+  state: {pf: elw-barrel}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 900}
+inn-barrel-3:
+  castShadow: true
+  feetPosition: {x: -43.9, y: 0, z: 71.9}
+  id: inn-barrel-3
+  model: /cdn/value.a64db59efa4e923f7e1167d43a57555cf1eb840b56ffca14abba1e21f62f3d49.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 140}
+  scale: 0.75
+  state: {pf: general-barrel01}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 1000}
+inn-barrel-4:
+  castShadow: true
+  feetPosition: {x: -35.787, y: 0, z: 76.448}
+  id: inn-barrel-4
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {w: 0.1736481785774231, x: 0, y: -0.9848077297210693, z: 0}
+  scale: {x: 0.8799999952316284, y: 0.8799999952316284, z: 0.8799999952316284}
+  state: {pf: elw-barrel}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 900}
+inn-int-barrel0:
+  castShadow: true
+  feetPosition: {x: -55.6, y: 0.5268077124548107, z: 94.8}
+  id: inn-int-barrel0
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -7}
+  scale: 1
+  tags: [inn-interior]
+inn-int-barrel1:
+  castShadow: true
+  feetPosition: {x: -55.4, y: -4.440892098500626e-16, z: 95.9}
+  id: inn-int-barrel1
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 33}
+  scale: 1
+  tags: [inn-interior]
+inn-int-barrel2:
+  castShadow: true
+  feetPosition: {x: -55.5, y: 1.5266586418684005, z: 95.35}
+  id: inn-int-barrel2
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 8}
+  scale: 1
+  tags: [inn-interior]
+inn-int-barrel3:
+  castShadow: true
+  feetPosition: {x: -54.3, y: 0.5150785117461774, z: 107.6}
+  id: inn-int-barrel3
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -7}
+  scale: 1
+  tags: [inn-interior]
+inn-int-bartender:
+  castShadow: true
+  feetPosition: {x: -48.6, y: 0.53, z: 102.9}
+  id: inn-int-bartender
+  model: /cdn/value.a6b12fc56cf4a5578a33b7579a09675ce0b60bbe686d2842f246511155f70f89.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 173}
+  scale: 1.25
+  state: {fit: creature, name: Bartender, prefab: sk_char_capital_shopkeeper_012, role: creature, stance: friendly}
+  tags: [inn-interior, npc]
+inn-int-chand-aisle:
+  castShadow: false
+  feetPosition: {x: -50.5, y: 3.9640000000000004, z: 88.2}
+  id: inn-int-chand-aisle
+  model: /cdn/value.05e6b1770d8595c096e879718edc98a79efbd33f9edc2812a6e9c2aa118f35e1.glb
+  rotation: {yaw: -7}
+  scale: 0.7
+  tags: [inn-interior]
+inn-int-chand-north:
+  castShadow: false
+  feetPosition: {x: -44.3, y: 4.364, z: 96.8}
+  id: inn-int-chand-north
+  model: /cdn/value.05e6b1770d8595c096e879718edc98a79efbd33f9edc2812a6e9c2aa118f35e1.glb
+  rotation: {yaw: -7}
+  scale: 0.7
+  tags: [inn-interior]
+inn-int-chand-south:
+  castShadow: false
+  feetPosition: {x: -54.6, y: 4.364, z: 80}
+  id: inn-int-chand-south
+  model: /cdn/value.05e6b1770d8595c096e879718edc98a79efbd33f9edc2812a6e9c2aa118f35e1.glb
+  rotation: {yaw: -7}
+  scale: 0.7
+  tags: [inn-interior]
+inn-int-cook:
+  castShadow: true
+  feetPosition: {x: -52.3, y: 0.5225360009470532, z: 111.4}
+  id: inn-int-cook
+  model: /cdn/value.e42cb1146dd54d3345b5e02393d7453f345b50620dfd8b15143d8f6e85b6ba2b.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -52.3, y: 0, z: 114}}
+  scale: 1.25
+  state: {fit: creature, name: Cook, prefab: sk_char_human_female_049, role: creature, stance: friendly}
+  tags: [inn-interior, npc]
+inn-int-crate0:
+  castShadow: true
+  feetPosition: {x: -54.2, y: 0.5152578261263647, z: 109.6}
+  id: inn-int-crate0
+  model: /cdn/value.6de84e82af8e32d3d11fecda5b1a0fd37ef5ed908d5945bf5856062f25d6f653.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -7}
+  scale: 1
+  tags: [inn-interior]
+inn-int-crate1:
+  castShadow: true
+  feetPosition: {x: -54.1, y: 1.3152333416011353, z: 109.6}
+  id: inn-int-crate1
+  model: /cdn/value.6de84e82af8e32d3d11fecda5b1a0fd37ef5ed908d5945bf5856062f25d6f653.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 13}
+  scale: 0.85
+  tags: [inn-interior]
+inn-int-hearth-chair0:
+  castShadow: true
+  feetPosition: {x: -45.6, y: 0, z: 89.7}
+  id: inn-int-hearth-chair0
+  model: /cdn/value.f3364a76df32f1d2173e06b4a44a04eea6417a818564f0dd3842e5f113f6b006.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -38, y: 0.5, z: 91.5}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-hearth-chair1:
+  castShadow: true
+  feetPosition: {x: -45.6, y: 0, z: 93.1}
+  id: inn-int-hearth-chair1
+  model: /cdn/value.f3364a76df32f1d2173e06b4a44a04eea6417a818564f0dd3842e5f113f6b006.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -38, y: 0.5, z: 91.5}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-hearth-rug:
+  feetPosition: {x: -46.2, y: 0.04, z: 91.4}
+  id: inn-int-hearth-rug
+  model: /cdn/value.01a0f09ee674e0fbff3b93e0c5736a3e38d09fc3e14a7ca7db2b62bb1c43187e.glb
+  receiveShadow: true
+  rotation: {yaw: 83}
+  scale: 0.42
+  tags: [inn-interior]
+inn-int-keg0:
+  castShadow: true
+  feetPosition: {x: -54, y: 0.526366374489101, z: 94.6}
+  id: inn-int-keg0
+  model: /cdn/value.51bbb4393a060ccf7407d4a99b422fb6d6a76f1e7365a14b2454fbfc2f3c1ce7.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 83}
+  scale: 0.75
+  tags: [inn-interior]
+inn-int-keg1:
+  castShadow: true
+  feetPosition: {x: -45, y: 0.5264454373151073, z: 103.5}
+  id: inn-int-keg1
+  model: /cdn/value.51bbb4393a060ccf7407d4a99b422fb6d6a76f1e7365a14b2454fbfc2f3c1ce7.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 173}
+  scale: 0.8
+  tags: [inn-interior]
+inn-int-keg2:
+  castShadow: true
+  feetPosition: {x: -46.6, y: 0.5269367584345939, z: 103.5}
+  id: inn-int-keg2
+  model: /cdn/value.51bbb4393a060ccf7407d4a99b422fb6d6a76f1e7365a14b2454fbfc2f3c1ce7.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 173}
+  scale: 0.8
+  tags: [inn-interior]
+inn-int-l-aisle0:
+  feetPosition: {x: -50.5, y: 3.5, z: 88.2}
+  id: inn-int-l-aisle0
+  light: {color: oklch(0.82 0.13 65), distance: 9, intensity: 2.2, kind: point}
+  tags: [inn-interior]
+inn-int-l-kitchen:
+  feetPosition: {x: -51, y: 3, z: 106.5}
+  id: inn-int-l-kitchen
+  light: {color: oklch(0.82 0.13 65), distance: 8, intensity: 1.8, kind: point}
+  tags: [inn-interior]
+inn-int-l-north:
+  feetPosition: {x: -44.3, y: 3.8999999999999995, z: 96.8}
+  id: inn-int-l-north
+  light: {color: oklch(0.82 0.13 65), distance: 9, intensity: 2.2, kind: point}
+  tags: [inn-interior]
+inn-int-l-south:
+  feetPosition: {x: -54.6, y: 3.8999999999999995, z: 80}
+  id: inn-int-l-south
+  light: {color: oklch(0.82 0.13 65), distance: 9, intensity: 2.2, kind: point}
+  tags: [inn-interior]
+inn-int-nook-chair0:
+  castShadow: true
+  feetPosition: {x: -44.13695576537231, y: 0.5290362944988223, z: 83.186728649041}
+  id: inn-int-nook-chair0
+  model: /cdn/value.8a19555a84f7276709d6f53e2bec52694df2d96bace8c60c8154cecf1acdee7e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -42.4, y: 0, z: 83.4}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-nook-chair1:
+  castShadow: true
+  feetPosition: {x: -40.663044234627684, y: 0.5302324981719755, z: 83.61327135095901}
+  id: inn-int-nook-chair1
+  model: /cdn/value.8a19555a84f7276709d6f53e2bec52694df2d96bace8c60c8154cecf1acdee7e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -42.4, y: 0, z: 83.4}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-nook-table:
+  castShadow: true
+  feetPosition: {x: -42.4, y: 0.5289457096586856, z: 83.4}
+  id: inn-int-nook-table
+  model: /cdn/value.608300496eae30fc1c57f735514a7da5e1d6082d10a49dab04ae802ebcd9f506.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -7}
+  scale: 1
+  tags: [inn-interior]
+inn-int-north-chair0:
+  castShadow: true
+  feetPosition: {x: -45.83844653504405, y: 0.5269247470163558, z: 96.61110251772202}
+  id: inn-int-north-chair0
+  model: /cdn/value.8a19555a84f7276709d6f53e2bec52694df2d96bace8c60c8154cecf1acdee7e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -44.3, y: 0, z: 96.8}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-north-chair1:
+  castShadow: true
+  feetPosition: {x: -42.761553464955945, y: 0.5261869551551568, z: 96.98889748227798}
+  id: inn-int-north-chair1
+  model: /cdn/value.8a19555a84f7276709d6f53e2bec52694df2d96bace8c60c8154cecf1acdee7e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -44.3, y: 0, z: 96.8}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-north-rug:
+  castShadow: true
+  feetPosition: {x: -44.3, y: 0.6, z: 96.8}
+  id: inn-int-north-rug
+  model: /cdn/value.01a0f09ee674e0fbff3b93e0c5736a3e38d09fc3e14a7ca7db2b62bb1c43187e.glb
+  receiveShadow: true
+  rotation: {yaw: 83}
+  scale: 0.42
+  tags: [inn-interior]
+inn-int-north-table:
+  castShadow: true
+  feetPosition: {x: -44.3, y: 0.5265165855982856, z: 96.8}
+  id: inn-int-north-table
+  model: /cdn/value.b78af30cb55bd5130af80a61221fceff9afc56349413f3af7ef8d1248195e37b.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -7}
+  scale: 1
+  tags: [inn-interior]
+inn-int-patron:
+  castShadow: true
+  feetPosition: {x: -57, y: 0.5300409818096254, z: 80.2}
+  id: inn-int-patron
+  model: /cdn/value.d2b99592bda7e82403abd6dc010e19f55f5fcf0366f22d5ba252813509bea380.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -54.6, y: 0, z: 80}}
+  scale: 1.25
+  state: {fit: creature, name: Traveler, prefab: sk_char_human_male_050, role: creature, stance: friendly}
+  tags: [inn-interior, npc]
+inn-int-sacks0:
+  castShadow: true
+  feetPosition: {x: -54, y: 0.5154289378432606, z: 111.2}
+  id: inn-int-sacks0
+  model: /cdn/value.affa79d0999a919208d58985be0f2c8e3ea2874d91954dea647e02d98ab48c0a.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 73}
+  scale: 1
+  tags: [inn-interior]
+inn-int-server:
+  castShadow: true
+  feetPosition: {x: -43.5, y: 0.5270476477510608, z: 100.9}
+  id: inn-int-server
+  model: /cdn/value.18faae88fa8fd4d5bddce507715835a0b690d74d9095b8c9e1f876d55f7957c2.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -48, y: 0, z: 99}}
+  scale: 1.25
+  state: {fit: creature, name: Barmaid, prefab: sk_char_forest_village_milkmaid_037, role: creature, stance: friendly}
+  tags: [inn-interior, npc]
+inn-int-south-chair0:
+  castShadow: true
+  feetPosition: {x: -55.646571310323424, y: 0.5303951919953183, z: 77.85647755029066}
+  id: inn-int-south-chair0
+  model: /cdn/value.8a19555a84f7276709d6f53e2bec52694df2d96bace8c60c8154cecf1acdee7e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -54.6, y: 0, z: 80}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-south-chair1:
+  castShadow: true
+  feetPosition: {x: -53.06595131605599, y: 0.5302983564010053, z: 78.17333784314405}
+  id: inn-int-south-chair1
+  model: /cdn/value.8a19555a84f7276709d6f53e2bec52694df2d96bace8c60c8154cecf1acdee7e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -54.6, y: 0, z: 80}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-south-chair2:
+  castShadow: true
+  feetPosition: {x: -56.134048683944016, y: 0.5297488485904982, z: 81.82666215685595}
+  id: inn-int-south-chair2
+  model: /cdn/value.8a19555a84f7276709d6f53e2bec52694df2d96bace8c60c8154cecf1acdee7e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -54.6, y: 0, z: 80}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-south-chair3:
+  castShadow: true
+  feetPosition: {x: -53.55342868967658, y: 0.5295328258042695, z: 82.14352244970934}
+  id: inn-int-south-chair3
+  model: /cdn/value.8a19555a84f7276709d6f53e2bec52694df2d96bace8c60c8154cecf1acdee7e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {lookAt: {x: -54.6, y: 0, z: 80}}
+  scale: 1
+  tags: [inn-interior]
+inn-int-south-rug:
+  castShadow: true
+  feetPosition: {x: -54.6, y: 0.6, z: 80}
+  id: inn-int-south-rug
+  model: /cdn/value.01a0f09ee674e0fbff3b93e0c5736a3e38d09fc3e14a7ca7db2b62bb1c43187e.glb
+  receiveShadow: true
+  rotation: {yaw: 83}
+  scale: 0.62
+  tags: [inn-interior]
+inn-int-south-table:
+  castShadow: true
+  feetPosition: {x: -54.6, y: 0.5300307519491616, z: 80}
+  id: inn-int-south-table
+  model: /cdn/value.aebbbdd3e8166dd52db4347f1ae93c89e86d464a72c3d99c38e447650233267c.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -7}
+  scale: 1
+  tags: [inn-interior]
+inn-int-work:
+  castShadow: true
+  feetPosition: {x: -52.3, y: 0.5150116160127365, z: 113.4}
+  id: inn-int-work
+  model: /cdn/value.608300496eae30fc1c57f735514a7da5e1d6082d10a49dab04ae802ebcd9f506.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -7}
+  scale: 1
+  tags: [inn-interior]
+inn-lamppost:
+  castShadow: true
+  feetPosition: {x: -43.078, y: 0.001, z: 68.067}
+  id: inn-lamppost
+  model: /cdn/value.0617150686810ed34832b32c06b5b247bbc0fe84451e82401619d5000e69aa9f.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {w: 0.7660444378852844, x: 0, y: 0.6427876353263855, z: 0}
+  scale: {x: 0.769815981388092, y: 0.769815981388092, z: 0.769815981388092}
+  state: {pf: sw-swStreetlamp}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 900}
+inn-lamppost-light:
+  feetPosition: {x: -42.6, y: 3.3, z: 70.6}
+  id: inn-lamppost-light
+  light: {color: oklch(0.85 0.12 70), distance: 11, intensity: 2.2, kind: point}
+  tags: [inn-yard]
+inn-mailbox:
+  castShadow: true
+  feetPosition: {x: -37.6, y: 0, z: 71}
+  id: inn-mailbox
+  model: /cdn/value.47220adcc633b44ba475230231a878ff88c7277e69266bdcf1115f1aaf11c912.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -10}
+  scale: 0.4531
+  state: {pf: sw-swMailbox}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 900}
+meadow-copse-1:
+  feetPosition: {x: 49.278508257070406, y: 0.6199225046954225, z: 105.60623690145849}
+  id: meadow-copse-1
+  scatter: {bounds: {radius: 8.399999999999999, shape: circle}, count: 7, seed: 101, templates: [{castShadow: true, model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 1.29, weight: 2}, {castShadow: true, model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.95, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress, meadow-copse]
+meadow-deadwood-1:
+  feetPosition: {x: 54, y: {terrain: 0}, z: 114}
+  id: meadow-deadwood-1
+  scatter: {bounds: {innerRadius: 6, outerRadius: 14, shape: ring}, count: 6, seed: 301, templates: [{castShadow: true, model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.2, weight: 2}, {castShadow: true, model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.31, weight: 1.5}, {castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 1.5}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-trail-sign-e:
+  castShadow: true
+  feetPosition: {x: 10, y: {terrain: 0}, z: 152}
+  id: meadow-trail-sign-e
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  rotation: {yaw: -30.068582821862496}
+  scale: 0.6
+  state: {name: Meadow Trail}
+  tags: [meadow-dress, interactable]
+meadow-under-1:
+  feetPosition: {x: 54, y: {terrain: 0}, z: 114}
+  id: meadow-under-1
+  scatter: {bounds: {radius: 15, shape: circle}, count: 38, seed: 201, templates: [{castShadow: false, model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb, receiveShadow: true, scale: 0.42, weight: 3}, {castShadow: false, model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb, receiveShadow: true, scale: 1.25, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 2}, {castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 1.5}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1}], variation: {scale: [0.7, 1.35], yaw: [0, 360]}}
+  tags: [meadow-dress]
+mother-tree:
+  audio: {clip: /cdn/moodboard-lowpoly-cozy/sfx-songbirds-in-big-tree-loop.mp3, gain: 0.12, loop: true, maxDistance: 30, spatial: true}
+  children: [{feetPosition: {x: 0, y: 0, z: 0}, id: trunk, physics: static, primitive: {height: 12, kind: cylinder, radiusBottom: 2.8, radiusTop: 2.2}, scale: 1.0526315789473684, visible: false}]
+  feetPosition: {x: -18.5, y: {terrain: -0.2}, z: 80}
+  id: mother-tree
+  model: /cdn/value.725fce2c4ee0b522b78fbb3acd06fc4ef5455ad637497e8edc1745d6162d3360.glb
+  rotation: {yaw: 20}
+  scale: 0.95
+  tags: [buddha-garden]
+  visibleRange: {max: 2000, min: 0}
+mtn-lantern-61:
+  castShadow: true
+  feetPosition: {x: -0.5, y: {terrain: 0}, z: 177.5}
+  id: mtn-lantern-61
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 1
+  visibleRange: {max: 600}
+mtn-sign-60:
+  castShadow: true
+  feetPosition: {x: 8.5, y: {terrain: 0}, z: 176}
+  id: mtn-sign-60
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 200}
+  scale: 0.6
+  visibleRange: {max: 600}
+mtnd-berry-137:
+  castShadow: true
+  feetPosition: {x: -6.066293460813483, y: -0.05, z: 183.96051994523057}
+  id: mtnd-berry-137
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 265.96098863797306}
+  scale: 1.1374111614364253
+  visibleRange: {max: 300}
+mtnd-berry-180:
+  castShadow: true
+  feetPosition: {x: -28.171125777611095, y: 0.3819379504749254, z: 191.36141343850707}
+  id: mtnd-berry-180
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 262.3986603423947}
+  scale: 0.8483348868081043
+  visibleRange: {max: 300}
+mtnd-berry-193:
+  castShadow: true
+  feetPosition: {x: 28.442617106923194, y: -0.05, z: 168.11911035520916}
+  id: mtnd-berry-193
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 194.3691826958066}
+  scale: 1.1745623821739863
+  visibleRange: {max: 300}
+mtnd-berry-59:
+  castShadow: true
+  feetPosition: {x: -40.63307142147472, y: -0.043595874025177755, z: 177.0056224348981}
+  id: mtnd-berry-59
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 63.80422244956913}
+  scale: 1.1960307382028694
+  visibleRange: {max: 300}
+mtnd-berry-98:
+  castShadow: true
+  feetPosition: {x: 32.46019591924744, y: -0.05, z: 174.3669768098588}
+  id: mtnd-berry-98
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 130.72554359711964}
+  scale: 0.9030036034542153
+  visibleRange: {max: 300}
+mtnd-birch-39:
+  overrides:
+    feetPosition: {x: 21.250675323070343, y: 0.09457708563016376, z: 189.3242677833532}
+    rotation: {yaw: 350.71737097144006}
+    scale: 0.8688486753119382
+  template: templates/hillside-flora.js#birchMid
+mtnd-birch-6:
+  overrides:
+    feetPosition: {x: 42.88180721778506, y: -0.1, z: 174.22022210770297}
+    rotation: {yaw: 53.600011548772464}
+    scale: 1.091045966297875
+  template: templates/hillside-flora.js#birchMid
+mtnd-bush-109:
+  castShadow: true
+  feetPosition: {x: -28.361789040901606, y: -0.08665268401850518, z: 183.2460060898429}
+  id: mtnd-bush-109
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  rotation: {yaw: 55.41764971586767}
+  scale: 0.3173704188770477
+  visibleRange: {max: 400}
+mtnd-bush-144:
+  castShadow: true
+  feetPosition: {x: 27.748232531709704, y: -0.1, z: 185.2987908065779}
+  id: mtnd-bush-144
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  rotation: {yaw: 6.337704680085976}
+  scale: 0.35819972730157884
+  visibleRange: {max: 400}
+mtnd-fern-147:
+  castShadow: false
+  feetPosition: {x: 33.38407350163165, y: -0.05, z: 188.16105723574807}
+  id: mtnd-fern-147
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 8715}
+  rotation: {yaw: 276.734570319175}
+  scale: 1.1784160227879956
+  visibleRange: {max: 120}
+mtnd-fern-152:
+  castShadow: false
+  feetPosition: {x: -28.504562430784368, y: -0.03826230017706501, z: 183.98484677541296}
+  id: mtnd-fern-152
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 2865}
+  rotation: {yaw: 106.19346934659102}
+  scale: 1.42383569270551
+  visibleRange: {max: 120}
+mtnd-fern-190:
+  castShadow: false
+  feetPosition: {x: -35.22562665875332, y: -0.014747544684451691, z: 182.3056027285315}
+  id: mtnd-fern-190
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 2856}
+  rotation: {yaw: 100.96709874503645}
+  scale: 1.4835602025890537
+  visibleRange: {max: 120}
+mtnd-fern-56:
+  castShadow: false
+  feetPosition: {x: 43.85591750911247, y: -0.05, z: 188.67260587153612}
+  id: mtnd-fern-56
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 1415}
+  rotation: {yaw: 282.41759656109735}
+  scale: 1.2778752392054886
+  visibleRange: {max: 120}
+mtnd-fern-86:
+  castShadow: false
+  feetPosition: {x: -21.51750293863821, y: -0.05, z: 168.59469993253924}
+  id: mtnd-fern-86
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 52}
+  rotation: {yaw: 194.85625978319732}
+  scale: 1.1388397029316237
+  visibleRange: {max: 120}
+mtnd-flowers-217:
+  castShadow: false
+  feetPosition: {x: 10.974452237586704, y: 0.39786236465334196, z: 190.8714972794389}
+  id: mtnd-flowers-217
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 5215}
+  rotation: {yaw: 273.2285942291974}
+  scale: 1.597956528886201
+  visibleRange: {max: 150}
+mtnd-flowers-220:
+  castShadow: false
+  feetPosition: {x: -27.771518059434143, y: 0.005738671859926617, z: 184.48645485122057}
+  id: mtnd-flowers-220
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 4752}
+  rotation: {yaw: 9.737712056253903}
+  scale: 1.5570188748450104
+  visibleRange: {max: 150}
+mtnd-flowers-223:
+  castShadow: false
+  feetPosition: {x: -10.674077391472679, y: 0, z: 178.47857275254958}
+  id: mtnd-flowers-223
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 2874}
+  rotation: {yaw: 176.1025487147749}
+  scale: 1.5119470163769773
+  visibleRange: {max: 150}
+mtnd-flowers-247:
+  castShadow: false
+  feetPosition: {x: -19.099084708885798, y: 0, z: 180.11347718355873}
+  id: mtnd-flowers-247
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 386}
+  rotation: {yaw: 342.8508602934195}
+  scale: 1.442099804730201
+  visibleRange: {max: 150}
+mtnd-flowers-273:
+  castShadow: false
+  feetPosition: {x: 18.846737413595775, y: 0, z: 171.8347249263128}
+  id: mtnd-flowers-273
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 2421}
+  rotation: {yaw: 88.90308116045924}
+  scale: 1.4311863016482378
+  visibleRange: {max: 150}
+mtnd-flowers-274:
+  castShadow: false
+  feetPosition: {x: 11.260028372639809, y: 0.3141496947582386, z: 190.28805685988073}
+  id: mtnd-flowers-274
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.4, rz: 0.8, tufts: 26}, script: scripts/gen/home-garden-planting.js, seed: 7081}
+  rotation: {yaw: 100.19617890016929}
+  scale: 1.2094226806468436
+  visibleRange: {max: 150}
+mtnd-log-284:
+  castShadow: true
+  feetPosition: {x: -31.25561481167358, y: 0.0639856855626253, z: 189.53587161634857}
+  id: mtnd-log-284
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 133.1504605399214}
+  scale: 0.30921220854353726
+  visibleRange: {max: 500}
+mtnd-log-287:
+  castShadow: true
+  feetPosition: {x: 6.205026321674239, y: 0.31577489870633435, z: 191.34026643696254}
+  id: mtnd-log-287
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 289.8711742879223}
+  scale: 0.35513324304257204
+  visibleRange: {max: 500}
+mtnd-log-291:
+  castShadow: true
+  feetPosition: {x: -6.95163917352987, y: -0.15, z: 183.9507440011719}
+  id: mtnd-log-291
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 140.85470260160727}
+  scale: 0.3342494972954735
+  visibleRange: {max: 500}
+mtnd-log-300:
+  castShadow: true
+  feetPosition: {x: -30.656368637297476, y: -0.15, z: 174.1848172062006}
+  id: mtnd-log-300
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 62.49227187712317}
+  scale: 0.33537180265196215
+  visibleRange: {max: 500}
+mtnd-log-302:
+  castShadow: true
+  feetPosition: {x: -9.788433953555511, y: -0.11198646333859671, z: 187.55785844920104}
+  id: mtnd-log-302
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 192.84184034580448}
+  scale: 0.338324677440489
+  visibleRange: {max: 500}
+mtnd-oak-12:
+  castShadow: true
+  feetPosition: {x: -49.059479969115685, y: -0.06597933241177212, z: 180.3583494673289}
+  id: mtnd-oak-12
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 265.9851799840039}
+  scale: 0.806031381201945
+  visibleRange: {max: 900}
+mtnd-oak-13:
+  castShadow: true
+  feetPosition: {x: -45.77095465165142, y: -0.1540760449944859, z: 178.6033600892887}
+  id: mtnd-oak-13
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 307.35606755472537}
+  scale: 0.8933793588044957
+  visibleRange: {max: 900}
+mtnd-oak-14:
+  castShadow: true
+  feetPosition: {x: -53.52900016379031, y: 0.423592054519275, z: 185.13243757101353}
+  id: mtnd-oak-14
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 59.0445543728045}
+  scale: 1.0858976620649443
+  visibleRange: {max: 900}
+mtnd-oak-4:
+  castShadow: true
+  feetPosition: {x: 48.240611042008084, y: -0.2, z: 177.6360958240163}
+  id: mtnd-oak-4
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 82.77573006356867}
+  scale: 0.9787418912531538
+  visibleRange: {max: 900}
+mtnd-oak-5:
+  castShadow: true
+  feetPosition: {x: 41.628648196174126, y: -0.2, z: 182.37654589273808}
+  id: mtnd-oak-5
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 32.99838872300386}
+  scale: 1.2478220878857291
+  visibleRange: {max: 900}
+mtnd-oak-7:
+  castShadow: true
+  feetPosition: {x: 40.21693960028557, y: -0.2, z: 171.79017479382}
+  id: mtnd-oak-7
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 21.053701611726403}
+  scale: 1.027347488620946
+  visibleRange: {max: 900}
+mtnd-rabbit-400:
+  castShadow: true
+  feetPosition: {x: 17.485305784496163, y: 0, z: 168.96845504872894}
+  id: mtnd-rabbit-400
+  model: /cdn/value.82e2e33ad8a2ca83280664aaf07c1649a8c80d79167e900c6015a881ffbf2424.glb
+  rotation: {yaw: 45.71255667401132}
+  scale: 1
+  visibleRange: {max: 150}
+mtnd-rock-319:
+  castShadow: true
+  feetPosition: {x: -8.02080787044056, y: -0.4, z: 183.66072604533318}
+  id: mtnd-rock-319
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 263.0125432196132}
+  scale: 0.18087770014110846
+  visibleRange: {max: 600}
+mtnd-rock-320:
+  castShadow: true
+  feetPosition: {x: -12.305404059498292, y: -0.4, z: 182.45257655202997}
+  id: mtnd-rock-320
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 338.6088873905171}
+  scale: 0.1676104780415122
+  visibleRange: {max: 600}
+mtnd-stag-390:
+  castShadow: true
+  feetPosition: {x: -4.572064024196976, y: 0, z: 172.20490089534078}
+  id: mtnd-stag-390
+  model: /cdn/value.bafa80d4565b81731b60c47c29e77969d1ee2670a2ec6c12b6f18c00fa6ca9ad.glb
+  rotation: {yaw: 250.47229405980198}
+  scale: 1.19
+  visibleRange: {max: 300}
+mtnd-stag-393:
+  castShadow: true
+  feetPosition: {x: 11.107437352699904, y: 0, z: 181.9555011242421}
+  id: mtnd-stag-393
+  model: /cdn/value.bafa80d4565b81731b60c47c29e77969d1ee2670a2ec6c12b6f18c00fa6ca9ad.glb
+  rotation: {yaw: 285.6505594801393}
+  scale: 1.19
+  visibleRange: {max: 300}
+mtnd-stag-394:
+  castShadow: true
+  feetPosition: {x: -33.24549956165511, y: 0.02906441326757389, z: 182.29857191364215}
+  id: mtnd-stag-394
+  model: /cdn/value.bafa80d4565b81731b60c47c29e77969d1ee2670a2ec6c12b6f18c00fa6ca9ad.glb
+  rotation: {yaw: 243.4321894140133}
+  scale: 1.19
+  visibleRange: {max: 300}
+mtnd-stump-312:
+  castShadow: true
+  feetPosition: {x: -42.66990496202833, y: 0.6406651822386648, z: 189.58198703154082}
+  id: mtnd-stump-312
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  rotation: {yaw: 75.28874408234319}
+  scale: 0.3387779445195468
+  visibleRange: {max: 400}
+mtnd-stump-316:
+  castShadow: true
+  feetPosition: {x: 25.910995873115482, y: -0.1, z: 188.1325965067989}
+  id: mtnd-stump-316
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  rotation: {yaw: 225.03048139858547}
+  scale: 0.3388101688860032
+  visibleRange: {max: 400}
+mtnd-stump-318:
+  castShadow: true
+  feetPosition: {x: 18.47579252602337, y: -0.1, z: 181.85653508541012}
+  id: mtnd-stump-318
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  rotation: {yaw: 283.69050506674245}
+  scale: 0.2657879932717364
+  visibleRange: {max: 400}
+pf-elw-inn-n2cto:
+  castShadow: true
+  feetPosition: {x: -41.6, y: -2.78, z: 78.77}
+  id: pf-elw-inn-n2cto
+  model: /cdn/value.bf365c30bbc1a04818792e56a3ca1919d7840f4ffe3f5a97a72973161773fa97.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: -7}
+  scale: 0.42
+  state: {lift: -2.78, pf: elw-inn}
+  tags: [placed, pf-building]
+  visibleRange: {max: 900}
+pier:
+  children: [{castShadow: true, feetPosition: {x: 0.0225069360514064, y: 0.2639012647962204, z: -0.15}, id: plank0, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.5575712199602605}, receiveShadow: true, rotation: {yaw: 1.0408547740518546}}, {castShadow: true, feetPosition: {x: 0.012354297792811091, y: 0.2567159011327736, z: -0.44999999999999996}, id: plank1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.62068186045074}, receiveShadow: true, rotation: {yaw: 2.599755059263759}}, {castShadow: true, feetPosition: {x: -0.046897323469234316, y: 0.26598033577365815, z: -0.75}, id: plank2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.669097293113171}, receiveShadow: true, rotation: {yaw: 3.4963128147156475}}, {castShadow: true, feetPosition: {x: -0.06620689710005041, y: 0.2654751318357769, z: -1.05}, id: plank3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.6642846496225268}, receiveShadow: true, rotation: {yaw: 4.922401182473282}}, {castShadow: true, feetPosition: {x: -0.07016325273927919, y: 0.26586236328043156, z: -1.35}, id: plank4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.6249593951029047}, receiveShadow: true, rotation: {yaw: 6.274157239326531}}, {castShadow: true, feetPosition: {x: -0.11997415875974306, y: 0.26145311749957184, z: -1.6500000000000001}, id: plank5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.7316223675660427}, receiveShadow: true, rotation: {yaw: 8.465275322646091}}, {castShadow: true, feetPosition: {x: -0.14478406198292695, y: 0.2580320758840684, z: -1.9500000000000002}, id: plank6, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.6476187036280145}, receiveShadow: true, rotation: {yaw: 9.745070685740481}}, {castShadow: true, feetPosition: {x: -0.2073327952770436, y: 0.26508793361838345, z: -2.25}, id: plank7, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.748094147343931}, receiveShadow: true, rotation: {yaw: 11.031731957446361}}, {castShadow: true, feetPosition: {x: -0.29514646263016214, y: 0.26725177245901516, z: -2.55}, id: plank8, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.7658222423439485}, receiveShadow: true, rotation: {yaw: 13.090835815092444}}, {castShadow: true, feetPosition: {x: -0.340722288921034, y: 0.25526603125397396, z: -2.8499999999999996}, id: plank9, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.7495109677766503}, receiveShadow: true, rotation: {yaw: 13.774358535641971}}, {castShadow: true, feetPosition: {x: -0.44098619772573744, y: 0.26393144705865135, z: -3.1499999999999995}, id: plank10, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.7555538589637982}, receiveShadow: true, rotation: {yaw: 15.559830735041729}}, {castShadow: true, feetPosition: {x: -0.5179892325836042, y: 0.25968139020827663, z: -3.4499999999999993}, id: plank11, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.7513190302573234}, receiveShadow: true, rotation: {yaw: 16.89830844352343}}, {castShadow: true, feetPosition: {x: -0.6080781042875384, y: 0.2637653718009896, z: -3.749999999999999}, id: plank12, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.8191606975540804}, receiveShadow: true, rotation: {yaw: 18.231198680705326}}, {castShadow: true, feetPosition: {x: -0.7458838766195127, y: 0.2628966967530533, z: -4.049999999999999}, id: plank13, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.8162473464774656}, receiveShadow: true, rotation: {yaw: 19.198653657282648}}, {castShadow: true, feetPosition: {x: -0.823253896182395, y: 0.2635690587438033, z: -4.349999999999999}, id: plank14, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.794808185411295}, receiveShadow: true, rotation: {yaw: 20.96047049586567}}, {castShadow: true, feetPosition: {x: -0.9308108289144651, y: 0.26723853037214773, z: -4.649999999999999}, id: plank15, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.814843140259545}, receiveShadow: true, rotation: {yaw: 21.69277499406377}}, {castShadow: true, feetPosition: {x: -1.0555160833279065, y: 0.255787252359226, z: -4.949999999999998}, id: plank16, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.8759432193629646}, receiveShadow: true, rotation: {yaw: 23.245973454312185}}, {castShadow: true, feetPosition: {x: -1.2021917077835835, y: 0.26096518438936456, z: -5.249999999999998}, id: plank17, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.8371546746346423}, receiveShadow: true, rotation: {yaw: 25.345259649441886}}, {castShadow: true, feetPosition: {x: -1.3724406389812978, y: 0.25560519239311347, z: -5.549999999999998}, id: plank18, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.848944382621648}, receiveShadow: true, rotation: {yaw: 25.74836729350938}}, {castShadow: true, feetPosition: {x: -1.502907874106446, y: 0.256966967882806, z: -5.849999999999998}, id: plank19, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.905417579832914}, receiveShadow: true, rotation: {yaw: 26.74574618458118}}, {castShadow: true, feetPosition: {x: -1.6687775410221446, y: 0.2591594122381226, z: -6.149999999999998}, id: plank20, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.890637432314985}, receiveShadow: true, rotation: {yaw: 28.601570849566574}}, {castShadow: true, feetPosition: {x: -1.8410874485904605, y: 0.2674464620323602, z: -6.4499999999999975}, id: plank21, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.8735488989767846}, receiveShadow: true, rotation: {yaw: 28.994234379607406}}, {castShadow: true, feetPosition: {x: -1.9867464278754745, y: 0.2558110090616676, z: -6.749999999999997}, id: plank22, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.9825666988245523}, receiveShadow: true, rotation: {yaw: 31.160655755581022}}, {castShadow: true, feetPosition: {x: -2.176514654798564, y: 0.26437004015169574, z: -7.049999999999997}, id: plank23, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.996738757106587}, receiveShadow: true, rotation: {yaw: 32.39665091205405}}, {castShadow: true, feetPosition: {x: -2.3731165904927263, y: 0.2601180766139264, z: -7.349999999999997}, id: plank24, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 3.967435012008033}, receiveShadow: true, rotation: {yaw: 33.25588072371242}}, {castShadow: true, feetPosition: {x: -2.5709659733271653, y: 0.2545448870896571, z: -7.649999999999997}, id: plank25, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.021966177667243}, receiveShadow: true, rotation: {yaw: 33.621825164699345}}, {castShadow: true, feetPosition: {x: -2.804880610694478, y: 0.2527838173603098, z: -7.949999999999997}, id: plank26, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.046351791442769}, receiveShadow: true, rotation: {yaw: 34.386105868741666}}, {castShadow: true, feetPosition: {x: -3.001665458353194, y: 0.26656743734565913, z: -8.249999999999996}, id: plank27, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.025993554416808}, receiveShadow: true, rotation: {yaw: 35.49320711820859}}, {castShadow: true, feetPosition: {x: -3.2386544597920124, y: 0.26541928268406506, z: -8.549999999999997}, id: plank28, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.0242130190444705}, receiveShadow: true, rotation: {yaw: 37.10852831411263}}, {castShadow: true, feetPosition: {x: -3.453170607463967, y: 0.25307910592089367, z: -8.849999999999998}, id: plank29, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.046384455214201}, receiveShadow: true, rotation: {yaw: 38.35411557800424}}, {castShadow: true, feetPosition: {x: -3.6594139276382234, y: 0.25659445530459957, z: -9.149999999999999}, id: plank30, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.035512063553562}, receiveShadow: true, rotation: {yaw: 39.08184189274727}}, {castShadow: true, feetPosition: {x: -3.924630852459557, y: 0.25772981366386166, z: -9.45}, id: plank31, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.067074246343492}, receiveShadow: true, rotation: {yaw: 40.14517022403206}}, {castShadow: true, feetPosition: {x: -4.162945108733696, y: 0.2632422538291394, z: -9.75}, id: plank32, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.083652770261351}, receiveShadow: true, rotation: {yaw: 40.43440202073451}}, {castShadow: true, feetPosition: {x: -4.4689847273813355, y: 0.2541370705709034, z: -10.05}, id: plank33, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.120549042098247}, receiveShadow: true, rotation: {yaw: 41.22915138714601}}, {castShadow: true, feetPosition: {x: -4.7171148349416665, y: 0.2590097406304021, z: -10.350000000000001}, id: plank34, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.115143395628614}, receiveShadow: true, rotation: {yaw: 42.864119765375165}}, {castShadow: true, feetPosition: {x: -4.9684798396542735, y: 0.2616394791980924, z: -10.650000000000002}, id: plank35, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.152488351301285}, receiveShadow: true, rotation: {yaw: 43.12139068570936}}, {castShadow: true, feetPosition: {x: -5.290821544001902, y: 0.2660839880227968, z: -10.950000000000003}, id: plank36, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.1455763834659365}, receiveShadow: true, rotation: {yaw: 43.82494391054266}}, {castShadow: true, feetPosition: {x: -5.571008800564923, y: 0.25590167161701327, z: -11.250000000000004}, id: plank37, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.2068502994227925}, receiveShadow: true, rotation: {yaw: 44.66367330477748}}, {castShadow: true, feetPosition: {x: -5.885814742903782, y: 0.25327580486693224, z: -11.550000000000004}, id: plank38, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.174380335010067}, receiveShadow: true, rotation: {yaw: 45.18218576523761}}, {castShadow: true, feetPosition: {x: -6.190385476002994, y: 0.26103044532869496, z: -11.850000000000005}, id: plank39, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 4.195580645507706}, receiveShadow: true, rotation: {yaw: 45.69583580355715}}, {feetPosition: {x: -1.4348072325161418, y: 0.06, z: -0.6569362226539346}, id: str0_-1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 3.7760449848950093}}, {feetPosition: {x: -0.02475, y: 0.06, z: -0.75}, id: str0_0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 3.7760449848950093}}, {feetPosition: {x: 1.3853072325161417, y: 0.06, z: -0.8430637773460654}, id: str0_1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 3.7760449848950093}}, {feetPosition: {x: -1.6347137611757956, y: 0.06, z: -1.9704311752871926}, id: str1_-1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 11.199706023793233}}, {feetPosition: {x: -0.22274999999999998, y: 0.06, z: -2.25}, id: str1_0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 11.199706023793233}}, {feetPosition: {x: 1.1892137611757956, y: 0.06, z: -2.5295688247128076}, id: str1_1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 11.199706023793233}}, {feetPosition: {x: -2.0105494888411926, y: 0.06, z: -3.2907061686824064}, id: str2_-1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 18.26288994219413}}, {feetPosition: {x: -0.6187499999999999, y: 0.06, z: -3.75}, id: str2_0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 18.26288994219413}}, {feetPosition: {x: 0.773049488841193, y: 0.06, z: -4.209293831317593}, id: str2_1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 18.26288994219413}}, {feetPosition: {x: -2.5670739762322867, y: 0.06, z: -4.624302322980684}, id: str3_-1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 24.796937085475008}}, {feetPosition: {x: -1.21275, y: 0.06, z: -5.25}, id: str3_0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 24.796937085475008}}, {feetPosition: {x: 0.14157397623228674, y: 0.06, z: -5.875697677019316}, id: str3_1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 24.796937085475008}}, {feetPosition: {x: -3.309973715930407, y: 0.06, z: -5.9746971127373385}, id: str4_-1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 30.710311799783728}}, {feetPosition: {x: -2.00475, y: 0.06, z: -6.75}, id: str4_0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 30.710311799783728}}, {feetPosition: {x: -0.699526284069593, y: 0.06, z: -7.5253028872626615}, id: str4_1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 30.710311799783728}}, {feetPosition: {x: -4.244497961102034, y: 0.06, z: -7.342682980239923}, id: str5_-1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 35.979649638811416}}, {feetPosition: {x: -2.99475, y: 0.06, z: -8.25}, id: str5_0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 35.979649638811416}}, {feetPosition: {x: -1.7450020388979655, y: 0.06, z: -9.157317019760077}, id: str5_1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 35.979649638811416}}, {feetPosition: {x: -5.374752407558077, y: 0.06, z: -8.72726193431517}, id: str6_-1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 40.62959351305883}}, {feetPosition: {x: -4.1827499999999995, y: 0.06, z: -9.75}, id: str6_0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 40.62959351305883}}, {feetPosition: {x: -2.9907475924419225, y: 0.06, z: -10.77273806568483}, id: str6_1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 40.62959351305883}}, {feetPosition: {x: -6.703570989700674, y: 0.06, z: -10.126527220196332}, id: str7_-1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 44.712083933442905}}, {feetPosition: {x: -5.56875, y: 0.06, z: -11.25}, id: str7_0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 44.712083933442905}}, {feetPosition: {x: -4.433929010299325, y: 0.06, z: -12.373472779803668}, id: str7_1.4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 1.55, height: 0.2, kind: box, width: 0.16}, rotation: {yaw: 44.712083933442905}}, {castShadow: true, feetPosition: {x: -1.865888762511579, y: -2.4, z: -0.33456852355959243}, id: post0l, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: 1.851808762511579, y: -2.4, z: -0.4654314764404076}, id: post0r, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -2.175168264355713, y: -2.4, z: -2.214807228752248}, id: post1l, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: 1.557188264355713, y: -2.4, z: -3.085192771247752}, id: post1r, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -2.867725265911634, y: -2.4, z: -4.1189737933389035}, id: post2l, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: 0.7548452659116338, y: -2.4, z: -5.681026206661097}, id: post2r, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -3.9665174232327076, y: -2.4, z: -6.06958342530198}, id: post3l, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -0.5322625767672924, y: -2.4, z: -8.23041657469802}, id: post3r, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -5.494416879410441, y: -2.4, z: -8.071039605351684}, id: post4l, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -2.281263120589559, y: -2.4, z: -10.728960394648317}, id: post4r, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -7.466926473068109, y: -2.4, z: -10.117186087810575}, id: post5l, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.7199999999999998, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -4.47665352693189, y: -2.4, z: -13.182813912189426}, id: post5r, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.7199999999999998, kind: cylinder, radialSegments: 8, radiusBottom: 0.16, radiusTop: 0.13}}, {castShadow: true, feetPosition: {x: -4.412183813783157, y: 0.32, z: -12.710235566012736}, id: lamp, model: /cdn/value.0617150686810ed34832b32c06b5b247bbc0fe84451e82401619d5000e69aa9f.glb, rotation: {yaw: 45.09152672648058}, scale: 0.55}, {feetPosition: {x: -4.412183813783157, y: 2.7199999999999998, z: -12.710235566012736}, id: glow, light: {color: oklch(0.85 0.12 70), distance: 10, intensity: 2, kind: point}}, {feetPosition: {x: -5.865579258620803, y: 0.37, z: -9.387295270510242}, id: rope, material: {color: oklch(0.7 0.06 80), roughness: 1}, primitive: {kind: torus, radialSegments: 6, radius: 0.24, tube: 0.05, tubularSegments: 16}, rotation: {pitch: 90}}]
+  feetPosition: {x: -60, y: 0, z: 66.3}
+  id: pier
+  rotation: {yaw: 76}
+pier-walk0:
+  feetPosition: {x: -60.98094028968239, y: 0.24, z: 66.10077111635647}
+  id: pier-walk0
+  physics: static
+  primitive: {depth: 2.3, height: 0.08, kind: box, width: 4.2}
+  rotation: {yaw: 81.02907358178544}
+  visible: false
+pier-walk1:
+  feetPosition: {x: -63.00668824948546, y: 0.24, z: 65.95847142080629}
+  id: pier-walk1
+  physics: static
+  primitive: {depth: 2.3, height: 0.08, kind: box, width: 4.2}
+  rotation: {yaw: 90.78867761416518}
+  visible: false
+pond-barrel-1:
+  castShadow: true
+  feetPosition: {x: -60.6, y: 0, z: 69.4}
+  id: pond-barrel-1
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 35}
+  scale: 0.9
+  state: {pf: elw-barrel}
+  tags: [placed, pond]
+pond-barrel-2:
+  castShadow: true
+  feetPosition: {x: -59.7, y: 0, z: 70.1}
+  id: pond-barrel-2
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -50}
+  scale: 0.8
+  state: {pf: elw-barrel}
+  tags: [placed, pond]
+pond-fence-1:
+  castShadow: true
+  children: [{castShadow: true, feetPosition: {x: 0, y: 0, z: 4.25}, id: seg2, model: /cdn/value.1cd0070e82a3ed59f32453b9bb2960057d284a11c6ffd1526a0acddd830c2853.glb, physics: {body: static, collider: box}, receiveShadow: true}, {castShadow: true, feetPosition: {x: 0, y: 0, z: 8.5}, id: cap, model: /cdn/value.6bcdedd6b75f75cbf27b6f014f739e7a2a624584b54366803479546c8febff97.glb, physics: {body: static, collider: box}, receiveShadow: true, rotation: {yaw: 180}}]
+  feetPosition: {x: -53.23245703023761, y: {terrain: 0}, z: 70.90404943880687}
+  id: pond-fence-1
+  model: /cdn/value.6418c2b5f982ae8649db9512f50f2d8159ab9fa00a10683d4621c47b090ccb23.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -110.59887415763896}
+  scale: 0.513
+  state: {pf: elw-fence}
+  tags: [placed, pond]
+  visibleRange: {max: 900}
+pond-fencepost:
+  castShadow: true
+  feetPosition: {x: -51.52059605128926, y: {terrain: 0}, z: 71.45749021326878}
+  id: pond-fencepost
+  model: /cdn/value.1c5ac1221998a502d1c361fabac3bec71f30c47fed5eb86b76311b77eeffd47f.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -98.59887415763896}
+  scale: 0.36
+  state: {pf: human-generic-fence-post}
+  tags: [placed, pond]
+pond-trail-bush-1:
+  castShadow: true
+  feetPosition: {x: -59.5, y: 0, z: 71.6}
+  id: pond-trail-bush-1
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  receiveShadow: true
+  rotation: {yaw: 197.91197662241757}
+  scale: 0.3850525528611615
+  tags: [pond]
+pond-trail-flowers-0:
+  castShadow: false
+  feetPosition: {x: -42.84313768326992, y: {terrain: 0}, z: 68.35860700353365}
+  id: pond-trail-flowers-0
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 1.1009827017085627, rz: 0.5012741255108267, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 3137}
+  rotation: {yaw: -14.852226968348816}
+  scale: 1.0713359423913063
+  tags: [trail-flowers, pond]
+  visibleRange: {max: 150}
+pond-trail-flowers-1:
+  castShadow: false
+  feetPosition: {x: -47.43599269973475, y: {terrain: 0}, z: 72.1342814458837}
+  id: pond-trail-flowers-1
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 1.178320230753161, rz: 0.5256607896182686, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 3174}
+  rotation: {yaw: -2.3422290536308594}
+  scale: 0.8668201242573559
+  tags: [trail-flowers, pond]
+  visibleRange: {max: 150}
+pond-trail-flowers-2:
+  castShadow: false
+  feetPosition: {x: -50.09746794572004, y: {terrain: 0}, z: 66.57227947229667}
+  id: pond-trail-flowers-2
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 1.1029956474201754, rz: 0.6016232024412602, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 3211}
+  rotation: {yaw: -31.962170170683436}
+  scale: 0.7571801166981459
+  tags: [trail-flowers, pond]
+  visibleRange: {max: 150}
+pond-trail-flowers-3:
+  castShadow: false
+  feetPosition: {x: -55.34853306995863, y: {terrain: 0}, z: 69.98315013130964}
+  id: pond-trail-flowers-3
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 0.8593421602388844, rz: 0.5620616542641074, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 3248}
+  rotation: {yaw: -6.71470176545526}
+  scale: 1.0029497659765183
+  tags: [trail-flowers, pond]
+  visibleRange: {max: 150}
+pond-trail-flowers-4:
+  castShadow: false
+  feetPosition: {x: -58.22586848756292, y: {terrain: 0}, z: 64.53763630390323}
+  id: pond-trail-flowers-4
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 1.085761259146966, rz: 0.5731820747256279, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 3285}
+  rotation: {yaw: 1.314156602742088}
+  scale: 0.8133054072037339
+  tags: [trail-flowers, pond]
+  visibleRange: {max: 150}
+pond-trail-flowers-5:
+  castShadow: false
+  feetPosition: {x: -62.50256009741346, y: {terrain: 0}, z: 69.02272645630106}
+  id: pond-trail-flowers-5
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 0.8516520340461284, rz: 0.505503210844472, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 3322}
+  rotation: {yaw: 10.087676413208314}
+  scale: 0.9108751648105681
+  tags: [trail-flowers, pond]
+  visibleRange: {max: 150}
+pondb-reed-123:
+  castShadow: false
+  feetPosition: {x: -62.15379102619543, y: -0.7949993720625429, z: 72.69998039582146}
+  id: pondb-reed-123
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9167}
+  rotation: {yaw: 126.8035364368947}
+  scale: 1.435041742275954
+  visibleRange: {max: 160}
+pondb-reed-124:
+  castShadow: false
+  feetPosition: {x: -62.480578143406255, y: -1.015089085348454, z: 74.99338698294204}
+  id: pondb-reed-124
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4908}
+  rotation: {yaw: 352.4680603633021}
+  scale: 1.2156176209056833
+  visibleRange: {max: 160}
+pondb-reed-125:
+  castShadow: false
+  feetPosition: {x: -62.28336685397008, y: -0.9235883437351894, z: 74.56050562170657}
+  id: pondb-reed-125
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5594}
+  rotation: {yaw: 76.94815236932978}
+  scale: 1.2832242292739564
+  visibleRange: {max: 160}
+pondb-reed-126:
+  castShadow: false
+  feetPosition: {x: -61.82728205286902, y: -0.584240698917495, z: 75.67921849541223}
+  id: pondb-reed-126
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8686}
+  rotation: {yaw: 9.211168274847402}
+  scale: 1.2848407158091852
+  visibleRange: {max: 160}
+pondg-flowers-83:
+  castShadow: false
+  feetPosition: {x: -60.798957644957355, y: {terrain: -0.1}, z: 76.45389125378992}
+  id: pondg-flowers-83
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 1.9590596866603287, rz: 0.9225960625906456, tufts: 6}, script: scripts/gen/home-garden-planting.js, seed: 5121}
+  rotation: {yaw: 339.9938958045067}
+pondg-flowers-90:
+  castShadow: false
+  feetPosition: {x: -58.7280985191611, y: {terrain: -0.1}, z: 70.08462904920783}
+  id: pondg-flowers-90
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 1.2556859032510248, rz: 1.4206099624841522, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 5293}
+  rotation: {yaw: 86.53805140710345}
+pondg-oak-69:
+  castShadow: true
+  feetPosition: {x: -62, y: {terrain: -0.1}, z: 94}
+  id: pondg-oak-69
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 329.5614530563175}
+  scale: 1.4932864984466168
+  visibleRange: {max: 900}
+pondx-rock-123:
+  castShadow: true
+  feetPosition: {x: -63, y: {terrain: -0.25}, z: 73}
+  id: pondx-rock-123
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 201.2623897945799}
+  scale: 0.075814043826337
+  visibleRange: {max: 900}
+pondx-rock-124:
+  castShadow: true
+  feetPosition: {x: -62.3972540730132, y: {terrain: -0.15}, z: 72.35079486707728}
+  id: pondx-rock-124
+  model: /cdn/value.420e289ffaa616a33a4247cc1c7b2fddba24a49ed6eadfeca471f6d017aeff04.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 157.119716143757}
+  scale: 0.07923092072793791
+  visibleRange: {max: 900}
+trail-flowers-17:
+  castShadow: false
+  feetPosition: {x: -36.88, y: {terrain: 0}, z: 64.46}
+  id: trail-flowers-17
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 150}
+  rotation: {yaw: 325}
+  scale: 1.15
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-19:
+  castShadow: false
+  feetPosition: {x: -36.89, y: {terrain: 0}, z: 66.63}
+  id: trail-flowers-19
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 19, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 4041}
+  rotation: {yaw: 351}
+  scale: 0.97
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-20:
+  castShadow: false
+  feetPosition: {x: -37.57, y: {terrain: 0}, z: 67.77}
+  id: trail-flowers-20
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1088}
+  rotation: {yaw: 178}
+  scale: 0.99
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-21:
+  castShadow: false
+  feetPosition: {x: -41.5, y: {terrain: 0}, z: 66.17}
+  id: trail-flowers-21
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 3999}
+  rotation: {yaw: 331}
+  scale: 1.03
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-22:
+  castShadow: false
+  feetPosition: {x: -37.64, y: {terrain: 0}, z: 68.88}
+  id: trail-flowers-22
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 7330}
+  rotation: {yaw: 139}
+  scale: 0.95
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-23:
+  castShadow: false
+  feetPosition: {x: -42.42, y: {terrain: 0}, z: 68.85}
+  id: trail-flowers-23
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 18, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 4321}
+  rotation: {yaw: 199}
+  scale: 0.99
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-24:
+  castShadow: false
+  feetPosition: {x: -38.46, y: {terrain: 0}, z: 70.13}
+  id: trail-flowers-24
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 19, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 9786}
+  rotation: {yaw: 21}
+  scale: 1.12
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-25:
+  castShadow: false
+  feetPosition: {x: -43.26, y: {terrain: 0}, z: 70.59}
+  id: trail-flowers-25
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 6565}
+  rotation: {yaw: 309}
+  scale: 1.08
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-26:
+  castShadow: false
+  feetPosition: {x: -43.24, y: {terrain: 0}, z: 71.82}
+  id: trail-flowers-26
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 2307}
+  rotation: {yaw: 302}
+  scale: 0.8
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-27:
+  castShadow: false
+  feetPosition: {x: -37.89, y: {terrain: 0}, z: 75.31}
+  id: trail-flowers-27
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1661}
+  rotation: {yaw: 14}
+  scale: 0.76
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-28:
+  castShadow: false
+  feetPosition: {x: -43.37, y: {terrain: 0}, z: 74.52}
+  id: trail-flowers-28
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 2369}
+  rotation: {yaw: 159}
+  scale: 1.18
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-29:
+  castShadow: false
+  feetPosition: {x: -38.17, y: {terrain: 0}, z: 76.71}
+  id: trail-flowers-29
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 18, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 861}
+  rotation: {yaw: 7}
+  scale: 0.73
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-30:
+  castShadow: false
+  feetPosition: {x: -43.1, y: {terrain: 0}, z: 76.08}
+  id: trail-flowers-30
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 7922}
+  rotation: {yaw: 167}
+  scale: 0.77
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-31:
+  castShadow: false
+  feetPosition: {x: -38.6, y: {terrain: 0}, z: 78.96}
+  id: trail-flowers-31
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 3507}
+  rotation: {yaw: 139}
+  scale: 0.99
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-32:
+  castShadow: false
+  feetPosition: {x: -43.07, y: {terrain: 0}, z: 78.99}
+  id: trail-flowers-32
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 3271}
+  rotation: {yaw: 339}
+  scale: 1.18
+  tags: [trail-flowers]
+  visibleRange: {max: 150}

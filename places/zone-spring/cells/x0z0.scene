@@ -1,0 +1,1339 @@
+# spawn-scene v2 yaml x0z0
+vg-ab-bench1:
+  castShadow: true
+  feetPosition: {x: -12, y: {terrain: 0}, z: -44}
+  id: vg-ab-bench1
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 1
+  state: {seatParams: {item: elw-bench, seat: 0.5, width: 2.8}}
+  tags: [den-furniture, elw-seat, verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bench2:
+  castShadow: true
+  feetPosition: {x: -28, y: {terrain: 0}, z: -44}
+  id: vg-ab-bench2
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 1
+  state: {seatParams: {item: elw-bench, seat: 0.5, width: 2.8}}
+  tags: [den-furniture, elw-seat, verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bench3:
+  castShadow: true
+  feetPosition: {x: 2, y: {terrain: 0}, z: -50}
+  id: vg-ab-bench3
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 1
+  state: {seatParams: {item: elw-bench, seat: 0.5, width: 2.8}}
+  tags: [den-furniture, elw-seat, verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bush0:
+  castShadow: true
+  feetPosition: {x: -38, y: {terrain: 0}, z: -38.18875663838234}
+  id: vg-ab-bush0
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 102.09384199426867}
+  scale: 0.39
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bush1:
+  castShadow: true
+  feetPosition: {x: -31, y: {terrain: 0}, z: -38.27108657757853}
+  id: vg-ab-bush1
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 152.6221053233576}
+  scale: 0.39
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bush2:
+  castShadow: true
+  feetPosition: {x: -24, y: {terrain: 0}, z: -38.3348567079146}
+  id: vg-ab-bush2
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 191.39769467655356}
+  scale: 0.39
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bush3:
+  castShadow: true
+  feetPosition: {x: -17, y: {terrain: 0}, z: -37.77191250936306}
+  id: vg-ab-bush3
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 83.9630116000427}
+  scale: 0.39
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bush4:
+  castShadow: true
+  feetPosition: {x: -10, y: {terrain: 0}, z: -37.18701043183637}
+  id: vg-ab-bush4
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 164.82124606596423}
+  scale: 0.39
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bush5:
+  castShadow: true
+  feetPosition: {x: -3, y: {terrain: 0}, z: -37.273976899007316}
+  id: vg-ab-bush5
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 228.64689503670382}
+  scale: 0.39
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bush6:
+  castShadow: true
+  feetPosition: {x: 4, y: {terrain: 0}, z: -37.73130050090263}
+  id: vg-ab-bush6
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 185.8476694541496}
+  scale: 0.39
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-bush7:
+  castShadow: true
+  feetPosition: {x: 11, y: {terrain: 0}, z: -37.99010067339064}
+  id: vg-ab-bush7
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 248.03821296248418}
+  scale: 0.39
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-cat:
+  castShadow: true
+  feetPosition: {x: -10, y: {terrain: 0}, z: -45}
+  id: vg-ab-cat
+  model: /cdn/value.7e0bfdd29bf7230f91f2a8cf43ef0cded2c57b0b907d5a944b1ec56f3e6e1c85.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 338.2461367158649}
+  scale: 0.4144
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl0:
+  castShadow: true
+  feetPosition: {x: -18.036890639026545, y: {terrain: 0}, z: -42.920986467898814}
+  id: vg-ab-fl0
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 251.29644782403153}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl1:
+  castShadow: true
+  feetPosition: {x: -33.41340945420173, y: {terrain: 0}, z: -43.16090444862927}
+  id: vg-ab-fl1
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 168.44243845757325}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl10:
+  castShadow: true
+  feetPosition: {x: -9.08975889262721, y: {terrain: 0}, z: -44.911988195881236}
+  id: vg-ab-fl10
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 151.71948951829177}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl11:
+  castShadow: true
+  feetPosition: {x: -26.738404816704247, y: {terrain: 0}, z: -40.91030232693097}
+  id: vg-ab-fl11
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 19.756742082309668}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl12:
+  castShadow: true
+  feetPosition: {x: -18.45775464778557, y: {terrain: 0}, z: -46.55877645272648}
+  id: vg-ab-fl12
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 239.19157281442693}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl13:
+  castShadow: true
+  feetPosition: {x: 8.368698340252692, y: {terrain: 0}, z: -44.8514514508205}
+  id: vg-ab-fl13
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 59.59814490713006}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl2:
+  castShadow: true
+  feetPosition: {x: 8.27528741608866, y: {terrain: 0}, z: -41.9259101356621}
+  id: vg-ab-fl2
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 44.22113985216351}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl3:
+  castShadow: true
+  feetPosition: {x: -11.373337782335781, y: {terrain: 0}, z: -40.76831766475767}
+  id: vg-ab-fl3
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 247.86051946492915}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl4:
+  castShadow: true
+  feetPosition: {x: -5.099796713422794, y: {terrain: 0}, z: -44.2256726410479}
+  id: vg-ab-fl4
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 328.3183792497203}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl5:
+  castShadow: true
+  feetPosition: {x: 7.600039731338654, y: {terrain: 0}, z: -46.277541868647134}
+  id: vg-ab-fl5
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 120.73905989596533}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl6:
+  castShadow: true
+  feetPosition: {x: 4.184205867521655, y: {terrain: 0}, z: -46.67748404357348}
+  id: vg-ab-fl6
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 54.9263490130439}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl7:
+  castShadow: true
+  feetPosition: {x: -21.713300035999435, y: {terrain: 0}, z: -45.71530025053332}
+  id: vg-ab-fl7
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 106.15442447937507}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl8:
+  castShadow: true
+  feetPosition: {x: 8.988561538037438, y: {terrain: 0}, z: -44.426293051267315}
+  id: vg-ab-fl8
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 262.5379916676674}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-fl9:
+  castShadow: true
+  feetPosition: {x: 6.136896165215312, y: {terrain: 0}, z: -49.41377195009382}
+  id: vg-ab-fl9
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 98.45670403768933}
+  scale: 1.5
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-lan1:
+  castShadow: true
+  feetPosition: {x: -3, y: {terrain: 0}, z: -40}
+  id: vg-ab-lan1
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 246.42523522155847}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-lan2:
+  castShadow: true
+  feetPosition: {x: -20, y: {terrain: 0}, z: -40}
+  id: vg-ab-lan2
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 228.9292575502109}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-lan3:
+  castShadow: true
+  feetPosition: {x: -34, y: {terrain: 0}, z: -46}
+  id: vg-ab-lan3
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 294.0326721724427}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-ab-lan4:
+  castShadow: true
+  feetPosition: {x: 6, y: {terrain: 0}, z: -48}
+  id: vg-ab-lan4
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 87.121718402134}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-aldric:
+  behavior: scripts/quest-giver.js
+  castShadow: true
+  feetPosition: {x: -5, y: {terrain: 0}, z: -46}
+  id: vg-aldric
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {cloak: "#c8a040", head: hood, sex: m, tool: none, trousers: "#6a5a44", tunic: "#e8e0c8"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: 160}
+  state: {baseYaw: 160, idle: The Light keeps the meadow green., markY: 2.3, name: Brother Aldric, stance: friendly, title: Brother Aldric of Northvale, verb: Talk-to}
+  tags: [npc, hover-pick, interactable, questgiver, verdant-glade]
+  visibleRange: {max: 300}
+vg-arr-bench1:
+  castShadow: true
+  feetPosition: {x: -7, y: {terrain: 0}, z: -2}
+  id: vg-arr-bench1
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 1
+  state: {seatParams: {item: elw-bench, seat: 0.5, width: 2.8}}
+  tags: [den-furniture, elw-seat, verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-bench2:
+  castShadow: true
+  feetPosition: {x: 7, y: {terrain: 0}, z: -2}
+  id: vg-arr-bench2
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 270}
+  scale: 1
+  state: {seatParams: {item: elw-bench, seat: 0.5, width: 2.8}}
+  tags: [den-furniture, elw-seat, verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl0:
+  castShadow: true
+  feetPosition: {x: 9, y: {terrain: 0}, z: -2}
+  id: vg-arr-fl0
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 0.019722282904872934}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl1:
+  castShadow: true
+  feetPosition: {x: 7.281250976868967, y: {terrain: 0}, z: 3.289932344732277}
+  id: vg-arr-fl1
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 331.47522610749604}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl2:
+  castShadow: true
+  feetPosition: {x: 2.781470175145618, y: {terrain: 0}, z: 6.559405567256141}
+  id: vg-arr-fl2
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 104.12541181233284}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl3:
+  castShadow: true
+  feetPosition: {x: -2.7806771035554254, y: {terrain: 0}, z: 6.559663243712489}
+  id: vg-arr-fl3
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 75.7983323147505}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl4:
+  castShadow: true
+  feetPosition: {x: -7.280760814394535, y: {terrain: 0}, z: 3.2906069560662923}
+  id: vg-arr-fl4
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 262.5734382332987}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl5:
+  castShadow: true
+  feetPosition: {x: -8.999999961368905, y: {terrain: 0}, z: -1.9991661176930555}
+  id: vg-arr-fl5
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 191.7771494684528}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl6:
+  castShadow: true
+  feetPosition: {x: -7.281741076836136, y: {terrain: 0}, z: -7.289257687985841}
+  id: vg-arr-fl6
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 118.55243274807225}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl7:
+  castShadow: true
+  feetPosition: {x: -2.782263222857758, y: {terrain: 0}, z: -10.559147817319968}
+  id: vg-arr-fl7
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 270.7390864665984}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl8:
+  castShadow: true
+  feetPosition: {x: 2.7798840080939917, y: {terrain: 0}, z: -10.5599208466868}
+  id: vg-arr-fl8
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 271.8269426672039}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-fl9:
+  castShadow: true
+  feetPosition: {x: 7.280270589417041, y: {terrain: 0}, z: -7.291281521982104}
+  id: vg-arr-fl9
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 195.4260976942499}
+  scale: 1.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-lan-l:
+  castShadow: true
+  feetPosition: {x: -4, y: {terrain: 0}, z: -6}
+  id: vg-arr-lan-l
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-lan-r:
+  castShadow: true
+  feetPosition: {x: 4, y: {terrain: 0}, z: -6}
+  id: vg-arr-lan-r
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 180}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-arr-sign:
+  castShadow: true
+  feetPosition: {x: 5, y: {terrain: 0}, z: -11}
+  id: vg-arr-sign
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 200}
+  scale: 0.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-beekeeper:
+  behavior: scripts/placed-npc.js
+  castShadow: true
+  feetPosition: {x: 40, y: {terrain: 0}, z: -47}
+  id: vg-beekeeper
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {cloak: "#f0ead8", head: hood, sex: f, tool: none, trousers: "#5a4a38", tunic: "#e8d9a8"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: 180}
+  state: {name: "Mother Hilde, Beekeeper", wander: 2}
+  tags: [npc, verdant-glade]
+  visibleRange: {max: 300}
+vg-bees:
+  audio: {clip: /cdn/moodboard-painterly-fantasy/sfx-honeybees-buzzing-around-hives-loop.mp3, gain: 0.14, loop: true, maxDistance: 22, spatial: true}
+  feetPosition: {x: 40, y: {terrain: 1}, z: -50}
+  id: vg-bees
+  tags: [verdant-glade]
+vg-bees-fx:
+  feetPosition: {x: 39, y: {terrain: 0.8}, z: -50}
+  fx: {script: "fx\npop bee n=24 on=box(<7,1,2>) size=.03..0.05 v=sdir()*.6 acc=curl(1.6)*2+drag(1.2)+attract(.8) col=<1.4,1.1,.2> a=1 sz=$size r=sprite(soft-disc,alpha)"}
+  id: vg-bees-fx
+  tags: [verdant-glade]
+vg-bells:
+  audio: {clip: /cdn/moodboard-painterly-fantasy/sfx-distant-abbey-bell-chiming-gentle-morning-loop.mp3, gain: 0.16, loop: true, maxDistance: 90, spatial: true}
+  feetPosition: {x: -20, y: {terrain: 1}, z: -62}
+  id: vg-bells
+  tags: [verdant-glade]
+vg-chapel:
+  castShadow: true
+  feetPosition: {x: 20, y: 3.790631220047964, z: -62}
+  id: vg-chapel
+  model: /cdn/value.525c4c4032c7c096f52e8dcb1693bfc2b6825d529fcdc4c222241f60d290c3e7.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 0.472
+  tags: [verdant-glade]
+  visibleRange: {max: 1500}
+vg-gb1:
+  castShadow: true
+  feetPosition: {x: -63.93316684470807, y: {terrain: 0}, z: -26.73501083602664}
+  id: vg-gb1
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 196.83379038873483}
+  scale: 0.7111095794580035
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gb3:
+  castShadow: true
+  feetPosition: {x: -48.06581170583684, y: {terrain: 0}, z: -20.0973160081518}
+  id: vg-gb3
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 85.95620034817253}
+  scale: 0.974611501558322
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gb5:
+  castShadow: true
+  feetPosition: {x: -56.80174394212826, y: {terrain: 0}, z: -18.91034298661197}
+  id: vg-gb5
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 249.0807567621402}
+  scale: 0.8992965285659735
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gt1:
+  castShadow: true
+  feetPosition: {x: -62.29891064232114, y: {terrain: 0}, z: -27.79105358737619}
+  id: vg-gt1
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 198.32191515557648}
+  scale: 0.9533840331280455
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gt2:
+  castShadow: true
+  feetPosition: {x: -50.904714326285486, y: {terrain: 0}, z: -21.53365914852699}
+  id: vg-gt2
+  model: /cdn/value.327a5fd02ac7eef55d7cfe717acbba298e9f40ca0aebfc7e2ac60d883b3b51e8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 129.05279540368616}
+  scale: 1.063178639265875
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gt3:
+  castShadow: true
+  feetPosition: {x: -48.94257356686757, y: {terrain: 0}, z: -19.833930967220972}
+  id: vg-gt3
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 204.40014360882358}
+  scale: 1.1067135055611967
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gt4:
+  castShadow: true
+  feetPosition: {x: -56.45234325197744, y: {terrain: 0}, z: -20.53296983477936}
+  id: vg-gt4
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 173.16588531543118}
+  scale: 0.8411668057936866
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gt5:
+  castShadow: true
+  feetPosition: {x: -57.31468204531323, y: {terrain: 0}, z: -41.86106269048626}
+  id: vg-gt5
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 273.5837339177576}
+  scale: 0.8983239111474938
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gt70:
+  castShadow: true
+  feetPosition: {x: -58.70051693236503, y: {terrain: 0}, z: 8.411923217039483}
+  id: vg-gt70
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 76.34182179005987}
+  scale: 0.9415336483544984
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gt76:
+  castShadow: true
+  feetPosition: {x: 62.66460846798924, y: {terrain: 0}, z: 2.074672816390798}
+  id: vg-gt76
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 325.63616402972133}
+  scale: 0.9380438073426893
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-gt80:
+  castShadow: true
+  feetPosition: {x: 58.397772971911145, y: {terrain: 0}, z: 1.370523625398544}
+  id: vg-gt80
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 116.1452068166297}
+  scale: 0.8831386511522705
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-guard1:
+  behavior: scripts/placed-npc.js
+  castShadow: true
+  feetPosition: {x: -3.5, y: {terrain: 0}, z: -10}
+  id: vg-guard1
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {cloak: "#c8a040", head: helm, sex: m, tool: spear, trousers: "#3b3f4a", tunic: "#2f5a9a"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: 10}
+  state: {name: Northvale Sentry, wander: 0}
+  tags: [npc, verdant-glade]
+  visibleRange: {max: 300}
+vg-guard2:
+  behavior: scripts/placed-npc.js
+  castShadow: true
+  feetPosition: {x: 3.5, y: {terrain: 0}, z: -10}
+  id: vg-guard2
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {cloak: "#c8a040", head: helm, sex: f, tool: spear, trousers: "#3b3f4a", tunic: "#2f5a9a"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: -10}
+  state: {name: Northvale Sentry, wander: 0}
+  tags: [npc, verdant-glade]
+  visibleRange: {max: 300}
+vg-hive0:
+  children: [{feetPosition: {x: 0, y: 0.5, z: 0}, material: {color: "#d8cdb0"}, primitive: {depth: 0.6, height: 0.35, kind: box, width: 0.6}}, {feetPosition: {x: 0, y: 0.85, z: 0}, material: {color: "#7a5534"}, primitive: {depth: 0.75, height: 0.08, kind: box, width: 0.75}}]
+  feetPosition: {x: 34, y: {terrain: 0}, z: -50}
+  id: vg-hive0
+  material: {color: "#e9dfc4", roughness: 0.85}
+  physics: static
+  primitive: {depth: 0.6, height: 0.5, kind: box, width: 0.6}
+  rotation: {yaw: -0.17022667096017585}
+  tags: [verdant-glade]
+vg-hive1:
+  children: [{feetPosition: {x: 0, y: 0.5, z: 0}, material: {color: "#e2b84a"}, primitive: {depth: 0.6, height: 0.35, kind: box, width: 0.6}}, {feetPosition: {x: 0, y: 0.85, z: 0}, material: {color: "#7a5534"}, primitive: {depth: 0.75, height: 0.08, kind: box, width: 0.75}}]
+  feetPosition: {x: 36.2, y: {terrain: 0}, z: -50}
+  id: vg-hive1
+  material: {color: "#e9dfc4", roughness: 0.85}
+  physics: static
+  primitive: {depth: 0.6, height: 0.5, kind: box, width: 0.6}
+  rotation: {yaw: 3.000405113213141}
+  tags: [verdant-glade]
+vg-hive2:
+  children: [{feetPosition: {x: 0, y: 0.5, z: 0}, material: {color: "#d8cdb0"}, primitive: {depth: 0.6, height: 0.35, kind: box, width: 0.6}}, {feetPosition: {x: 0, y: 0.85, z: 0}, material: {color: "#7a5534"}, primitive: {depth: 0.75, height: 0.08, kind: box, width: 0.75}}]
+  feetPosition: {x: 38.4, y: {terrain: 0}, z: -50}
+  id: vg-hive2
+  material: {color: "#e9dfc4", roughness: 0.85}
+  physics: static
+  primitive: {depth: 0.6, height: 0.5, kind: box, width: 0.6}
+  rotation: {yaw: -4.191223103731147}
+  tags: [verdant-glade]
+vg-hive3:
+  children: [{feetPosition: {x: 0, y: 0.5, z: 0}, material: {color: "#e2b84a"}, primitive: {depth: 0.6, height: 0.35, kind: box, width: 0.6}}, {feetPosition: {x: 0, y: 0.85, z: 0}, material: {color: "#7a5534"}, primitive: {depth: 0.75, height: 0.08, kind: box, width: 0.75}}]
+  feetPosition: {x: 40.6, y: {terrain: 0}, z: -50}
+  id: vg-hive3
+  material: {color: "#e9dfc4", roughness: 0.85}
+  physics: static
+  primitive: {depth: 0.6, height: 0.5, kind: box, width: 0.6}
+  rotation: {yaw: 6.1133910027457325}
+  tags: [verdant-glade]
+vg-hive4:
+  children: [{feetPosition: {x: 0, y: 0.5, z: 0}, material: {color: "#d8cdb0"}, primitive: {depth: 0.6, height: 0.35, kind: box, width: 0.6}}, {feetPosition: {x: 0, y: 0.85, z: 0}, material: {color: "#7a5534"}, primitive: {depth: 0.75, height: 0.08, kind: box, width: 0.75}}]
+  feetPosition: {x: 42.8, y: {terrain: 0}, z: -50}
+  id: vg-hive4
+  material: {color: "#e9dfc4", roughness: 0.85}
+  physics: static
+  primitive: {depth: 0.6, height: 0.5, kind: box, width: 0.6}
+  rotation: {yaw: -4.237402092886532}
+  tags: [verdant-glade]
+vg-hive5:
+  children: [{feetPosition: {x: 0, y: 0.5, z: 0}, material: {color: "#e2b84a"}, primitive: {depth: 0.6, height: 0.35, kind: box, width: 0.6}}, {feetPosition: {x: 0, y: 0.85, z: 0}, material: {color: "#7a5534"}, primitive: {depth: 0.75, height: 0.08, kind: box, width: 0.75}}]
+  feetPosition: {x: 45, y: {terrain: 0}, z: -50}
+  id: vg-hive5
+  material: {color: "#e9dfc4", roughness: 0.85}
+  physics: static
+  primitive: {depth: 0.6, height: 0.5, kind: box, width: 0.6}
+  rotation: {yaw: -2.0168793741770825}
+  tags: [verdant-glade]
+vg-hymn:
+  audio: {clip: /cdn/moodboard-painterly-fantasy/sfx-soft-monastery-choir-hum-through-stone-walls-loop.mp3, gain: 0.1, loop: true, maxDistance: 30, spatial: true}
+  feetPosition: {x: -22, y: {terrain: 1}, z: -60}
+  id: vg-hymn
+  tags: [verdant-glade]
+vg-mb115:
+  castShadow: true
+  feetPosition: {x: -12.777754750827114, y: {terrain: 0}, z: 8.208058693639998}
+  id: vg-mb115
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 166.45820845519958}
+  scale: 1.2867454746148974
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mb25:
+  castShadow: true
+  feetPosition: {x: -6.761626644769336, y: {terrain: 0}, z: -26.99316775146235}
+  id: vg-mb25
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 192.38437124750052}
+  scale: 1.1811666091262985
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mb43:
+  castShadow: true
+  feetPosition: {x: 46.93713883584101, y: {terrain: 0}, z: -30.629908489650035}
+  id: vg-mb43
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 198.93151990969807}
+  scale: 0.9909785381899947
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mb61:
+  castShadow: true
+  feetPosition: {x: -6.827067515651748, y: {terrain: 0}, z: -41.89170506493346}
+  id: vg-mb61
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 318.51927226271414}
+  scale: 0.9779878851286954
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mb8:
+  castShadow: true
+  feetPosition: {x: -10.982374894416324, y: {terrain: 0}, z: -40.580016845446096}
+  id: vg-mb8
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 60.169307906338304}
+  scale: 0.24092075143560837
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mb80:
+  castShadow: true
+  feetPosition: {x: 27.169702115626734, y: {terrain: 0}, z: 5.888490077004292}
+  id: vg-mb80
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 16.789351382096626}
+  scale: 0.32769601922267677
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mb89:
+  castShadow: true
+  feetPosition: {x: -11.49180266213773, y: {terrain: 0}, z: 17.9556171018217}
+  id: vg-mb89
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 56.07287233329646}
+  scale: 0.35114258126927783
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf110:
+  castShadow: true
+  feetPosition: {x: 15.813561059360921, y: {terrain: 0}, z: -41.10849278150917}
+  id: vg-mf110
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 71.42209288796606}
+  scale: 1.287591997988142
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf117:
+  castShadow: true
+  feetPosition: {x: 8.508058365907573, y: {terrain: 0}, z: -58.79627656079481}
+  id: vg-mf117
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 358.1084101443257}
+  scale: 1.2621643238348554
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf138:
+  castShadow: true
+  feetPosition: {x: 58.395106939966894, y: {terrain: 0}, z: -50.077531221394906}
+  id: vg-mf138
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 250.86538498370479}
+  scale: 1.842765364276958
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf146:
+  castShadow: true
+  feetPosition: {x: 62.29647517418161, y: {terrain: 0}, z: -12.355619768943285}
+  id: vg-mf146
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 337.9658802393506}
+  scale: 1.9380705084074945
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf166:
+  castShadow: true
+  feetPosition: {x: -28.97091208861295, y: {terrain: 0}, z: 9.411621619399284}
+  id: vg-mf166
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 202.4351572826832}
+  scale: 1.9144433780707824
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf171:
+  castShadow: true
+  feetPosition: {x: -39.253794196298145, y: {terrain: 0}, z: -8.888005929894746}
+  id: vg-mf171
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 207.51915740549487}
+  scale: 1.820102406870669
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf175:
+  castShadow: true
+  feetPosition: {x: 56.40494623817966, y: {terrain: 0}, z: -26.550705732359262}
+  id: vg-mf175
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 124.3323502729948}
+  scale: 1.4438196162169983
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf4:
+  castShadow: true
+  feetPosition: {x: 51.43791339494092, y: {terrain: 0}, z: 2.7585762019814695}
+  id: vg-mf4
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 242.41078505517058}
+  scale: 1.802638108472003
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf46:
+  castShadow: true
+  feetPosition: {x: 2.5157362059836714, y: {terrain: 0}, z: 6.484852262292861}
+  id: vg-mf46
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 332.39618537239375}
+  scale: 1.765665416573794
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf74:
+  castShadow: true
+  feetPosition: {x: 31.986927214997735, y: {terrain: 0}, z: -21.784854365312356}
+  id: vg-mf74
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 32.30125562502188}
+  scale: 1.976157064341155
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-mf94:
+  castShadow: true
+  feetPosition: {x: 22.087939793325887, y: {terrain: 0}, z: -60.99599330778793}
+  id: vg-mf94
+  material: {pbr: true}
+  physics: none
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.15, rz: 0.6, tufts: 28}, script: scripts/gen/home-garden-planting.js, seed: 24}
+  receiveShadow: true
+  rotation: {yaw: 57.379076944085845}
+  scale: 1.319529214240172
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-monk1:
+  behavior: scripts/placed-npc.js
+  castShadow: true
+  feetPosition: {x: -16, y: {terrain: 0}, z: -48}
+  id: vg-monk1
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {head: hood, sex: m, tool: none, trousers: "#5a4a38", tunic: "#d8cfb6"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: 40}
+  state: {name: Brother Wilhelm, wander: 3}
+  tags: [npc, verdant-glade]
+  visibleRange: {max: 300}
+vg-monk2:
+  behavior: scripts/placed-npc.js
+  castShadow: true
+  feetPosition: {x: -28, y: {terrain: 0}, z: -50}
+  id: vg-monk2
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {head: hood, sex: f, tool: none, trousers: "#5a4a38", tunic: "#d8cfb6"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: 120}
+  state: {name: Sister Elsa, wander: 3}
+  tags: [npc, verdant-glade]
+  visibleRange: {max: 300}
+vg-mr141:
+  castShadow: true
+  feetPosition: {x: -15.34762966944615, y: {terrain: 0}, z: 14.292255858231613}
+  id: vg-mr141
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 244.10194214815456}
+  scale: 0.09627977894272635
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-0-0:
+  castShadow: true
+  feetPosition: {x: 29.793444187188005, y: {terrain: 0}, z: -29.58353648854749}
+  id: vg-orc-0-0
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 90.4034787513348}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-0-1:
+  castShadow: true
+  feetPosition: {x: 38.17371935320433, y: {terrain: 0}, z: -30.29882422862465}
+  id: vg-orc-0-1
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 119.01594059450174}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-0-2:
+  castShadow: true
+  feetPosition: {x: 45.78286365399404, y: {terrain: 0}, z: -29.410557796629664}
+  id: vg-orc-0-2
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 315.9207464902855}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-0-3:
+  castShadow: true
+  feetPosition: {x: 53.22214781699902, y: {terrain: 0}, z: -29.361625783482218}
+  id: vg-orc-0-3
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 27.982771869732787}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-1-0:
+  castShadow: true
+  feetPosition: {x: 29.81360784993843, y: {terrain: 0}, z: -39.6928568004564}
+  id: vg-orc-1-0
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 28.038235928898896}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-1-1:
+  castShadow: true
+  feetPosition: {x: 38.99241030588039, y: {terrain: 0}, z: -39.559989009574046}
+  id: vg-orc-1-1
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 227.65109359067966}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-1-2:
+  castShadow: true
+  feetPosition: {x: 45.28850563456165, y: {terrain: 0}, z: -39.085786528033935}
+  id: vg-orc-1-2
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 213.44972958178232}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-1-3:
+  castShadow: true
+  feetPosition: {x: 53.275590154599016, y: {terrain: 0}, z: -38.15625815853128}
+  id: vg-orc-1-3
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 318.44354176748874}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-2-0:
+  castShadow: true
+  feetPosition: {x: 30.781148952228158, y: {terrain: 0}, z: -47.22955818868201}
+  id: vg-orc-2-0
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 326.79443123451847}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-2-1:
+  castShadow: true
+  feetPosition: {x: 38.522255657727136, y: {terrain: 0}, z: -48.449156841681486}
+  id: vg-orc-2-1
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 3.7751759996406515}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-2-2:
+  castShadow: true
+  feetPosition: {x: 45.49658785434122, y: {terrain: 0}, z: -48.84792032171779}
+  id: vg-orc-2-2
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 0.5701231402998075}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-2-3:
+  castShadow: true
+  feetPosition: {x: 54.233680177697615, y: {terrain: 0}, z: -48.537247439415424}
+  id: vg-orc-2-3
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 266.81359964126125}
+  scale: 0.55
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-cart:
+  castShadow: true
+  feetPosition: {x: 48, y: {terrain: 0}, z: -44}
+  id: vg-orc-cart
+  model: /cdn/value.cd4083ad148c8e04325396f7128a6e2dc1826a8d973f5df7edd82a846d1e3e0a.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 30}
+  scale: 0.45
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-crate0:
+  castShadow: true
+  feetPosition: {x: 46.78855457509733, y: {terrain: 0}, z: -48}
+  id: vg-orc-crate0
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 42.6141566807536}
+  scale: 1.17
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-crate1:
+  castShadow: true
+  feetPosition: {x: 45.97852120732751, y: {terrain: 0}, z: -47.1}
+  id: vg-orc-crate1
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 1.06911845604807}
+  scale: 1.17
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-crate2:
+  castShadow: true
+  feetPosition: {x: 46.825981666171906, y: {terrain: 0}, z: -46.2}
+  id: vg-orc-crate2
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 229.29564830781487}
+  scale: 1.17
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-orc-crate3:
+  castShadow: true
+  feetPosition: {x: 46.84423406873292, y: {terrain: 0}, z: -45.3}
+  id: vg-orc-crate3
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 7.558994244373398}
+  scale: 1.17
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-rim22:
+  castShadow: true
+  feetPosition: {x: 51.94131362449963, y: {terrain: 0}, z: 61.942982191879935}
+  id: vg-rim22
+  model: /cdn/value.327a5fd02ac7eef55d7cfe717acbba298e9f40ca0aebfc7e2ac60d883b3b51e8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 353.99844517372406}
+  scale: 1.4845772593138529
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim25:
+  castShadow: true
+  feetPosition: {x: 31.014029575892042, y: {terrain: 0}, z: 62.8708238397374}
+  id: vg-rim25
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 140.54915262437345}
+  scale: 0.9377839140945896
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim35:
+  castShadow: true
+  feetPosition: {x: 63.53254952397451, y: {terrain: 0}, z: 57.88145107377119}
+  id: vg-rim35
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 274.88964147389834}
+  scale: 0.9947377964805233
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim55:
+  castShadow: true
+  feetPosition: {x: -31.841921268660524, y: {terrain: 0}, z: 62.55264505230764}
+  id: vg-rim55
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 254.19184317271396}
+  scale: 1.3853229994748932
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim66:
+  castShadow: true
+  feetPosition: {x: -39.85300105270753, y: {terrain: 0}, z: 61.969035757139494}
+  id: vg-rim66
+  model: /cdn/value.327a5fd02ac7eef55d7cfe717acbba298e9f40ca0aebfc7e2ac60d883b3b51e8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 298.00743754767575}
+  scale: 1.1423928527556293
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rl-1-8:
+  castShadow: true
+  feetPosition: {x: -4.7078587942109635, y: {terrain: 0}, z: -15.605002667571558}
+  id: vg-rl-1-8
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 195.04342022821626}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-rl-2-26:
+  castShadow: true
+  feetPosition: {x: 5.1940146061740915, y: {terrain: 0}, z: -55.30308585619853}
+  id: vg-rl-2-26
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 156.85885496145008}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-rl-2-8:
+  castShadow: true
+  feetPosition: {x: -4.976833630141003, y: {terrain: 0}, z: -38.434361952066176}
+  id: vg-rl-2-8
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 76.12685581308496}
+  scale: 1
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-rr-1-8:
+  castShadow: true
+  feetPosition: {x: 3.757233460764519, y: {terrain: 0}, z: -16.374556508932965}
+  id: vg-rr-1-8
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 156.47504761486786}
+  scale: 0.0827516740679291
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-rr-2-26:
+  castShadow: true
+  feetPosition: {x: -3.2403473458920846, y: {terrain: 0}, z: -56.3573811002068}
+  id: vg-rr-2-26
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 299.8112326672405}
+  scale: 0.0551974363114661
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-rr-2-8:
+  castShadow: true
+  feetPosition: {x: 3.4575283219251727, y: {terrain: 0}, z: -37.3800667080579}
+  id: vg-rr-2-8
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 228.72831902348278}
+  scale: 0.052674208006518154
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+vg-sign-y:
+  castShadow: true
+  feetPosition: {x: -5, y: {terrain: 0}, z: -30}
+  id: vg-sign-y
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 120}
+  scale: 0.6
+  tags: [verdant-glade]
+  visibleRange: {max: 600}
+zhome-spring:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>MELLOWBROOK</text></svg>"}]
+  feetPosition: {x: 0, y: 2.28, z: 3}
+  id: zhome-spring
+  material: {color: "#9be36b", emissive: "#9be36b", emissiveIntensity: 1.6, opacity: 0.72, transparent: true}
+  physics: {body: static, trigger: true}
+  primitive: {depth: 0.25, height: 3.4, kind: arch, width: 2.4}
+  rotation: 0
+  state: {to: "+main#zgate-spring"}
+  tags: [portal, zone-gate]

@@ -1,0 +1,12 @@
+# spawn-scene v2 yaml x-2z-1
+svd-tree01-395:
+  castShadow: true
+  feetPosition: {x: -196, y: {terrain: 0}, z: -111.83}
+  id: svd-tree01-395
+  model: /cdn/value.147c354e9a5923ea9516aaf42ac11a49b37b2a44ababf79bda34b709a553a381.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 355}
+  scale: 1.3847027547586257
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 1400}

@@ -1,0 +1,119 @@
+# Beastwild: the creatures zone (design-zones.md Beastwild + bible §11), built 2026-10-10. Gate home at the origin.
+mode: 3d
+gravity:
+  x: 0
+  y: -24
+  z: 0
+atmosphere:
+  sky:
+    kind: realistic
+    model: hosek
+    turbidity: 2.4
+  sun:
+    orbit:
+      maxElevation: 62
+      noonYaw: 200
+  moon:
+    intensity: 3.5
+    enabled: true
+    phase: 0.45
+  stars:
+    density: 0.6
+    enabled: true
+    milkyWay: 0
+  clouds:
+    altitude: 700
+    density: 0.36
+    enabled: true
+    opacity: 0.85
+    speed: 0.9
+    color: '#f4fbff'
+  wind:
+    direction: 245
+    speed: 2.5
+  cycle:
+    frozen: 12
+  timeOfDay: 12
+  look:
+    script: scripts/look-den.js
+    params:
+      bloomRadius: 0.7
+      bloomStrength: 0.3
+      bloomThreshold: 0.9
+      exposure: 1.1
+      vignette: 0.1
+      csCover: 0
+      csK: 0.14
+      csScale: 150
+      csSeed: 831
+      csSoft: 0.22
+      nightK: 0
+      twExp: 0
+      twSat: 0.02
+      twTemp: 0.02
+      wetG: 0
+      csN: 0.04
+      inkPx: 3
+      aerialK: 0.15
+      aoK: 0.78
+      aoR: 0.008
+      bloomThrUser: 0.9
+      bloomUser: 0.35
+      celK: 0.3
+      celSteps: 3
+      contrast: 1.12
+      creaseLo: 0.28
+      daySat: 1.1
+      fogFarX: 3
+      fogNearX: 3.2
+      glintK: 0.7
+      mistK: 0.08
+      posterK: 0.15
+      shB: 1.02
+      shG: 0.9
+      shR: 0.98
+      sunsetK: 0.55
+      gradeHaze: 0.05
+      inkFar: 520
+      inkStrength: 1
+  ambient:
+    light:
+      color: '#5f9a66'
+      intensity: 0.8
+  hemisphere:
+    skyColor: '#bff3ec'
+    groundColor: '#27632f'
+    intensity: 0.65
+  fog:
+    kind: exp2
+    density: 0.0032
+    color: '#6f9c78'
+terrain:
+  kind: heightmap
+  generator: scripts/zone-creatures-ground.js
+  materials:
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-lush-sunlit-golden-green-summer-meadow-grass.png, antiTiling: stochastic, id: ground, macro: {hue: 0.015, scale: 52, value: 0.07}, normalStrength: 0.18, pbr: true, roughnessIntensity: 0.7, textureScale: 5, tint: oklch(0.86 0.07 150)}
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-dark-moist-forest-soil-with-brown-leaf-litter.png, antiTiling: stochastic, id: clay, normalStrength: 0.2, pbr: true, roughnessIntensity: 0.8, textureScale: 5, tint: oklch(0.82 0.08 40)}
+  - {albedo: cdn/texture-terrain-stylized-painted-riverbank-mud-soft-brush-lowpoly.png, antiTiling: stochastic, id: mud, normalStrength: 0.2, pbr: true, roughnessIntensity: 0.5, textureScale: 5, tint: oklch(0.8 0.05 50)}
+  - {albedo: cdn/texture-terrain-wow-classic-hand-painted-mossy-rock-ledges-green-moss-in-cracks-broad-brushstrokes.png, antiTiling: stochastic, id: rock, macro: {hue: 0.03, scale: 90, value: 0.16}, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.84, textureScale: 16, tint: oklch(0.9 0.02 120)}
+  - {albedo: cdn/texture-terrain-wow-classic-hand-painted-grey-rock-strata-broad-brushstrokes-cool-purple-crevices-warm-sunlit-tops.png, antiTiling: stochastic, id: scorch, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.9, textureScale: 10, tint: oklch(0.5 0.03 40)}
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-light-tan-dusty-hiking-trail-packed-earth-small-pebbles.png, antiTiling: stochastic, id: trail, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.85, textureScale: 2.5, tint: oklch(0.85 0.09 50)}
+  marks:
+    roarwater: {kind: river, width: 7, depth: 1.4, bedMaterial: mud, points: [[-215, -96], [-150, -104], [-90, -98], [-40, -104], [4, -100], [50, -96], [110, -102], [215, -94]]}
+    road-south: {kind: road, grade: true, maxGrade: 0.22, width: 5, material: trail, edgeMaterial: ground, noise: 0.6, falloff: 1.4, points: [[0, -8], [0, -33]]}
+    road-hub-s: {kind: road, grade: true, maxGrade: 0.22, width: 5, material: trail, edgeMaterial: ground, noise: 0.6, falloff: 1.4, points: [[2, -77], [4, -100], [18, -125], [40, -160], [50, -194]]}
+    path-hogger: {kind: path, grade: true, maxGrade: 0.3, width: 3.2, material: trail, edgeMaterial: ground, noise: 0.7, falloff: 1.3, points: [[-20, -56], [-45, -58], [-66, -60]]}
+    path-golem: {kind: path, grade: true, maxGrade: 0.3, width: 3.2, material: trail, edgeMaterial: ground, noise: 0.7, falloff: 1.3, points: [[20, -56], [45, -58], [60, -60]]}
+    path-fang: {kind: path, grade: true, maxGrade: 0.3, width: 3, material: trail, edgeMaterial: ground, noise: 0.8, falloff: 1.3, points: [[-12, -74], [-30, -110], [-70, -145], [-115, -150]]}
+    path-ogre: {kind: path, grade: true, maxGrade: 0.3, width: 2.8, material: trail, edgeMaterial: ground, noise: 0.8, falloff: 1.3, points: [[-30, -110], [-40, -150], [-48, -176]]}
+    path-wallow: {kind: path, grade: true, maxGrade: 0.3, width: 2.8, material: trail, edgeMaterial: ground, noise: 0.8, falloff: 1.3, points: [[18, -125], [44, -132]]}
+    clear-arrival: {kind: clear-scatter, center: {x: 0, z: -2}, shape: {kind: circle, radius: 8}}
+defaultSpawnPoint:
+  x: 0
+  z: -2
+  y:
+    terrain: 0
+worldBounds:
+  bottom: -60
+arrivalBudget:
+  bytes: 3000000 # same as main: creator 2026-09-28 a 10-15 s first load is fine

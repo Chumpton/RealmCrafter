@@ -1,0 +1,1801 @@
+# spawn-scene v2 yaml x0z-1
+fp-aerie-peaks-bush01-192:
+  castShadow: true
+  feetPosition: {x: 38.59161780802141, y: {terrain: 0}, z: -172.36344922816542}
+  id: fp-aerie-peaks-bush01-192
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 212.78756332247872}
+  scale: 0.6459140431349697
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-aerie-peaks-bush01-237:
+  castShadow: true
+  feetPosition: {x: 5.583125208725335, y: -4.986126985951628, z: -165.62685297982836}
+  id: fp-aerie-peaks-bush01-237
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 94.57040373914428}
+  scale: 0.5535895048890214
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-aerie-peaks-bush01-239:
+  castShadow: true
+  feetPosition: {x: -10.226197978586974, y: {terrain: 0}, z: -153.63327107375176}
+  id: fp-aerie-peaks-bush01-239
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 194.68178510418244}
+  scale: 0.5084168640935872
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-aerie-peaks-bush01-278:
+  castShadow: true
+  feetPosition: {x: -16.01040668692924, y: {terrain: 0}, z: -191.59448696281504}
+  id: fp-aerie-peaks-bush01-278
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 26.050080669135827}
+  scale: 1.143478515904154
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-aerie-peaks-bush01-547:
+  castShadow: true
+  feetPosition: {x: -50.1695079636618, y: {terrain: 0}, z: -94.47507302019514}
+  id: fp-aerie-peaks-bush01-547
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 194.2753372314737}
+  scale: 2.2488378301490273
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-aerie-peaks-bush01-549:
+  castShadow: true
+  feetPosition: {x: 18.831323864325554, y: {terrain: 0}, z: -155.8361330096778}
+  id: fp-aerie-peaks-bush01-549
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 72.84977873454326}
+  scale: 1.7374989000323688
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-aerie-peaks-bush02-520:
+  castShadow: true
+  feetPosition: {x: 5.648371097745776, y: {terrain: 0}, z: -81.72079765499419}
+  id: fp-aerie-peaks-bush02-520
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 144.165543627071}
+  scale: 1.093873997495451
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-aerie-peaks-bush02-521:
+  castShadow: true
+  feetPosition: {x: 0.5016289022542253, y: {terrain: 0}, z: -96.02920234500581}
+  id: fp-aerie-peaks-bush02-521
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 17.60588067472255}
+  scale: 0.5842523557526303
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-aerie-peaks-bush02-523:
+  castShadow: true
+  feetPosition: {x: 14.372568646045922, y: {terrain: 0}, z: -117.35162090263606}
+  id: fp-aerie-peaks-bush02-523
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 319.60750030335385}
+  scale: 0.9075404699926919
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-aerie-peaks-bush02-524:
+  castShadow: true
+  feetPosition: {x: 28.62743135395408, y: {terrain: 0}, z: -122.14837909736394}
+  id: fp-aerie-peaks-bush02-524
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 153.02148181620123}
+  scale: 0.7976411635510816
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-aerie-peaks-bush02-525:
+  castShadow: true
+  feetPosition: {x: 28.008003476562063, y: {terrain: 0}, z: -136.12359721875035}
+  id: fp-aerie-peaks-bush02-525
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 332.6297226420742}
+  scale: 0.6993784960356441
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-aerie-peaks-bush02-526:
+  castShadow: true
+  feetPosition: {x: 41.791996523437945, y: {terrain: 0}, z: -138.62640278124965}
+  id: fp-aerie-peaks-bush02-526
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 218.60999704273883}
+  scale: 0.9118857827092921
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-aerie-peaks-bush02-527:
+  castShadow: true
+  feetPosition: {x: 48.39199652343794, y: {terrain: 0}, z: -146.87640278124965}
+  id: fp-aerie-peaks-bush02-527
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 82.64436669770832}
+  scale: 0.7998832474927806
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-aerie-peaks-bush02-530:
+  castShadow: true
+  feetPosition: {x: 61.34616978083316, y: {terrain: 0}, z: -161.83731952327793}
+  id: fp-aerie-peaks-bush02-530
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 216.87887319218314}
+  scale: 0.5975879969529752
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-aerie-peaks-fir01-185:
+  castShadow: true
+  feetPosition: {x: 29.89593913587551, y: {terrain: 0}, z: -152.6348919843486}
+  id: fp-aerie-peaks-fir01-185
+  model: /cdn/value.cc263cdc8ab8a12120e809ac97dd067356bd2dc5552ee2d94d336edf759ba718.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 324.0860703606559}
+  scale: 0.2519658489860435
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-peaks-fir02-189:
+  castShadow: true
+  feetPosition: {x: 25.984207428984426, y: {terrain: 0}, z: -161.1096897027966}
+  id: fp-aerie-peaks-fir02-189
+  model: /cdn/value.be4b495d5f5e05cfa903c156dbe8f9d3bd806fa33d70343248993c45a609e07c.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 76.58774981116306}
+  scale: 0.1521250010151998
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-peaks-fir02-277:
+  castShadow: true
+  feetPosition: {x: -14.826128453400973, y: {terrain: 0}, z: -191.43021605323545}
+  id: fp-aerie-peaks-fir02-277
+  model: /cdn/value.be4b495d5f5e05cfa903c156dbe8f9d3bd806fa33d70343248993c45a609e07c.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 345.89354093461}
+  scale: 0.2087628522090441
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-peaks-fir02-312:
+  castShadow: true
+  feetPosition: {x: 29.756613824403214, y: {terrain: 0}, z: -162.3624971566547}
+  id: fp-aerie-peaks-fir02-312
+  model: /cdn/value.be4b495d5f5e05cfa903c156dbe8f9d3bd806fa33d70343248993c45a609e07c.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 11.315029827558915}
+  scale: 0.20494390433418747
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-peaks-fir02-321:
+  castShadow: true
+  feetPosition: {x: 38.539205543947986, y: {terrain: 0}, z: -153.34346676773552}
+  id: fp-aerie-peaks-fir02-321
+  model: /cdn/value.be4b495d5f5e05cfa903c156dbe8f9d3bd806fa33d70343248993c45a609e07c.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 355.8490411545378}
+  scale: 0.15491873581657126
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree01-229:
+  castShadow: true
+  feetPosition: {x: -3.0979392384634936, y: {terrain: 0}, z: -156.98862581839256}
+  id: fp-aerie-tree01-229
+  model: /cdn/value.7c456976f718e40d4cad44594d09a04d45ee655a55fada2bc43b7735d8b35fcc.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 116.56969584364896}
+  scale: 0.5422779056906132
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree01-234:
+  castShadow: true
+  feetPosition: {x: 6.333772428710856, y: -5.157002570635844, z: -162.99958770987902}
+  id: fp-aerie-tree01-234
+  model: /cdn/value.7c456976f718e40d4cad44594d09a04d45ee655a55fada2bc43b7735d8b35fcc.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 182.31399561386274}
+  scale: 0.5576308255817884
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree01-238:
+  castShadow: true
+  feetPosition: {x: -6.7564275324141665, y: {terrain: 0}, z: -157.20138224735922}
+  id: fp-aerie-tree01-238
+  model: /cdn/value.7c456976f718e40d4cad44594d09a04d45ee655a55fada2bc43b7735d8b35fcc.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 311.66036393105065}
+  scale: 0.5318720262180417
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree02-187:
+  castShadow: true
+  feetPosition: {x: 32.01396000292801, y: {terrain: 0}, z: -171.05817943301898}
+  id: fp-aerie-tree02-187
+  model: /cdn/value.e20a453a3ffad588b54cce933e2a0e93bc55b083b59e27992bc6e5750dce9e63.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 31.81135248011507}
+  scale: 0.2792085938291664
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree03-225:
+  castShadow: true
+  feetPosition: {x: 3.7933212918198365, y: {terrain: 0}, z: -159.57289334646094}
+  id: fp-aerie-tree03-225
+  model: /cdn/value.25f38e9e9990dadb284029b59c448428b718dc220149e4c383137c1abc4d69ac.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 40.49394201510304}
+  scale: 0.2338322052610257
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree03-315:
+  castShadow: true
+  feetPosition: {x: 21.285721592272516, y: {terrain: 0}, z: -164.64824257728097}
+  id: fp-aerie-tree03-315
+  model: /cdn/value.25f38e9e9990dadb284029b59c448428b718dc220149e4c383137c1abc4d69ac.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 286.7361207151488}
+  scale: 0.24665471257486135
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree03-318:
+  castShadow: true
+  feetPosition: {x: 28.270823273002566, y: {terrain: 0}, z: -150.04429454731024}
+  id: fp-aerie-tree03-318
+  model: /cdn/value.25f38e9e9990dadb284029b59c448428b718dc220149e4c383137c1abc4d69ac.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 180.5391919894792}
+  scale: 0.2004227467628302
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree04-183:
+  castShadow: true
+  feetPosition: {x: 26.643708959521575, y: {terrain: 0}, z: -164.86746596492245}
+  id: fp-aerie-tree04-183
+  model: /cdn/value.aa9fd78f4f4380e5640fd75a144f8b2c111d43f8aed89bc95015bc7cd802f637.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 345.74563303298584}
+  scale: 0.2446609646196761
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree04-231:
+  castShadow: true
+  feetPosition: {x: 7.383659096843809, y: -9.877404486976129, z: -159.32498437141368}
+  id: fp-aerie-tree04-231
+  model: /cdn/value.aa9fd78f4f4380e5640fd75a144f8b2c111d43f8aed89bc95015bc7cd802f637.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 106.44791744018342}
+  scale: 0.23743223984606202
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-aerie-tree04-314:
+  castShadow: true
+  feetPosition: {x: 35.551337833307386, y: {terrain: 0}, z: -162.43607950417143}
+  id: fp-aerie-tree04-314
+  model: /cdn/value.aa9fd78f4f4380e5640fd75a144f8b2c111d43f8aed89bc95015bc7cd802f637.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 227.77258263331493}
+  scale: 0.2296704120979041
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-bfire-179:
+  children: [{feetPosition: {x: 0, y: 1, z: 0}, light: {color: "#ff8f3a", distance: 14, intensity: 2.4, kind: point}}]
+  feetPosition: {x: 60, y: {terrain: 1.1}, z: -163}
+  fx: {script: "fx\npop coals n=8 on=disc(.25) size=.06..0.14 tint=<2.4,.9,.25>..<1.1,.3,.08> sz=$size*flick(.5,.12) col=$tint*flick(.8,.3) a=.9 r=sprite(soft-disc,add)\npop flame rate=flick(.45,.2)*60 on=disc(.22) life=.5..0.9 v=up(1.5)+cone(22)*(.3..0.8) size=.2..0.4 acc=curl(.5)*1.2+buoy(2.2)+drag(1.5)\n  sz=$size*(.5>.25:1>.7:.7>.14) col=hdr(4.6,3.4,1.4)>.3:hdr(3.2,1.4,.3)>.65:hdr(1.8,.5,.1)>hdr(.6,.12,.03) a=0>.12:1>.75:.85>0 rot=spin(.2) r=sprite(flame-wisp,add)\npop embers rate=4 on=disc(.22) life=.7..1.4 v=up(2.2)+cone(30)*(.4..1.2) size=.02..0.05 acc=curl(.8)+grav()*.45+drag(.5) sz=$size*(1>.7:.8>.3) col=hdr(5,2.8,.8)>.6:hdr(2.4,.8,.15)>hdr(1,.22,.04) a=(0>.08:1>.65:.9>0)*flick(11,.35) r=sprite(ember,add,velocity,.02)\npop smoke on=@flame?.22 inh=p;v:$v*.4 life=1.8..3 size=.16..0.26 acc=buoy(.9)+curl(.35)*.5+drag(.8) sz=$size*(.7>3.2) col=<.3,.28,.26>><.15,.15,.16> a=0>.25:.3>.7:.2>0 rot=spin(.15) r=sprite(smoke-puff,alpha)"}
+  id: fp-bfire-179
+  tags: [frostpeak]
+fp-bfire-38:
+  children: [{feetPosition: {x: 0, y: 1, z: 0}, light: {color: "#ff8f3a", distance: 14, intensity: 2.4, kind: point}}]
+  feetPosition: {x: -14, y: {terrain: 1.1}, z: -66}
+  fx: {script: "fx\npop coals n=8 on=disc(.25) size=.06..0.14 tint=<2.4,.9,.25>..<1.1,.3,.08> sz=$size*flick(.5,.12) col=$tint*flick(.8,.3) a=.9 r=sprite(soft-disc,add)\npop flame rate=flick(.45,.2)*60 on=disc(.22) life=.5..0.9 v=up(1.5)+cone(22)*(.3..0.8) size=.2..0.4 acc=curl(.5)*1.2+buoy(2.2)+drag(1.5)\n  sz=$size*(.5>.25:1>.7:.7>.14) col=hdr(4.6,3.4,1.4)>.3:hdr(3.2,1.4,.3)>.65:hdr(1.8,.5,.1)>hdr(.6,.12,.03) a=0>.12:1>.75:.85>0 rot=spin(.2) r=sprite(flame-wisp,add)\npop embers rate=4 on=disc(.22) life=.7..1.4 v=up(2.2)+cone(30)*(.4..1.2) size=.02..0.05 acc=curl(.8)+grav()*.45+drag(.5) sz=$size*(1>.7:.8>.3) col=hdr(5,2.8,.8)>.6:hdr(2.4,.8,.15)>hdr(1,.22,.04) a=(0>.08:1>.65:.9>0)*flick(11,.35) r=sprite(ember,add,velocity,.02)\npop smoke on=@flame?.22 inh=p;v:$v*.4 life=1.8..3 size=.16..0.26 acc=buoy(.9)+curl(.35)*.5+drag(.8) sz=$size*(.7>3.2) col=<.3,.28,.26>><.15,.15,.16> a=0>.25:.3>.7:.2>0 rot=spin(.15) r=sprite(smoke-puff,alpha)"}
+  id: fp-bfire-38
+  tags: [frostpeak]
+fp-bush-ice-cap-106:
+  castShadow: true
+  feetPosition: {x: -61.47121580460322, y: {terrain: 0}, z: -131.63905699830937}
+  id: fp-bush-ice-cap-106
+  model: /cdn/value.63986294fc17b81f2084dd361ca68240139ec240c77c9fa044cbf64465b4bb61.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 201.3957158668878}
+  scale: 0.9454250867224415
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-bush-ice-cap-130:
+  castShadow: true
+  feetPosition: {x: -63.34508193427077, y: {terrain: 0}, z: -148.1134325539476}
+  id: fp-bush-ice-cap-130
+  model: /cdn/value.63986294fc17b81f2084dd361ca68240139ec240c77c9fa044cbf64465b4bb61.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 272.19154376173}
+  scale: 1.4552243760112786
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-bush-ice-cap-544:
+  castShadow: true
+  feetPosition: {x: 8.20273582739884, y: {terrain: 0}, z: -189.6026607787249}
+  id: fp-bush-ice-cap-544
+  model: /cdn/value.63986294fc17b81f2084dd361ca68240139ec240c77c9fa044cbf64465b4bb61.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 161.58120539113003}
+  scale: 1.5564683181030994
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-bush-ice-cap-577:
+  castShadow: true
+  feetPosition: {x: -37.23824625240559, y: {terrain: 0}, z: -118.12042828096097}
+  id: fp-bush-ice-cap-577
+  model: /cdn/value.63986294fc17b81f2084dd361ca68240139ec240c77c9fa044cbf64465b4bb61.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 23.76355380926447}
+  scale: 0.9623854475386373
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-bush-wintersbite01-184:
+  castShadow: true
+  feetPosition: {x: 23.02225697460688, y: {terrain: 0}, z: -166.6109764262154}
+  id: fp-bush-wintersbite01-184
+  model: /cdn/value.cae7f648d5385278d7b797d7434c488be258040faa54d434d0ce87a7b3cd2d1c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 121.80413989434211}
+  scale: 0.6617065212976684
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-bush-wintersbite01-186:
+  castShadow: true
+  feetPosition: {x: 32.293046471799265, y: {terrain: 0}, z: -152.45189711379442}
+  id: fp-bush-wintersbite01-186
+  model: /cdn/value.cae7f648d5385278d7b797d7434c488be258040faa54d434d0ce87a7b3cd2d1c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 182.85202293789573}
+  scale: 0.7109568856241912
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-bush-wintersbite01-190:
+  castShadow: true
+  feetPosition: {x: 28.584112967636475, y: {terrain: 0}, z: -160.497301577822}
+  id: fp-bush-wintersbite01-190
+  model: /cdn/value.cae7f648d5385278d7b797d7434c488be258040faa54d434d0ce87a7b3cd2d1c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 346.2483948405126}
+  scale: 1.3065137788218046
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-bush-wintersbite01-228:
+  castShadow: true
+  feetPosition: {x: 2.22639684389644, y: {terrain: 0}, z: -158.8720895950087}
+  id: fp-bush-wintersbite01-228
+  model: /cdn/value.cae7f648d5385278d7b797d7434c488be258040faa54d434d0ce87a7b3cd2d1c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 127.02443344845643}
+  scale: 1.5390380024626098
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-bush-wintersbite01-233:
+  castShadow: true
+  feetPosition: {x: 5.204954477194774, y: -4.90463566877281, z: -166.9504505401853}
+  id: fp-bush-wintersbite01-233
+  model: /cdn/value.cae7f648d5385278d7b797d7434c488be258040faa54d434d0ce87a7b3cd2d1c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 205.3240703071114}
+  scale: 0.6314197122265677
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-bush-wintersbite01-316:
+  castShadow: true
+  feetPosition: {x: 17.683682441564144, y: {terrain: 0}, z: -168.12024853291}
+  id: fp-bush-wintersbite01-316
+  model: /cdn/value.cae7f648d5385278d7b797d7434c488be258040faa54d434d0ce87a7b3cd2d1c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 298.89367061615627}
+  scale: 1.0865650119663053
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-bush-wintersbite01-322:
+  castShadow: true
+  feetPosition: {x: 34.77349528333802, y: {terrain: 0}, z: -155.63581683935402}
+  id: fp-bush-wintersbite01-322
+  model: /cdn/value.cae7f648d5385278d7b797d7434c488be258040faa54d434d0ce87a7b3cd2d1c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 42.601116095949486}
+  scale: 0.7521649015844636
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-crag-fir-4:
+  castShadow: true
+  feetPosition: {x: 47.05844990389309, y: 4.14853780014924, z: -176.63868214972192}
+  id: fp-crag-fir-4
+  model: /cdn/value.cc263cdc8ab8a12120e809ac97dd067356bd2dc5552ee2d94d336edf759ba718.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 350}
+  scale: 0.22
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 1000}
+fp-dwarf-anvilmar-lamp-post-27:
+  castShadow: true
+  feetPosition: {x: -2, y: {terrain: 0}, z: -78}
+  id: fp-dwarf-anvilmar-lamp-post-27
+  model: /cdn/value.902506606386434eebdb9841b33db097732a42b7df8507316b628a781315e2c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 1.3
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-anvilmar-lamp-post-29:
+  castShadow: true
+  feetPosition: {x: 4, y: {terrain: 0}, z: -90}
+  id: fp-dwarf-anvilmar-lamp-post-29
+  model: /cdn/value.902506606386434eebdb9841b33db097732a42b7df8507316b628a781315e2c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 1.3
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dark-iron-crate-broken-53:
+  castShadow: true
+  feetPosition: {x: 5.462975244253396, y: {terrain: 0}, z: -83.77506983316273}
+  id: fp-dwarf-dark-iron-crate-broken-53
+  model: /cdn/value.34c6b4a4315f995e57b66da65b64aef6ea80360d49926d71b5b36c0f3d8a8539.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 233.09801291352977}
+  scale: 1.0700657016923958
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dark-iron-crate-broken-54:
+  castShadow: true
+  feetPosition: {x: 4.3192422740716685, y: {terrain: 0}, z: -82.49509967746916}
+  id: fp-dwarf-dark-iron-crate-broken-54
+  model: /cdn/value.34c6b4a4315f995e57b66da65b64aef6ea80360d49926d71b5b36c0f3d8a8539.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 19.624724415887485}
+  scale: 1.1929860387896123
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dark-iron-crate-broken-55:
+  castShadow: true
+  feetPosition: {x: 1.598903279099103, y: {terrain: 0}, z: -83.23258818138045}
+  id: fp-dwarf-dark-iron-crate-broken-55
+  model: /cdn/value.34c6b4a4315f995e57b66da65b64aef6ea80360d49926d71b5b36c0f3d8a8539.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 93.00590491527967}
+  scale: 0.944521776933466
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dark-iron-crate-broken-56:
+  castShadow: true
+  feetPosition: {x: 6.82356578569094, y: {terrain: 0}, z: -82.32983989237334}
+  id: fp-dwarf-dark-iron-crate-broken-56
+  model: /cdn/value.34c6b4a4315f995e57b66da65b64aef6ea80360d49926d71b5b36c0f3d8a8539.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 316.302357630945}
+  scale: 1.1690464440589055
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dark-iron-crate01-47:
+  castShadow: true
+  feetPosition: {x: -22.45048762785759, y: {terrain: 0}, z: -64.01834210381766}
+  id: fp-dwarf-dark-iron-crate01-47
+  model: /cdn/value.d6bb4d4ab7dc1ed2cfb560e7f915c42acaed28351914d730269a8dc82d0111bb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 275.11256124596696}
+  scale: 1.2967100422814068
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dwarf-banner-gold01-40:
+  castShadow: true
+  feetPosition: {x: -18, y: {terrain: 0}, z: -70}
+  id: fp-dwarf-dwarf-banner-gold01-40
+  model: /cdn/value.4878015aa53ea50707e17a4831bb277aee8eae127535793c441257d13b4acb4c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 270.00662952534753}
+  scale: 0.2
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dwarf-sign-gryphon-177:
+  castShadow: true
+  feetPosition: {x: 52, y: {terrain: 0}, z: -156}
+  id: fp-dwarf-dwarf-sign-gryphon-177
+  model: /cdn/value.51cde55efd3cb63b4693b90d3c3eea6330b88c5800838820cecf54d270efbc02.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 130.59765586756794}
+  scale: 0.7
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dwarven-barrel01-134:
+  castShadow: true
+  feetPosition: {x: -63, y: {terrain: 0}, z: -121}
+  id: fp-dwarf-dwarven-barrel01-134
+  model: /cdn/value.3f2cd95ec7b979e38a836e22bbb2b74510588d28043f7f83d3e4fd54f73b1b54.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 59.78907323432578}
+  scale: 1.1
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dwarven-barrel01-51:
+  castShadow: true
+  feetPosition: {x: -21.78850477085845, y: {terrain: 0}, z: -67.09952572691232}
+  id: fp-dwarf-dwarven-barrel01-51
+  model: /cdn/value.3f2cd95ec7b979e38a836e22bbb2b74510588d28043f7f83d3e4fd54f73b1b54.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 28.810263345395338}
+  scale: 1.250284524983859
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dwarven-barrel01-52:
+  castShadow: true
+  feetPosition: {x: -23.686754532012507, y: {terrain: 0}, z: -66.9251293013455}
+  id: fp-dwarf-dwarven-barrel01-52
+  model: /cdn/value.3f2cd95ec7b979e38a836e22bbb2b74510588d28043f7f83d3e4fd54f73b1b54.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 49.11847999744047}
+  scale: 1.1748411123989342
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dwarven-barrel01-57:
+  castShadow: true
+  feetPosition: {x: 2.851470543002463, y: {terrain: 0}, z: -85.33458375760102}
+  id: fp-dwarf-dwarven-barrel01-57
+  model: /cdn/value.3f2cd95ec7b979e38a836e22bbb2b74510588d28043f7f83d3e4fd54f73b1b54.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 345.6177929163062}
+  scale: 0.9325392999837824
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-dwarven-barrel01-58:
+  castShadow: true
+  feetPosition: {x: 2.881067157667627, y: {terrain: 0}, z: -85.90428108019022}
+  id: fp-dwarf-dwarven-barrel01-58
+  model: /cdn/value.3f2cd95ec7b979e38a836e22bbb2b74510588d28043f7f83d3e4fd54f73b1b54.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 42.436663826199556}
+  scale: 0.9873942621459226
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-excavation-banner-stan-59:
+  castShadow: true
+  feetPosition: {x: -12, y: {terrain: 0}, z: -88}
+  id: fp-dwarf-excavation-banner-stan-59
+  model: /cdn/value.532820395c3f1a0a18349f7032cda6699293e573743965b28a00f41be9b32bf2.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 270.00662952534753}
+  scale: 1.1
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarf-forgebonfire-33:
+  castShadow: true
+  feetPosition: {x: -17, y: {terrain: 0}, z: -82}
+  id: fp-dwarf-forgebonfire-33
+  model: /cdn/value.62997bde6f4d5bc7557e65a29880c8145b971f3fb3978f66f67b207b68619d7c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 100.29897601276143}
+  scale: 1.1
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-dwarven-snow-stable-22:
+  castShadow: true
+  feetPosition: {x: 12, y: {terrain: 0}, z: -78}
+  id: fp-dwarven-snow-stable-22
+  model: /cdn/value.82d4b5d238639c004d74bb82b649b4d7b8307222ef8f888436cd00d082f7e3fc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 101.30413605405059}
+  scale: 0.42
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-elw-log-193:
+  castShadow: true
+  feetPosition: {x: 32.2046734766125, y: {terrain: 0}, z: -157.73682721785121}
+  id: fp-elw-log-193
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 30.188352665951637}
+  scale: 0.32328288239952313
+  tags: [frostpeak]
+  visibleRange: {max: 220}
+fp-elw-log-65:
+  castShadow: true
+  feetPosition: {x: -21.17662597121768, y: {terrain: 0}, z: -64.09178185379261}
+  id: fp-elw-log-65
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -240.66}
+  scale: 0.15300000000000002
+  tags: [frostpeak]
+  visibleRange: {max: 900}
+fp-elw-pine-191:
+  castShadow: true
+  feetPosition: {x: 40.202131155041094, y: {terrain: 0}, z: -168.46562586839573}
+  id: fp-elw-pine-191
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 255.19640124179256}
+  scale: 1.9734927664387472
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-elw-pine-227:
+  castShadow: true
+  feetPosition: {x: 0.9517997107244174, y: {terrain: 0}, z: -157.02610681719432}
+  id: fp-elw-pine-227
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 94.94293440829168}
+  scale: 2.1646317433028632
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-elw-pine-232:
+  castShadow: true
+  feetPosition: {x: 5.530785848512764, y: -4.976784254117569, z: -165.81004074057236}
+  id: fp-elw-pine-232
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 261.2996308977248}
+  scale: 2.260302620884172
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-elw-pine-236:
+  castShadow: true
+  feetPosition: {x: 5.678441149096393, y: -5.000146535286284, z: -165.29324718852965}
+  id: fp-elw-pine-236
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 201.34512370514923}
+  scale: 1.6941022340553356
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-elw-pine-317:
+  castShadow: true
+  feetPosition: {x: 20.699277355661295, y: {terrain: 0}, z: -157.01652730210523}
+  id: fp-elw-pine-317
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 232.4229887465122}
+  scale: 2.101068815561509
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-elw-pine-439:
+  castShadow: true
+  feetPosition: {x: 14.061477571754473, y: {terrain: 0}, z: -181.86013047390622}
+  id: fp-elw-pine-439
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 67.22962196321674}
+  scale: 1.9853492987553354
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-elw-pine-481:
+  castShadow: true
+  feetPosition: {x: -2.943849669950529, y: {terrain: 0}, z: -100.3152396649165}
+  id: fp-elw-pine-481
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 301.1003053659109}
+  scale: 2.3325669294933635
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 500}
+fp-elw-rock-194:
+  castShadow: true
+  feetPosition: {x: 30.915747888812664, y: {terrain: 0}, z: -156.70918136961254}
+  id: fp-elw-rock-194
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 267.10457795630424}
+  scale: 0.3633746311829308
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-elw-rock-240:
+  castShadow: true
+  feetPosition: {x: 5.417283462089159, y: {terrain: 0}, z: -153.64069762995499}
+  id: fp-elw-rock-240
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 129.06828174789823}
+  scale: 0.4898098844149196
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-elw-rock-323:
+  castShadow: true
+  feetPosition: {x: 30.21442565518173, y: {terrain: 0}, z: -155.9190572620924}
+  id: fp-elw-rock-323
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 348.0960809570253}
+  scale: 0.33630448139100544
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-elw-rock-441:
+  castShadow: true
+  feetPosition: {x: 6.878353038178519, y: 0.22919683595960694, z: -188.0667496092185}
+  id: fp-elw-rock-441
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 356.3828797062779}
+  scale: 0.5167059430464666
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-elw-rock-519:
+  castShadow: true
+  feetPosition: {x: -6.7583710977457745, y: {terrain: 0}, z: -72.9292023450058}
+  id: fp-elw-rock-519
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 246.86176445654675}
+  scale: 0.10163278915064074
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-elw-rock-522:
+  castShadow: true
+  feetPosition: {x: 7.7725686460459205, y: {terrain: 0}, z: -107.45162090263607}
+  id: fp-elw-rock-522
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 114.07273543722589}
+  scale: 0.15402261106950355
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-elw-rock-528:
+  castShadow: true
+  feetPosition: {x: 52.76616978083316, y: {terrain: 0}, z: -151.93731952327792}
+  id: fp-elw-rock-528
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 248.33420852587287}
+  scale: 0.13169172238171648
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-elw-rock-529:
+  castShadow: true
+  feetPosition: {x: 50.10383021916684, y: {terrain: 0}, z: -162.91268047672207}
+  id: fp-elw-rock-529
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 192.008028399203}
+  scale: 0.15096828718249145
+  tags: [frostpeak]
+  visibleRange: {max: 250}
+fp-elw-rock-545:
+  castShadow: true
+  feetPosition: {x: 37.28117587383889, y: {terrain: 0}, z: -149.34874395809544}
+  id: fp-elw-rock-545
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 208.15602168820612}
+  scale: 0.16076733455097644
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-elw-rock-558:
+  castShadow: true
+  feetPosition: {x: -30.658623818614814, y: {terrain: 0}, z: -114.5039268417768}
+  id: fp-elw-rock-558
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 195.96088414823677}
+  scale: 0.4376298610203107
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-elw-rock-559:
+  castShadow: true
+  feetPosition: {x: 57.612094938574415, y: {terrain: 0}, z: -69.74351560685014}
+  id: fp-elw-rock-559
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 164.69313899273664}
+  scale: 0.3079964028988017
+  tags: [frostpeak]
+  visibleRange: {max: 300}
+fp-fire-34:
+  audio: {clip: /cdn/moodboard-painterly-fantasy/sfx-campfire-crackle-loop.mp3, gain: 0.12, loop: true, maxDistance: 18, spatial: true}
+  children: [{feetPosition: {x: 0, y: 1.2, z: 0}, light: {color: "#ff9a48", distance: 13, intensity: 2.2, kind: point}}]
+  feetPosition: {x: -17, y: {terrain: 0.5}, z: -82}
+  fx: {script: "fx\npop coals n=8 on=disc(.25) size=.06..0.14 tint=<2.4,.9,.25>..<1.1,.3,.08> sz=$size*flick(.5,.12) col=$tint*flick(.8,.3) a=.9 r=sprite(soft-disc,add)\npop flame rate=flick(.45,.2)*60 on=disc(.22) life=.5..0.9 v=up(1.5)+cone(22)*(.3..0.8) size=.2..0.4 acc=curl(.5)*1.2+buoy(2.2)+drag(1.5)\n  sz=$size*(.5>.25:1>.7:.7>.14) col=hdr(4.6,3.4,1.4)>.3:hdr(3.2,1.4,.3)>.65:hdr(1.8,.5,.1)>hdr(.6,.12,.03) a=0>.12:1>.75:.85>0 rot=spin(.2) r=sprite(flame-wisp,add)\npop embers rate=4 on=disc(.22) life=.7..1.4 v=up(2.2)+cone(30)*(.4..1.2) size=.02..0.05 acc=curl(.8)+grav()*.45+drag(.5) sz=$size*(1>.7:.8>.3) col=hdr(5,2.8,.8)>.6:hdr(2.4,.8,.15)>hdr(1,.22,.04) a=(0>.08:1>.65:.9>0)*flick(11,.35) r=sprite(ember,add,velocity,.02)\npop smoke on=@flame?.22 inh=p;v:$v*.4 life=1.8..3 size=.16..0.26 acc=buoy(.9)+curl(.35)*.5+drag(.8) sz=$size*(.7>3.2) col=<.3,.28,.26>><.15,.15,.16> a=0>.25:.3>.7:.2>0 rot=spin(.15) r=sprite(smoke-puff,alpha)"}
+  id: fp-fire-34
+  tags: [frostpeak]
+fp-flock-pass:
+  behavior: scripts/sv-flock.js
+  feetPosition: {x: -20, y: 85, z: -90}
+  id: fp-flock-pass
+  state: {dir: -1, fit: {maxExtents: {x: 5, y: 3, z: 2}, minExtents: {x: -5, y: 0, z: -2}}, model: /cdn/value.188b9d953ad0efdcdc73f1801365f34e7ce577a32c424d0a88075d3f05770a09.glb, n: 2, period: 80, r: 70, scale: 0.8}
+  tags: [sv-flock, frostpeak]
+fp-forge-snd:
+  audio: {clip: /cdn/moodboard-painterly-fantasy/sfx-dwarven-forge-hammer-anvil-ringing-distant-loop.mp3, gain: 0.18, loop: true, maxDistance: 45, spatial: true}
+  feetPosition: {x: -20, y: {terrain: 1}, z: -80}
+  id: fp-forge-snd
+  tags: [frostpeak]
+fp-gryphonmaster:
+  behavior: scripts/placed-npc.js
+  castShadow: true
+  feetPosition: {x: 62, y: {terrain: 0}, z: -170}
+  id: fp-gryphonmaster
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {beard: true, cloak: "#c8a040", head: helm, sex: m, tool: none, trousers: "#3b3f4a", tunic: "#3a5a8a"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: 207.3330708441013}
+  state: {name: Gryphon Master Hjalmar, wander: 2}
+  tags: [npc, frostpeak]
+  visibleRange: {max: 300}
+fp-guard2:
+  behavior: scripts/placed-npc.js
+  castShadow: true
+  feetPosition: {x: 2, y: {terrain: 0}, z: -88}
+  id: fp-guard2
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {beard: true, head: helm, sex: m, tool: spear, trousers: "#3b3f4a", tunic: "#2f4f7a"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: 295.4591713731453}
+  state: {name: Ironhold sentry, wander: 1}
+  tags: [npc, frostpeak]
+  visibleRange: {max: 300}
+fp-hilda:
+  behavior: scripts/placed-npc.js
+  castShadow: true
+  feetPosition: {x: -21, y: {terrain: 0}, z: -78}
+  id: fp-hilda
+  physics: {body: static, collider: box}
+  primitive: {kind: scripted, params: {beard: false, head: bare, sex: f, tool: hammer, trousers: "#3b3f4a", tunic: "#6a3a22"}, script: scripts/gen/dock-folk.js}
+  rotation: {yaw: 73.00892693596377}
+  state: {name: Hilda Emberanvil, wander: 2}
+  tags: [npc, frostpeak]
+  visibleRange: {max: 300}
+fp-lamp-28:
+  feetPosition: {x: -2, y: {terrain: 3.6}, z: -78}
+  id: fp-lamp-28
+  light: {color: "#ffc27a", distance: 11, intensity: 1.6, kind: point}
+  tags: [frostpeak]
+fp-lamp-30:
+  feetPosition: {x: 4, y: {terrain: 3.6}, z: -90}
+  id: fp-lamp-30
+  light: {color: "#ffc27a", distance: 11, intensity: 1.6, kind: point}
+  tags: [frostpeak]
+fp-sk_char_capital_statue_gryph-173:
+  castShadow: true
+  feetPosition: {x: 57.6, y: 2.159859968787957, z: -153.4}
+  id: fp-sk_char_capital_statue_gryph-173
+  model: /cdn/value.8f6b0d401ae6e3b9bf66cfdde507abaffd361448a03f86a838716fdfa4f9ec30.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 134.99668523732623}
+  scale: 0.32
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-sm_env_forest_pine_078-319:
+  castShadow: true
+  feetPosition: {x: 25.070270658969086, y: {terrain: 0}, z: -157.73207860800068}
+  id: fp-sm_env_forest_pine_078-319
+  model: /cdn/value.28207fa4853ead1bd6fe0582ce9646e74f50f4c5924e162fd0a90d5e195d98bc.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 191.2252300564317}
+  scale: 1.8308426147936112
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-sm_env_forest_pine_078-434:
+  castShadow: true
+  feetPosition: {x: -2.837218042852923, y: {terrain: 0}, z: -182.23732518043244}
+  id: fp-sm_env_forest_pine_078-434
+  model: /cdn/value.28207fa4853ead1bd6fe0582ce9646e74f50f4c5924e162fd0a90d5e195d98bc.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 276.03010019102607}
+  scale: 1.8628390983039695
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-sm_env_forest_pine_078-438:
+  castShadow: true
+  feetPosition: {x: 11.581394976741354, y: {terrain: 0}, z: -176.60830485942228}
+  id: fp-sm_env_forest_pine_078-438
+  model: /cdn/value.28207fa4853ead1bd6fe0582ce9646e74f50f4c5924e162fd0a90d5e195d98bc.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 78.1142901806693}
+  scale: 1.7696050389062639
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-sm_env_forest_pine_tall_077-437:
+  castShadow: true
+  feetPosition: {x: -2.438273191656112, y: {terrain: 0}, z: -173.17121111562997}
+  id: fp-sm_env_forest_pine_tall_077-437
+  model: /cdn/value.bf890ea587dc0f01b28b15889bd35c4bb717289bac921a68120a94e4cdc07eb7.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 292.20089074792384}
+  scale: 1.6089419290465032
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}
+fp-sm_env_forest_pine_tall_077-502:
+  castShadow: true
+  feetPosition: {x: 36.668833845734746, y: {terrain: 0}, z: -167.24975717816247}
+  id: fp-sm_env_forest_pine_tall_077-502
+  model: /cdn/value.bf890ea587dc0f01b28b15889bd35c4bb717289bac921a68120a94e4cdc07eb7.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 120.91599728954769}
+  scale: 1.9942643854740374
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 500}
+fp-sm_env_pine_sapling_dense_08-188:
+  castShadow: true
+  feetPosition: {x: 32.10479211905262, y: {terrain: 0}, z: -172.44280372673776}
+  id: fp-sm_env_pine_sapling_dense_08-188
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 212.3843341005893}
+  scale: 0.7947627171383997
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-sm_env_pine_sapling_dense_08-226:
+  castShadow: true
+  feetPosition: {x: 5.279203755445414, y: {terrain: 0}, z: -162.34632719138}
+  id: fp-sm_env_pine_sapling_dense_08-226
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 228.66427078315257}
+  scale: 0.6526798687189258
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-sm_env_pine_sapling_dense_08-230:
+  castShadow: true
+  feetPosition: {x: -3.758277601449873, y: {terrain: 0}, z: -159.29549253047236}
+  id: fp-sm_env_pine_sapling_dense_08-230
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 235.91086193728768}
+  scale: 1.53215881387338
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-sm_env_pine_sapling_dense_08-235:
+  castShadow: true
+  feetPosition: {x: 14.794486300008309, y: -3.4670275242277393, z: -161.0515067396039}
+  id: fp-sm_env_pine_sapling_dense_08-235
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 133.69532682639328}
+  scale: 1.5016613807071286
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-sm_env_pine_sapling_dense_08-274:
+  castShadow: true
+  feetPosition: {x: -33.66397956370561, y: {terrain: 0}, z: -191.19382694326052}
+  id: fp-sm_env_pine_sapling_dense_08-274
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 106.05256066939448}
+  scale: 1.40901866807091
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-sm_env_pine_sapling_dense_08-313:
+  castShadow: true
+  feetPosition: {x: 31.438517178147357, y: {terrain: 0}, z: -158.61283077886924}
+  id: fp-sm_env_pine_sapling_dense_08-313
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 73.76502070285613}
+  scale: 1.279890696834722
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-sm_env_pine_sapling_dense_08-320:
+  castShadow: true
+  feetPosition: {x: 22.637175550981052, y: {terrain: 0}, z: -154.76155856287178}
+  id: fp-sm_env_pine_sapling_dense_08-320
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 183.43627779904583}
+  scale: 1.1055456492610023
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-sm_prop_capital_brazier_109-178:
+  castShadow: true
+  feetPosition: {x: 60, y: {terrain: 0}, z: -163}
+  id: fp-sm_prop_capital_brazier_109-178
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 1.8
+  tags: [frostpeak, fp-light]
+  visibleRange: {max: 1000}
+fp-sm_prop_capital_brazier_109-37:
+  castShadow: true
+  feetPosition: {x: -14, y: {terrain: 0}, z: -66}
+  id: fp-sm_prop_capital_brazier_109-37
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 1.8
+  tags: [frostpeak, fp-light]
+  visibleRange: {max: 1000}
+fp-snow-blacksmith-18:
+  castShadow: true
+  feetPosition: {x: -28, y: {terrain: 0}, z: -80}
+  id: fp-snow-blacksmith-18
+  model: /cdn/value.a9ec8f15fe3b832255aaf25818c5b21cc5874be5454a854f7af0970691175881.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 250.82620874709409}
+  scale: 0.2
+  tags: [frostpeak]
+  visibleRange: {max: 1000}
+fp-wind-bed:
+  audio: {clip: /cdn/moodboard-painterly-fantasy/sfx-howling-mountain-wind-between-peaks-loop.mp3, gain: 0.13, loop: true, spatial: false}
+  feetPosition: {x: 0, y: 2, z: -100}
+  id: fp-wind-bed
+  tags: [frostpeak]
+fpd-lake-3:
+  feetPosition: {x: -35.94435386817704, y: 0.4737001748181174, z: -84.51149025453867}
+  id: fpd-lake-3
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: static
+  rotation: {yaw: 337.4142115457981}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpd-lake-5:
+  feetPosition: {x: -54.90882538746657, y: -4.996075005864689, z: -101.38754344346705}
+  id: fpd-lake-5
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: static
+  rotation: {yaw: 316.0267212595915}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd-main-10:
+  feetPosition: {x: 10.554123923703628, y: -4.78488760113442, z: -90.82954675356915}
+  id: fpd-main-10
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 294.03267220316116}
+  tags: [fp-dress]
+  visibleRange: {max: 220}
+fpd-main-11:
+  feetPosition: {x: 4.7441819425766125, y: -10.22196486443975, z: -104.86038413068454}
+  id: fpd-main-11
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: static
+  rotation: {yaw: 134.72332031220353}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpd-main-12:
+  feetPosition: {x: 8.883655058893211, y: -10.26401743197062, z: -112.91738921286542}
+  id: fpd-main-12
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 251.29644787465057}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 800}
+fpd-main-13:
+  feetPosition: {x: 15.07313650684673, y: -10.22742332427443, z: -119.60772207395505}
+  id: fpd-main-13
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 246.20743990233515}
+  tags: [fp-dress]
+  visibleRange: {max: 220}
+fpd-main-15:
+  feetPosition: {x: 24.4651616739852, y: -4.8759951569679405, z: -135.8239139500805}
+  id: fpd-main-15
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: static
+  rotation: {yaw: 290.66723514845}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpd-main-16:
+  feetPosition: {x: 39.925992646853736, y: 0.03797980450219995, z: -134.98087279916484}
+  id: fpd-main-16
+  material: {pbr: true}
+  physics: static
+  primitive: {kind: scripted, params: {kind: cairn}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 184.6999667141121}
+  tags: [fp-dress]
+  visibleRange: {max: 260}
+fpd-main-17:
+  feetPosition: {x: 35.708355901457196, y: 0.1823891927832362, z: -149.88060582286118}
+  id: fpd-main-17
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: static
+  rotation: {yaw: 247.86051951714813}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd-main-18:
+  feetPosition: {x: 52.669249829374145, y: 0.4543810432677378, z: -148.82324780535885}
+  id: fpd-main-18
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 207.87578499311383}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 800}
+fpd-main-19:
+  feetPosition: {x: 59.00958006136569, y: 2.249101330444353, z: -155.23795488240037}
+  id: fpd-main-19
+  material: {pbr: true}
+  physics: static
+  primitive: {kind: scripted, params: {kind: sled}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 327.00029800040664}
+  tags: [fp-dress]
+  visibleRange: {max: 220}
+fpd-main-9:
+  feetPosition: {x: -4.444426159069233, y: 2.4313208496064, z: -86.10935238240648}
+  id: fpd-main-9
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: static
+  rotation: {yaw: 246.42523527444584}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd-ridge-1:
+  feetPosition: {x: 5, y: -5.069446097964292, z: -90.93578911360157}
+  id: fpd-ridge-1
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 146.02380519082016}
+  tags: [fp-dress]
+  visibleRange: {max: 220}
+fpd-ridge-6:
+  feetPosition: {x: 50.32392447115353, y: 7.016557624796308, z: -99.85886706730297}
+  id: fpd-ridge-6
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 221.05574837934958}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 800}
+fpd-ruin-2:
+  feetPosition: {x: 16.788810206325767, y: -10.080464839885375, z: -131.21975669508166}
+  id: fpd-ruin-2
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 248.03821301462048}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 800}
+fpd2-lake-3:
+  feetPosition: {x: -34.566399692442886, y: 0.17647695981624428, z: -85.88944443027283}
+  id: fpd2-lake-3
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  rotation: {yaw: 273.63035510928853}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpd2-lake-4:
+  feetPosition: {x: -35.83919189857866, y: -2.0577884471091537, z: -94.51614716074872}
+  id: fpd2-lake-4
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 265.3783218121987}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-lake-5:
+  feetPosition: {x: -44.819448019647815, y: -3.363833624627918, z: -95.43538597629122}
+  id: fpd2-lake-5
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 173.45469762266364}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-lake-6:
+  feetPosition: {x: -44.03908669833887, y: -5.155095157292966, z: -107.14679268110463}
+  id: fpd2-lake-6
+  material: {pbr: true}
+  physics: static
+  primitive: {kind: scripted, params: {kind: sled}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 333.10294410823985}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-lake-7:
+  feetPosition: {x: -54.975481212869575, y: -5.26160984642597, z: -105.3150516998131}
+  id: fpd2-lake-7
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  rotation: {yaw: 101.18162718656549}
+  scale: {x: 1.399999976158142, y: 1.399999976158142, z: 1.399999976158142}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-lake-8:
+  feetPosition: {x: -56.79521077789033, y: -6.486484312651877, z: -113.8431572520556}
+  id: fpd2-lake-8
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 279.60812460612885}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-main-10:
+  feetPosition: {x: 53.098468003897544, y: 0.5286039205073327, z: -148.2745099276299}
+  id: fpd2-main-10
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 148.34737637468956}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-main-11:
+  feetPosition: {x: 60.302703926493805, y: 3.04683684929946, z: -156.58708983831792}
+  id: fpd2-main-11
+  material: {pbr: true}
+  physics: static
+  primitive: {kind: scripted, params: {kind: cairn}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 274.35472940763214}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-main-3:
+  feetPosition: {x: -3.6899723569319605, y: 1.9508000767468772, z: -86.52783957068992}
+  id: fpd2-main-3
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  rotation: {yaw: 354.0425390163635}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpd2-main-4:
+  feetPosition: {x: 1.1864361509515495, y: -10.106168372184992, z: -102.3497775999843}
+  id: fpd2-main-4
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 312.9532480207054}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-main-5:
+  feetPosition: {x: 7.288138309429071, y: -9.978763021491075, z: -111.50233083770055}
+  id: fpd2-main-5
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 205.23948399594028}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-main-6:
+  feetPosition: {x: 22.625598735056656, y: -9.92436137861103, z: -114.4977118973168}
+  id: fpd2-main-6
+  material: {pbr: true}
+  physics: static
+  primitive: {kind: scripted, params: {kind: sled}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 300.0075197685545}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-main-7:
+  feetPosition: {x: 30.89555951129488, y: -5.1985667894103464, z: -125.40605178091036}
+  id: fpd2-main-7
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  rotation: {yaw: 66.38475009537524}
+  scale: {x: 1.399999976158142, y: 1.399999976158142, z: 1.399999976158142}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-main-8:
+  feetPosition: {x: 40.031724581778334, y: -0.047991200351371124, z: -132.18399304687586}
+  id: fpd2-main-8
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 88.49485297151601}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-main-9:
+  feetPosition: {x: 35.58077236795306, y: -0.013661076656022703, z: -149.8316281402884}
+  id: fpd2-main-9
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  rotation: {yaw: 172.99389226967185}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpd2-ridge-1:
+  feetPosition: {x: 9, y: -4.677686861994542, z: -89.2}
+  id: fpd2-ridge-1
+  material: {pbr: true}
+  physics: static
+  primitive: {kind: scripted, params: {kind: cairn}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 72.97833365992565}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-ridge-3:
+  feetPosition: {x: 23, y: -1.8035930489754972, z: -99.3}
+  id: fpd2-ridge-3
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  rotation: {yaw: 26.853822370457383}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpd2-ridge-4:
+  feetPosition: {x: 30, y: 0.6001009286315574, z: -92.6}
+  id: fpd2-ridge-4
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 252.1925802771899}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-ridge-5:
+  feetPosition: {x: 37, y: 2.7201325179454168, z: -97.9}
+  id: fpd2-ridge-5
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 320.6967187303569}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-ridge-6:
+  feetPosition: {x: 44, y: 4.984291489478836, z: -92.6}
+  id: fpd2-ridge-6
+  material: {pbr: true}
+  physics: static
+  primitive: {kind: scripted, params: {kind: sled}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 29.751701108064367}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-ridge-7:
+  feetPosition: {x: 54.18404576194538, y: 7.892140226972131, z: -97.62750091568907}
+  id: fpd2-ridge-7
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  rotation: {yaw: 356.84052323775387}
+  scale: {x: 1.399999976158142, y: 1.399999976158142, z: 1.399999976158142}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-ridge-8:
+  feetPosition: {x: 60.815991111165644, y: 9.992446330560698, z: -91.87360650538263}
+  id: fpd2-ridge-8
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 178.67405692985005}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-ruin-2:
+  feetPosition: {x: 15.077985048537219, y: -10.039159508697098, z: -132.6520336710543}
+  id: fpd2-ruin-2
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 342.186753722926}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpd2-ruin-3:
+  feetPosition: {x: 15.370885858912503, y: -9.723684272906276, z: -140.42855018651812}
+  id: fpd2-ruin-3
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  rotation: {yaw: 132.7698212176421}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpd2-ruin-6:
+  feetPosition: {x: 13.958791830815393, y: -4.944189922851989, z: -161.42839892053092}
+  id: fpd2-ruin-6
+  material: {pbr: true}
+  physics: static
+  primitive: {kind: scripted, params: {kind: sled}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 182.38520491048007}
+  tags: [fp-dress]
+  visibleRange: {max: 240}
+fpd2-ruin-7:
+  feetPosition: {x: 6.555057433981054, y: -3.9483399137529016, z: -166.59315612500163}
+  id: fpd2-ruin-7
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  rotation: {yaw: 308.1389304381511}
+  scale: {x: 1.399999976158142, y: 1.399999976158142, z: 1.399999976158142}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-1-0:
+  feetPosition: {x: -35.90013101083821, y: 0.12752426161967506, z: -145.16504764874247}
+  id: fpg-1-0
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 272.21231160322776}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-1-1:
+  feetPosition: {x: -36.9119507265322, y: 0.11414809066672256, z: -146.50900069465968}
+  id: fpg-1-1
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 174.4762967221794}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-1-10:
+  feetPosition: {x: -20.240390267611122, y: -5.424636544311799, z: -144.02351121760913}
+  id: fpg-1-10
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: static
+  rotation: {yaw: 70.09260197640052}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpg-1-11:
+  feetPosition: {x: -34.59846533857535, y: -0.003272570623240212, z: -146.1261335798126}
+  id: fpg-1-11
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 288.1354859881734}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpg-1-2:
+  feetPosition: {x: -34.31594153211886, y: -0.1490330857997752, z: -149.04054315961108}
+  id: fpg-1-2
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 13.014091557364024}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-1-3:
+  feetPosition: {x: -26.919926241017656, y: -4.863491062894091, z: -151.43532545790976}
+  id: fpg-1-3
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 286.6177850061179}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-1-4:
+  feetPosition: {x: -21.562463630386112, y: -5.134245744882016, z: -144.51712483288034}
+  id: fpg-1-4
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 242.319601905681}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-1-5:
+  feetPosition: {x: -24.047552703540436, y: -4.929971193111993, z: -146.5350814366164}
+  id: fpg-1-5
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 81.58422593101125}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-1-6:
+  feetPosition: {x: -23.311505395008435, y: -4.8612865079825545, z: -154.18022486457264}
+  id: fpg-1-6
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 282.6038905617799}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-1-7:
+  feetPosition: {x: -32.16686636229101, y: -0.2531014041540849, z: -149.36158500441755}
+  id: fpg-1-7
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 170.1561820181814}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-1-8:
+  feetPosition: {x: -22.65165803266143, y: -4.931688908834425, z: -148.43575780218222}
+  id: fpg-1-8
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 53.20332607869214}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-1-9:
+  feetPosition: {x: -25.94568001228769, y: -4.887716280896465, z: -150.1350759946404}
+  id: fpg-1-9
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 265.4326003349538}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-2-0:
+  feetPosition: {x: -38.53003234719576, y: 0.09034654011354389, z: -173.28195058731626}
+  id: fpg-2-0
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 252.60003565466033}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-2-1:
+  feetPosition: {x: -41.14483970645697, y: -0.07292693896171001, z: -172.3357291245205}
+  id: fpg-2-1
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 214.83718876486515}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-2-10:
+  feetPosition: {x: -47.22795075005904, y: 4.832239892769586, z: -167.08841656958208}
+  id: fpg-2-10
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: static
+  rotation: {yaw: 38.45339266511304}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpg-2-11:
+  feetPosition: {x: -38.35727822948157, y: 0.07842502918475217, z: -167.97522152805848}
+  id: fpg-2-11
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 19.423984875634304}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpg-2-2:
+  feetPosition: {x: -40.12483561542981, y: 0.035650134338827334, z: -172.97325839478071}
+  id: fpg-2-2
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 152.4231869319562}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-2-3:
+  feetPosition: {x: -40.06254915433002, y: 0.23496880896735475, z: -168.53724683213954}
+  id: fpg-2-3
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 42.0313428165537}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-2-4:
+  feetPosition: {x: -46.63873816414594, y: 5.2214850859763375, z: -161.38963257921117}
+  id: fpg-2-4
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 209.5688932247315}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-2-5:
+  feetPosition: {x: -40.75505932545384, y: -0.018017939735334342, z: -171.18694426247953}
+  id: fpg-2-5
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 329.6397797621972}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-2-6:
+  feetPosition: {x: -41.41779005220288, y: -0.01030572277087743, z: -177.74391914475763}
+  id: fpg-2-6
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 109.16307387368897}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-2-7:
+  feetPosition: {x: -52.141150086157246, y: 5.055160085492082, z: -164.76932414976008}
+  id: fpg-2-7
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 30.04579493312435}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-2-8:
+  feetPosition: {x: -45.47262810363669, y: -0.12932612531670315, z: -173.1889001221259}
+  id: fpg-2-8
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 291.9363215062471}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-2-9:
+  feetPosition: {x: -50.3528346931017, y: 5.227888599007599, z: -164.40867060616824}
+  id: fpg-2-9
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 243.4632847660516}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-3-0:
+  feetPosition: {x: -18.616762934627374, y: -10.108477688502685, z: -177.50521401073135}
+  id: fpg-3-0
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 356.39890188183585}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-3-1:
+  feetPosition: {x: -14.15910046486379, y: -10.115636020147484, z: -180.57494074459322}
+  id: fpg-3-1
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 235.68076863683797}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-3-10:
+  feetPosition: {x: -11.596776988909081, y: -10.08116089017443, z: -178.3976703285942}
+  id: fpg-3-10
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: static
+  rotation: {yaw: 148.42044813019245}
+  scale: {x: 0.07198085635900497, y: 0.07198085635900497, z: 0.07198085635900497}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpg-3-11:
+  feetPosition: {x: -16.276077394555635, y: -10.06811205194142, z: -167.85558312772318}
+  id: fpg-3-11
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {kind: spar}, script: scripts/gen/fp-props.js}
+  rotation: {yaw: 33.14948241838696}
+  tags: [fp-dress]
+  visibleRange: {max: 250}
+fpg-3-2:
+  feetPosition: {x: -12.505600179971863, y: -9.86550553230283, z: -174.12249014128042}
+  id: fpg-3-2
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 353.26122561155876}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-3-3:
+  feetPosition: {x: -23.18467779629387, y: -5.0661707834980065, z: -172.459041028556}
+  id: fpg-3-3
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 6.665283034865411}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-3-4:
+  feetPosition: {x: -13.831211528859182, y: -9.965783450460705, z: -179.63494274089837}
+  id: fpg-3-4
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: static
+  rotation: {yaw: 41.16701755727037}
+  scale: {x: 1.9734927415847778, y: 1.9734927415847778, z: 1.9734927415847778}
+  tags: [fp-dress]
+  visibleRange: {max: 850}
+fpg-3-5:
+  feetPosition: {x: -16.064224325397618, y: -9.79700745065486, z: -176.9149966221155}
+  id: fpg-3-5
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 124.49704338074524}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-3-6:
+  feetPosition: {x: -20.65844988644428, y: -4.871529421639989, z: -171.84957843585502}
+  id: fpg-3-6
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  rotation: {yaw: 10.050432314188422}
+  scale: {x: 0.7947627305984497, y: 0.7947627305984497, z: 0.7947627305984497}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-3-7:
+  feetPosition: {x: -17.426356343030267, y: -10.310951131216845, z: -182.78612865673517}
+  id: fpg-3-7
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 201.0235380758641}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-3-8:
+  feetPosition: {x: -11.68757736945299, y: -9.848987684203598, z: -174.62190062964544}
+  id: fpg-3-8
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 253.51916129399052}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpg-3-9:
+  feetPosition: {x: -16.729915933102188, y: -10.321852252718621, z: -181.54871784104057}
+  id: fpg-3-9
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  rotation: {yaw: 340.5924909285235}
+  scale: {x: 0.6459140181541443, y: 0.6459140181541443, z: 0.6459140181541443}
+  tags: [fp-dress]
+  visibleRange: {max: 160}
+fpx-frost-bear-2:
+  behavior: scripts/monster.js
+  castShadow: true
+  feetPosition: {x: -48, y: {terrain: 0}, z: -150}
+  id: fpx-frost-bear-2
+  model: /cdn/value.8e09b0b853ca9252869c3dafde21015bb536b283eb99b31df9860d013c9a7309.glb
+  physics: kinematic
+  rotation: {yaw: 102.80329511631433}
+  scale: 0.9
+  state: {kind: frost-bear, route: [[-50, -150], [-70, -180], [-110, -185], [-60, -130]]}
+  tags: [enemy, monster, frost-bear, frostpeak]
+  visibleRange: {max: 120}
+fpx-frost-wolf-0:
+  behavior: scripts/monster.js
+  castShadow: true
+  feetPosition: {x: 60, y: {terrain: 0}, z: -120}
+  id: fpx-frost-wolf-0
+  model: /cdn/value.d1c23cadca470ac6e32b376140d0c7a754e0814d829254df86c1b3589d4f2c5f.glb
+  physics: kinematic
+  rotation: {yaw: 203.40926090414138}
+  scale: 0.55
+  state: {kind: frost-wolf, route: [[60, -120], [90, -140], [30, -160], [20, -110]]}
+  tags: [enemy, monster, frost-wolf, frostpeak]
+  visibleRange: {max: 120}
+fpx-frost-wolf-1:
+  behavior: scripts/monster.js
+  castShadow: true
+  feetPosition: {x: 61, y: {terrain: 0}, z: -120}
+  id: fpx-frost-wolf-1
+  model: /cdn/value.d1c23cadca470ac6e32b376140d0c7a754e0814d829254df86c1b3589d4f2c5f.glb
+  physics: kinematic
+  rotation: {yaw: 139.448015903797}
+  scale: 0.55
+  state: {kind: frost-wolf, route: [[60, -120], [90, -140], [30, -160], [20, -110]]}
+  tags: [enemy, monster, frost-wolf, frostpeak]
+  visibleRange: {max: 120}

@@ -1,0 +1,80 @@
+// Stormwind & creatures (Campton's catalog part 2, 2026-10-06): 65 models, rehosted, scaled from their measured glTF bounds to a 1.8 m person.
+// Texture pass: every model carries its own baseColor textures; the Champions' Hall's 7 untextured slots are painted limestone here so none draws white.
+const RIGGED=new Set(['4a1c33b6bfce0f0f8adafc79c01a3b3f4c84ea398cd6e0cf26063fb8d01c9365','f67582b7696088223eae8fa6d340a9fc350d3b03522bb3ac23ab364e1641dab3','3b331ff91c9cd5a4a4dea964d9b3f43d937cf4234e91187ade305dd5536a2c10','9d965ca0be45e6cb4c7c6f12bdba50063de2e4403d7e46e1ab1c8beafa9c8d20','67b2fa57e142c4771e4ea6dd087e4f20e19953dc6c6b92de518732ff610dfb3f','582c5f11dd8df695639c35266425c0d5967cc9074691a8d7764dda6ce7ad1f47','4aef9b15f5342e4590273edd36b58b5f7acfcd61370bd6627ad6f8abe26eb651','58ccab821a337b273e9bc71e5a6b7a3434d4314b551e2d52df58fd405d130b94','fc141205035af2ec6e251e73cdeea4b78828c3e69cbae5be5e04b12fbe3cbce0','0a16f53724225dc5e643f60daa9c72c029b38e3a0e604a5220453be19bef7f64','49d2541268b5ffc3aac4f497b2d515a9b29f2db9eccad8010ae13b9e04be1ef1','6ab71a0d0eff6567a48bc952fb536575d756459914a5e8232943b45b86229fd9','25c060b8a27c15d898e5c6f9a28a113f41abfdccbc08b7c6de074a156ec4ce89','30b0d19f42562b387296853438fae5c6d768ab3ef95cfb08231f800dc2927f29','8e09b0b853ca9252869c3dafde21015bb536b283eb99b31df9860d013c9a7309','6bbde9919c388fd21b1496bb768eaaf6f8d313a4204447d70731ffaad021c3bc','8dc4a8f9c25e1550e910bcd4cec269e19972753fe3db9bc3b7bb037550d48f53','43b73be19ffd74970bb0d76f1f1a4812c8c2a38226750dfe814c25228c2d8cd9','ba713092fc8606cfdb9fb2902ddeadc91f0ebb260fa56fd0eca61523d5fb837a','90b0871c1dcbe322ab4fdb85f3dccbf0f340d0be472017d20ab71b6107c68b3f','3d252d6ad10e9c53262feca80caee8835e1b055252ca4311d0c7198dc08e1af8']);
+const sw=(h,scale,collider,mats)=>({...(RIGGED.has(h)?{mixer:{base:{clip:'Idle',weight:1,loop:'loop'}}}:{}),model:mats?{id:`/cdn/value.${h}.glb`,materials:mats}:`/cdn/value.${h}.glb`,scale,castShadow:true,receiveShadow:true,visibleRange:{max:900},physics:{body:'static',collider}});
+const STONE={color:'oklch(0.78 0.02 85)',roughness:0.9};
+const LIME={texture:'cdn/texture-weathered-pale-limestone-blocks.png',color:'oklch(0.86 0.02 85)',roughness:0.92};
+const LIME2={texture:'cdn/texture-weathered-pale-limestone-blocks.png',color:'oklch(0.76 0.025 75)',roughness:0.92};
+const SLATE={texture:'cdn/texture-blue-slate-roof-shingles.png',color:'oklch(0.62 0.05 250)',roughness:0.8};
+const STRAW={texture:'cdn/texture-weathered-straw-and-burlap.png',color:'oklch(0.78 0.08 85)',roughness:0.95};
+const IRON={texture:'cdn/texture-rusted-dark-iron-plates.png',color:'oklch(0.55 0.03 50)',roughness:0.7,metalness:0.5};
+const fill=(names,m)=>Object.fromEntries(names.map(n=>[n,m]));
+// Oct 6 pink fix: these slots shipped as magenta "missing texture" placeholders baked into the glb; painted here
+export const STORMWIND = [
+  { id: 'sw-koboldVermin', cat: 'beasts', label: "Kobold Vermin", dist: 3, spec: sw('43b73be19ffd74970bb0d76f1f1a4812c8c2a38226750dfe814c25228c2d8cd9', 0.8025, 'box', null) },
+  { id: 'sw-koboldGoldtooth', cat: 'beasts', label: "Goldtooth", dist: 3, spec: sw('ba713092fc8606cfdb9fb2902ddeadc91f0ebb260fa56fd0eca61523d5fb837a', 0.9877, 'box', null) },
+  { id: 'sw-defiasBandit', cat: 'beasts', label: "Defias Bandit", dist: 3, spec: sw('6bbde9919c388fd21b1496bb768eaaf6f8d313a4204447d70731ffaad021c3bc', 0.9737, 'box', null) },
+  { id: 'sw-defiasRogue', cat: 'beasts', label: "Defias Rogue", dist: 3, spec: sw('8dc4a8f9c25e1550e910bcd4cec269e19972753fe3db9bc3b7bb037550d48f53', 0.9737, 'box', null) },
+  { id: 'sw-murlocCoastrunner', cat: 'beasts', label: "Murloc Coastrunner", dist: 3, spec: sw('4a1c33b6bfce0f0f8adafc79c01a3b3f4c84ea398cd6e0cf26063fb8d01c9365', 1.0072, 'box', null) },
+  { id: 'sw-murlocForager', cat: 'beasts', label: "Murloc Forager", dist: 3, spec: sw('f67582b7696088223eae8fa6d340a9fc350d3b03522bb3ac23ab364e1641dab3', 1.0072, 'box', null) },
+  { id: 'sw-murlocTidehunter', cat: 'beasts', label: "Murloc Tidehunter", dist: 3, spec: sw('3b331ff91c9cd5a4a4dea964d9b3f43d937cf4234e91187ade305dd5536a2c10', 1.0432, 'box', null) },
+  { id: 'sw-riverpawGnoll', cat: 'beasts', label: "Riverpaw Gnoll", dist: 3, spec: sw('90b0871c1dcbe322ab4fdb85f3dccbf0f340d0be472017d20ab71b6107c68b3f', 1.0294, 'box', null) },
+  { id: 'sw-riverpawShaman', cat: 'beasts', label: "Riverpaw Mystic", dist: 3, spec: sw('3d252d6ad10e9c53262feca80caee8835e1b055252ca4311d0c7198dc08e1af8', 1.0294, 'box', null) },
+  { id: 'sw-hogger', cat: 'beasts', label: "Hogger", dist: 4, spec: sw('9d965ca0be45e6cb4c7c6f12bdba50063de2e4403d7e46e1ab1c8beafa9c8d20', 1.3235, 'box', null) },
+  { id: 'sw-timberWolf', cat: 'beasts', label: "Timber Wolf", dist: 4, spec: sw('49d2541268b5ffc3aac4f497b2d515a9b29f2db9eccad8010ae13b9e04be1ef1', 0.5319, 'box', null) },
+  { id: 'sw-mangyWolf', cat: 'beasts', label: "Mangy Wolf", dist: 4, spec: sw('6ab71a0d0eff6567a48bc952fb536575d756459914a5e8232943b45b86229fd9', 0.4787, 'box', null) },
+  { id: 'sw-stonetuskBoar', cat: 'beasts', label: "Stonetusk Boar", dist: 4, spec: sw('25c060b8a27c15d898e5c6f9a28a113f41abfdccbc08b7c6de074a156ec4ce89', 0.6164, 'box', null) },
+  { id: 'sw-princessBoar', cat: 'beasts', label: "Princess", dist: 4, spec: sw('30b0d19f42562b387296853438fae5c6d768ab3ef95cfb08231f800dc2927f29', 0.8562, 'box', null) },
+  { id: 'sw-mineSpider', cat: 'beasts', label: "Mine Spider", dist: 4, spec: sw('58ccab821a337b273e9bc71e5a6b7a3434d4314b551e2d52df58fd405d130b94', 0.3618, 'box', null) },
+  { id: 'sw-motherFang', cat: 'beasts', label: "Mother Fang", dist: 5, spec: sw('fc141205035af2ec6e251e73cdeea4b78828c3e69cbae5be5e04b12fbe3cbce0', 0.5921, 'box', null) },
+  { id: 'sw-forestSpider', cat: 'beasts', label: "Forest Giant Spider", dist: 6, spec: sw('0a16f53724225dc5e643f60daa9c72c029b38e3a0e604a5220453be19bef7f64', 0.2891, 'box', null) },
+  { id: 'sw-forestBear', cat: 'beasts', label: "Young Forest Bear", dist: 4, spec: sw('8e09b0b853ca9252869c3dafde21015bb536b283eb99b31df9860d013c9a7309', 0.7767, 'box', null) },
+  { id: 'sw-harvestGolem', cat: 'beasts', label: "Harvest Watcher", dist: 4, spec: sw('67b2fa57e142c4771e4ea6dd087e4f20e19953dc6c6b92de518732ff610dfb3f', 0.7916, 'box', fill(['Mat_0'],STRAW)) },
+  { id: 'sw-harvestReaper', cat: 'beasts', label: "Harvest Reaper", dist: 4, spec: sw('582c5f11dd8df695639c35266425c0d5967cc9074691a8d7764dda6ce7ad1f47', 0.8971, 'box', fill(['Mat_0'],IRON)) },
+  { id: 'sw-swChampionsHall', cat: 'stormwind', label: "Champions' Hall", dist: 40, spec: sw('3f098947de0de62a10d87b8a6feda0f3cb547849360f8ffca65a6ee77b3c8193', 0.3675, 'mesh', {Material_09:STONE,Material_21:STONE,Material_23:STONE,Material_27:STONE,Material_29:STONE,Material_32:STONE,Material_33:STONE,...fill(['Material_01','Material_10','Material_12','Material_14','Material_17','Material_20','Material_28'],LIME),...fill(['Material_04','Material_11','Material_13','Material_16','Material_18','Material_24','Material_30'],LIME2)}) },
+  { id: 'sw-swCastle', cat: 'stormwind', label: "Stormwind Castle Keep", dist: 70, spec: sw('2af0820cca98a4b3638e8f950c9b33654ebfb44553f1e22bd2b5106e8b63d0e6', 0.845, 'mesh', null) },
+  { id: 'sw-swWall', cat: 'stormwind', label: "Stone Ramparts", dist: 30, spec: sw('847b5cbf02fbad3c3cc6e02dbd857fa22db94325dd445cd49d1de7c9fc937338', 0.4331, 'mesh', {...fill(['Material_00'],LIME),...fill(['Material_01'],LIME2)}) },
+  { id: 'sw-swWatchtower', cat: 'stormwind', label: "Bastion Watchtower", dist: 18, spec: sw('43123829dd8ca01dec12441b4cb4ce145338268a9d4a7b48a83fe0b1ed396c26', 0.5173, 'mesh', {...fill(['Material_00'],LIME),...fill(['Material_01'],LIME2)}) },
+  { id: 'sw-swCastleGate', cat: 'stormwind', label: "Castle Gatehouse", dist: 40, spec: sw('75f52dc02a42215261877e33aa4ee53f7f1ef9bbeef9d1e4fab801bf89bb8dd6', 0.4527, 'mesh', {...fill(['Material_00','Material_03'],LIME),...fill(['Material_01','Material_04'],LIME2)}) },
+  { id: 'sw-swKeepBridge', cat: 'stormwind', label: "Castle Moat Bridge", dist: 25, spec: sw('95d01d5dc6601fca298ac740b02673d71b8872590b303dc13292da5d74d5ca14', 0.6489, 'mesh', null) },
+  { id: 'sw-swCathedral', cat: 'stormwind', label: "Cathedral of Light", dist: 70, spec: sw('00408580379c7227e5e41fa53504c213b2f13f96f256d0febd4655f2d9bd03ff', 0.339, 'mesh', {...fill(['Material_04','Material_07'],LIME),...fill(['Material_06'],LIME2),...fill(['Material_12'],SLATE)}) },
+  { id: 'sw-swCityGate', cat: 'stormwind', label: "Valley Portcullis Gate", dist: 50, spec: sw('78b3397e475339caff2fb7970d90e4aab0fc120eb9e5ff95499ff54041ed4a37', 0.4142, 'mesh', null) },
+  { id: 'sw-statueTuralyon', cat: 'stormwind', label: "Turalyon Statue", dist: 10, spec: sw('fb2cfb6eca73536b912e350c8b6031f580295b09072e2d02e6e059574f25c681', 0.6122, 'box', null) },
+  { id: 'sw-statueDanath', cat: 'stormwind', label: "Danath Statue", dist: 10, spec: sw('c28ccc36132230fb8d2409166d5b79a4716889e7512a62770ff9db8cd8016bef', 0.5859, 'box', null) },
+  { id: 'sw-statueAlleria', cat: 'stormwind', label: "Alleria Statue", dist: 10, spec: sw('a3b471117ee564ea4897d3c758842c40f68a4e00b4bd5db1ae37d97f7054791a', 0.5825, 'box', null) },
+  { id: 'sw-statueKhadgar', cat: 'stormwind', label: "Khadgar Statue", dist: 10, spec: sw('cdc7ab4a133395442b5a569f034a0fe3dd5b9032ac0d8b760ccfca3b389870ce', 0.4193, 'box', null) },
+  { id: 'sw-statueKurdran', cat: 'stormwind', label: "Kurdran Statue", dist: 10, spec: sw('4af2248816c98cd8fd408ce141c0ecbbd00afc7995cb9c19e59902bb5583295d', 0.5769, 'box', null) },
+  { id: 'sw-swFountain', cat: 'stormwind', label: "Lion Fountain", dist: 8, spec: sw('a1682255b9be88799e3c8f3e6b9b8f4bcf4aecde0aba00e91ae81bced8713d16', 0.5567, 'mesh', null) },
+  { id: 'sw-swStreetlamp', cat: 'stormwind', label: "Gas Streetlamp", dist: 3, spec: sw('0617150686810ed34832b32c06b5b247bbc0fe84451e82401619d5000e69aa9f', 0.9388, 'box', null) },
+  { id: 'sw-swCanalLamp', cat: 'stormwind', label: "Canal Lantern Post", dist: 3, spec: sw('e518d5a36b213a0de1d5e661f4016eb6340267667a8dd39cbf9a3867c02d7222', 0.2176, 'box', null) },
+  { id: 'sw-swMailbox', cat: 'stormwind', label: "City Mailbox", dist: 3, spec: sw('47220adcc633b44ba475230231a878ff88c7277e69266bdcf1115f1aaf11c912', 0.4531, 'box', null) },
+  { id: 'sw-swParkBench', cat: 'stormwind', label: "Park Bench", dist: 3, spec: sw('33c55288fc8edb2b1df637c50c8a5fdd89b671a9b978aaecb65033b8e031b131', 0.7309, 'box', null) },
+  { id: 'sw-swBrazier', cat: 'stormwind', label: "Stone Brazier", dist: 3, spec: sw('f330e02575452df9305fa023e982eea25f848743b5bbb8e514ca4fa2a2e5971e', 0.6034, 'box', null) },
+  { id: 'sw-swVendorAwning', cat: 'stormwind', label: "Vendor Canopy", dist: 5, spec: sw('95873b7b3117b3b840a63a086710fab0feeda27bfbe230c16823e25178bf8bf6', 0.8743, 'box', null) },
+  { id: 'sw-swCaravan', cat: 'stormwind', label: "Caravan Wagon", dist: 6, spec: sw('3549ac83beba58aecad14e69b872ed04abe7b679dc18653b95af7042bbfd4aeb', 0.4352, 'box', null) },
+  { id: 'sw-swLionBanner', cat: 'stormwind', label: "Royal Lion Banner", dist: 3, spec: sw('eb8e70bbb6118b796b17ce90d346fcd760e788ee59ead175f150aac0e5f10ffc', 0.5991, 'box', null) },
+  { id: 'sw-swMageBanner', cat: 'stormwind', label: "Violet Mage Banner", dist: 3, spec: sw('651f333a15067c6b53a2d5014d9cb2c0a1f63b9e6ef8d0ccefc867d5068bacba', 0.8929, 'box', null) },
+  { id: 'sw-swRoyalGuard', cat: 'beasts', label: "Stormwind City Guard", dist: 3, spec: sw('4aef9b15f5342e4590273edd36b58b5f7acfcd61370bd6627ad6f8abe26eb651', 0.8705, 'box', null) },
+  // part 3 (2026-10-06): Elwynn wildlife + townsfolk, all textured (no bare slots), unrigged: they stand posed
+  { id: 'sw-deer', cat: 'critters', label: "Elwynn Forest Stag", dist: 3, spec: sw('bafa80d4565b81731b60c47c29e77969d1ee2670a2ec6c12b6f18c00fa6ca9ad', 1.1905, 'box', null) },
+  { id: 'sw-horse', cat: 'critters', label: "Elwynn Riding Horse", dist: 3, spec: sw('5bc9fbcc18cb33c5b81dd7df6e2b75fe98279827c1d64b1ea87ce0d4cce828dd', 0.8915, 'box', null) },
+  { id: 'sw-cow', cat: 'critters', label: "Farm Dairy Cow", dist: 3, spec: sw('2c97f185ee70ca83dc95889e6d6f3011578a4e5bcd7938dd72b99c1703e79571', 0.8421, 'box', null) },
+  { id: 'sw-sheep', cat: 'critters', label: "Pasture Sheep", dist: 3, spec: sw('7ce579e8d559b8f09c2852622eb390f970f132477bc61c7be5cea441c60e76c3', 0.8387, 'box', null) },
+  { id: 'sw-pig', cat: 'critters', label: "Farm Pig", dist: 3, spec: sw('d630a0c5012ff347280fdfcdbc58c2c622b6610779aafa5ac971999eb8d4d3d6', 0.7927, 'box', null) },
+  { id: 'sw-chicken', cat: 'critters', label: "Chicken", dist: 3, spec: sw('4fcabff8206ce04dcca465c3c114f69d9a5eee715e1967145451eba3f42bdcd8', 1.0227, 'box', null) },
+  { id: 'sw-rabbit', cat: 'critters', label: "Forest Hare", dist: 3, spec: sw('ecbc5aece1a1241d656922ac77f9860a6e0ea03a9a182f03b0ac1c1bc8cf6a7e', 0.5921, 'box', null) },
+  { id: 'sw-cat', cat: 'critters', label: "Tabby Cat", dist: 3, spec: sw('7e0bfdd29bf7230f91f2a8cf43ef0cded2c57b0b907d5a944b1ec56f3e6e1c85', 0.4144, 'box', null) },
+  { id: 'sw-frog', cat: 'critters', label: "Crystal Lake Frog", dist: 3, spec: sw('e3df725314e6eeb0e615cefd2a62db43788ed128673a8199239bba1e27607dc0', 0.3529, 'box', null) },
+  { id: 'sw-rat', cat: 'critters', label: "Mine Rat", dist: 3, spec: sw('f2fd3898d418286df15534ea057ca3dc125b87c0463891c6c1b25e357af1ecc2', 0.2778, 'box', null) },
+  { id: 'sw-squirrel', cat: 'critters', label: "Red Squirrel", dist: 3, spec: sw('e3ddb1a006aea5041149bad1d401c998e1f07f8a2e0abce7f39797c4174efb93', 0.5769, 'box', null) },
+  { id: 'sw-prairiedog', cat: 'critters', label: "Meadow Prairie Dog", dist: 3, spec: sw('4dc0fadd6a495a19aad8a139a44fa8a8f73d8d5d1bccb5765ed6982b7b9de792', 1.4, 'box', null) },
+  { id: 'sw-snake', cat: 'critters', label: "Grass Viper", dist: 3, spec: sw('da334528ef8e59f443672d17fcd1f51077323b07ca4acb66b4aba06b9990865d', 0.5447, 'box', null) },
+  { id: 'sw-dughan', cat: 'npc', label: "Marshal Dughan", dist: 3, spec: sw('7e3ad8c05db0e0446b82abc90755b560ab19759d6f30153934235d896f66c2aa', 0.9453, 'box', null) },
+  { id: 'sw-farmerStonefield', cat: 'npc', label: "Farmer Stonefield", dist: 3, spec: sw('6553d517e3c3b5d86c136629b195493bdee18167e433842d1abe44c97b34a25a', 0.9069, 'box', null) },
+  { id: 'sw-maStonefield', cat: 'npc', label: "Ma Stonefield", dist: 3, spec: sw('56753476c50e808aa41a2b7f03a0b1395e645217aa585f17a2b0326aad6d2a5e', 0.8639, 'box', null) },
+  { id: 'sw-argus', cat: 'npc', label: "Smith Argus", dist: 3, spec: sw('3c29dbdaab3e8d1c67f6c996c0ecb492abc287b3e6bd38a49379396730bc2d86', 0.9701, 'box', null) },
+  { id: 'sw-peasant', cat: 'npc', label: "Elwynn Peasant", dist: 3, spec: sw('b9498f094e48042665e070b43d5f6ec3d4601251bafa82499fe3111f66d6d756', 0.9479, 'box', null) },
+  { id: 'sw-milkmaid', cat: 'npc', label: "Village Milkmaid", dist: 3, spec: sw('f3baf07a8f6f8c7a95abd8dd64dc05ded95bc00a6dbec3b3ef2ac95e698a1c5a', 0.8854, 'box', null) },
+  { id: 'sw-billy', cat: 'npc', label: "Young Billy Maclure", dist: 3, spec: sw('8ba4de2b752b2fd425817fd180737fc5acacba60f76760080d5569965c3c4b18', 0.9766, 'box', null) },
+  { id: 'sw-schoolgirl', cat: 'npc', label: "Village Schoolgirl", dist: 3, spec: sw('3349070c20827be8ae9f50a53ead9a3d71557a982e288e29a346c001cf8a4d44', 1.0435, 'box', null) },
+];

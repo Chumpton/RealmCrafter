@@ -1,0 +1,23 @@
+# spawn-scene v2 yaml x-1z1
+fp-aerie-peaks-bush01-334:
+  castShadow: true
+  feetPosition: {x: -76.27788489231742, y: {terrain: 0}, z: 66.02571502049719}
+  id: fp-aerie-peaks-bush01-334
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 147.07150302225327}
+  scale: 0.7332136942694027
+  tags: [frostpeak]
+  visibleRange: {max: 200}
+fp-aerie-tree04-333:
+  castShadow: true
+  feetPosition: {x: -74.51584653952898, y: {terrain: 0}, z: 64.60431033587282}
+  id: fp-aerie-tree04-333
+  model: /cdn/value.aa9fd78f4f4380e5640fd75a144f8b2c111d43f8aed89bc95015bc7cd802f637.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 346.38776292390554}
+  scale: 0.262096565422647
+  tags: [frostpeak, fp-tree]
+  visibleRange: {max: 700}

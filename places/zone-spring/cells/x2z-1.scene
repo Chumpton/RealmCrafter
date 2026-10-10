@@ -1,0 +1,111 @@
+# spawn-scene v2 yaml x2z-1
+vg-rim102:
+  castShadow: true
+  feetPosition: {x: 203.63785415192893, y: {terrain: 0}, z: -115.77022861671466}
+  id: vg-rim102
+  model: /cdn/value.327a5fd02ac7eef55d7cfe717acbba298e9f40ca0aebfc7e2ac60d883b3b51e8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 193.71391526769278}
+  scale: 1.0521343995371222
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim104:
+  castShadow: true
+  feetPosition: {x: 195.1955766729685, y: {terrain: 0}, z: -69.85360516814376}
+  id: vg-rim104
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 166.70930915205676}
+  scale: 1.143236618436162
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim105:
+  castShadow: true
+  feetPosition: {x: 210.05713144000438, y: {terrain: 0}, z: -97.66624419275522}
+  id: vg-rim105
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 147.5324552948889}
+  scale: 0.9856932161242639
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim20:
+  castShadow: true
+  feetPosition: {x: 207.1922233489816, y: {terrain: 0}, z: -135.8991431002995}
+  id: vg-rim20
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 332.7398970469273}
+  scale: 1.4219940837677512
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim4:
+  castShadow: true
+  feetPosition: {x: 195.4768061635938, y: {terrain: 0}, z: -73.51515103491772}
+  id: vg-rim4
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 92.21002430860888}
+  scale: 1.040343528278492
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim44:
+  castShadow: true
+  feetPosition: {x: 206.90192220568125, y: {terrain: 0}, z: -162.15462440213633}
+  id: vg-rim44
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 246.27621889698898}
+  scale: 1.404671295270949
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim50:
+  castShadow: true
+  feetPosition: {x: 202.69343666237486, y: {terrain: 0}, z: -168.33450196171947}
+  id: vg-rim50
+  model: /cdn/value.327a5fd02ac7eef55d7cfe717acbba298e9f40ca0aebfc7e2ac60d883b3b51e8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 120.59611927773443}
+  scale: 1.4890879391590952
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim54:
+  castShadow: true
+  feetPosition: {x: 204.83596512949327, y: {terrain: 0}, z: -90.50930753811551}
+  id: vg-rim54
+  model: /cdn/value.327a5fd02ac7eef55d7cfe717acbba298e9f40ca0aebfc7e2ac60d883b3b51e8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 219.70729203867475}
+  scale: 0.9451458424750211
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim64:
+  castShadow: true
+  feetPosition: {x: 194.66592799579183, y: {terrain: 0}, z: -109.673131663596}
+  id: vg-rim64
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 258.2196904702295}
+  scale: 1.0479639651700519
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim91:
+  castShadow: true
+  feetPosition: {x: 201.75001654455122, y: {terrain: 0}, z: -136.37890505699264}
+  id: vg-rim91
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 345.5391716636151}
+  scale: 1.0323362822014246
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}

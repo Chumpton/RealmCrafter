@@ -1,0 +1,2856 @@
+# spawn-scene v2 yaml x-1z1
+gazebo:
+  children: [{castShadow: true, feetPosition: {x: 0, y: 0.07, z: 0}, id: deck, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 0.25, kind: cylinder, radialSegments: 8, radiusBottom: 3.6, radiusTop: 3.6}, receiveShadow: true, rotation: {yaw: 22.5}}, {feetPosition: {x: 0, y: -0.13, z: 0}, id: skirt, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 0.22, kind: cylinder, radialSegments: 8, radiusBottom: 3.65, radiusTop: 3.65}, rotation: {yaw: 22.5}}, {feetPosition: {x: 1.3259980931450364, y: -2.4, z: -3.201242580151609}, id: pile0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.5, kind: cylinder, radialSegments: 8, radiusBottom: 0.19, radiusTop: 0.16}}, {castShadow: true, feetPosition: {x: 1.2628553268047964, y: 0.32, z: -3.0488024572872465}, id: col0, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.7, kind: cylinder, radialSegments: 8, radiusBottom: 0.13, radiusTop: 0.11}}, {castShadow: true, feetPosition: {x: 2.1558288920460216, y: 2.9, z: -2.1558288920460216}, id: beam0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.7257106536095925, height: 0.22, kind: box, width: 0.16}, rotation: {yaw: -135}}, {feetPosition: {x: 2.1342706031255614, y: 2.57, z: -2.1342706031255614}, id: brk0, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.020568522887674, height: 0.3, kind: box, width: 0.06}, rotation: {yaw: -135}}, {feetPosition: {x: 2.1558288920460216, y: 1.17, z: -2.1558288920460216}, id: rail0, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.5257106536095923, height: 0.1, kind: box, width: 0.1}, rotation: {yaw: -135}}, {feetPosition: {x: 2.1558288920460216, y: 0.62, z: -2.1558288920460216}, id: lrail0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.5257106536095923, height: 0.08, kind: box, width: 0.08}, rotation: {yaw: -135}}, {feetPosition: {x: 1.5605131818852047, y: 0.64, z: -2.751144602206838}, id: bal0_1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -135}}, {feetPosition: {x: 1.858171036965613, y: 0.64, z: -2.45348674712643}, id: bal0_2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -135}}, {feetPosition: {x: 2.1558288920460216, y: 0.64, z: -2.1558288920460216}, id: bal0_3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -135}}, {feetPosition: {x: 2.45348674712643, y: 0.64, z: -1.8581710369656133}, id: bal0_4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -135}}, {feetPosition: {x: 2.751144602206838, y: 0.64, z: -1.560513181885205}, id: bal0_5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -135}}, {feetPosition: {x: 3.201242580151609, y: -2.4, z: -1.3259980931450366}, id: pile1, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.5, kind: cylinder, radialSegments: 8, radiusBottom: 0.19, radiusTop: 0.16}}, {castShadow: true, feetPosition: {x: 3.0488024572872465, y: 0.32, z: -1.2628553268047966}, id: col1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.7, kind: cylinder, radialSegments: 8, radiusBottom: 0.13, radiusTop: 0.11}}, {castShadow: true, feetPosition: {x: 3.0488024572872465, y: 2.9, z: -2.220446049250313e-16}, id: beam1, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.725710653609593, height: 0.22, kind: box, width: 0.16}, rotation: {yaw: -180}}, {feetPosition: {x: 3.018314432714374, y: 2.57, z: -2.19824158875781e-16}, id: brk1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.0205685228876744, height: 0.3, kind: box, width: 0.06}, rotation: {yaw: -180}}, {feetPosition: {x: 3.0488024572872465, y: 1.17, z: -2.220446049250313e-16}, id: rail1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.525710653609593, height: 0.1, kind: box, width: 0.1}, rotation: {yaw: -180}}, {feetPosition: {x: 3.0488024572872465, y: 0.62, z: -2.220446049250313e-16}, id: lrail1, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.525710653609593, height: 0.08, kind: box, width: 0.08}, rotation: {yaw: -180}}, {feetPosition: {x: 3.0488024572872465, y: 0.64, z: -0.8419035512031978}, id: bal1_1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -180}}, {feetPosition: {x: 3.0488024572872465, y: 0.64, z: -0.420951775601599}, id: bal1_2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -180}}, {feetPosition: {x: 3.0488024572872465, y: 0.64, z: -2.220446049250313e-16}, id: bal1_3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -180}}, {feetPosition: {x: 3.0488024572872465, y: 0.64, z: 0.4209517756015986}, id: bal1_4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -180}}, {feetPosition: {x: 3.0488024572872465, y: 0.64, z: 0.8419035512031976}, id: bal1_5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -180}}, {feetPosition: {x: 3.201242580151609, y: -2.4, z: 1.3259980931450361}, id: pile2, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.5, kind: cylinder, radialSegments: 8, radiusBottom: 0.19, radiusTop: 0.16}}, {castShadow: true, feetPosition: {x: 3.0488024572872465, y: 0.32, z: 1.2628553268047962}, id: col2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.7, kind: cylinder, radialSegments: 8, radiusBottom: 0.13, radiusTop: 0.11}}, {castShadow: true, feetPosition: {x: 2.1558288920460216, y: 2.9, z: 2.1558288920460216}, id: beam2, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.725710653609593, height: 0.22, kind: box, width: 0.16}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 2.1342706031255614, y: 2.57, z: 2.1342706031255614}, id: brk2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.0205685228876744, height: 0.3, kind: box, width: 0.06}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 2.1558288920460216, y: 1.17, z: 2.1558288920460216}, id: rail2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.525710653609593, height: 0.1, kind: box, width: 0.1}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 2.1558288920460216, y: 0.62, z: 2.1558288920460216}, id: lrail2, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.525710653609593, height: 0.08, kind: box, width: 0.08}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 2.751144602206838, y: 0.64, z: 1.5605131818852045}, id: bal2_1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 2.45348674712643, y: 0.64, z: 1.8581710369656128}, id: bal2_2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 2.1558288920460216, y: 0.64, z: 2.1558288920460216}, id: bal2_3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 1.8581710369656135, y: 0.64, z: 2.45348674712643}, id: bal2_4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 1.5605131818852052, y: 0.64, z: 2.751144602206838}, id: bal2_5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 135.00000000000003}}, {feetPosition: {x: 1.3259980931450368, y: -2.4, z: 3.201242580151609}, id: pile3, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.5, kind: cylinder, radialSegments: 8, radiusBottom: 0.19, radiusTop: 0.16}}, {castShadow: true, feetPosition: {x: 1.2628553268047968, y: 0.32, z: 3.0488024572872465}, id: col3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.7, kind: cylinder, radialSegments: 8, radiusBottom: 0.13, radiusTop: 0.11}}, {castShadow: true, feetPosition: {x: 1.1102230246251565e-15, y: 2.9, z: 3.048802457287247}, id: beam3, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.7257106536095916, height: 0.22, kind: box, width: 0.16}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: 1.099120794378905e-15, y: 2.57, z: 3.0183144327143743}, id: brk3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.020568522887673, height: 0.3, kind: box, width: 0.06}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: 1.1102230246251565e-15, y: 1.17, z: 3.048802457287247}, id: rail3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.5257106536095915, height: 0.1, kind: box, width: 0.1}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: 1.1102230246251565e-15, y: 0.62, z: 3.048802457287247}, id: lrail3, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.5257106536095915, height: 0.08, kind: box, width: 0.08}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: 0.8419035512031983, y: 0.64, z: 3.0488024572872465}, id: bal3_1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: 0.4209517756015997, y: 0.64, z: 3.048802457287247}, id: bal3_2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: 1.1102230246251565e-15, y: 0.64, z: 3.048802457287247}, id: bal3_3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: -0.42095177560159747, y: 0.64, z: 3.048802457287247}, id: bal3_4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: -0.841903551203196, y: 0.64, z: 3.0488024572872474}, id: bal3_5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 90.00000000000001}}, {feetPosition: {x: -1.3259980931450344, y: -2.4, z: 3.20124258015161}, id: pile4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.5, kind: cylinder, radialSegments: 8, radiusBottom: 0.19, radiusTop: 0.16}}, {castShadow: true, feetPosition: {x: -1.2628553268047946, y: 0.32, z: 3.0488024572872474}, id: col4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.7, kind: cylinder, radialSegments: 8, radiusBottom: 0.13, radiusTop: 0.11}}, {castShadow: true, feetPosition: {x: -2.1558288920460207, y: 2.9, z: 2.1558288920460216}, id: beam4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.7257106536095956, height: 0.22, kind: box, width: 0.16}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -2.1342706031255605, y: 2.57, z: 2.1342706031255614}, id: brk4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.0205685228876766, height: 0.3, kind: box, width: 0.06}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -2.1558288920460207, y: 1.17, z: 2.1558288920460216}, id: rail4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.5257106536095955, height: 0.1, kind: box, width: 0.1}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -2.1558288920460207, y: 0.62, z: 2.1558288920460216}, id: lrail4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.5257106536095955, height: 0.08, kind: box, width: 0.08}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -1.5605131818852034, y: 0.64, z: 2.7511446022068387}, id: bal4_1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -1.858171036965612, y: 0.64, z: 2.45348674712643}, id: bal4_2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -2.1558288920460207, y: 0.64, z: 2.1558288920460216}, id: bal4_3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -2.4534867471264294, y: 0.64, z: 1.8581710369656128}, id: bal4_4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -2.751144602206838, y: 0.64, z: 1.560513181885204}, id: bal4_5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: 45.00000000000001}}, {feetPosition: {x: -3.2012425801516096, y: -2.4, z: 1.3259980931450353}, id: pile5, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.5, kind: cylinder, radialSegments: 8, radiusBottom: 0.19, radiusTop: 0.16}}, {castShadow: true, feetPosition: {x: -3.048802457287247, y: 0.32, z: 1.2628553268047955}, id: col5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.7, kind: cylinder, radialSegments: 8, radiusBottom: 0.13, radiusTop: 0.11}}, {castShadow: true, feetPosition: {x: -3.0488024572872465, y: 2.9, z: -7.771561172376096e-16}, id: beam5, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.7257106536095925, height: 0.22, kind: box, width: 0.16}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.018314432714374, y: 2.57, z: -7.693845560652335e-16}, id: brk5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.020568522887674, height: 0.3, kind: box, width: 0.06}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.0488024572872465, y: 1.17, z: -7.771561172376096e-16}, id: rail5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.5257106536095923, height: 0.1, kind: box, width: 0.1}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.0488024572872465, y: 0.62, z: -7.771561172376096e-16}, id: lrail5, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.5257106536095923, height: 0.08, kind: box, width: 0.08}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.048802457287247, y: 0.64, z: 0.8419035512031968}, id: bal5_1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.0488024572872465, y: 0.64, z: 0.42095177560159813}, id: bal5_2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.0488024572872465, y: 0.64, z: -6.661338147750939e-16}, id: bal5_3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.0488024572872465, y: 0.64, z: -0.42095177560159924}, id: bal5_4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.048802457287246, y: 0.64, z: -0.8419035512031983}, id: bal5_5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -2.014833917364563e-14}}, {feetPosition: {x: -3.2012425801516087, y: -2.4, z: -1.325998093145037}, id: pile6, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.5, kind: cylinder, radialSegments: 8, radiusBottom: 0.19, radiusTop: 0.16}}, {castShadow: true, feetPosition: {x: -3.048802457287246, y: 0.32, z: -1.262855326804797}, id: col6, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.7, kind: cylinder, radialSegments: 8, radiusBottom: 0.13, radiusTop: 0.11}}, {castShadow: true, feetPosition: {x: -2.1558288920460207, y: 2.9, z: -2.155828892046022}, id: beam6, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.725710653609593, height: 0.22, kind: box, width: 0.16}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -2.1342706031255605, y: 2.57, z: -2.134270603125562}, id: brk6, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.0205685228876744, height: 0.3, kind: box, width: 0.06}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -2.1558288920460207, y: 1.17, z: -2.155828892046022}, id: rail6, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.525710653609593, height: 0.1, kind: box, width: 0.1}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -2.1558288920460207, y: 0.62, z: -2.155828892046022}, id: lrail6, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.525710653609593, height: 0.08, kind: box, width: 0.08}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -2.7511446022068378, y: 0.64, z: -1.5605131818852054}, id: bal6_1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -2.4534867471264294, y: 0.64, z: -1.8581710369656137}, id: bal6_2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -2.1558288920460207, y: 0.64, z: -2.155828892046022}, id: bal6_3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -1.8581710369656126, y: 0.64, z: -2.4534867471264303}, id: bal6_4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -1.560513181885204, y: 0.64, z: -2.7511446022068387}, id: bal6_5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.05, height: 0.55, kind: box, width: 0.05}, rotation: {yaw: -45.00000000000001}}, {feetPosition: {x: -1.3259980931450355, y: -2.4, z: -3.2012425801516096}, id: pile7, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.5, kind: cylinder, radialSegments: 8, radiusBottom: 0.19, radiusTop: 0.16}}, {castShadow: true, feetPosition: {x: -1.2628553268047957, y: 0.32, z: -3.048802457287247}, id: col7, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 2.7, kind: cylinder, radialSegments: 8, radiusBottom: 0.13, radiusTop: 0.11}}, {castShadow: true, feetPosition: {x: -7.771561172376096e-16, y: 2.9, z: -3.0488024572872474}, id: beam7, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.72571065360959, height: 0.22, kind: box, width: 0.16}, rotation: {yaw: -89.99999999999999}}, {feetPosition: {x: -7.693845560652335e-16, y: 2.57, z: -3.0183144327143747}, id: brk7, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 2.0205685228876717, height: 0.3, kind: box, width: 0.06}, rotation: {yaw: -89.99999999999999}}, {castShadow: true, feetPosition: {x: 0, y: 3.02, z: 0}, id: roof, material: {color: oklch(0.5 0.09 40), roughness: 0.9, texture: cdn/texture-wooden-roof-shingles.png}, primitive: {height: 2, kind: cone, radialSegments: 8, radius: 4.5}, rotation: {yaw: 22.5}}, {feetPosition: {x: 0, y: 2.97, z: 0}, id: eave, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 0.12, kind: cylinder, radialSegments: 8, radiusBottom: 4.55, radiusTop: 4.55}, rotation: {yaw: 22.5}}, {feetPosition: {x: 0, y: 4.92, z: 0}, id: finial, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 0.7, kind: cone, radialSegments: 8, radius: 0.14}}, {feetPosition: {x: 0, y: 2.17, z: 0}, id: lanternbox, material: {color: oklch(0.9 0.12 80), emissive: oklch(0.8 0.15 70), emissiveIntensity: 2}, primitive: {depth: 0.3, height: 0.4, kind: box, width: 0.3}}, {feetPosition: {x: 0, y: 2.57, z: 0}, id: chain, material: {color: oklch(0.3 0.01 60), metalness: 0.6}, primitive: {height: 0.6, kind: cylinder, radialSegments: 4, radiusBottom: 0.02, radiusTop: 0.02}}, {feetPosition: {x: 0, y: 2.3200000000000003, z: 0}, id: glow, light: {color: oklch(0.86 0.12 70), distance: 9, intensity: 2.2, kind: point}}, {castShadow: true, feetPosition: {x: -2.55, y: 0.32, z: -1.5614246689128752e-16}, id: bench-l, layout: {maxExtents: {x: 2, y: 1.2, z: 0.8}}, model: /cdn/value.22ab943bedd25853058d950ab79f0af39537aae32e23621a642ab7e2fbb9c0a2.glb, rotation: {yaw: 270}}, {castShadow: true, feetPosition: {x: 3.1228493378257504e-16, y: 0.32, z: 2.55}, id: bench-b, layout: {maxExtents: {x: 2, y: 1.2, z: 0.8}}, model: /cdn/value.22ab943bedd25853058d950ab79f0af39537aae32e23621a642ab7e2fbb9c0a2.glb, rotation: {yaw: 0}}, {castShadow: true, feetPosition: {x: 2.55, y: 0.32, z: -1.5614246689128752e-16}, id: bench-r, layout: {maxExtents: {x: 2, y: 1.2, z: 0.8}}, model: /cdn/value.22ab943bedd25853058d950ab79f0af39537aae32e23621a642ab7e2fbb9c0a2.glb, rotation: {yaw: 90}}, {feetPosition: {x: -2.5, y: 0.8200000000000001, z: 0.4}, id: blanket, material: {color: oklch(0.55 0.11 25), roughness: 1}, primitive: {depth: 0.45, height: 0.08, kind: box, width: 0.6}, rotation: {yaw: 8}}]
+  feetPosition: {x: -84, y: 0, z: 69.6}
+  id: gazebo
+  rotation: {yaw: -103.16261882382042}
+gazebo-walk:
+  feetPosition: {x: -84, y: 0.24, z: 69.6}
+  id: gazebo-walk
+  physics: static
+  primitive: {height: 0.08, kind: cylinder, radialSegments: 8, radiusBottom: 3.6, radiusTop: 3.6}
+  rotation: {yaw: -80.66261882382042}
+  visible: false
+meadow-trail-sign-w:
+  castShadow: true
+  feetPosition: {x: -183, y: {terrain: 0}, z: 91.6}
+  id: meadow-trail-sign-w
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  rotation: {yaw: 155.55604521958347}
+  scale: 0.6
+  state: {name: Meadow Trail}
+  tags: [meadow-dress, interactable]
+mtn-pine-533:
+  castShadow: true
+  feetPosition: {x: -173.55384173502858, y: {terrain: -0.3}, z: 182.1518154890052}
+  id: mtn-pine-533
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 282.9505114271075}
+  scale: 2.440784051753946
+  visibleRange: {max: 900}
+pf-general-garden-tree-canopy-q945g:
+  castShadow: true
+  feetPosition: {x: -131.86, y: 1.04, z: 162.65}
+  id: pf-general-garden-tree-canopy-q945g
+  model: /cdn/value.725fce2c4ee0b522b78fbb3acd06fc4ef5455ad637497e8edc1745d6162d3360.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: -28}
+  scale: 2.445
+  state: {pf: general-garden-tree-canopy}
+  tags: [placed, pf-nature]
+  visibleRange: {max: 1000}
+pf-general-swamp-sorrow-canopy-tree05-q2lgd:
+  castShadow: true
+  feetPosition: {x: -155.93, y: 0, z: 114.78}
+  id: pf-general-swamp-sorrow-canopy-tree05-q2lgd
+  model: /cdn/value.0524dd25b0c6c808569757e7f0619c2186a1f869b9504dcd5d14ae9cff59383a.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: -28}
+  scale: 1.47
+  state: {pf: general-swamp-sorrow-canopy-tree05}
+  tags: [placed, pf-nature]
+  visibleRange: {max: 1000}
+pier-ext-walk0:
+  feetPosition: {x: -73.9864865419072, y: 0.24, z: 69.98631384970388}
+  id: pier-ext-walk0
+  physics: static
+  primitive: {depth: 2, height: 0.08, kind: box, width: 2.9}
+  rotation: {yaw: 115.4198865950683}
+  visible: false
+pier-ext-walk1:
+  feetPosition: {x: -75.68958648994995, y: 0.24, z: 70.5557956165375}
+  id: pier-ext-walk1
+  physics: static
+  primitive: {depth: 2, height: 0.08, kind: box, width: 2.9}
+  rotation: {yaw: 101.87272848070256}
+  visible: false
+pier-ext-walk2:
+  feetPosition: {x: -77.47660905189043, y: 0.24, z: 70.74664987784924}
+  id: pier-ext-walk2
+  physics: static
+  primitive: {depth: 2, height: 0.08, kind: box, width: 2.9}
+  rotation: {yaw: 90.7852231675732}
+  visible: false
+pier-ext-walk3:
+  feetPosition: {x: -79.27137434296085, y: 0.24, z: 70.63272476026395}
+  id: pier-ext-walk3
+  physics: static
+  primitive: {depth: 2, height: 0.08, kind: box, width: 2.9}
+  rotation: {yaw: 82.35625738747889}
+  visible: false
+pier-ext-walk4:
+  feetPosition: {x: -79.90539472125874, y: 0.24, z: 70.5334884264993}
+  id: pier-ext-walk4
+  physics: static
+  primitive: {depth: 2, height: 0.08, kind: box, width: 2.9}
+  rotation: {yaw: 79.89446258542354}
+  visible: false
+pier-walk2:
+  feetPosition: {x: -65.11759271653962, y: 0.24, z: 66.15771582090525}
+  id: pier-walk2
+  physics: static
+  primitive: {depth: 2.3, height: 0.08, kind: box, width: 4.2}
+  rotation: {yaw: 99.74949449286676}
+  visible: false
+pier-walk3:
+  feetPosition: {x: -67.31365369084486, y: 0.24, z: 66.69850431665337}
+  id: pier-walk3
+  physics: static
+  primitive: {depth: 2.3, height: 0.08, kind: box, width: 4.2}
+  rotation: {yaw: 107.63306930368316}
+  visible: false
+pier-walk4:
+  feetPosition: {x: -69.59487117240118, y: 0.24, z: 67.58083690805064}
+  id: pier-walk4
+  physics: static
+  primitive: {depth: 2.3, height: 0.08, kind: box, width: 4.2}
+  rotation: {yaw: 114.37922391768502}
+  visible: false
+pier-walk5:
+  feetPosition: {x: -71.9612451612086, y: 0.24, z: 68.80471359509706}
+  id: pier-walk5
+  physics: static
+  primitive: {depth: 2.3, height: 0.08, kind: box, width: 4.2}
+  rotation: {yaw: 120.06844340192251}
+  visible: false
+pond-lamppost-light:
+  feetPosition: {x: -64.4, y: 3.2, z: 64.3}
+  id: pond-lamppost-light
+  light: {color: oklch(0.85 0.12 70), distance: 10, intensity: 2, kind: point}
+  tags: [pond]
+pondb-boulder-166:
+  castShadow: true
+  feetPosition: {x: -65.72398704915493, y: -0.3, z: 100.2296648530707}
+  id: pondb-boulder-166
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 191.72947244333542}
+  scale: 0.23282657441349075
+  visibleRange: {max: 300}
+pondb-boulder-167:
+  castShadow: true
+  feetPosition: {x: -67.9192837809116, y: -0.3, z: 99.19749421867425}
+  id: pondb-boulder-167
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 54.749009876860775}
+  scale: 0.31065941730079216
+  visibleRange: {max: 300}
+pondb-boulder-168:
+  castShadow: true
+  feetPosition: {x: -68.33114566130152, y: -0.3, z: 98.23487050547025}
+  id: pondb-boulder-168
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 259.99338219873295}
+  scale: 0.38748781621804823
+  visibleRange: {max: 300}
+pondb-boulder-169:
+  castShadow: true
+  feetPosition: {x: -68.03314129925013, y: -0.3, z: 97.39418350296755}
+  id: pondb-boulder-169
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 158.61215406964166}
+  scale: 0.2877271767369132
+  visibleRange: {max: 300}
+pondb-boulder-170:
+  castShadow: true
+  feetPosition: {x: -72.08079206685572, y: -0.12746095012153705, z: 117.92773235583107}
+  id: pondb-boulder-170
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 152.61245986102728}
+  scale: 0.3903701391212503
+  visibleRange: {max: 300}
+pondb-boulder-171:
+  castShadow: true
+  feetPosition: {x: -72.48625827285753, y: -0.08000000000000002, z: 114.4572080835687}
+  id: pondb-boulder-171
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 151.89839161555207}
+  scale: 0.3962361675390211
+  visibleRange: {max: 300}
+pondb-boulder-172:
+  castShadow: true
+  feetPosition: {x: -73.82105329157834, y: -0.1883430551125107, z: 117.91732844290199}
+  id: pondb-boulder-172
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 42.13839413697757}
+  scale: 0.34243278302365576
+  visibleRange: {max: 300}
+pondb-boulder-173:
+  castShadow: true
+  feetPosition: {x: -125.97789681999846, y: -2.3, z: 122.4881462858469}
+  id: pondb-boulder-173
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 183.5204364655169}
+  scale: 0.4939648372744978
+  visibleRange: {max: 300}
+pondb-boulder-174:
+  castShadow: true
+  feetPosition: {x: -123.43585284959332, y: -2.3, z: 122.62115688511224}
+  id: pondb-boulder-174
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 130.10279618674087}
+  scale: 0.4904398237031139
+  visibleRange: {max: 300}
+pondb-boulder-175:
+  castShadow: true
+  feetPosition: {x: -122.82816598211795, y: -2.3, z: 123.61433854355214}
+  id: pondb-boulder-175
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 152.19701435053582}
+  scale: 0.502116978234666
+  visibleRange: {max: 300}
+pondb-boulder-176:
+  castShadow: true
+  feetPosition: {x: -125.05841990665459, y: -2.3, z: 123.33662885629415}
+  id: pondb-boulder-176
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 131.09524520630728}
+  scale: 0.34702007248393263
+  visibleRange: {max: 300}
+pondb-boulder-177:
+  castShadow: true
+  feetPosition: {x: -118.53227377274645, y: -0.08000000000000002, z: 75.47470145038082}
+  id: pondb-boulder-177
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 319.90724554281087}
+  scale: 0.22012913509278054
+  visibleRange: {max: 300}
+pondb-boulder-178:
+  castShadow: true
+  feetPosition: {x: -118.84635116358584, y: -0.07999999999999999, z: 72.81599361289106}
+  id: pondb-boulder-178
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 285.6403422754446}
+  scale: 0.290373504362243
+  visibleRange: {max: 300}
+pondb-boulder-179:
+  castShadow: true
+  feetPosition: {x: -136.22261434900696, y: -0.8604558709218064, z: 96.28063624000207}
+  id: pondb-boulder-179
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 353.1484258142991}
+  scale: 0.3283906963041009
+  visibleRange: {max: 300}
+pondb-boulder-180:
+  castShadow: true
+  feetPosition: {x: -137.3142050931762, y: -0.41660004206324247, z: 96.15499898761279}
+  id: pondb-boulder-180
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 18.477395259997525}
+  scale: 0.2477842785826811
+  visibleRange: {max: 300}
+pondb-boulder-181:
+  castShadow: true
+  feetPosition: {x: -135.5151969043888, y: -0.8988944207956975, z: 95.28562793720775}
+  id: pondb-boulder-181
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 237.69382417094607}
+  scale: 0.3212678283272627
+  visibleRange: {max: 300}
+pondb-boulder-182:
+  castShadow: true
+  feetPosition: {x: -100.64905729000412, y: -0.3, z: 131.99412690063198}
+  id: pondb-boulder-182
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 342.94043132240904}
+  scale: 0.26005319003018235
+  visibleRange: {max: 300}
+pondb-boulder-183:
+  castShadow: true
+  feetPosition: {x: -98.81823200581978, y: -0.3, z: 130.17467818685094}
+  id: pondb-boulder-183
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 182.7913381265436}
+  scale: 0.4309282108540312
+  visibleRange: {max: 300}
+pondb-lily-132:
+  castShadow: false
+  feetPosition: {x: -117.89383261261864, y: -0.33999999999999997, z: 125.11822511283778}
+  id: pondb-lily-132
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 84.62930195249119}
+  scale: 0.2681923133079858
+  visibleRange: {max: 160}
+pondb-lily-133:
+  castShadow: false
+  feetPosition: {x: -72.86619738096508, y: -0.33999999999999997, z: 93.22529413456627}
+  id: pondb-lily-133
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 159.5529657041435}
+  scale: 0.2211705351533231
+  visibleRange: {max: 160}
+pondb-lily-134:
+  castShadow: false
+  feetPosition: {x: -85.28999291915063, y: -0.33999999999999997, z: 102.93245690344865}
+  id: pondb-lily-134
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 183.00584812788566}
+  scale: 0.17170589646869613
+  visibleRange: {max: 160}
+pondb-lily-136:
+  castShadow: false
+  feetPosition: {x: -127.74110646643649, y: -0.33999999999999997, z: 123.88043314075045}
+  id: pondb-lily-136
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 220.03745577299847}
+  scale: 0.2367223981566366
+  visibleRange: {max: 160}
+pondb-lily-137:
+  castShadow: false
+  feetPosition: {x: -106.91012707119202, y: -0.33999999999999997, z: 72.03469879489846}
+  id: pondb-lily-137
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 166.6653629237159}
+  scale: 0.2681225415077631
+  visibleRange: {max: 160}
+pondb-lily-138:
+  castShadow: false
+  feetPosition: {x: -67.38113307754968, y: -0.33999999999999997, z: 80.44966242440827}
+  id: pondb-lily-138
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 298.7020914902455}
+  scale: 0.25423808932967396
+  visibleRange: {max: 160}
+pondb-lily-139:
+  castShadow: false
+  feetPosition: {x: -97.43184393602962, y: -0.33999999999999997, z: 115.90348405841698}
+  id: pondb-lily-139
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 108.68869654307547}
+  scale: 0.25455561549149247
+  visibleRange: {max: 160}
+pondb-lily-140:
+  castShadow: false
+  feetPosition: {x: -101.33419785966827, y: -0.33999999999999997, z: 113.81314262319968}
+  id: pondb-lily-140
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 133.54151890312392}
+  scale: 0.2749975911132049
+  visibleRange: {max: 160}
+pondb-lily-141:
+  castShadow: false
+  feetPosition: {x: -123.34393683929999, y: -0.33999999999999997, z: 87.8196062645754}
+  id: pondb-lily-141
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 348.2499442008557}
+  scale: 0.23427596140386348
+  visibleRange: {max: 160}
+pondb-lily-142:
+  castShadow: false
+  feetPosition: {x: -131.79541575704584, y: -0.33999999999999997, z: 106.22410739059562}
+  id: pondb-lily-142
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 236.61336047417174}
+  scale: 0.2107335557279799
+  visibleRange: {max: 160}
+pondb-lily-143:
+  castShadow: false
+  feetPosition: {x: -120.66714035284643, y: -0.33999999999999997, z: 84.90639930953273}
+  id: pondb-lily-143
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 280.75482193415746}
+  scale: 0.171936311354831
+  visibleRange: {max: 160}
+pondb-lily-144:
+  castShadow: false
+  feetPosition: {x: -128.81211890149575, y: -0.33999999999999997, z: 128.70463905917867}
+  id: pondb-lily-144
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 61.79366723717827}
+  scale: 0.2651431307127434
+  visibleRange: {max: 160}
+pondb-lily-145:
+  castShadow: false
+  feetPosition: {x: -134.61336559895852, y: -0.33999999999999997, z: 122.4521725053357}
+  id: pondb-lily-145
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 195.72538586134343}
+  scale: 0.18437943962606576
+  visibleRange: {max: 160}
+pondb-lily-146:
+  castShadow: false
+  feetPosition: {x: -100.20841458905817, y: -0.33999999999999997, z: 93.33383961348507}
+  id: pondb-lily-146
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 208.5531042928589}
+  scale: 0.27721958218012915
+  visibleRange: {max: 160}
+pondb-lily-147:
+  castShadow: false
+  feetPosition: {x: -118.14519443306486, y: -0.33999999999999997, z: 87.42536005690481}
+  id: pondb-lily-147
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 289.0938468133536}
+  scale: 0.16022706994797434
+  visibleRange: {max: 160}
+pondb-lily-148:
+  castShadow: false
+  feetPosition: {x: -97.8555221211773, y: -0.33999999999999997, z: 97.60240934186933}
+  id: pondb-lily-148
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 117.48016096534215}
+  scale: 0.1690699803685164
+  visibleRange: {max: 160}
+pondb-lily-149:
+  castShadow: false
+  feetPosition: {x: -135.67434808848677, y: -0.33999999999999997, z: 123.34493955914273}
+  id: pondb-lily-149
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 309.0246047400984}
+  scale: 0.21557583198676622
+  visibleRange: {max: 160}
+pondb-lily-150:
+  castShadow: false
+  feetPosition: {x: -86.95126900890806, y: -0.33999999999999997, z: 110.39177273088197}
+  id: pondb-lily-150
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 274.1388982507116}
+  scale: 0.21095563632014935
+  visibleRange: {max: 160}
+pondb-lily-151:
+  castShadow: false
+  feetPosition: {x: -130.43972175186522, y: -0.33999999999999997, z: 96.06508057091932}
+  id: pondb-lily-151
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 211.14566164610238}
+  scale: 0.2496668282196237
+  visibleRange: {max: 160}
+pondb-lily-152:
+  castShadow: false
+  feetPosition: {x: -95.37172912956451, y: -0.33999999999999997, z: 95.3074081151248}
+  id: pondb-lily-152
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 267.81174521325704}
+  scale: 0.2488540055085225
+  visibleRange: {max: 160}
+pondb-lily-153:
+  castShadow: false
+  feetPosition: {x: -82.94739131528719, y: -0.33999999999999997, z: 102.07580673977537}
+  id: pondb-lily-153
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 213.26549944154243}
+  scale: 0.2724573742190643
+  visibleRange: {max: 160}
+pondb-lily-154:
+  castShadow: false
+  feetPosition: {x: -121.83679523935805, y: -0.33999999999999997, z: 86.89585588517954}
+  id: pondb-lily-154
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 6.122955459227299}
+  scale: 0.21732623555572994
+  visibleRange: {max: 160}
+pondb-lily-156:
+  castShadow: false
+  feetPosition: {x: -98.22254976386856, y: -0.33999999999999997, z: 94.0700973279351}
+  id: pondb-lily-156
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 41.817230787974424}
+  scale: 0.23464115779597366
+  visibleRange: {max: 160}
+pondb-lily-157:
+  castShadow: false
+  feetPosition: {x: -106.07780600398229, y: -0.33999999999999997, z: 116.87725040776093}
+  id: pondb-lily-157
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 40.33101625755942}
+  scale: 0.2707974917398754
+  visibleRange: {max: 160}
+pondb-lily-159:
+  castShadow: false
+  feetPosition: {x: -100.60921707061091, y: -0.33999999999999997, z: 93.27213867358522}
+  id: pondb-lily-159
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 218.2146672616781}
+  scale: 0.242305749879361
+  visibleRange: {max: 160}
+pondb-lily-160:
+  castShadow: false
+  feetPosition: {x: -96.28820017742311, y: -0.33999999999999997, z: 95.90834074409752}
+  id: pondb-lily-160
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 22.170418548477077}
+  scale: 0.22368818885818506
+  visibleRange: {max: 160}
+pondb-lily-161:
+  castShadow: false
+  feetPosition: {x: -79.92216699982282, y: -0.33999999999999997, z: 98.85949804233326}
+  id: pondb-lily-161
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 66.4518001239988}
+  scale: 0.254383420634262
+  visibleRange: {max: 160}
+pondb-lily-162:
+  castShadow: false
+  feetPosition: {x: -132.7017499256004, y: -0.33999999999999997, z: 123.84345241978474}
+  id: pondb-lily-162
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 62.99523451505007}
+  scale: 0.2721473789737315
+  visibleRange: {max: 160}
+pondb-lily-163:
+  castShadow: false
+  feetPosition: {x: -73.45741887027744, y: -0.33999999999999997, z: 93.49851059727301}
+  id: pondb-lily-163
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 71.25999640266411}
+  scale: 0.2387043347017394
+  visibleRange: {max: 160}
+pondb-lily-165:
+  castShadow: false
+  feetPosition: {x: -82.44929485451084, y: -0.33999999999999997, z: 97.06368567832608}
+  id: pondb-lily-165
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  rotation: {yaw: 265.294254173196}
+  scale: 0.1972540269779293
+  visibleRange: {max: 160}
+pondb-reed-0:
+  castShadow: false
+  feetPosition: {x: -68.97293326116342, y: -1.0734152572711408, z: 93.40729743167745}
+  id: pondb-reed-0
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4455}
+  rotation: {yaw: 274.46637317280585}
+  scale: 1.4892862310117512
+  visibleRange: {max: 160}
+pondb-reed-1:
+  castShadow: false
+  feetPosition: {x: -68.94906103438319, y: -0.8943782571222123, z: 94.0689607350551}
+  id: pondb-reed-1
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3658}
+  rotation: {yaw: 192.2360594161954}
+  scale: 1.5321338604353991
+  visibleRange: {max: 160}
+pondb-reed-10:
+  castShadow: false
+  feetPosition: {x: -83.21749701983411, y: -1.1225542431403988, z: 111.7640196597343}
+  id: pondb-reed-10
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3242}
+  rotation: {yaw: 321.08823122507346}
+  scale: 1.406534440306264
+  visibleRange: {max: 160}
+pondb-reed-11:
+  castShadow: false
+  feetPosition: {x: -86.17589177618991, y: -1.8216692245983528, z: 111.39183633640512}
+  id: pondb-reed-11
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9109}
+  rotation: {yaw: 46.25638595142234}
+  scale: 1.757939545604372
+  visibleRange: {max: 160}
+pondb-reed-12:
+  castShadow: false
+  feetPosition: {x: -84.67246642414216, y: -1.372346024109679, z: 111.93899211386702}
+  id: pondb-reed-12
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7681}
+  rotation: {yaw: 66.9883017740158}
+  scale: 1.8928857175600182
+  visibleRange: {max: 160}
+pondb-reed-127:
+  castShadow: false
+  feetPosition: {x: -65.06329783423341, y: -1.1648245078657928, z: 83.25717222412058}
+  id: pondb-reed-127
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9009}
+  rotation: {yaw: 82.02046778147131}
+  scale: 1.4045909135623793
+  visibleRange: {max: 160}
+pondb-reed-128:
+  castShadow: false
+  feetPosition: {x: -65.43729589971281, y: -0.6657823553926056, z: 86.38925938262793}
+  id: pondb-reed-128
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3588}
+  rotation: {yaw: 80.7887776199676}
+  scale: 1.4211671975539844
+  visibleRange: {max: 160}
+pondb-reed-129:
+  castShadow: false
+  feetPosition: {x: -66.0390518585644, y: -1.0363968091062385, z: 86.16788391974181}
+  id: pondb-reed-129
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5521}
+  rotation: {yaw: 225.70749190901756}
+  scale: 1.6822418561122574
+  visibleRange: {max: 160}
+pondb-reed-13:
+  castShadow: false
+  feetPosition: {x: -86.43285131409269, y: -0.6934412018824881, z: 113.42542454231656}
+  id: pondb-reed-13
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5692}
+  rotation: {yaw: 7.195970493925722}
+  scale: 1.738568096160222
+  visibleRange: {max: 160}
+pondb-reed-130:
+  castShadow: false
+  feetPosition: {x: -65.99496921850498, y: -0.589973117349066, z: 87.99001763866555}
+  id: pondb-reed-130
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9164}
+  rotation: {yaw: 332.5759262463897}
+  scale: 1.8431038659732342
+  visibleRange: {max: 160}
+pondb-reed-131:
+  castShadow: false
+  feetPosition: {x: -67.72231539925099, y: -1.5196311017118727, z: 87.92092508171439}
+  id: pondb-reed-131
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7819}
+  rotation: {yaw: 182.19789150273328}
+  scale: 1.8161810122971334
+  visibleRange: {max: 160}
+pondb-reed-14:
+  castShadow: false
+  feetPosition: {x: -87.45585089332744, y: -0.6228664928545746, z: 113.56472097120205}
+  id: pondb-reed-14
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5058}
+  rotation: {yaw: 25.69778257314944}
+  scale: 1.431823048010386
+  visibleRange: {max: 160}
+pondb-reed-15:
+  castShadow: false
+  feetPosition: {x: -87.49292117365073, y: -0.3442977716058738, z: 114.1245881523329}
+  id: pondb-reed-15
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8321}
+  rotation: {yaw: 247.7645331471062}
+  scale: 1.680120292995181
+  visibleRange: {max: 160}
+pondb-reed-16:
+  castShadow: false
+  feetPosition: {x: -89.44142163116935, y: -0.2973690637224453, z: 114.80060677946483}
+  id: pondb-reed-16
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2937}
+  rotation: {yaw: 325.65199964011646}
+  scale: 1.8560560012031608
+  visibleRange: {max: 160}
+pondb-reed-17:
+  castShadow: false
+  feetPosition: {x: -90.48168548458607, y: -1.647656911159429, z: 112.69749292946074}
+  id: pondb-reed-17
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6127}
+  rotation: {yaw: 242.32985062633168}
+  scale: 1.6280163739472702
+  visibleRange: {max: 160}
+pondb-reed-18:
+  castShadow: false
+  feetPosition: {x: -90.96177790472993, y: -1.152869872006068, z: 114.06037173657533}
+  id: pondb-reed-18
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7962}
+  rotation: {yaw: 337.58038378207965}
+  scale: 1.3967904091332062
+  visibleRange: {max: 160}
+pondb-reed-19:
+  castShadow: false
+  feetPosition: {x: -92.62863117584604, y: -0.3057414289185417, z: 117.57657506563112}
+  id: pondb-reed-19
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1452}
+  rotation: {yaw: 306.0822558151941}
+  scale: 1.781709713806263
+  visibleRange: {max: 160}
+pondb-reed-2:
+  castShadow: false
+  feetPosition: {x: -68.89612044916547, y: -1.1172932306087349, z: 92.92398951235336}
+  id: pondb-reed-2
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1279}
+  rotation: {yaw: 231.0562956291513}
+  scale: 1.3990271479818164
+  visibleRange: {max: 160}
+pondb-reed-20:
+  castShadow: false
+  feetPosition: {x: -94.82736363489494, y: -1.397134037184169, z: 116.65164134533008}
+  id: pondb-reed-20
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 194}
+  rotation: {yaw: 125.24353198951275}
+  scale: 1.395224818771344
+  visibleRange: {max: 160}
+pondb-reed-21:
+  castShadow: false
+  feetPosition: {x: -93.86482616357975, y: -1.550275122639809, z: 115.65401064615156}
+  id: pondb-reed-21
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3720}
+  rotation: {yaw: 78.78590660113184}
+  scale: 1.3683139879108936
+  visibleRange: {max: 160}
+pondb-reed-22:
+  castShadow: false
+  feetPosition: {x: -93.78714727830837, y: -1.3501637878071682, z: 116.03669069529367}
+  id: pondb-reed-22
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5013}
+  rotation: {yaw: 285.7257384461005}
+  scale: 1.8194832854063638
+  visibleRange: {max: 160}
+pondb-reed-23:
+  castShadow: false
+  feetPosition: {x: -96.84082643741304, y: -1.3298740613284126, z: 117.92613573183553}
+  id: pondb-reed-23
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4799}
+  rotation: {yaw: 238.0437248749862}
+  scale: 1.3183115881952976
+  visibleRange: {max: 160}
+pondb-reed-24:
+  castShadow: false
+  feetPosition: {x: -95.67556963987823, y: -1.1436480728498717, z: 117.66447602131491}
+  id: pondb-reed-24
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1109}
+  rotation: {yaw: 168.73156357963177}
+  scale: 1.4821103164842866
+  visibleRange: {max: 160}
+pondb-reed-25:
+  castShadow: false
+  feetPosition: {x: -95.39994579468953, y: -0.6633477051694964, z: 118.45337353788317}
+  id: pondb-reed-25
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5119}
+  rotation: {yaw: 143.73004575433677}
+  scale: 1.3114701895096665
+  visibleRange: {max: 160}
+pondb-reed-26:
+  castShadow: false
+  feetPosition: {x: -100.70617553154294, y: -1.5736448274963917, z: 118.9382856460932}
+  id: pondb-reed-26
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1616}
+  rotation: {yaw: 122.84474227709917}
+  scale: 1.5002224587836408
+  visibleRange: {max: 160}
+pondb-reed-27:
+  castShadow: false
+  feetPosition: {x: -100.48467793147297, y: -1.6146828626022744, z: 118.79525029957074}
+  id: pondb-reed-27
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8965}
+  rotation: {yaw: 325.56829611098783}
+  scale: 1.3645524513277003
+  visibleRange: {max: 160}
+pondb-reed-28:
+  castShadow: false
+  feetPosition: {x: -102.01266991054179, y: -0.5685832700135577, z: 121.03401836536891}
+  id: pondb-reed-28
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7786}
+  rotation: {yaw: 315.43576204936755}
+  scale: 1.7723813498729752
+  visibleRange: {max: 160}
+pondb-reed-29:
+  castShadow: false
+  feetPosition: {x: -102.12594417007445, y: -1.261992367253338, z: 119.83435662135253}
+  id: pondb-reed-29
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8044}
+  rotation: {yaw: 202.2986042510246}
+  scale: 1.2316352328432887
+  visibleRange: {max: 160}
+pondb-reed-3:
+  castShadow: false
+  feetPosition: {x: -75.01083994654745, y: -0.9395794610386864, z: 100.0170561028459}
+  id: pondb-reed-3
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3285}
+  rotation: {yaw: 209.18788358996989}
+  scale: 1.7605406529552026
+  visibleRange: {max: 160}
+pondb-reed-30:
+  castShadow: false
+  feetPosition: {x: -103.51532562853419, y: -0.5327715238607481, z: 121.3377183227412}
+  id: pondb-reed-30
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3947}
+  rotation: {yaw: 255.1086288015864}
+  scale: 1.5607542122065807
+  visibleRange: {max: 160}
+pondb-reed-31:
+  castShadow: false
+  feetPosition: {x: -104.2543684530925, y: -0.6920877923252203, z: 121.11255915055443}
+  id: pondb-reed-31
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1442}
+  rotation: {yaw: 261.03193721782037}
+  scale: 1.4468856763312992
+  visibleRange: {max: 160}
+pondb-reed-32:
+  castShadow: false
+  feetPosition: {x: -105.02125398586433, y: -0.9840426468007875, z: 120.68244205972316}
+  id: pondb-reed-32
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2947}
+  rotation: {yaw: 2.678588704522042}
+  scale: 1.728530089151361
+  visibleRange: {max: 160}
+pondb-reed-33:
+  castShadow: false
+  feetPosition: {x: -108.5330244785431, y: -0.76907804986937, z: 121.8698441471967}
+  id: pondb-reed-33
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7073}
+  rotation: {yaw: 254.61810138757252}
+  scale: 1.4857437431280238
+  visibleRange: {max: 160}
+pondb-reed-34:
+  castShadow: false
+  feetPosition: {x: -113.70499902376746, y: -1.0992160692870543, z: 126.48761743824697}
+  id: pondb-reed-34
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7292}
+  rotation: {yaw: 99.12079011049158}
+  scale: 1.3173792309674337
+  visibleRange: {max: 160}
+pondb-reed-35:
+  castShadow: false
+  feetPosition: {x: -117.42603692296024, y: -0.5235412865326275, z: 131.12601294981962}
+  id: pondb-reed-35
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1783}
+  rotation: {yaw: 283.50185357197273}
+  scale: 1.454010308419359
+  visibleRange: {max: 160}
+pondb-reed-36:
+  castShadow: false
+  feetPosition: {x: -116.0996289231398, y: -0.13628445362623634, z: 131.58760998352014}
+  id: pondb-reed-36
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1756}
+  rotation: {yaw: 25.824033313348902}
+  scale: 1.710290367906117
+  visibleRange: {max: 160}
+pondb-reed-37:
+  castShadow: false
+  feetPosition: {x: -117.28024564225215, y: -0.691032612827163, z: 130.67393049281375}
+  id: pondb-reed-37
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1178}
+  rotation: {yaw: 301.821822273462}
+  scale: 1.4964114283194818
+  visibleRange: {max: 160}
+pondb-reed-38:
+  castShadow: false
+  feetPosition: {x: -119.76570042274928, y: -1.717159141316687, z: 129.92361099107765}
+  id: pondb-reed-38
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7496}
+  rotation: {yaw: 52.15602957278305}
+  scale: 1.3573571377700926
+  visibleRange: {max: 160}
+pondb-reed-39:
+  castShadow: false
+  feetPosition: {x: -123.16820869019404, y: -0.475624304686148, z: 133.04512145591545}
+  id: pondb-reed-39
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3681}
+  rotation: {yaw: 212.11103762132632}
+  scale: 1.405480599638764
+  visibleRange: {max: 160}
+pondb-reed-4:
+  castShadow: false
+  feetPosition: {x: -73.6407082754942, y: -0.8012741505399331, z: 100.2278886106471}
+  id: pondb-reed-4
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6196}
+  rotation: {yaw: 33.65256139712993}
+  scale: 1.8802204697766436
+  visibleRange: {max: 160}
+pondb-reed-40:
+  castShadow: false
+  feetPosition: {x: -122.9747612077043, y: -0.9267936539068807, z: 132.19505342573953}
+  id: pondb-reed-40
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 392}
+  rotation: {yaw: 306.17419774931585}
+  scale: 1.5211516236519216
+  visibleRange: {max: 160}
+pondb-reed-41:
+  castShadow: false
+  feetPosition: {x: -127.88383379489571, y: -0.6601233986868961, z: 132.3704575545333}
+  id: pondb-reed-41
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 271}
+  rotation: {yaw: 45.24970932176789}
+  scale: 1.8007132733709705
+  visibleRange: {max: 160}
+pondb-reed-42:
+  castShadow: false
+  feetPosition: {x: -131.1457931125589, y: -0.656274323977689, z: 131.16736283666518}
+  id: pondb-reed-42
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4429}
+  rotation: {yaw: 260.7622979305509}
+  scale: 1.2466357492593283
+  visibleRange: {max: 160}
+pondb-reed-43:
+  castShadow: false
+  feetPosition: {x: -130.15025423961757, y: -1.0453136697678465, z: 130.90176858277422}
+  id: pondb-reed-43
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9711}
+  rotation: {yaw: 207.71984001981087}
+  scale: 1.5102697625804087
+  visibleRange: {max: 160}
+pondb-reed-44:
+  castShadow: false
+  feetPosition: {x: -132.74759818699226, y: -0.7445848986165186, z: 130.00563845814895}
+  id: pondb-reed-44
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9923}
+  rotation: {yaw: 109.99198022763802}
+  scale: 1.7267515840599086
+  visibleRange: {max: 160}
+pondb-reed-45:
+  castShadow: false
+  feetPosition: {x: -136.20760007892252, y: -1.2068270186295864, z: 125.0190330200956}
+  id: pondb-reed-45
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1883}
+  rotation: {yaw: 280.4974514062039}
+  scale: 1.4005322432147955
+  visibleRange: {max: 160}
+pondb-reed-46:
+  castShadow: false
+  feetPosition: {x: -136.53796174419804, y: -1.2719492174778613, z: 124.1397703033932}
+  id: pondb-reed-46
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6557}
+  rotation: {yaw: 173.82812498781277}
+  scale: 1.6248014517243958
+  visibleRange: {max: 160}
+pondb-reed-47:
+  castShadow: false
+  feetPosition: {x: -137.5025797984331, y: -1.1814262145465464, z: 121.94469840351044}
+  id: pondb-reed-47
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9600}
+  rotation: {yaw: 328.7059143784949}
+  scale: 1.7338989201159676
+  visibleRange: {max: 160}
+pondb-reed-48:
+  castShadow: false
+  feetPosition: {x: -138.5256290469933, y: -0.5692588510211288, z: 122.23341293459951}
+  id: pondb-reed-48
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 673}
+  rotation: {yaw: 27.933627752556294}
+  scale: 1.3435684128867313
+  visibleRange: {max: 160}
+pondb-reed-49:
+  castShadow: false
+  feetPosition: {x: -137.83296413984937, y: -1.2300509943234053, z: 117.47333082377763}
+  id: pondb-reed-49
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5132}
+  rotation: {yaw: 134.09991089911196}
+  scale: 1.26752905038536
+  visibleRange: {max: 160}
+pondb-reed-5:
+  castShadow: false
+  feetPosition: {x: -82.76630050140216, y: -1.7144311272495938, z: 101.51260243924415}
+  id: pondb-reed-5
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3847}
+  rotation: {yaw: 1.5929294012454012}
+  scale: 1.6681384600084919
+  visibleRange: {max: 160}
+pondb-reed-50:
+  castShadow: false
+  feetPosition: {x: -136.9221170267239, y: -1.5703439703797475, z: 113.81561644197936}
+  id: pondb-reed-50
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1354}
+  rotation: {yaw: 95.89160692686755}
+  scale: 1.3633180493783754
+  visibleRange: {max: 160}
+pondb-reed-51:
+  castShadow: false
+  feetPosition: {x: -137.98611381034365, y: -0.8586590920987689, z: 114.00419324365407}
+  id: pondb-reed-51
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7695}
+  rotation: {yaw: 298.0348167279897}
+  scale: 1.7195680081004125
+  visibleRange: {max: 160}
+pondb-reed-52:
+  castShadow: false
+  feetPosition: {x: -136.87457609142334, y: -1.6677042395927242, z: 108.90722644042073}
+  id: pondb-reed-52
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4484}
+  rotation: {yaw: 171.32498896276812}
+  scale: 1.4491660101102506
+  visibleRange: {max: 160}
+pondb-reed-53:
+  castShadow: false
+  feetPosition: {x: -137.8035827797327, y: -1.2738344187149013, z: 105.55745990010448}
+  id: pondb-reed-53
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7241}
+  rotation: {yaw: 357.10478234901313}
+  scale: 1.710828486369377
+  visibleRange: {max: 160}
+pondb-reed-54:
+  castShadow: false
+  feetPosition: {x: -137.3994579672435, y: -1.4934322249252536, z: 107.01021065948156}
+  id: pondb-reed-54
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6421}
+  rotation: {yaw: 31.375350016809698}
+  scale: 1.4831356582153288
+  visibleRange: {max: 160}
+pondb-reed-55:
+  castShadow: false
+  feetPosition: {x: -137.78324831169954, y: -1.2889683482637446, z: 106.06361570504946}
+  id: pondb-reed-55
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7113}
+  rotation: {yaw: 114.33864243064943}
+  scale: 1.6683181010970465
+  visibleRange: {max: 160}
+pondb-reed-56:
+  castShadow: false
+  feetPosition: {x: -138.70801044014704, y: -0.5387062667323482, z: 102.17684963236387}
+  id: pondb-reed-56
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6023}
+  rotation: {yaw: 242.66696959858152}
+  scale: 1.8292658923330092
+  visibleRange: {max: 160}
+pondb-reed-57:
+  castShadow: false
+  feetPosition: {x: -137.91466433550403, y: -0.8374989054594085, z: 101.16506186984645}
+  id: pondb-reed-57
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3715}
+  rotation: {yaw: 68.46735832675702}
+  scale: 1.5253723526491654
+  visibleRange: {max: 160}
+pondb-reed-58:
+  castShadow: false
+  feetPosition: {x: -138.1365936527445, y: -0.4405432309042038, z: 99.36385965749467}
+  id: pondb-reed-58
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2664}
+  rotation: {yaw: 53.20337251443573}
+  scale: 1.2991731689773374
+  visibleRange: {max: 160}
+pondb-reed-59:
+  castShadow: false
+  feetPosition: {x: -137.7635962953177, y: -0.44131620530163806, z: 98.40645575058521}
+  id: pondb-reed-59
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3823}
+  rotation: {yaw: 253.20384063441486}
+  scale: 1.4580884358184822
+  visibleRange: {max: 160}
+pondb-reed-6:
+  castShadow: false
+  feetPosition: {x: -81.66674896145798, y: -1.2483754397033444, z: 101.33007138282993}
+  id: pondb-reed-6
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6466}
+  rotation: {yaw: 25.17321340049301}
+  scale: 1.6666001634982415
+  visibleRange: {max: 160}
+pondb-reed-60:
+  castShadow: false
+  feetPosition: {x: -137.72130113959227, y: -0.46497478581068596, z: 98.43569103151636}
+  id: pondb-reed-60
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2781}
+  rotation: {yaw: 30.66233437073526}
+  scale: 1.7055429060037914
+  visibleRange: {max: 160}
+pondb-reed-61:
+  castShadow: false
+  feetPosition: {x: -137.05855106185285, y: -0.7967870628701582, z: 98.47168629555014}
+  id: pondb-reed-61
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6893}
+  rotation: {yaw: 94.78216849955832}
+  scale: 1.6801858927030981
+  visibleRange: {max: 160}
+pondb-reed-62:
+  castShadow: false
+  feetPosition: {x: -134.13866217888648, y: -1.0351512129897944, z: 94.38576292403395}
+  id: pondb-reed-62
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 161}
+  rotation: {yaw: 113.10539206168866}
+  scale: 1.863486638135969
+  visibleRange: {max: 160}
+pondb-reed-63:
+  castShadow: false
+  feetPosition: {x: -134.10292533763672, y: -0.699511941533813, z: 93.44158767446653}
+  id: pondb-reed-63
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2470}
+  rotation: {yaw: 333.14950122178976}
+  scale: 1.7276936866006318
+  visibleRange: {max: 160}
+pondb-reed-64:
+  castShadow: false
+  feetPosition: {x: -132.65111593117524, y: -0.7156246873030717, z: 91.97831655334603}
+  id: pondb-reed-64
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 368}
+  rotation: {yaw: 280.8084082793483}
+  scale: 1.3194827165079688
+  visibleRange: {max: 160}
+pondb-reed-65:
+  castShadow: false
+  feetPosition: {x: -131.08590727717893, y: -1.6458488879233815, z: 92.73909427273976}
+  id: pondb-reed-65
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5874}
+  rotation: {yaw: 343.01183021767616}
+  scale: 1.59924834696541
+  visibleRange: {max: 160}
+pondb-reed-66:
+  castShadow: false
+  feetPosition: {x: -131.32511226629143, y: -1.359346679170586, z: 92.25936445740953}
+  id: pondb-reed-66
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2435}
+  rotation: {yaw: 289.83680764671266}
+  scale: 1.739975222917262
+  visibleRange: {max: 160}
+pondb-reed-67:
+  castShadow: false
+  feetPosition: {x: -130.07060409056004, y: -1.3666786529692287, z: 91.29645776760206}
+  id: pondb-reed-67
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3259}
+  rotation: {yaw: 187.82201827867982}
+  scale: 1.5587056113214723
+  visibleRange: {max: 160}
+pondb-reed-68:
+  castShadow: false
+  feetPosition: {x: -130.01720209370126, y: -1.3290201553602181, z: 91.17958729981909}
+  id: pondb-reed-68
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6756}
+  rotation: {yaw: 55.8181296735155}
+  scale: 1.8308269492028406
+  visibleRange: {max: 160}
+pondb-reed-69:
+  castShadow: false
+  feetPosition: {x: -129.928451293512, y: -1.3840718265895977, z: 91.2328822176022}
+  id: pondb-reed-69
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7092}
+  rotation: {yaw: 31.588793504791703}
+  scale: 1.2669757495480476
+  visibleRange: {max: 160}
+pondb-reed-7:
+  castShadow: false
+  feetPosition: {x: -81.47690472932884, y: -0.4878105481251319, z: 110.11150371052811}
+  id: pondb-reed-7
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8960}
+  rotation: {yaw: 259.7677653374932}
+  scale: 1.8358068128748828
+  visibleRange: {max: 160}
+pondb-reed-70:
+  castShadow: false
+  feetPosition: {x: -128.5911843968631, y: -0.47304723846423913, z: 88.5616607172787}
+  id: pondb-reed-70
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4047}
+  rotation: {yaw: 298.9959321818296}
+  scale: 1.717069160527116
+  visibleRange: {max: 160}
+pondb-reed-71:
+  castShadow: false
+  feetPosition: {x: -127.50121058259212, y: -1.2193353963335416, z: 89.41550602794614}
+  id: pondb-reed-71
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1191}
+  rotation: {yaw: 134.32080137278922}
+  scale: 1.2661962979315762
+  visibleRange: {max: 160}
+pondb-reed-72:
+  castShadow: false
+  feetPosition: {x: -126.12126789251928, y: -1.3166177093594154, z: 88.65722916451257}
+  id: pondb-reed-72
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 855}
+  rotation: {yaw: 2.2930065739401644}
+  scale: 1.3069140512062767
+  visibleRange: {max: 160}
+pondb-reed-73:
+  castShadow: false
+  feetPosition: {x: -126.47144342479919, y: -1.0965557777940393, z: 88.52104707007162}
+  id: pondb-reed-73
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1605}
+  rotation: {yaw: 62.541029240256655}
+  scale: 1.312460380053362
+  visibleRange: {max: 160}
+pondb-reed-74:
+  castShadow: false
+  feetPosition: {x: -125.2706006148316, y: -1.711303491888645, z: 88.8334828201478}
+  id: pondb-reed-74
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7920}
+  rotation: {yaw: 103.37531575158951}
+  scale: 1.4940977573367291
+  visibleRange: {max: 160}
+pondb-reed-75:
+  castShadow: false
+  feetPosition: {x: -120.53187759732845, y: -0.5613446269140424, z: 82.06764223524792}
+  id: pondb-reed-75
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9631}
+  rotation: {yaw: 334.3148157625994}
+  scale: 1.7993722887241153
+  visibleRange: {max: 160}
+pondb-reed-76:
+  castShadow: false
+  feetPosition: {x: -100.97534164583026, y: -1.2356183126461313, z: 90.81257519565918}
+  id: pondb-reed-76
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6646}
+  rotation: {yaw: 286.29238276104087}
+  scale: 1.4487211685388912
+  visibleRange: {max: 160}
+pondb-reed-77:
+  castShadow: false
+  feetPosition: {x: -101.85955897855118, y: -0.7440544753175914, z: 90.63575491768343}
+  id: pondb-reed-77
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 451}
+  rotation: {yaw: 214.87222126446304}
+  scale: 1.847296829124585
+  visibleRange: {max: 160}
+pondb-reed-78:
+  castShadow: false
+  feetPosition: {x: -100.46436504481619, y: -1.58441225768324, z: 91.09447924127778}
+  id: pondb-reed-78
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5488}
+  rotation: {yaw: 188.17327349827315}
+  scale: 1.585444510767909
+  visibleRange: {max: 160}
+pondb-reed-79:
+  castShadow: false
+  feetPosition: {x: -100.58717505161154, y: -1.5538170752198823, z: 91.14729688299076}
+  id: pondb-reed-79
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 710}
+  rotation: {yaw: 31.704145423930207}
+  scale: 1.7404035013357193
+  visibleRange: {max: 160}
+pondb-reed-8:
+  castShadow: false
+  feetPosition: {x: -82.3776206281014, y: -0.9501563587878502, z: 111.28375761401387}
+  id: pondb-reed-8
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4687}
+  rotation: {yaw: 302.4152652092349}
+  scale: 1.3632169946856876
+  visibleRange: {max: 160}
+pondb-reed-80:
+  castShadow: false
+  feetPosition: {x: -100.06656804531902, y: -1.855466564785333, z: 91.44802307615646}
+  id: pondb-reed-80
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2291}
+  rotation: {yaw: 26.532500603484223}
+  scale: 1.4566877843144759
+  visibleRange: {max: 160}
+pondb-reed-81:
+  castShadow: false
+  feetPosition: {x: -100.56781090284906, y: -1.4331870186772244, z: 90.83188632921946}
+  id: pondb-reed-81
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 990}
+  rotation: {yaw: 172.1485288870281}
+  scale: 1.6240932190902964
+  visibleRange: {max: 160}
+pondb-reed-82:
+  castShadow: false
+  feetPosition: {x: -101.29042200716562, y: -1.3555726026800103, z: 91.37520334127616}
+  id: pondb-reed-82
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4351}
+  rotation: {yaw: 97.32438380705398}
+  scale: 1.4029267115997741
+  visibleRange: {max: 160}
+pondb-reed-83:
+  castShadow: false
+  feetPosition: {x: -100.95408334500664, y: -0.9897131542420382, z: 90.23832041755057}
+  id: pondb-reed-83
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8343}
+  rotation: {yaw: 347.34003228477206}
+  scale: 1.4849214841075806
+  visibleRange: {max: 160}
+pondb-reed-84:
+  castShadow: false
+  feetPosition: {x: -102.05809265485941, y: -0.33285950020746535, z: 89.88941884038653}
+  id: pondb-reed-84
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 961}
+  rotation: {yaw: 311.13269898627544}
+  scale: 1.8045341215117527
+  visibleRange: {max: 160}
+pondb-reed-85:
+  castShadow: false
+  feetPosition: {x: -100.49818418886149, y: -1.8315288506078404, z: 91.8087550150566}
+  id: pondb-reed-85
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3477}
+  rotation: {yaw: 116.67469812402256}
+  scale: 1.2605299498702072
+  visibleRange: {max: 160}
+pondb-reed-86:
+  castShadow: false
+  feetPosition: {x: -100.23529210046732, y: -1.8268718652711318, z: 91.53288503010386}
+  id: pondb-reed-86
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5013}
+  rotation: {yaw: 240.72961740229727}
+  scale: 1.5033597956427185
+  visibleRange: {max: 160}
+pondb-reed-87:
+  castShadow: false
+  feetPosition: {x: -100.6493546957324, y: -1.3842408598391365, z: 90.80454414973012}
+  id: pondb-reed-87
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4039}
+  rotation: {yaw: 14.21375279045373}
+  scale: 1.6021257593772027
+  visibleRange: {max: 160}
+pondb-reed-88:
+  castShadow: false
+  feetPosition: {x: -100.9941095243557, y: -1.2741782462765485, z: 90.91696007499571}
+  id: pondb-reed-88
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8205}
+  rotation: {yaw: 93.69354451712852}
+  scale: 1.2490737301060342
+  visibleRange: {max: 160}
+pondb-reed-89:
+  castShadow: false
+  feetPosition: {x: -100.576439333973, y: -1.7265660672797958, z: 91.5827680816737}
+  id: pondb-reed-89
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7926}
+  rotation: {yaw: 11.220159927019925}
+  scale: 1.327531493840521
+  visibleRange: {max: 160}
+pondb-reed-9:
+  castShadow: false
+  feetPosition: {x: -82.90208189768651, y: -1.3588378665714353, z: 110.6615739086632}
+  id: pondb-reed-9
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2616}
+  rotation: {yaw: 312.19764895373845}
+  scale: 1.2121560689584148
+  visibleRange: {max: 160}
+pondb-reed-90:
+  castShadow: false
+  feetPosition: {x: -100.98312312856228, y: -1.7328191037030773, z: 91.97259905370204}
+  id: pondb-reed-90
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6685}
+  rotation: {yaw: 114.06595615393759}
+  scale: 1.2017624677167098
+  visibleRange: {max: 160}
+pondb-reed-91:
+  castShadow: false
+  feetPosition: {x: -101.3532445792706, y: -0.41127673166228684, z: 89.28908367526832}
+  id: pondb-reed-91
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1241}
+  rotation: {yaw: 4.244001155832783}
+  scale: 1.3847984918322407
+  visibleRange: {max: 160}
+pondb-reed-92:
+  castShadow: false
+  feetPosition: {x: -107.37534848961367, y: -1.5451557352645777, z: 71.16822157810138}
+  id: pondb-reed-92
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5313}
+  rotation: {yaw: 115.26277860405983}
+  scale: 1.73866389730883
+  visibleRange: {max: 160}
+pondb-reed-93:
+  castShadow: false
+  feetPosition: {x: -109.16977664806102, y: -0.7742602549454255, z: 70.75729786452808}
+  id: pondb-reed-93
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 486}
+  rotation: {yaw: 276.9839143366478}
+  scale: 1.7865793169413595
+  visibleRange: {max: 160}
+pondb-reed-94:
+  castShadow: false
+  feetPosition: {x: -106.17809681330525, y: -1.1640407390142928, z: 69.70071342255652}
+  id: pondb-reed-94
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6320}
+  rotation: {yaw: 242.94518172878085}
+  scale: 1.7841597187724707
+  visibleRange: {max: 160}
+pondb-reed-95:
+  castShadow: false
+  feetPosition: {x: -103.09487626844724, y: -1.1146970901102335, z: 66.90355606404832}
+  id: pondb-reed-95
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3587}
+  rotation: {yaw: 185.8666723155727}
+  scale: 1.5989386212541437
+  visibleRange: {max: 160}
+pondb-reed-96:
+  castShadow: false
+  feetPosition: {x: -104.27522020638634, y: -0.43351649027378014, z: 66.69961728575706}
+  id: pondb-reed-96
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 711}
+  rotation: {yaw: 135.49510299018357}
+  scale: 1.612052327167267
+  visibleRange: {max: 160}
+pondb-reed-97:
+  castShadow: false
+  feetPosition: {x: -103.54759949102817, y: -0.41179400952002565, z: 65.61820144734607}
+  id: pondb-reed-97
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7752}
+  rotation: {yaw: 36.69106533596808}
+  scale: 1.3923824206424795
+  visibleRange: {max: 160}
+pondb-reed-98:
+  castShadow: false
+  feetPosition: {x: -102.27692120150573, y: -1.0560818217779746, z: 65.3206370672657}
+  id: pondb-reed-98
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1724}
+  rotation: {yaw: 177.63638938667086}
+  scale: 1.8662846078473536
+  visibleRange: {max: 160}
+pondg-flowers-70:
+  castShadow: false
+  feetPosition: {x: -115.06148012703454, y: {terrain: -0.1}, z: 132.59265817410727}
+  id: pondg-flowers-70
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 1.586277377133387, rz: 1.0774234255205017, tufts: 6}, script: scripts/gen/home-garden-planting.js, seed: 2727}
+  rotation: {yaw: 52.9392818794303}
+pondg-flowers-71:
+  castShadow: false
+  feetPosition: {x: -141.66195287298095, y: {terrain: -0.1}, z: 109.51030469557868}
+  id: pondg-flowers-71
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 1.9098886829381292, rz: 1.4119338382091065, tufts: 6}, script: scripts/gen/home-garden-planting.js, seed: 8410}
+  rotation: {yaw: 237.4767130974106}
+pondg-flowers-76:
+  castShadow: false
+  feetPosition: {x: -139.9908519862658, y: {terrain: -0.1}, z: 121.08754817108334}
+  id: pondg-flowers-76
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 1.6304672601774648, rz: 1.2645261266569263, tufts: 6}, script: scripts/gen/home-garden-planting.js, seed: 9301}
+  rotation: {yaw: 9.375946935906981}
+pondg-flowers-80:
+  castShadow: false
+  feetPosition: {x: -130.79765815313533, y: {terrain: -0.1}, z: 134.85721641227684}
+  id: pondg-flowers-80
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 1.9713071171992027, rz: 1.5741992293736895, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 6596}
+  rotation: {yaw: 216.03696080671483}
+pondg-flowers-81:
+  castShadow: false
+  feetPosition: {x: -140.24510291165845, y: {terrain: -0.1}, z: 116.16026170328809}
+  id: pondg-flowers-81
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2.260118474653046, rz: 1.3570021835886883, tufts: 7}, script: scripts/gen/home-garden-planting.js, seed: 4612}
+  rotation: {yaw: 294.41889655516434}
+pondg-flowers-84:
+  castShadow: false
+  feetPosition: {x: -142.0427669662879, y: {terrain: -0.1}, z: 108.35344072810682}
+  id: pondg-flowers-84
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 1.358312623369653, rz: 1.4501631085994482, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 2307}
+  rotation: {yaw: 29.013022421399608}
+pondg-flowers-86:
+  castShadow: false
+  feetPosition: {x: -123.4939800025737, y: {terrain: -0.1}, z: 136.28778056222933}
+  id: pondg-flowers-86
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 1.951755980845427, rz: 1.2017312931836264, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 8107}
+  rotation: {yaw: 14.886479477810896}
+pondg-flowers-91:
+  castShadow: false
+  feetPosition: {x: -125.94537508368502, y: {terrain: -0.1}, z: 134.4804462997479}
+  id: pondg-flowers-91
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 2.422133263117696, rz: 1.2210957619459815, tufts: 6}, script: scripts/gen/home-garden-planting.js, seed: 4615}
+  rotation: {yaw: 266.17397028309017}
+pondg-oak-0:
+  castShadow: true
+  feetPosition: {x: -110.0066656106184, y: {terrain: -0.1}, z: 154.8932075814488}
+  id: pondg-oak-0
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 151.45415762041424}
+  scale: 1.294386411828169
+  visibleRange: {max: 900}
+pondg-oak-12:
+  castShadow: true
+  feetPosition: {x: -154.80819585433795, y: {terrain: -0.1}, z: 125.76017852435153}
+  id: pondg-oak-12
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 218.49916598689705}
+  scale: 1.2315620970593588
+  visibleRange: {max: 900}
+pondg-oak-16:
+  castShadow: true
+  feetPosition: {x: -158.42400247499555, y: {terrain: -0.1}, z: 94.61998143714757}
+  id: pondg-oak-16
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 236.31236733697}
+  scale: 1.4263398497022408
+  visibleRange: {max: 900}
+pondg-oak-200:
+  castShadow: true
+  feetPosition: {x: -89.76677107281033, y: {terrain: -0.1}, z: 133.27468465776008}
+  id: pondg-oak-200
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 86.05478657691496}
+  scale: 1.27489542028629
+  visibleRange: {max: 900}
+pondg-oak-217:
+  castShadow: true
+  feetPosition: {x: -142.99389372853662, y: {terrain: -0.1}, z: 80.69995521434122}
+  id: pondg-oak-217
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 126.92575699040935}
+  scale: 1.3891442137254142
+  visibleRange: {max: 900}
+pondg-oak-222:
+  castShadow: true
+  feetPosition: {x: -138.3463733874994, y: {terrain: -0.1}, z: 66.78332687919166}
+  id: pondg-oak-222
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 219.36877234809506}
+  scale: 1.0968183822449382
+  visibleRange: {max: 900}
+pondg-pine-1:
+  castShadow: true
+  feetPosition: {x: -101.56198514316337, y: {terrain: -0.1}, z: 148.63782409819564}
+  id: pondg-pine-1
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 339.14347494912494}
+  scale: 1.764898426767857
+  visibleRange: {max: 900}
+pondg-pine-15:
+  castShadow: true
+  feetPosition: {x: -161.76632795161885, y: {terrain: -0.1}, z: 104.15569582948166}
+  id: pondg-pine-15
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 81.15421082878215}
+  scale: 1.9920689525511437
+  visibleRange: {max: 900}
+pondg-pine-205:
+  castShadow: true
+  feetPosition: {x: -101.32373153194578, y: {terrain: -0.1}, z: 137.6424429306519}
+  id: pondg-pine-205
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 301.939176461631}
+  scale: 1.8799313657357968
+  visibleRange: {max: 900}
+pondg-pine-206:
+  castShadow: true
+  feetPosition: {x: -109.34956605882448, y: {terrain: -0.1}, z: 137.44154968026433}
+  id: pondg-pine-206
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 35.30119508286062}
+  scale: 1.7688533153239885
+  visibleRange: {max: 900}
+pondg-pine-211:
+  castShadow: true
+  feetPosition: {x: -146.04669633176673, y: {terrain: -0.1}, z: 86.777363774312}
+  id: pondg-pine-211
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 315.69646606021394}
+  scale: 1.7141460297229447
+  visibleRange: {max: 900}
+pondg-pine-212:
+  castShadow: true
+  feetPosition: {x: -154.86556859021516, y: {terrain: -0.1}, z: 87.9913160312439}
+  id: pondg-pine-212
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 255.54277266168165}
+  scale: 2.4402601183579584
+  visibleRange: {max: 900}
+pondg-pine-24:
+  castShadow: true
+  feetPosition: {x: -165.0538061471122, y: {terrain: -0.1}, z: 68.30708404378142}
+  id: pondg-pine-24
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 213.37143362191105}
+  scale: 1.9164772671258437
+  visibleRange: {max: 900}
+pondg-under-10:
+  castShadow: true
+  feetPosition: {x: -129.92783438410532, y: {terrain: -0.1}, z: 141.10824791448078}
+  id: pondg-under-10
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 137.04902955193492}
+  scale: 0.341907961192498
+  visibleRange: {max: 900}
+pondg-under-11:
+  castShadow: true
+  feetPosition: {x: -134.72278063963788, y: {terrain: -0.1}, z: 144.44653117918216}
+  id: pondg-under-11
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 118.20265252059448}
+  scale: 0.3089535808930889
+  visibleRange: {max: 900}
+pondg-under-13:
+  castShadow: true
+  feetPosition: {x: -147.85277111857044, y: {terrain: -0.1}, z: 129.58371256870646}
+  id: pondg-under-13
+  material: {pbr: true, roughness: 0.95}
+  physics: static
+  primitive: {kind: scripted, params: {height: 4.229746848684618, kind: sapling}, script: scripts/gen/forest-plant.js, seed: 3420}
+  rotation: {yaw: 329.63799039350727}
+  visibleRange: {max: 400}
+pondg-under-14:
+  castShadow: false
+  feetPosition: {x: -153.62069103419066, y: {terrain: -0.1}, z: 132.1536907400001}
+  id: pondg-under-14
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 9830}
+  rotation: {yaw: 196.4659043757552}
+  visibleRange: {max: 120}
+pondg-under-17:
+  castShadow: false
+  feetPosition: {x: -161.6310343439558, y: {terrain: -0.1}, z: 106.03535982209878}
+  id: pondg-under-17
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 7652}
+  rotation: {yaw: 259.66768893397773}
+  visibleRange: {max: 120}
+pondg-under-18:
+  castShadow: false
+  feetPosition: {x: -155.72480852579014, y: {terrain: -0.1}, z: 91.97268573273469}
+  id: pondg-under-18
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 4528}
+  rotation: {yaw: 221.82608115571833}
+  visibleRange: {max: 120}
+pondg-under-19:
+  castShadow: false
+  feetPosition: {x: -166.56489426824515, y: {terrain: -0.1}, z: 94.65161229128464}
+  id: pondg-under-19
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 3702}
+  rotation: {yaw: 37.162075656076}
+  visibleRange: {max: 120}
+pondg-under-2:
+  castShadow: true
+  feetPosition: {x: -99.73305463489767, y: {terrain: -0.1}, z: 147.472876519901}
+  id: pondg-under-2
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 97.73561925521848}
+  scale: 0.34763674202265066
+  visibleRange: {max: 900}
+pondg-under-20:
+  castShadow: true
+  feetPosition: {x: -154.47335793441806, y: {terrain: -0.1}, z: 101.10277492311818}
+  id: pondg-under-20
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 295.4521570612919}
+  scale: 0.22648676771972642
+  visibleRange: {max: 900}
+pondg-under-201:
+  castShadow: false
+  feetPosition: {x: -95.96200737348516, y: {terrain: -0.1}, z: 133.93817921567697}
+  id: pondg-under-201
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 3534}
+  rotation: {yaw: 66.88029575482025}
+  visibleRange: {max: 120}
+pondg-under-202:
+  castShadow: false
+  feetPosition: {x: -93.78740052955236, y: {terrain: -0.1}, z: 130.5554051944879}
+  id: pondg-under-202
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 1912}
+  rotation: {yaw: 174.1309341481565}
+  visibleRange: {max: 120}
+pondg-under-203:
+  castShadow: true
+  feetPosition: {x: -92.40475130279435, y: {terrain: -0.1}, z: 136.74095931619524}
+  id: pondg-under-203
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 28.14781655936866}
+  scale: 0.23785099828981376
+  visibleRange: {max: 900}
+pondg-under-204:
+  castShadow: true
+  feetPosition: {x: -97.01332846137981, y: {terrain: -0.1}, z: 140.38465497037686}
+  id: pondg-under-204
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 5.575558005634489}
+  scale: 0.25279064218177955
+  visibleRange: {max: 900}
+pondg-under-207:
+  castShadow: true
+  feetPosition: {x: -110.74963810556636, y: {terrain: -0.1}, z: 134.4306600895414}
+  id: pondg-under-207
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 293.97292985300203}
+  scale: 0.24028514837393777
+  visibleRange: {max: 900}
+pondg-under-208:
+  castShadow: true
+  feetPosition: {x: -106.22142871333904, y: {terrain: -0.1}, z: 136.04591525427605}
+  id: pondg-under-208
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 23.083224065174917}
+  scale: 0.2509971808181131
+  visibleRange: {max: 900}
+pondg-under-209:
+  castShadow: true
+  feetPosition: {x: -103.66426791368802, y: {terrain: -0.1}, z: 142.24747498890068}
+  id: pondg-under-209
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 26.15752644192312}
+  scale: 0.22882792282794973
+  visibleRange: {max: 900}
+pondg-under-21:
+  castShadow: true
+  feetPosition: {x: -161.5223278248975, y: {terrain: -0.1}, z: 93.06582563500096}
+  id: pondg-under-21
+  material: {pbr: true, roughness: 0.95}
+  physics: static
+  primitive: {kind: scripted, params: {height: 5.082912537540734, kind: sapling}, script: scripts/gen/forest-plant.js, seed: 44}
+  rotation: {yaw: 26.93386116387968}
+  visibleRange: {max: 400}
+pondg-under-210:
+  castShadow: false
+  feetPosition: {x: -109.33759971345282, y: {terrain: -0.1}, z: 142.559916341801}
+  id: pondg-under-210
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 9386}
+  rotation: {yaw: 28.915370399558626}
+  visibleRange: {max: 120}
+pondg-under-213:
+  castShadow: false
+  feetPosition: {x: -152.7986812967074, y: {terrain: -0.1}, z: 86.16605801613595}
+  id: pondg-under-213
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 7800}
+  rotation: {yaw: 79.18984090871636}
+  visibleRange: {max: 120}
+pondg-under-214:
+  castShadow: true
+  feetPosition: {x: -155.589480366294, y: {terrain: -0.1}, z: 89.20609547445146}
+  id: pondg-under-214
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 68.94170078865332}
+  scale: 0.34211213932936646
+  visibleRange: {max: 900}
+pondg-under-215:
+  castShadow: true
+  feetPosition: {x: -148.93918029627906, y: {terrain: -0.1}, z: 92.7993722152452}
+  id: pondg-under-215
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 121.68630190272177}
+  scale: 0.3181323676221689
+  visibleRange: {max: 900}
+pondg-under-216:
+  castShadow: false
+  feetPosition: {x: -155.6554828246587, y: {terrain: -0.1}, z: 95.90277773887291}
+  id: pondg-under-216
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 1237}
+  rotation: {yaw: 105.57997589259408}
+  visibleRange: {max: 120}
+pondg-under-218:
+  castShadow: false
+  feetPosition: {x: -140.45913564616228, y: {terrain: -0.1}, z: 78.37904568007643}
+  id: pondg-under-218
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 4014}
+  rotation: {yaw: 219.73725371981845}
+  visibleRange: {max: 120}
+pondg-under-219:
+  castShadow: false
+  feetPosition: {x: -140.36495127354434, y: {terrain: -0.1}, z: 77.33579626994484}
+  id: pondg-under-219
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 3268}
+  rotation: {yaw: 234.51998468233273}
+  visibleRange: {max: 120}
+pondg-under-22:
+  castShadow: true
+  feetPosition: {x: -162.72228994968475, y: {terrain: -0.1}, z: 101.30239433563331}
+  id: pondg-under-22
+  material: {pbr: true, roughness: 0.95}
+  physics: static
+  primitive: {kind: scripted, params: {height: 4.241776316306449, kind: sapling}, script: scripts/gen/forest-plant.js, seed: 2137}
+  rotation: {yaw: 237.73926481499302}
+  visibleRange: {max: 400}
+pondg-under-220:
+  castShadow: true
+  feetPosition: {x: -138.5863083742906, y: {terrain: -0.1}, z: 78.98700402696484}
+  id: pondg-under-220
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 218.52007497964428}
+  scale: 0.227966981021672
+  visibleRange: {max: 900}
+pondg-under-221:
+  castShadow: true
+  feetPosition: {x: -138.26905414376284, y: {terrain: -0.1}, z: 83.07885650755325}
+  id: pondg-under-221
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 288.4806160482022}
+  scale: 0.2820354733299629
+  visibleRange: {max: 900}
+pondg-under-224:
+  castShadow: false
+  feetPosition: {x: -137.3948804306825, y: {terrain: -0.1}, z: 64.52545210106535}
+  id: pondg-under-224
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 7564}
+  rotation: {yaw: 286.26192979806194}
+  visibleRange: {max: 120}
+pondg-under-225:
+  castShadow: true
+  feetPosition: {x: -136.3681615753002, y: {terrain: -0.1}, z: 64.58925451101217}
+  id: pondg-under-225
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 80.99574709357495}
+  scale: 0.23393429810364466
+  visibleRange: {max: 900}
+pondg-under-226:
+  castShadow: true
+  feetPosition: {x: -137.32591871904995, y: {terrain: -0.1}, z: 71.56493950909217}
+  id: pondg-under-226
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 61.78065450013646}
+  scale: 0.24366191122385764
+  visibleRange: {max: 900}
+pondg-under-227:
+  castShadow: true
+  feetPosition: {x: -138.26129264974605, y: {terrain: -0.1}, z: 70.7352862996305}
+  id: pondg-under-227
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 274.8508063121004}
+  scale: 0.23208273464445153
+  visibleRange: {max: 900}
+pondg-under-23:
+  castShadow: true
+  feetPosition: {x: -167.77032709359696, y: {terrain: -0.1}, z: 106.94211660356265}
+  id: pondg-under-23
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 206.46831693428956}
+  scale: 0.2937958010629731
+  visibleRange: {max: 900}
+pondg-under-25:
+  castShadow: true
+  feetPosition: {x: -163.26534483083378, y: {terrain: -0.1}, z: 70.97642673517188}
+  id: pondg-under-25
+  material: {pbr: true, roughness: 0.95}
+  physics: static
+  primitive: {kind: scripted, params: {height: 3.359877572795319, kind: sapling}, script: scripts/gen/forest-plant.js, seed: 3849}
+  rotation: {yaw: 285.8217709166099}
+  visibleRange: {max: 400}
+pondg-under-26:
+  castShadow: true
+  feetPosition: {x: -155.09667166933798, y: {terrain: -0.1}, z: 65.86625199492157}
+  id: pondg-under-26
+  material: {pbr: true, roughness: 0.95}
+  physics: static
+  primitive: {kind: scripted, params: {height: 4.268359623508696, kind: sapling}, script: scripts/gen/forest-plant.js, seed: 9279}
+  rotation: {yaw: 67.99175556189928}
+  visibleRange: {max: 400}
+pondg-under-27:
+  castShadow: false
+  feetPosition: {x: -165.27747463030227, y: {terrain: -0.1}, z: 77.11088706803793}
+  id: pondg-under-27
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 7693}
+  rotation: {yaw: 24.746133976032088}
+  visibleRange: {max: 120}
+pondg-under-28:
+  castShadow: true
+  feetPosition: {x: -164.79578546007502, y: {terrain: -0.1}, z: 76.86077107728272}
+  id: pondg-under-28
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 144.95471841886393}
+  scale: 0.2721419804366967
+  visibleRange: {max: 900}
+pondg-under-29:
+  castShadow: true
+  feetPosition: {x: -163.65450854119194, y: {terrain: -0.1}, z: 74.30194674552286}
+  id: pondg-under-29
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 308.65771023028424}
+  scale: 0.28826492576779095
+  visibleRange: {max: 900}
+pondg-under-3:
+  castShadow: true
+  feetPosition: {x: -98.89387502181071, y: {terrain: -0.1}, z: 155.56463367217327}
+  id: pondg-under-3
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 48.97540929213884}
+  scale: 0.31422088453742714
+  visibleRange: {max: 900}
+pondg-under-30:
+  castShadow: true
+  feetPosition: {x: -169.15746967270456, y: {terrain: -0.1}, z: 66.0342094126667}
+  id: pondg-under-30
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 67.82055032803703}
+  scale: 0.34671674055825763
+  visibleRange: {max: 900}
+pondg-under-31:
+  castShadow: true
+  feetPosition: {x: -165.16397976465313, y: {terrain: -0.1}, z: 64.61909403321067}
+  id: pondg-under-31
+  material: {pbr: true, roughness: 0.95}
+  physics: static
+  primitive: {kind: scripted, params: {height: 3.0532631168855646, kind: sapling}, script: scripts/gen/forest-plant.js, seed: 772}
+  rotation: {yaw: 317.4863074894465}
+  visibleRange: {max: 400}
+pondg-under-4:
+  castShadow: true
+  feetPosition: {x: -105.6871572208998, y: {terrain: -0.1}, z: 156.8707135819869}
+  id: pondg-under-4
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 161.54102321785922}
+  scale: 0.31176934067707945
+  visibleRange: {max: 900}
+pondg-under-5:
+  castShadow: false
+  feetPosition: {x: -101.67501279501026, y: {terrain: -0.1}, z: 148.98207950755943}
+  id: pondg-under-5
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 4590}
+  rotation: {yaw: 144.8900726553472}
+  visibleRange: {max: 120}
+pondg-under-6:
+  castShadow: true
+  feetPosition: {x: -107.56506186787288, y: {terrain: -0.1}, z: 146.9273119054106}
+  id: pondg-under-6
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 153.33155490147487}
+  scale: 0.30710143917105226
+  visibleRange: {max: 900}
+pondg-under-7:
+  castShadow: true
+  feetPosition: {x: -105.96541250486193, y: {terrain: -0.1}, z: 152.23415603058965}
+  id: pondg-under-7
+  material: {pbr: true, roughness: 0.95}
+  physics: static
+  primitive: {kind: scripted, params: {height: 5.024211787862802, kind: sapling}, script: scripts/gen/forest-plant.js, seed: 3709}
+  rotation: {yaw: 187.9603377859855}
+  visibleRange: {max: 400}
+pondg-under-8:
+  castShadow: true
+  feetPosition: {x: -111.03412628398948, y: {terrain: -0.1}, z: 146.36167023372806}
+  id: pondg-under-8
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 66.76241434494146}
+  scale: 0.3441017324729365
+  visibleRange: {max: 900}
+pondx-lily-100:
+  castShadow: true
+  feetPosition: {x: -121.5, y: -0.32999999999999996, z: 131.5}
+  id: pondx-lily-100
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 196.833790464715}
+  scale: 0.30761416124068863
+  visibleRange: {max: 900}
+pondx-lily-102:
+  castShadow: true
+  feetPosition: {x: -108, y: -0.32999999999999996, z: 121}
+  id: pondx-lily-102
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 198.3219152308637}
+  scale: 0.22109282108540312
+  visibleRange: {max: 900}
+pondx-lily-103:
+  castShadow: true
+  feetPosition: {x: -99, y: -0.32999999999999996, z: 119.5}
+  id: pondx-lily-103
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 306.99511279677745}
+  scale: 0.24224327830236558
+  visibleRange: {max: 900}
+pondx-lily-106:
+  castShadow: true
+  feetPosition: {x: -91.5, y: -0.32999999999999996, z: 115}
+  id: pondx-lily-106
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 85.95620047578412}
+  scale: 0.24674878162180483
+  visibleRange: {max: 900}
+pondx-lily-107:
+  castShadow: true
+  feetPosition: {x: -88.5, y: -0.32999999999999996, z: 112}
+  id: pondx-lily-107
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 332.49103550449524}
+  scale: 0.20001291350927805
+  visibleRange: {max: 900}
+pondx-lily-109:
+  castShadow: true
+  feetPosition: {x: -82.5, y: -0.32999999999999996, z: 110.5}
+  id: pondx-lily-109
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 322.00545249600214}
+  scale: 0.3290659417300792
+  visibleRange: {max: 900}
+pondx-lily-94:
+  castShadow: true
+  feetPosition: {x: -138, y: -0.32999999999999996, z: 107.5}
+  id: pondx-lily-94
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 43.03681647546441}
+  scale: 0.25762676548102253
+  visibleRange: {max: 900}
+pondx-lily-95:
+  castShadow: true
+  feetPosition: {x: -138, y: -0.32999999999999996, z: 109}
+  id: pondx-lily-95
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 130.07411197297}
+  scale: 0.29158647311459596
+  visibleRange: {max: 900}
+pondx-lily-96:
+  castShadow: true
+  feetPosition: {x: -138, y: -0.32999999999999996, z: 110.5}
+  id: pondx-lily-96
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 88.01858451590807}
+  scale: 0.34385363701444754
+  visibleRange: {max: 900}
+pondx-lily-97:
+  castShadow: true
+  feetPosition: {x: -135, y: -0.32999999999999996, z: 95.5}
+  id: pondx-lily-97
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 257.75867762871025}
+  scale: 0.28885185785538137
+  visibleRange: {max: 900}
+pondx-lily-98:
+  castShadow: true
+  feetPosition: {x: -132, y: -0.32999999999999996, z: 130}
+  id: pondx-lily-98
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 245.08065747333723}
+  scale: 0.22500564834336084
+  visibleRange: {max: 900}
+pondx-lily-99:
+  castShadow: true
+  feetPosition: {x: -127.5, y: -0.32999999999999996, z: 131.5}
+  id: pondx-lily-99
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  receiveShadow: true
+  rotation: {yaw: 64.86463965143292}
+  scale: 0.321207972253304
+  visibleRange: {max: 900}
+pondx-log-129:
+  castShadow: true
+  feetPosition: {x: -90, y: {terrain: -0.1}, z: 115}
+  id: pondx-log-129
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -45.00994428802136}
+  scale: 0.3
+  visibleRange: {max: 900}
+pondx-reed-0:
+  castShadow: false
+  feetPosition: {x: -139.0845169190245, y: {terrain: 0}, z: 107.72937066188518}
+  id: pondx-reed-0
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5326}
+  rotation: {yaw: 118.55243286050504}
+  scale: 1.4264371126547628
+  visibleRange: {max: 150}
+pondx-reed-1:
+  castShadow: false
+  feetPosition: {x: -138.1000449512154, y: {terrain: 0}, z: 107.68451454242901}
+  id: pondx-reed-1
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6358}
+  rotation: {yaw: 294.03267220316116}
+  scale: 1.0694033415845612
+  visibleRange: {max: 150}
+pondx-reed-10:
+  castShadow: false
+  feetPosition: {x: -138.29566682390669, y: {terrain: 0}, z: 116.5049496635352}
+  id: pondx-reed-10
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6889}
+  rotation: {yaw: 338.2461367259948}
+  scale: 1.1777054657124473
+  visibleRange: {max: 150}
+pondx-reed-11:
+  castShadow: false
+  feetPosition: {x: -138.45735476713506, y: {terrain: 0}, z: 116.58685967679455}
+  id: pondx-reed-11
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3505}
+  rotation: {yaw: 119.01594070671868}
+  scale: 1.174002279096284
+  visibleRange: {max: 150}
+pondx-reed-12:
+  castShadow: false
+  feetPosition: {x: -138.36034541021118, y: {terrain: 0}, z: 118.31918710834309}
+  id: pondx-reed-12
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 777}
+  rotation: {yaw: 146.4494130883596}
+  scale: 1.007500120116165
+  visibleRange: {max: 150}
+pondx-reed-13:
+  castShadow: false
+  feetPosition: {x: -138.59475726228894, y: {terrain: 0}, z: 117.72000549557619}
+  id: pondx-reed-13
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6323}
+  rotation: {yaw: 51.93101436455316}
+  scale: 1.219974715365085
+  visibleRange: {max: 150}
+pondx-reed-14:
+  castShadow: false
+  feetPosition: {x: -138.58521597044785, y: {terrain: 0}, z: 119.88456539385233}
+  id: pondx-reed-14
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8904}
+  rotation: {yaw: 318.67952605647946}
+  scale: 1.5354336163194076
+  visibleRange: {max: 150}
+pondx-reed-15:
+  castShadow: false
+  feetPosition: {x: -138.3589994599386, y: {terrain: 0}, z: 119.01048660045979}
+  id: pondx-reed-15
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2482}
+  rotation: {yaw: 27.374342245689753}
+  scale: 0.9011085730982519
+  visibleRange: {max: 150}
+pondx-reed-16:
+  castShadow: false
+  feetPosition: {x: -135.81766824575624, y: {terrain: 0}, z: 128.04817796707195}
+  id: pondx-reed-16
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6874}
+  rotation: {yaw: 85.69748029378125}
+  scale: 1.5174608564085612
+  visibleRange: {max: 150}
+pondx-reed-17:
+  castShadow: false
+  feetPosition: {x: -136.18112405757364, y: {terrain: 0}, z: 128.449346384577}
+  id: pondx-reed-17
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1183}
+  rotation: {yaw: 176.1338174045709}
+  scale: 0.9020788417673106
+  visibleRange: {max: 150}
+pondx-reed-18:
+  castShadow: false
+  feetPosition: {x: -133.73522006734885, y: {terrain: 0}, z: 128.67833430844183}
+  id: pondx-reed-18
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8999}
+  rotation: {yaw: 67.72825283358257}
+  scale: 1.5781160050435532
+  visibleRange: {max: 150}
+pondx-reed-19:
+  castShadow: false
+  feetPosition: {x: -134.04889259771952, y: {terrain: 0}, z: 128.9945395929071}
+  id: pondx-reed-19
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2227}
+  rotation: {yaw: 75.21646860764199}
+  scale: 1.2950875612418575
+  visibleRange: {max: 150}
+pondx-reed-2:
+  castShadow: false
+  feetPosition: {x: -138.66884873256498, y: {terrain: 0}, z: 110.68390955528426}
+  id: pondx-reed-2
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4678}
+  rotation: {yaw: 332.0646556336734}
+  scale: 1.4651862905664306
+  visibleRange: {max: 150}
+pondx-reed-20:
+  castShadow: false
+  feetPosition: {x: -130.88013009897526, y: {terrain: 0}, z: 130.59239468624546}
+  id: pondx-reed-20
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 327}
+  rotation: {yaw: 39.710290394588505}
+  scale: 1.5433207313731874
+  visibleRange: {max: 150}
+pondx-reed-21:
+  castShadow: false
+  feetPosition: {x: -131.47056011718982, y: {terrain: 0}, z: 131.55144487258372}
+  id: pondx-reed-21
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 370}
+  rotation: {yaw: 317.9288446521055}
+  scale: 1.502956798767185
+  visibleRange: {max: 150}
+pondx-reed-22:
+  castShadow: false
+  feetPosition: {x: -130.23511515429016, y: {terrain: 0}, z: 131.28359477449376}
+  id: pondx-reed-22
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2481}
+  rotation: {yaw: 261.95975472310545}
+  scale: 1.517550949620805
+  visibleRange: {max: 150}
+pondx-reed-23:
+  castShadow: false
+  feetPosition: {x: -130.76525228273368, y: {terrain: 0}, z: 132.0472635412809}
+  id: pondx-reed-23
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8868}
+  rotation: {yaw: 201.15942867526758}
+  scale: 1.1460067268209564
+  visibleRange: {max: 150}
+pondx-reed-24:
+  castShadow: false
+  feetPosition: {x: -128.22533907584386, y: {terrain: 0}, z: 89.1648374906555}
+  id: pondx-reed-24
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4227}
+  rotation: {yaw: 71.50545708439567}
+  scale: 1.1182001450183803
+  visibleRange: {max: 150}
+pondx-reed-25:
+  castShadow: false
+  feetPosition: {x: -127.31814344151607, y: {terrain: 0}, z: 89.32011679432544}
+  id: pondx-reed-25
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8721}
+  rotation: {yaw: 330.59509929762925}
+  scale: 1.0396770185510056
+  visibleRange: {max: 150}
+pondx-reed-26:
+  castShadow: false
+  feetPosition: {x: -129.00255504413627, y: {terrain: 0}, z: 132.56782739207512}
+  id: pondx-reed-26
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7713}
+  rotation: {yaw: 340.475608138589}
+  scale: 1.2374505269049902
+  visibleRange: {max: 150}
+pondx-reed-27:
+  castShadow: false
+  feetPosition: {x: -129.05333098701823, y: {terrain: 0}, z: 132.10408980041}
+  id: pondx-reed-27
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6625}
+  rotation: {yaw: 187.81948878793955}
+  scale: 1.293065670082842
+  visibleRange: {max: 150}
+pondx-reed-28:
+  castShadow: false
+  feetPosition: {x: -127.63754680316781, y: {terrain: 0}, z: 88.110884360881}
+  id: pondx-reed-28
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 260}
+  rotation: {yaw: 107.58106793629987}
+  scale: 1.2791837882619275
+  visibleRange: {max: 150}
+pondx-reed-29:
+  castShadow: false
+  feetPosition: {x: -127.27706961952013, y: {terrain: 0}, z: 86.87476336153911}
+  id: pondx-reed-29
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2356}
+  rotation: {yaw: 237.44597498208563}
+  scale: 1.2004196298310625
+  visibleRange: {max: 150}
+pondx-reed-3:
+  castShadow: false
+  feetPosition: {x: -139.01497343690832, y: {terrain: 0}, z: 110.92316823356}
+  id: pondx-reed-3
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6884}
+  rotation: {yaw: 231.7515247090494}
+  scale: 1.304202915264388
+  visibleRange: {max: 150}
+pondx-reed-30:
+  castShadow: false
+  feetPosition: {x: -124.55782525652411, y: {terrain: 0}, z: 87.9367467007449}
+  id: pondx-reed-30
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6808}
+  rotation: {yaw: 345.19956427868436}
+  scale: 0.9176493952598653
+  visibleRange: {max: 150}
+pondx-reed-31:
+  castShadow: false
+  feetPosition: {x: -124.9325033999749, y: {terrain: 0}, z: 87.69049143324256}
+  id: pondx-reed-31
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8981}
+  rotation: {yaw: 13.325932386017373}
+  scale: 0.9951720229327549
+  visibleRange: {max: 150}
+pondx-reed-33:
+  castShadow: false
+  feetPosition: {x: -121.56714380074625, y: {terrain: 0}, z: 80.42260211539576}
+  id: pondx-reed-33
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6736}
+  rotation: {yaw: 278.7637816363777}
+  scale: 1.1778182606109504
+  visibleRange: {max: 150}
+pondx-reed-36:
+  castShadow: false
+  feetPosition: {x: -123.12072889578143, y: {terrain: 0}, z: 131.7174576357037}
+  id: pondx-reed-36
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3144}
+  rotation: {yaw: 1.4995070553848087}
+  scale: 0.9043070997131556
+  visibleRange: {max: 150}
+pondx-reed-37:
+  castShadow: false
+  feetPosition: {x: -122.53009569326011, y: {terrain: 0}, z: 132.11280249338205}
+  id: pondx-reed-37
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9239}
+  rotation: {yaw: 279.885465353674}
+  scale: 1.4347537206647702
+  visibleRange: {max: 150}
+pondx-reed-38:
+  castShadow: false
+  feetPosition: {x: -119.69904433619186, y: {terrain: 0}, z: 131.51441963618362}
+  id: pondx-reed-38
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5721}
+  rotation: {yaw: 125.292230679324}
+  scale: 1.18490199771938
+  visibleRange: {max: 150}
+pondx-reed-39:
+  castShadow: false
+  feetPosition: {x: -120.0051724028332, y: {terrain: 0}, z: 132.07167424311476}
+  id: pondx-reed-39
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7216}
+  rotation: {yaw: 239.44236410755775}
+  scale: 1.3429708027946625
+  visibleRange: {max: 150}
+pondx-reed-4:
+  castShadow: false
+  feetPosition: {x: -138.05608636101525, y: {terrain: 0}, z: 111.83538627779828}
+  id: pondx-reed-4
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8370}
+  rotation: {yaw: 119.61057454329476}
+  scale: 1.0068012344682595
+  visibleRange: {max: 150}
+pondx-reed-49:
+  castShadow: false
+  feetPosition: {x: -111.45110652686053, y: {terrain: 0}, z: 70.42583184476842}
+  id: pondx-reed-49
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3312}
+  rotation: {yaw: 257.3346711775915}
+  scale: 1.5685359367954246
+  visibleRange: {max: 150}
+pondx-reed-5:
+  castShadow: false
+  feetPosition: {x: -138.85483460871262, y: {terrain: 0}, z: 111.79487340165994}
+  id: pondx-reed-5
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9371}
+  rotation: {yaw: 200.65345022857815}
+  scale: 1.410490539442045
+  visibleRange: {max: 150}
+pondx-reed-50:
+  castShadow: false
+  feetPosition: {x: -110.72254402992434, y: {terrain: 0}, z: 69.82596073640788}
+  id: pondx-reed-50
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7335}
+  rotation: {yaw: 215.11965806368724}
+  scale: 0.9701809818717563
+  visibleRange: {max: 150}
+pondx-reed-51:
+  castShadow: false
+  feetPosition: {x: -110.8867302385097, y: {terrain: 0}, z: 68.5884060046116}
+  id: pondx-reed-51
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5810}
+  rotation: {yaw: 90.33142703135098}
+  scale: 1.0561274476145057
+  visibleRange: {max: 150}
+pondx-reed-52:
+  castShadow: false
+  feetPosition: {x: -109.1871696627639, y: {terrain: 0}, z: 69.42076179456001}
+  id: pondx-reed-52
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9054}
+  rotation: {yaw: 18.99260117625473}
+  scale: 1.3834821625535758
+  visibleRange: {max: 150}
+pondx-reed-53:
+  castShadow: false
+  feetPosition: {x: -109.20802881811188, y: {terrain: 0}, z: 69.52906606953083}
+  id: pondx-reed-53
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8045}
+  rotation: {yaw: 37.675433362683016}
+  scale: 1.5436276906373108
+  visibleRange: {max: 150}
+pondx-reed-54:
+  castShadow: false
+  feetPosition: {x: -108.07506596696334, y: {terrain: 0}, z: 70.31843193397785}
+  id: pondx-reed-54
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7905}
+  rotation: {yaw: 261.7675265026128}
+  scale: 1.535479307191204
+  visibleRange: {max: 150}
+pondx-reed-55:
+  castShadow: false
+  feetPosition: {x: -108.30973881660483, y: {terrain: 0}, z: 70.2211412477871}
+  id: pondx-reed-55
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 1545}
+  rotation: {yaw: 45.0872561359253}
+  scale: 1.5640547598544763
+  visibleRange: {max: 150}
+pondx-reed-56:
+  castShadow: false
+  feetPosition: {x: -106.65501854489146, y: {terrain: 0}, z: 68.53000428848614}
+  id: pondx-reed-56
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9406}
+  rotation: {yaw: 313.1114636515786}
+  scale: 1.5696075401593035
+  visibleRange: {max: 150}
+pondx-reed-57:
+  castShadow: false
+  feetPosition: {x: -106.31536062466034, y: {terrain: 0}, z: 68.51616433875188}
+  id: pondx-reed-57
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4697}
+  rotation: {yaw: 201.39054942940854}
+  scale: 0.9990971723567216
+  visibleRange: {max: 150}
+pondx-reed-6:
+  castShadow: false
+  feetPosition: {x: -139.34443722751197, y: {terrain: 0}, z: 113.56063002327487}
+  id: pondx-reed-6
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 5087}
+  rotation: {yaw: 151.71948961527994}
+  scale: 1.0350649300194648
+  visibleRange: {max: 150}
+pondx-reed-64:
+  castShadow: false
+  feetPosition: {x: -90.62483150448672, y: {terrain: 0}, z: 114.88102251890366}
+  id: pondx-reed-64
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7966}
+  rotation: {yaw: 4.176688606001758}
+  scale: 1.5953438354168759
+  visibleRange: {max: 150}
+pondx-reed-65:
+  castShadow: false
+  feetPosition: {x: -90.27270229862246, y: {terrain: 0}, z: 114.5120067897816}
+  id: pondx-reed-65
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 332}
+  rotation: {yaw: 62.17599316601454}
+  scale: 1.428727774568241
+  visibleRange: {max: 150}
+pondx-reed-68:
+  castShadow: false
+  feetPosition: {x: -89.25636613488486, y: {terrain: 0}, z: 112.9532918043637}
+  id: pondx-reed-68
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 6912}
+  rotation: {yaw: 102.74387798399846}
+  scale: 1.3984724831760267
+  visibleRange: {max: 150}
+pondx-reed-69:
+  castShadow: false
+  feetPosition: {x: -88.66919855980358, y: {terrain: 0}, z: 112.62976510909184}
+  id: pondx-reed-69
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8452}
+  rotation: {yaw: 237.06870702890154}
+  scale: 1.4711981231212607
+  visibleRange: {max: 150}
+pondx-reed-7:
+  castShadow: false
+  feetPosition: {x: -138.37256248615336, y: {terrain: 0}, z: 113.36546344513329}
+  id: pondx-reed-7
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3440}
+  rotation: {yaw: 239.19157287068273}
+  scale: 1.5470435174866783
+  visibleRange: {max: 150}
+pondx-reed-70:
+  castShadow: false
+  feetPosition: {x: -86.67117614353596, y: {terrain: 0}, z: 111.62853403143981}
+  id: pondx-reed-70
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2317}
+  rotation: {yaw: 70.38545896782794}
+  scale: 0.9163505849970275
+  visibleRange: {max: 150}
+pondx-reed-71:
+  castShadow: false
+  feetPosition: {x: -86.68809857973275, y: {terrain: 0}, z: 112.51860634163889}
+  id: pondx-reed-71
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8533}
+  rotation: {yaw: 311.5661826876766}
+  scale: 1.4693963951288707
+  visibleRange: {max: 150}
+pondx-reed-72:
+  castShadow: false
+  feetPosition: {x: -84.1139383463254, y: {terrain: 0}, z: 112.59461596957156}
+  id: pondx-reed-72
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7510}
+  rotation: {yaw: 186.33772638921522}
+  scale: 1.1686588791053085
+  visibleRange: {max: 150}
+pondx-reed-73:
+  castShadow: false
+  feetPosition: {x: -84.25523869076522, y: {terrain: 0}, z: 112.70376206310642}
+  id: pondx-reed-73
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7715}
+  rotation: {yaw: 107.06084645682054}
+  scale: 1.0782013329110114
+  visibleRange: {max: 150}
+pondx-reed-74:
+  castShadow: false
+  feetPosition: {x: -82.8200443439353, y: {terrain: 0}, z: 111.31009475998312}
+  id: pondx-reed-74
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3162}
+  rotation: {yaw: 216.09368114550304}
+  scale: 1.3015258575796735
+  visibleRange: {max: 150}
+pondx-reed-75:
+  castShadow: false
+  feetPosition: {x: -83.27050081748439, y: {terrain: 0}, z: 110.81991075131673}
+  id: pondx-reed-75
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2087}
+  rotation: {yaw: 42.58940020696698}
+  scale: 1.1334291526272098
+  visibleRange: {max: 150}
+pondx-reed-76:
+  castShadow: false
+  feetPosition: {x: -81.93385607615907, y: {terrain: 0}, z: 109.31130713299294}
+  id: pondx-reed-76
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3472}
+  rotation: {yaw: 143.3429654423813}
+  scale: 0.9879281474221163
+  visibleRange: {max: 150}
+pondx-reed-77:
+  castShadow: false
+  feetPosition: {x: -81.81229417371763, y: {terrain: 0}, z: 110.11067838454558}
+  id: pondx-reed-77
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3758}
+  rotation: {yaw: 32.91416199547898}
+  scale: 1.3439568350296267
+  visibleRange: {max: 150}
+pondx-reed-8:
+  castShadow: false
+  feetPosition: {x: -139.06260775484265, y: {terrain: 0}, z: 114.78359400587324}
+  id: pondx-reed-8
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 3644}
+  rotation: {yaw: 152.62210541992548}
+  scale: 1.1328001524474471
+  visibleRange: {max: 150}
+pondx-reed-9:
+  castShadow: false
+  feetPosition: {x: -138.3416318860099, y: {terrain: 0}, z: 114.73323058813494}
+  id: pondx-reed-9
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 9064}
+  rotation: {yaw: 164.8212461568514}
+  scale: 1.5041080853920934
+  visibleRange: {max: 150}
+pondx-reed-90:
+  castShadow: false
+  feetPosition: {x: -72.81833678384511, y: {terrain: 0}, z: 97.87267142037243}
+  id: pondx-reed-90
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 8977}
+  rotation: {yaw: 340.28241029953693}
+  scale: 1.2236914806178265
+  visibleRange: {max: 150}
+pondx-reed-91:
+  castShadow: false
+  feetPosition: {x: -72.55521622500986, y: {terrain: 0}, z: 97.61234823910269}
+  id: pondx-reed-91
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 4044}
+  rotation: {yaw: 226.17117644575012}
+  scale: 0.9368715739049351
+  visibleRange: {max: 150}
+pondx-reed-92:
+  castShadow: false
+  feetPosition: {x: -69.71658649254431, y: {terrain: 0}, z: 94.16640218192079}
+  id: pondx-reed-92
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 2214}
+  rotation: {yaw: 97.99790576938443}
+  scale: 0.9987821839744142
+  visibleRange: {max: 150}
+pondx-reed-93:
+  castShadow: false
+  feetPosition: {x: -70.55728002179288, y: {terrain: 0}, z: 94.1245466590042}
+  id: pondx-reed-93
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: reed}, script: scripts/gen/forest-plant.js, seed: 7556}
+  rotation: {yaw: 5.15838783474564}
+  scale: 1.477547324997162
+  visibleRange: {max: 150}
+pondx-rock-112:
+  castShadow: true
+  feetPosition: {x: -82.5, y: {terrain: -0.25}, z: 112}
+  id: pondx-rock-112
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 220.27976938536378}
+  scale: 0.10104944670156085
+  visibleRange: {max: 900}
+pondx-rock-113:
+  castShadow: true
+  feetPosition: {x: -81.72013555035001, y: {terrain: -0.15}, z: 112.1818052673162}
+  id: pondx-rock-113
+  model: /cdn/value.420e289ffaa616a33a4247cc1c7b2fddba24a49ed6eadfeca471f6d017aeff04.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 12.135334001917082}
+  scale: 0.08833562785216403
+  visibleRange: {max: 900}
+pondx-rock-116:
+  castShadow: true
+  feetPosition: {x: -67.5, y: {terrain: -0.25}, z: 91}
+  id: pondx-rock-116
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 271.5018004698222}
+  scale: 0.09295859349097992
+  visibleRange: {max: 900}
+pondx-rock-117:
+  castShadow: true
+  feetPosition: {x: -68.73343035007521, y: {terrain: -0.15}, z: 90.73610628593532}
+  id: pondx-rock-117
+  model: /cdn/value.420e289ffaa616a33a4247cc1c7b2fddba24a49ed6eadfeca471f6d017aeff04.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 28.601725785341916}
+  scale: 0.10960212760120729
+  visibleRange: {max: 900}
+pondx-rock-118:
+  castShadow: true
+  feetPosition: {x: -124.5, y: {terrain: -0.25}, z: 134.5}
+  id: pondx-rock-118
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 113.51104465942413}
+  scale: 0.0872148510893876
+  visibleRange: {max: 900}
+pondx-rock-119:
+  castShadow: true
+  feetPosition: {x: -124.80899315039115, y: {terrain: -0.15}, z: 134.2521213759911}
+  id: pondx-rock-119
+  model: /cdn/value.420e289ffaa616a33a4247cc1c7b2fddba24a49ed6eadfeca471f6d017aeff04.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 288.47595386601796}
+  scale: 0.11695586451187537
+  visibleRange: {max: 900}
+pondx-rock-120:
+  castShadow: true
+  feetPosition: {x: -76.5, y: {terrain: -0.25}, z: 104.5}
+  id: pondx-rock-120
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 159.43867644268957}
+  scale: 0.09805071313309051
+  visibleRange: {max: 900}
+pondx-rock-121:
+  castShadow: true
+  feetPosition: {x: -94.5, y: {terrain: -0.25}, z: 119.5}
+  id: pondx-rock-121
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 42.141099647684534}
+  scale: 0.08311137114330724
+  visibleRange: {max: 900}
+pondx-rock-122:
+  castShadow: true
+  feetPosition: {x: -95.16987012707156, y: {terrain: -0.15}, z: 119.9927743081901}
+  id: pondx-rock-122
+  model: /cdn/value.420e289ffaa616a33a4247cc1c7b2fddba24a49ed6eadfeca471f6d017aeff04.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 66.93573014202329}
+  scale: 0.10281480556485001
+  visibleRange: {max: 900}
+pondx-rock-125:
+  castShadow: true
+  feetPosition: {x: -123, y: {terrain: -0.25}, z: 80.5}
+  id: pondx-rock-125
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 70.40653023422068}
+  scale: 0.09451306297653964
+  visibleRange: {max: 900}
+pondx-rock-126:
+  castShadow: true
+  feetPosition: {x: -122.63137582509377, y: {terrain: -0.15}, z: 80.96650764903357}
+  id: pondx-rock-126
+  model: /cdn/value.420e289ffaa616a33a4247cc1c7b2fddba24a49ed6eadfeca471f6d017aeff04.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 11.286876858811302}
+  scale: 0.06270908706947653
+  visibleRange: {max: 900}
+pondx-rock-127:
+  castShadow: true
+  feetPosition: {x: -64.5, y: {terrain: -0.25}, z: 80.5}
+  id: pondx-rock-127
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 38.892170711835924}
+  scale: 0.11777299320687214
+  visibleRange: {max: 900}

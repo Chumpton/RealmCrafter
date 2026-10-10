@@ -1,0 +1,81 @@
+# spawn-scene v2 yaml x0z-2
+meadow-copse-19:
+  feetPosition: {x: 54, y: {terrain: 0}, z: -246}
+  id: meadow-copse-19
+  scatter: {bounds: {radius: 9.799999999999999, shape: circle}, count: 8, seed: 119, templates: [{castShadow: true, model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 1.29, weight: 2}, {castShadow: true, model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.95, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress, meadow-copse]
+meadow-copse-21:
+  feetPosition: {x: -12, y: {terrain: 0}, z: -264}
+  id: meadow-copse-21
+  scatter: {bounds: {radius: 9.799999999999999, shape: circle}, count: 7, seed: 121, templates: [{castShadow: true, model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 1.29, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress, meadow-copse]
+meadow-deadwood-19:
+  feetPosition: {x: 54, y: {terrain: 0}, z: -246}
+  id: meadow-deadwood-19
+  scatter: {bounds: {innerRadius: 7, outerRadius: 16, shape: ring}, count: 5, seed: 319, templates: [{castShadow: true, model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.2, weight: 2}, {castShadow: true, model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.31, weight: 1.5}, {castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 1.5}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-deadwood-21:
+  feetPosition: {x: -12, y: {terrain: 0}, z: -264}
+  id: meadow-deadwood-21
+  scatter: {bounds: {innerRadius: 7, outerRadius: 16, shape: ring}, count: 6, seed: 321, templates: [{castShadow: true, model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.2, weight: 2}, {castShadow: true, model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.31, weight: 1.5}, {castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 1.5}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-flowers-16:
+  feetPosition: {x: 25, y: {terrain: 0}, z: -265}
+  id: meadow-flowers-16
+  scatter: {bounds: {radius: 8, shape: circle}, count: 65, seed: 516, templates: [{castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 2}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1.5}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 0.4}], variation: {scale: [0.7, 1.4], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-flowers-21:
+  feetPosition: {x: -35, y: {terrain: 0}, z: -210}
+  id: meadow-flowers-21
+  scatter: {bounds: {radius: 8, shape: circle}, count: 68, seed: 521, templates: [{castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 2}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1.5}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 0.4}], variation: {scale: [0.7, 1.4], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-flowers-28:
+  feetPosition: {x: 15, y: {terrain: 0}, z: -210}
+  id: meadow-flowers-28
+  scatter: {bounds: {radius: 10, shape: circle}, count: 48, seed: 528, templates: [{castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 2}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1.5}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 0.4}], variation: {scale: [0.7, 1.4], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-flowers-38:
+  feetPosition: {x: 50, y: {terrain: 0}, z: -285}
+  id: meadow-flowers-38
+  scatter: {bounds: {radius: 6, shape: circle}, count: 50, seed: 538, templates: [{castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 2}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1.5}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 0.4}], variation: {scale: [0.7, 1.4], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-flowers-4:
+  feetPosition: {x: -60, y: {terrain: 0}, z: -320}
+  id: meadow-flowers-4
+  scatter: {bounds: {radius: 6, shape: circle}, count: 60, seed: 504, templates: [{castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 2}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1.5}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 0.4}], variation: {scale: [0.7, 1.4], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-rest-bench-2:
+  castShadow: true
+  feetPosition: {x: -13.92978215460422, y: {terrain: 0}, z: -199.38857057567017}
+  id: meadow-rest-bench-2
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {w: 0.04225929081439972, x: 0, y: 0.9991067051887512, z: 0}
+  scale: 1
+  state: {seatParams: {item: elw-bench, seat: 0.5, width: 2.8}}
+  tags: [meadow-dress, den-furniture, elw-seat]
+meadow-rest-lantern-2:
+  castShadow: true
+  children: [{feetPosition: {x: 0, y: 2.3, z: 0}, light: {color: "#ffc27a", distance: 12, intensity: 2.2, kind: point}}]
+  feetPosition: {x: -11.737639883830973, y: {terrain: 0}, z: -199.20279580696058}
+  id: meadow-rest-lantern-2
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  scale: 1
+  tags: [meadow-dress]
+meadow-stones-39:
+  feetPosition: {x: -10, y: {terrain: 0}, z: -300}
+  id: meadow-stones-39
+  scatter: {bounds: {radius: 5, shape: circle}, count: 4, seed: 439, templates: [{castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 2}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 1}], variation: {scale: [0.7, 1.6], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-under-19:
+  feetPosition: {x: 54, y: {terrain: 0}, z: -246}
+  id: meadow-under-19
+  scatter: {bounds: {radius: 17, shape: circle}, count: 44, seed: 219, templates: [{castShadow: false, model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb, receiveShadow: true, scale: 0.42, weight: 3}, {castShadow: false, model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb, receiveShadow: true, scale: 1.25, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 2}, {castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 1.5}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1}], variation: {scale: [0.7, 1.35], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-under-21:
+  feetPosition: {x: -12, y: {terrain: 0}, z: -264}
+  id: meadow-under-21
+  scatter: {bounds: {radius: 17, shape: circle}, count: 44, seed: 221, templates: [{castShadow: false, model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb, receiveShadow: true, scale: 0.42, weight: 3}, {castShadow: false, model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb, receiveShadow: true, scale: 1.25, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 2}, {castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 1.5}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1}], variation: {scale: [0.7, 1.35], yaw: [0, 360]}}
+  tags: [meadow-dress]

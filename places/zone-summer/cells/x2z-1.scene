@@ -1,0 +1,223 @@
+# spawn-scene v2 yaml x2z-1
+sv-berry-341:
+  castShadow: true
+  feetPosition: {x: 201.68, y: {terrain: 0}, z: -91.86}
+  id: sv-berry-341
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  receiveShadow: true
+  rotation: {yaw: 43}
+  scale: 0.281
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 160}
+sv-berry-345:
+  castShadow: true
+  feetPosition: {x: 205.56, y: {terrain: 0}, z: -88.06}
+  id: sv-berry-345
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  receiveShadow: true
+  rotation: {yaw: 109}
+  scale: 0.2833
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 160}
+sv-dbush1-298:
+  castShadow: true
+  feetPosition: {x: 195.59, y: {terrain: 0}, z: -78.22}
+  id: sv-dbush1-298
+  model: /cdn/value.6e74ad3a99565347813a25849a3eaeeb4c576e2d9d6f0660a6856d800bd99dcc.glb
+  receiveShadow: true
+  rotation: {yaw: 174}
+  scale: 0.3678
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 150}
+sv-dbush1-314:
+  castShadow: true
+  feetPosition: {x: 205.3, y: {terrain: 0}, z: -94.26}
+  id: sv-dbush1-314
+  model: /cdn/value.6e74ad3a99565347813a25849a3eaeeb4c576e2d9d6f0660a6856d800bd99dcc.glb
+  receiveShadow: true
+  rotation: {yaw: 242}
+  scale: 0.362
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 150}
+sv-palm2-249:
+  castShadow: true
+  feetPosition: {x: 194.07, y: {terrain: 0}, z: -99.41}
+  id: sv-palm2-249
+  model: /cdn/value.725fce2c4ee0b522b78fbb3acd06fc4ef5455ad637497e8edc1745d6162d3360.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 244.5467061011804}
+  scale: 0.14715458867473274
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 900}
+sv-tree07-245:
+  castShadow: true
+  feetPosition: {x: 202, y: {terrain: 0}, z: -96.59}
+  id: sv-tree07-245
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 291.2200513348077}
+  scale: 0.9809200677000546
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 900}
+sv-tree07-247:
+  castShadow: true
+  feetPosition: {x: 200.69, y: {terrain: 0}, z: -87.15}
+  id: sv-tree07-247
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 77.4894182931117}
+  scale: 1.060658422047579
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 900}
+sv-tree07-250:
+  castShadow: true
+  feetPosition: {x: 192.37, y: {terrain: 0}, z: -75.52}
+  id: sv-tree07-250
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 90.04521387165656}
+  scale: 1.1635687541046966
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 900}
+svd-berry-298:
+  castShadow: false
+  feetPosition: {x: 200.58, y: {terrain: 0}, z: -84}
+  id: svd-berry-298
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  receiveShadow: true
+  rotation: {yaw: 199}
+  scale: 0.4001
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 160}
+svd-berry-305:
+  castShadow: false
+  feetPosition: {x: 196.15, y: {terrain: 0}, z: -101.43}
+  id: svd-berry-305
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  receiveShadow: true
+  rotation: {yaw: 158}
+  scale: 0.3343
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 160}
+svd-bush-306:
+  castShadow: false
+  feetPosition: {x: 195.17, y: {terrain: 0}, z: -97.48}
+  id: svd-bush-306
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 131}
+  scale: 0.303
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 180}
+svd-dbush1-297:
+  castShadow: false
+  feetPosition: {x: 201.48, y: {terrain: 0}, z: -85.7}
+  id: svd-dbush1-297
+  model: /cdn/value.6e74ad3a99565347813a25849a3eaeeb4c576e2d9d6f0660a6856d800bd99dcc.glb
+  receiveShadow: true
+  rotation: {yaw: 292}
+  scale: 0.2977
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 150}
+svd-dbush2-309:
+  castShadow: false
+  feetPosition: {x: 193.28, y: {terrain: 0}, z: -74.06}
+  id: svd-dbush2-309
+  model: /cdn/value.010556476c8ad1b3e2c5755f8dca5d97766488b911d5319cf6d5773d10aea125.glb
+  receiveShadow: true
+  rotation: {yaw: 198}
+  scale: 0.1799
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 150}
+svd-palm2-304:
+  castShadow: true
+  feetPosition: {x: 192.39, y: {terrain: 0}, z: -104.12}
+  id: svd-palm2-304
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 77.59151356182598}
+  scale: 1.1957449998686767
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 900}
+svd-rock-290:
+  castShadow: true
+  feetPosition: {x: 202.26, y: {terrain: -0.2}, z: -98.02}
+  id: svd-rock-290
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 78}
+  scale: 0.0374
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 140}
+svd-rock-299:
+  castShadow: true
+  feetPosition: {x: 198.57, y: {terrain: -0.2}, z: -86.89}
+  id: svd-rock-299
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 29}
+  scale: 0.0545
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 140}
+svd-rock-307:
+  castShadow: true
+  feetPosition: {x: 195.28, y: {terrain: -0.2}, z: -99.02}
+  id: svd-rock-307
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 203}
+  scale: 0.0475
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 140}
+svd-rock-311:
+  castShadow: true
+  feetPosition: {x: 194, y: {terrain: -0.2}, z: -75.61}
+  id: svd-rock-311
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 355}
+  scale: 0.0472
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 140}
+svd-tree03-411:
+  castShadow: true
+  feetPosition: {x: 192.16, y: {terrain: 0}, z: -166.83}
+  id: svd-tree03-411
+  model: /cdn/value.94bee95fe0d389ec70532f8e7f2dadcf7207d7a86783dfb8e5da023909418d4b.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 106}
+  scale: 1.1236936867813085
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 1400}
+svd-tree07-296:
+  castShadow: true
+  feetPosition: {x: 197.76, y: {terrain: 0}, z: -82.84}
+  id: svd-tree07-296
+  model: /cdn/value.725fce2c4ee0b522b78fbb3acd06fc4ef5455ad637497e8edc1745d6162d3360.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 225.6700933657913}
+  scale: 0.13543077732223588
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 900}
+svg-grove-2:
+  castShadow: true
+  feetPosition: {x: 200.45647306289732, y: 21.82770208752756, z: -93.22082179987729}
+  id: svg-grove-2
+  model: /cdn/value.5b60f39835bde50b74298a010faa267c062ff6f1c08b5e694cab76b8905f7222.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 221.08518713204433}
+  scale: 1.2418965581068289
+  tags: [sv-grove]
+  visibleRange: {max: 700}

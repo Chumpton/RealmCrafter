@@ -1,0 +1,8 @@
+acceleration: 80
+deceleration: 120
+jumpSpeed: 6.5
+turnInPlace: 90
+turnSmoothing: 0.06
+turnSpeed: 900
+turnTo: movement
+walkSpeed: 3.8

@@ -1,0 +1,181 @@
+# spawn-scene v2 yaml x-1z2
+mtn-pine-27:
+  castShadow: true
+  feetPosition: {x: -138.9158554337527, y: {terrain: -0.3}, z: 193.12652914464778}
+  id: mtn-pine-27
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 17.15566736513547}
+  scale: 2.726034790056774
+  visibleRange: {max: 900}
+mtn-pine-3:
+  castShadow: true
+  feetPosition: {x: -91.88652447279846, y: {terrain: -0.3}, z: 256.98411203780404}
+  id: mtn-pine-3
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 279.3111464005481}
+  scale: 2.9676614630816793
+  visibleRange: {max: 900}
+mtn-pine-5:
+  castShadow: true
+  feetPosition: {x: -143.60346724400458, y: {terrain: -0.3}, z: 259.085055690764}
+  id: mtn-pine-5
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 262.94332747484714}
+  scale: 1.7159292293321013
+  visibleRange: {max: 900}
+mtn-pine-507:
+  castShadow: true
+  feetPosition: {x: -155.89208981762272, y: {terrain: -0.3}, z: 218.95124396912345}
+  id: mtn-pine-507
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 251.81696892334938}
+  scale: 1.947171963261055
+  visibleRange: {max: 900}
+mtn-pine-511:
+  castShadow: true
+  feetPosition: {x: -162.24713920720254, y: {terrain: -0.3}, z: 195.65165509919248}
+  id: mtn-pine-511
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 69.82646867159124}
+  scale: 2.3787535157887048
+  visibleRange: {max: 900}
+mtn-pine-513:
+  castShadow: true
+  feetPosition: {x: -107.17477269804793, y: {terrain: -0.3}, z: 216.85093841089446}
+  id: mtn-pine-513
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 229.66915435607973}
+  scale: 1.7400143244955755
+  visibleRange: {max: 900}
+mtn-pine-519:
+  castShadow: true
+  feetPosition: {x: -166.79830376375386, y: {terrain: -0.3}, z: 281.36747197963643}
+  id: mtn-pine-519
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 64.74763532390243}
+  scale: 2.8659777335198493
+  visibleRange: {max: 900}
+mtn-pine-523:
+  castShadow: true
+  feetPosition: {x: -127.83201387516782, y: {terrain: -0.3}, z: 246.5242087098417}
+  id: mtn-pine-523
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 159.87556856119798}
+  scale: 2.4912066732957987
+  visibleRange: {max: 900}
+mtn-pine-528:
+  castShadow: true
+  feetPosition: {x: -191.95730865558482, y: {terrain: -0.3}, z: 253.35132841363145}
+  id: mtn-pine-528
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 57.078160558397954}
+  scale: 1.668284267312048
+  visibleRange: {max: 900}
+mtn-pine-529:
+  castShadow: true
+  feetPosition: {x: -165.26397584251313, y: {terrain: -0.3}, z: 288.52817779524634}
+  id: mtn-pine-529
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 108.04029112124829}
+  scale: 2.843046360389817
+  visibleRange: {max: 900}
+mtn-pine-532:
+  castShadow: true
+  feetPosition: {x: -187.20896999687375, y: {terrain: -0.3}, z: 192.13250327209593}
+  id: mtn-pine-532
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 282.41759656109735}
+  scale: 2.263714832469688
+  visibleRange: {max: 900}
+mtn-pine-537:
+  castShadow: true
+  feetPosition: {x: -133.5861977998103, y: {terrain: -0.3}, z: 217.68006397955122}
+  id: mtn-pine-537
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 63.19040159843415}
+  scale: 2.959462179224688
+  visibleRange: {max: 900}
+mtn-pine-538:
+  castShadow: true
+  feetPosition: {x: -167.50931709423165, y: {terrain: -0.3}, z: 283.9758949344865}
+  id: mtn-pine-538
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 119.0547861340711}
+  scale: 1.8482256876529313
+  visibleRange: {max: 900}
+mtn-pine-541:
+  castShadow: true
+  feetPosition: {x: -154.775978659641, y: {terrain: -0.3}, z: 192.46782628189206}
+  id: mtn-pine-541
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 241.39038411965146}
+  scale: 2.406216031781498
+  visibleRange: {max: 900}
+mtn-pine-546:
+  castShadow: true
+  feetPosition: {x: -114.32114635329748, y: {terrain: -0.3}, z: 204.04171481637366}
+  id: mtn-pine-546
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 347.5016062089715}
+  scale: 1.415228443599878
+  visibleRange: {max: 900}
+mtn-pine-553:
+  castShadow: true
+  feetPosition: {x: -95.94486322996434, y: {terrain: -0.3}, z: 253.6566158233474}
+  id: mtn-pine-553
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 50.06288126579619}
+  scale: 2.4292986554230094
+  visibleRange: {max: 900}
+mtn-pine-566:
+  castShadow: true
+  feetPosition: {x: -167.0991334165908, y: {terrain: -0.3}, z: 282.3994784412903}
+  id: mtn-pine-566
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 65.7649651848548}
+  scale: 1.828981512984718
+  visibleRange: {max: 900}
+mtn-pine-572:
+  castShadow: true
+  feetPosition: {x: -135.7492278775895, y: {terrain: -0.3}, z: 214.01575513557333}
+  id: mtn-pine-572
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 143.66457973777528}
+  scale: 1.4512547455966727
+  visibleRange: {max: 900}

@@ -1,0 +1,967 @@
+# spawn-scene v2 yaml x1z-1
+meadow-copse-11:
+  feetPosition: {x: 156, y: {terrain: 0}, z: -144}
+  id: meadow-copse-11
+  scatter: {bounds: {radius: 8.399999999999999, shape: circle}, count: 9, seed: 111, templates: [{castShadow: true, model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 1.29, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress, meadow-copse]
+meadow-copse-4:
+  feetPosition: {x: 138, y: {terrain: 0}, z: -96}
+  id: meadow-copse-4
+  scatter: {bounds: {radius: 8.399999999999999, shape: circle}, count: 9, seed: 104, templates: [{castShadow: true, model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 1.29, weight: 2}, {castShadow: true, model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.95, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress, meadow-copse]
+meadow-copse-9:
+  feetPosition: {x: 66, y: {terrain: 0}, z: -192}
+  id: meadow-copse-9
+  scatter: {bounds: {radius: 9.799999999999999, shape: circle}, count: 9, seed: 109, templates: [{castShadow: true, model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 1.29, weight: 2}, {castShadow: true, model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.95, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress, meadow-copse]
+meadow-deadwood-11:
+  feetPosition: {x: 156, y: {terrain: 0}, z: -144}
+  id: meadow-deadwood-11
+  scatter: {bounds: {innerRadius: 6, outerRadius: 14, shape: ring}, count: 3, seed: 311, templates: [{castShadow: true, model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.2, weight: 2}, {castShadow: true, model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.31, weight: 1.5}, {castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 1.5}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-deadwood-4:
+  feetPosition: {x: 138, y: {terrain: 0}, z: -96}
+  id: meadow-deadwood-4
+  scatter: {bounds: {innerRadius: 6, outerRadius: 14, shape: ring}, count: 6, seed: 304, templates: [{castShadow: true, model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.2, weight: 2}, {castShadow: true, model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.31, weight: 1.5}, {castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 1.5}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-deadwood-9:
+  feetPosition: {x: 66, y: {terrain: 0}, z: -192}
+  id: meadow-deadwood-9
+  scatter: {bounds: {innerRadius: 7, outerRadius: 16, shape: ring}, count: 6, seed: 309, templates: [{castShadow: true, model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.2, weight: 2}, {castShadow: true, model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.31, weight: 1.5}, {castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 1.5}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-flowers-29:
+  feetPosition: {x: 110, y: {terrain: 0}, z: -170}
+  id: meadow-flowers-29
+  scatter: {bounds: {radius: 10, shape: circle}, count: 69, seed: 529, templates: [{castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 2}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1.5}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 0.4}], variation: {scale: [0.7, 1.4], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-rest-bench-3:
+  castShadow: true
+  feetPosition: {x: 99.58795546977021, y: {terrain: 0}, z: -136.48214943256013}
+  id: meadow-rest-bench-3
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {w: 0.45377764105796814, x: 0, y: 0.8911149501800537, z: 0}
+  scale: 1
+  state: {seatParams: {item: elw-bench, seat: 0.5, width: 2.8}}
+  tags: [meadow-dress, den-furniture, elw-seat]
+meadow-rest-lantern-3:
+  castShadow: true
+  children: [{feetPosition: {x: 0, y: 2.3, z: 0}, light: {color: "#ffc27a", distance: 12, intensity: 2.2, kind: point}}]
+  feetPosition: {x: 100.88193320465531, y: {terrain: 0}, z: -134.70293004709313}
+  id: meadow-rest-lantern-3
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  scale: 1
+  tags: [meadow-dress]
+meadow-stones-27:
+  feetPosition: {x: 160, y: {terrain: 0}, z: -190}
+  id: meadow-stones-27
+  scatter: {bounds: {radius: 5, shape: circle}, count: 4, seed: 427, templates: [{castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 2}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 1}], variation: {scale: [0.7, 1.6], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-under-11:
+  feetPosition: {x: 156, y: {terrain: 0}, z: -144}
+  id: meadow-under-11
+  scatter: {bounds: {radius: 15, shape: circle}, count: 38, seed: 211, templates: [{castShadow: false, model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb, receiveShadow: true, scale: 0.42, weight: 3}, {castShadow: false, model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb, receiveShadow: true, scale: 1.25, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 2}, {castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 1.5}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1}], variation: {scale: [0.7, 1.35], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-under-4:
+  feetPosition: {x: 138, y: {terrain: 0}, z: -96}
+  id: meadow-under-4
+  scatter: {bounds: {radius: 15, shape: circle}, count: 38, seed: 204, templates: [{castShadow: false, model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb, receiveShadow: true, scale: 0.42, weight: 3}, {castShadow: false, model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb, receiveShadow: true, scale: 1.25, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 2}, {castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 1.5}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1}], variation: {scale: [0.7, 1.35], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-under-9:
+  feetPosition: {x: 66, y: {terrain: 0}, z: -192}
+  id: meadow-under-9
+  scatter: {bounds: {radius: 17, shape: circle}, count: 44, seed: 209, templates: [{castShadow: false, model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb, receiveShadow: true, scale: 0.42, weight: 3}, {castShadow: false, model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb, receiveShadow: true, scale: 1.25, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 2}, {castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 1.5}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1}], variation: {scale: [0.7, 1.35], yaw: [0, 360]}}
+  tags: [meadow-dress]
+zs-autumn-163:
+  castShadow: true
+  feetPosition: {x: 87.22, y: 0, z: -67.38}
+  id: zs-autumn-163
+  model: /cdn/value.e6244c821161ffa1a70931b92eb6da60f65b246e72daaebbb6db4868b06bb34c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 111}
+  scale: 0.0914
+  state: {fit: ring, prefab: general-darkshore-tree03, role: ring}
+  tags: [zone-set, zs-autumn, zs-ring]
+zs-autumn-165:
+  castShadow: true
+  feetPosition: {x: 77.95, y: 0, z: -66.54}
+  id: zs-autumn-165
+  model: /cdn/value.3bbb1397f1cdf0a384f09ac939ebb2b94f8369008c341d58441bdc98918e6301.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 143}
+  scale: 0.1702
+  state: {fit: ring, prefab: general-deadwind-pass-mid-tree01, role: ring}
+  tags: [zone-set, zs-autumn, zs-ring]
+zs-autumn-v21:
+  castShadow: true
+  feetPosition: {x: 81.73, y: 0, z: -64.54}
+  id: zs-autumn-v21
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 273}
+  scale: 0.0983
+  state: {cap: [1.9713786082907478, 1.6802096442460126], fit: vbush, prefab: elw-rock, role: vbush}
+  tags: [zone-set, zs-autumn, zs-vbush]
+zs-city-273:
+  castShadow: true
+  feetPosition: {x: 64.65, y: 0, z: -125.44}
+  id: zs-city-273
+  model: /cdn/value.d694f19fb9b6a3fbefc76f8ead23d82bdbb58493c06cf39d4e909c036ea029de.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 268}
+  scale: 0.3207
+  state: {fit: house, prefab: sm_prop_capital_statue_ranger_131, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-winter-182:
+  castShadow: true
+  feetPosition: {x: 72.13, y: 2.6, z: -90.86}
+  id: zs-winter-182
+  model: /cdn/value.b048d303ccdc5cf8915187815d93e359a4f14ca3cbde9166c7f6d8427c3c8263.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: -65}
+  scale: 0.2257
+  state: {fit: hero, prefab: elw-lumbermill, role: hero}
+  tags: [zone-set, zs-winter, zs-hero]
+zs-winter-183:
+  castShadow: true
+  feetPosition: {x: 66.96, y: 2.394, z: -83.83}
+  id: zs-winter-183
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 209}
+  scale: 0.2962
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-184:
+  castShadow: true
+  feetPosition: {x: 67.74, y: 1.397, z: -79.96}
+  id: zs-winter-184
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 80}
+  scale: 0.3371
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-185:
+  castShadow: true
+  feetPosition: {x: 70.94, y: 2.3, z: -81.82}
+  id: zs-winter-185
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 227}
+  scale: 0.2868
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-186:
+  castShadow: true
+  feetPosition: {x: 73.61, y: 1.18, z: -78.64}
+  id: zs-winter-186
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 86}
+  scale: 0.3642
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-187:
+  castShadow: true
+  feetPosition: {x: 75.55, y: 2.221, z: -82.1}
+  id: zs-winter-187
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 19}
+  scale: 0.3151
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-188:
+  castShadow: true
+  feetPosition: {x: 79.25, y: 1.224, z: -80.96}
+  id: zs-winter-188
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 146}
+  scale: 0.2851
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-189:
+  castShadow: true
+  feetPosition: {x: 79.26, y: 2.254, z: -84.91}
+  id: zs-winter-189
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 237}
+  scale: 0.2916
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-190:
+  castShadow: true
+  feetPosition: {x: 83.24, y: 1.181, z: -85.57}
+  id: zs-winter-190
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 38}
+  scale: 0.2825
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-191:
+  castShadow: true
+  feetPosition: {x: 81.38, y: 2.216, z: -89.06}
+  id: zs-winter-191
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 180}
+  scale: 0.3951
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-192:
+  castShadow: true
+  feetPosition: {x: 84.43, y: 1.175, z: -91.59}
+  id: zs-winter-192
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 153}
+  scale: 0.2932
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-193:
+  castShadow: true
+  feetPosition: {x: 81.05, y: 2.232, z: -93.72}
+  id: zs-winter-193
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 285}
+  scale: 0.3262
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-194:
+  castShadow: true
+  feetPosition: {x: 82.48, y: 1.209, z: -97.38}
+  id: zs-winter-194
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 327}
+  scale: 0.286
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-195:
+  castShadow: true
+  feetPosition: {x: 78.56, y: 2.234, z: -97.66}
+  id: zs-winter-195
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 68}
+  scale: 0.3082
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-196:
+  castShadow: true
+  feetPosition: {x: 78.05, y: 1.214, z: -101.55}
+  id: zs-winter-196
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 56}
+  scale: 0.2851
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-197:
+  castShadow: true
+  feetPosition: {x: 74.3, y: 2.416, z: -99.21}
+  id: zs-winter-197
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 342}
+  scale: 0.3176
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-198:
+  castShadow: true
+  feetPosition: {x: 72.16, y: 1.121, z: -103.32}
+  id: zs-winter-198
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 20}
+  scale: 0.3066
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-199:
+  castShadow: true
+  feetPosition: {x: 70.02, y: 2.427, z: -99.17}
+  id: zs-winter-199
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 94}
+  scale: 0.3715
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-200:
+  castShadow: true
+  feetPosition: {x: 66.16, y: 1.13, z: -101.77}
+  id: zs-winter-200
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 313}
+  scale: 0.2812
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-201:
+  castShadow: true
+  feetPosition: {x: 65.67, y: 2.206, z: -97.77}
+  id: zs-winter-201
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 100}
+  scale: 0.3438
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-206:
+  castShadow: true
+  feetPosition: {x: 64.56, y: 0, z: -75.64}
+  id: zs-winter-206
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 16}
+  scale: 0.4672
+  state: {fit: acc, prefab: sm_env_pine_sapling_dense_084, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-207:
+  castShadow: true
+  feetPosition: {x: 67.61, y: 0, z: -71.24}
+  id: zs-winter-207
+  model: /cdn/value.28207fa4853ead1bd6fe0582ce9646e74f50f4c5924e162fd0a90d5e195d98bc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 168}
+  scale: 0.9399
+  state: {fit: ring, prefab: sm_env_forest_pine_078, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-208:
+  castShadow: true
+  feetPosition: {x: 71.92, y: 0, z: -73.86}
+  id: zs-winter-208
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 291}
+  scale: 0.5252
+  state: {fit: acc, prefab: general-aerie-peaks-bush01, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-209:
+  castShadow: true
+  feetPosition: {x: 76.59, y: 0, z: -70.25}
+  id: zs-winter-209
+  model: /cdn/value.bf890ea587dc0f01b28b15889bd35c4bb717289bac921a68120a94e4cdc07eb7.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 252}
+  scale: 0.6301
+  state: {fit: ring, prefab: sm_env_forest_pine_tall_077, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-210:
+  castShadow: true
+  feetPosition: {x: 79.32, y: 0, z: -75.45}
+  id: zs-winter-210
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 140}
+  scale: 0.4768
+  state: {fit: acc, prefab: general-aerie-peaks-bush02, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-211:
+  castShadow: true
+  feetPosition: {x: 85.58, y: 0, z: -74.83}
+  id: zs-winter-211
+  model: /cdn/value.7ca716257fe722ac00f4001547cec521d8da2dbf4544f62e0a426fa0b74a6c4f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 1.7289
+  state: {fit: ring, prefab: sm_env_forest_pine_small_076, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-212:
+  castShadow: true
+  feetPosition: {x: 85.29, y: 0, z: -80.1}
+  id: zs-winter-212
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 346}
+  scale: 1.7432
+  state: {fit: acc, prefab: elw-firewood, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-213:
+  castShadow: true
+  feetPosition: {x: 91.07, y: 0, z: -81.64}
+  id: zs-winter-213
+  model: /cdn/value.7c456976f718e40d4cad44594d09a04d45ee655a55fada2bc43b7735d8b35fcc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 289}
+  scale: 0.2503
+  state: {fit: ring, prefab: general-aerie-tree01, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-214:
+  castShadow: true
+  feetPosition: {x: 88.66, y: 0, z: -86.87}
+  id: zs-winter-214
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 62}
+  scale: 0.4672
+  state: {fit: acc, prefab: sm_env_pine_sapling_dense_084, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-215:
+  castShadow: true
+  feetPosition: {x: 92.23, y: 0, z: -90.98}
+  id: zs-winter-215
+  model: /cdn/value.e20a453a3ffad588b54cce933e2a0e93bc55b083b59e27992bc6e5750dce9e63.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 233}
+  scale: 0.1251
+  state: {fit: ring, prefab: general-aerie-tree02, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-216:
+  castShadow: true
+  feetPosition: {x: 88.75, y: 0, z: -94.44}
+  id: zs-winter-216
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 155}
+  scale: 0.5117
+  state: {fit: acc, prefab: general-aerie-peaks-bush01, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-217:
+  castShadow: true
+  feetPosition: {x: 91.08, y: 0, z: -99.49}
+  id: zs-winter-217
+  model: /cdn/value.25f38e9e9990dadb284029b59c448428b718dc220149e4c383137c1abc4d69ac.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 178}
+  scale: 0.0987
+  state: {fit: ring, prefab: general-aerie-tree03, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-218:
+  castShadow: true
+  feetPosition: {x: 85.55, y: 0, z: -101.29}
+  id: zs-winter-218
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 44}
+  scale: 0.4759
+  state: {fit: acc, prefab: general-aerie-peaks-bush02, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-219:
+  castShadow: true
+  feetPosition: {x: 85.37, y: 0, z: -105.98}
+  id: zs-winter-219
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 128}
+  scale: 0.9461
+  state: {fit: ring, prefab: elw-pine, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-220:
+  castShadow: true
+  feetPosition: {x: 79.7, y: 0, z: -106.09}
+  id: zs-winter-220
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 124}
+  scale: 1.7445
+  state: {fit: acc, prefab: elw-firewood, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-221:
+  castShadow: true
+  feetPosition: {x: 76.67, y: 0, z: -110.65}
+  id: zs-winter-221
+  model: /cdn/value.28207fa4853ead1bd6fe0582ce9646e74f50f4c5924e162fd0a90d5e195d98bc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 45}
+  scale: 0.9399
+  state: {fit: ring, prefab: sm_env_forest_pine_078, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-222:
+  castShadow: true
+  feetPosition: {x: 72.34, y: 0, z: -107.86}
+  id: zs-winter-222
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 19}
+  scale: 0.4672
+  state: {fit: acc, prefab: sm_env_pine_sapling_dense_084, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-223:
+  castShadow: true
+  feetPosition: {x: 67.4, y: 0, z: -110.3}
+  id: zs-winter-223
+  model: /cdn/value.bf890ea587dc0f01b28b15889bd35c4bb717289bac921a68120a94e4cdc07eb7.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 313}
+  scale: 0.6301
+  state: {fit: ring, prefab: sm_env_forest_pine_tall_077, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-224:
+  castShadow: true
+  feetPosition: {x: 64.95, y: 0, z: -106.27}
+  id: zs-winter-224
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 16}
+  scale: 0.547
+  state: {fit: acc, prefab: general-aerie-peaks-bush01, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-229:
+  castShadow: true
+  feetPosition: {x: 68.38, y: 0.054, z: -75.16}
+  id: zs-winter-229
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 154}
+  scale: 1.406
+  state: {fit: fill, prefab: elw-firewood, role: fill}
+  tags: [zone-set, zs-winter, zs-fill]
+zs-winter-230:
+  castShadow: true
+  feetPosition: {x: 81.1, y: 0.152, z: -78.18}
+  id: zs-winter-230
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 62}
+  scale: 0.0736
+  state: {fit: fill, prefab: elw-rock, role: fill}
+  tags: [zone-set, zs-winter, zs-fill]
+zs-winter-231:
+  castShadow: true
+  feetPosition: {x: 88.3, y: 0.041, z: -89.15}
+  id: zs-winter-231
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 271}
+  scale: 0.1354
+  state: {fit: fill, prefab: elw-log, role: fill}
+  tags: [zone-set, zs-winter, zs-fill]
+zs-winter-232:
+  castShadow: true
+  feetPosition: {x: 83.71, y: 0.111, z: -101.54}
+  id: zs-winter-232
+  model: /cdn/value.585bfbade7e48212f57b69c837deb9f24b41c88bdb24d189007805520eab254f.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 309}
+  scale: 0.6129
+  state: {fit: fill, prefab: elw-campfire, role: fill}
+  tags: [zone-set, zs-winter, zs-fill]
+zs-winter-233:
+  castShadow: true
+  feetPosition: {x: 71.74, y: 0.035, z: -107.17}
+  id: zs-winter-233
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 114}
+  scale: 1.4051
+  state: {fit: fill, prefab: elw-firewood, role: fill}
+  tags: [zone-set, zs-winter, zs-fill]
+zs-winter-238:
+  castShadow: true
+  feetPosition: {x: 66.12, y: 2.193, z: -83.5}
+  id: zs-winter-238
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 244}
+  scale: 0.3279
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-winter, zs-light]
+zs-winter-v1:
+  castShadow: true
+  feetPosition: {x: 78.89, y: 0.09903309614420208, z: -105.17}
+  id: zs-winter-v1
+  model: /cdn/value.64af4ea4f0abbde8dd996af87133a06eef453c883dc21a4ba547c63b6ed13a27.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 9}
+  scale: 0.1099
+  state: {cap: [5.150395081797798, 8.304223640963539], fit: vtree, prefab: monuments-world-architecture-snake-spine-giant-arch, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v10:
+  castShadow: true
+  feetPosition: {x: 64.16, y: 0, z: -73.82}
+  id: zs-winter-v10
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 226}
+  scale: 0.9667
+  state: {cap: [5.0278602453311265, 9.19542924836065], fit: vtree, prefab: elw-pine, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v11:
+  castShadow: true
+  feetPosition: {x: 88.05, y: 0.07073498218185577, z: -89.12}
+  id: zs-winter-v11
+  model: /cdn/value.28207fa4853ead1bd6fe0582ce9646e74f50f4c5924e162fd0a90d5e195d98bc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 68}
+  scale: 1
+  state: {cap: [5.145380558164502, 9.457665713251412], fit: vtree, prefab: sm_env_forest_pine_078, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v12:
+  castShadow: true
+  feetPosition: {x: 83.91, y: 0, z: -76.73}
+  id: zs-winter-v12
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 338}
+  scale: 0.7547
+  state: {cap: [5.928600387265254, 7.178734027398161], fit: vtree, prefab: elw-pine, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v13:
+  castShadow: true
+  feetPosition: {x: 69.51, y: 0, z: -109.58}
+  id: zs-winter-v13
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 68}
+  scale: 1.956
+  state: {cap: [5.5256876811737605, 8.372571979822858], fit: vtree, prefab: sm_env_pine_sapling_dense_084, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v16:
+  castShadow: true
+  feetPosition: {x: 67.04, y: 0.8069345563891576, z: -78.58}
+  id: zs-winter-v16
+  model: /cdn/value.1e27a8a2f41d5e50f2daebb01a47502aa1b1c097691775223cbeed481cc60fd1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 93}
+  scale: 0.8903
+  state: {cap: [1.3621690825615866, 1.2255993653440844], fit: vbush, prefab: general-g-sapling01, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v17:
+  castShadow: true
+  feetPosition: {x: 74.63, y: 0, z: -73.76}
+  id: zs-winter-v17
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 331}
+  scale: 0.5005
+  state: {cap: [2.2403566329695086, 1.690834692186133], fit: vbush, prefab: general-aerie-peaks-bush02, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v18:
+  castShadow: true
+  feetPosition: {x: 84.66, y: 1.052963694457639, z: -92.5}
+  id: zs-winter-v18
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 306}
+  scale: 0.3749
+  state: {cap: [1.972229607832725, 1.604570212473427], fit: vbush, prefab: sm_env_pine_sapling_dense_084, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v19:
+  castShadow: true
+  feetPosition: {x: 78.82, y: 1.438700959794664, z: -81.33}
+  id: zs-winter-v19
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 253}
+  scale: 0.4506
+  state: {cap: [2.1250867747585698, 1.2704403967691773], fit: vbush, prefab: general-aerie-peaks-bush02, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v2:
+  castShadow: true
+  feetPosition: {x: 67.29, y: 0, z: -108.09}
+  id: zs-winter-v2
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 160}
+  scale: 0.7558
+  state: {cap: [3.964686958452075, 7.189937126445555], fit: vtree, prefab: elw-pine, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v20:
+  castShadow: true
+  feetPosition: {x: 68.17, y: 0.545419888479374, z: -104.34}
+  id: zs-winter-v20
+  model: /cdn/value.1e27a8a2f41d5e50f2daebb01a47502aa1b1c097691775223cbeed481cc60fd1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 290}
+  scale: 0.9553
+  state: {cap: [2.2196043755251935, 1.3150195737206467], fit: vbush, prefab: general-g-sapling01, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v21:
+  castShadow: true
+  feetPosition: {x: 72.62, y: 0.9080082440950945, z: -77.85}
+  id: zs-winter-v21
+  model: /cdn/value.e6301e407736450b0f098457f878aff590fa9b6418f515f31ce869e85607b38c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 42}
+  scale: 0.882
+  state: {cap: [1.5024668866547137, 1.2140831156000882], fit: vbush, prefab: general-sapling01, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v22:
+  castShadow: true
+  feetPosition: {x: 78.82, y: 0.07462538086526964, z: -105.38}
+  id: zs-winter-v22
+  model: /cdn/value.e6301e407736450b0f098457f878aff590fa9b6418f515f31ce869e85607b38c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 100}
+  scale: 0.7628
+  state: {cap: [1.7617927085197496, 1.0500405155588128], fit: vbush, prefab: general-sapling01, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v24:
+  castShadow: true
+  feetPosition: {x: 87.04, y: 0.2917871975834664, z: -90.45}
+  id: zs-winter-v24
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 235}
+  scale: 0.3856
+  state: {cap: [1.7016494418734913, 1.6505763304888161], fit: vbush, prefab: sm_env_pine_sapling_dense_084, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v25:
+  castShadow: true
+  feetPosition: {x: 65.13, y: 1.2513505645972236, z: -100.76}
+  id: zs-winter-v25
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 31}
+  scale: 0.4093
+  state: {cap: [1.8114244927472547, 1.6422385801990695], fit: vbush, prefab: general-aerie-peaks-bush01, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v26:
+  castShadow: true
+  feetPosition: {x: 76.51, y: 1.2026527042386546, z: -102.3}
+  id: zs-winter-v26
+  model: /cdn/value.e6301e407736450b0f098457f878aff590fa9b6418f515f31ce869e85607b38c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 149}
+  scale: 1.07
+  state: {cap: [2.116641500623264, 1.4728785362666839], fit: vbush, prefab: general-sapling01, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v27:
+  castShadow: true
+  feetPosition: {x: 85.85, y: 0.08789493356633503, z: -82.83}
+  id: zs-winter-v27
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 309}
+  scale: 0.4262
+  state: {cap: [1.9260538134612393, 1.3894555445944217], fit: vbush, prefab: general-aerie-peaks-bush01, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v28:
+  castShadow: true
+  feetPosition: {x: 84.91, y: 0.48358812357982894, z: -84.57}
+  id: zs-winter-v28
+  model: /cdn/value.17430e7c45fa64be8ec5aeaffe56a125903e0c6574a5c71c316c6d9c3c49c683.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 217}
+  scale: 0.0526
+  state: {cap: [1.4382756297654824, 1.4238821013476148], fit: vprop, prefab: sm_env_rock_boulder_tall_086, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v29:
+  castShadow: true
+  feetPosition: {x: 66.93, y: 1.5584515603729951, z: -100.93}
+  id: zs-winter-v29
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 0.0702
+  state: {cap: [1.758628563097971, 0.952694990696709], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v30:
+  castShadow: true
+  feetPosition: {x: 69.39, y: 0.5905058506854729, z: -77.22}
+  id: zs-winter-v30
+  model: /cdn/value.c065979c2d944e9a50fef439e24bda0487b80ce35387f990addf36048a6889d3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 177}
+  scale: 0.2411
+  state: {cap: [1.2298291210224057, 1.3035277676785029], fit: vprop, prefab: general-burning-steppes-boulders03, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v31:
+  castShadow: true
+  feetPosition: {x: 88.08, y: 0, z: -96.87}
+  id: zs-winter-v31
+  model: /cdn/value.c065979c2d944e9a50fef439e24bda0487b80ce35387f990addf36048a6889d3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 241}
+  scale: 0.227
+  state: {cap: [1.338587289368076, 1.2274293069389783], fit: vprop, prefab: general-burning-steppes-boulders03, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v32:
+  castShadow: true
+  feetPosition: {x: 65.58, y: 1.6476494620188482, z: -99.82}
+  id: zs-winter-v32
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 68}
+  scale: 0.0923
+  state: {cap: [1.216795054085923, 1.405855516579866], fit: vprop, prefab: elw-log, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v34:
+  castShadow: true
+  feetPosition: {x: 88.24, y: 0.051574386435434175, z: -92.17}
+  id: zs-winter-v34
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 231}
+  scale: 0.128
+  state: {cap: [1.51067761234505, 1.4689730124403595], fit: vprop, prefab: elw-log, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v36:
+  castShadow: true
+  feetPosition: {x: 87.72, y: 0.14047990161272103, z: -90.81}
+  id: zs-winter-v36
+  model: /cdn/value.c065979c2d944e9a50fef439e24bda0487b80ce35387f990addf36048a6889d3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 104}
+  scale: 0.2277
+  state: {cap: [1.4207438168212512, 1.230996986073906], fit: vprop, prefab: general-burning-steppes-boulders03, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v37:
+  castShadow: true
+  feetPosition: {x: 68.62, y: 1.380141635195021, z: -102.12}
+  id: zs-winter-v37
+  model: /cdn/value.17430e7c45fa64be8ec5aeaffe56a125903e0c6574a5c71c316c6d9c3c49c683.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 30}
+  scale: 0.0387
+  state: {cap: [1.6936554195795468, 0.9499776550801367], fit: vprop, prefab: sm_env_rock_boulder_tall_086, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v39:
+  castShadow: true
+  feetPosition: {x: 82.4, y: 0.15341075563129286, z: -102.5}
+  id: zs-winter-v39
+  model: /cdn/value.17430e7c45fa64be8ec5aeaffe56a125903e0c6574a5c71c316c6d9c3c49c683.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 171}
+  scale: 0.0559
+  state: {cap: [1.3581145626297755, 1.3735905889764386], fit: vprop, prefab: sm_env_rock_boulder_tall_086, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v4:
+  castShadow: true
+  feetPosition: {x: 87.19, y: 0.07486229386499992, z: -85.5}
+  id: zs-winter-v4
+  model: /cdn/value.64af4ea4f0abbde8dd996af87133a06eef453c883dc21a4ba547c63b6ed13a27.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 319}
+  scale: 0.1097
+  state: {cap: [5.735214040374949, 6.787802530819458], fit: vtree, prefab: monuments-world-architecture-snake-spine-giant-arch, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v5:
+  castShadow: true
+  feetPosition: {x: 75.06, y: 0.14842025231937464, z: -75.59}
+  id: zs-winter-v5
+  model: /cdn/value.28207fa4853ead1bd6fe0582ce9646e74f50f4c5924e162fd0a90d5e195d98bc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 224}
+  scale: 0.8461
+  state: {cap: [5.366963967269736, 8.10143664390847], fit: vtree, prefab: sm_env_forest_pine_078, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v6:
+  castShadow: true
+  feetPosition: {x: 72.84, y: 0, z: -109.19}
+  id: zs-winter-v6
+  model: /cdn/value.44321869c5fd7a8761baca435133b0fca768715c80a461bb52189f31e9ecef9d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 280}
+  scale: 0.6045
+  state: {cap: [5.078068647453593, 7.359612404070614], fit: vtree, prefab: sm_env_pine_stump_hollow_01, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v7:
+  castShadow: true
+  feetPosition: {x: 69.47, y: 0.09763907270874961, z: -106.47}
+  id: zs-winter-v7
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 245}
+  scale: 1.8561
+  state: {cap: [4.272473709668254, 7.945021430936187], fit: vtree, prefab: sm_env_pine_sapling_dense_084, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v8:
+  castShadow: true
+  feetPosition: {x: 87.2, y: 0.02798979781891604, z: -97.3}
+  id: zs-winter-v8
+  model: /cdn/value.44321869c5fd7a8761baca435133b0fca768715c80a461bb52189f31e9ecef9d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 0.4766
+  state: {cap: [3.8596681354612428, 7.107764315375949], fit: vtree, prefab: sm_env_pine_stump_hollow_01, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v9:
+  castShadow: true
+  feetPosition: {x: 84.65, y: 0.04513255016909814, z: -101.17}
+  id: zs-winter-v9
+  model: /cdn/value.64af4ea4f0abbde8dd996af87133a06eef453c883dc21a4ba547c63b6ed13a27.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 89}
+  scale: 0.1096
+  state: {cap: [4.72309934602729, 9.809133889064722], fit: vtree, prefab: monuments-world-architecture-snake-spine-giant-arch, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]

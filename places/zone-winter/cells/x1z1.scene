@@ -1,0 +1,12 @@
+# spawn-scene v2 yaml x1z1
+fp-elw-rock-407:
+  castShadow: true
+  feetPosition: {x: 85.53426914826701, y: {terrain: 0}, z: 66.74674921610703}
+  id: fp-elw-rock-407
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 308.7599505059234}
+  scale: 0.4562905011774463
+  tags: [frostpeak]
+  visibleRange: {max: 300}

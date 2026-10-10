@@ -1,0 +1,3717 @@
+# spawn-scene v2 yaml x0z-1
+zgate-city:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#e8e2ff' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO CITY</text></svg>"}]
+  feetPosition: {x: 26.988032809759854, y: 0, z: -115.4745249870985}
+  id: zgate-city
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: 132.58740067271526
+  scale: 1.32
+  state: {link: null, to: "+zone-city#zhome-city"}
+  tags: [zone-gate, zs-city]
+zgate-city/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-city/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-city
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-city/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-city/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-city
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-road:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#e0b070' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO ROAD</text></svg>"}]
+  feetPosition: {x: -43.737055537321396, y: 0, z: -124.0050843905376}
+  id: zgate-road
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: -163.82423287012588
+  scale: 1.32
+  state: {link: null, to: "+zone-road#zhome-road"}
+  tags: [zone-gate, zs-road]
+zgate-road/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-road/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-road
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-road/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-road/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-road
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-village:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#b8e07a' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO VILLAGE</text></svg>"}]
+  feetPosition: {x: -7.496272254098517, y: 0, z: -128.1337211705314}
+  id: zgate-village
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: 163.82423287012585
+  scale: 1.32
+  state: {link: null, to: "+zone-village#zhome-village"}
+  tags: [zone-gate, zs-village]
+zgate-village/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-village/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-village
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-village/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-village/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-village
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-winter:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#9fd8ff' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO WINTER</text></svg>"}]
+  feetPosition: {x: 52.091817063812684, y: 0, z: -88.67392458649309}
+  id: zgate-winter
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: 103.87811310833875
+  scale: 1.32
+  state: {link: null, to: "+zone-winter#zhome-winter"}
+  tags: [zone-gate, zs-winter]
+zgate-winter/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-winter/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-winter
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-winter/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-winter/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-winter
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zs-city-242:
+  castShadow: true
+  feetPosition: {x: 44.43, y: 2.6, z: -126.31}
+  id: zs-city-242
+  model: /cdn/value.b323848dce96f9faf9d8cfa3dac81cb7273d0026c406937afdb8b7de7de16e9d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: -39}
+  scale: 0.0798
+  state: {fit: hero, prefab: sm_arch_capital_cathedral_264, role: hero}
+  tags: [zone-set, zs-city, zs-hero]
+zs-city-243:
+  castShadow: true
+  feetPosition: {x: 42.78, y: 2.281, z: -117.27}
+  id: zs-city-243
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 103}
+  scale: 0.1262
+  state: {fit: flower, prefab: sm_env_forest_bush_low_071, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-244:
+  castShadow: true
+  feetPosition: {x: 45.3, y: 1.218, z: -114.13}
+  id: zs-city-244
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 117}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-245:
+  castShadow: true
+  feetPosition: {x: 47.4, y: 2.233, z: -117.43}
+  id: zs-city-245
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 59}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-246:
+  castShadow: true
+  feetPosition: {x: 51.14, y: 1.166, z: -115.95}
+  id: zs-city-246
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 237}
+  scale: 0.1098
+  state: {fit: flower, prefab: sm_env_forest_bush_low_071, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-247:
+  castShadow: true
+  feetPosition: {x: 51.28, y: 2.247, z: -120}
+  id: zs-city-247
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 168}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-248:
+  castShadow: true
+  feetPosition: {x: 55.26, y: 1.185, z: -120.49}
+  id: zs-city-248
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 298}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-249:
+  castShadow: true
+  feetPosition: {x: 52.73, y: 2.433, z: -124.27}
+  id: zs-city-249
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 83}
+  scale: 0.1356
+  state: {fit: flower, prefab: sm_env_forest_bush_low_071, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-250:
+  castShadow: true
+  feetPosition: {x: 56.13, y: 1.417, z: -126.43}
+  id: zs-city-250
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 8}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-251:
+  castShadow: true
+  feetPosition: {x: 53.2, y: 2.309, z: -128.66}
+  id: zs-city-251
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 292}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-252:
+  castShadow: true
+  feetPosition: {x: 55, y: 1.249, z: -132.26}
+  id: zs-city-252
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 307}
+  scale: 0.1086
+  state: {fit: flower, prefab: sm_env_forest_bush_low_071, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-253:
+  castShadow: true
+  feetPosition: {x: 51.19, y: 2.231, z: -132.8}
+  id: zs-city-253
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 293}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-254:
+  castShadow: true
+  feetPosition: {x: 50.6, y: 1.411, z: -136.27}
+  id: zs-city-254
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 202}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-255:
+  castShadow: true
+  feetPosition: {x: 47.11, y: 2.337, z: -134.87}
+  id: zs-city-255
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 139}
+  scale: 0.1078
+  state: {fit: flower, prefab: sm_env_forest_bush_low_071, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-256:
+  castShadow: true
+  feetPosition: {x: 45.05, y: 1.282, z: -138.34}
+  id: zs-city-256
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 270}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-257:
+  castShadow: true
+  feetPosition: {x: 42.64, y: 2.325, z: -135.15}
+  id: zs-city-257
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 138}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-258:
+  castShadow: true
+  feetPosition: {x: 39.2, y: 1.3, z: -137.11}
+  id: zs-city-258
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 88}
+  scale: 0.1459
+  state: {fit: flower, prefab: sm_env_forest_bush_low_071, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-259:
+  castShadow: true
+  feetPosition: {x: 38.48, y: 2.275, z: -133.34}
+  id: zs-city-259
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 278}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-260:
+  castShadow: true
+  feetPosition: {x: 34.8, y: 1.378, z: -133.13}
+  id: zs-city-260
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 92}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-261:
+  castShadow: true
+  feetPosition: {x: 35.92, y: 2.302, z: -129.56}
+  id: zs-city-261
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 199}
+  scale: 0.1192
+  state: {fit: flower, prefab: sm_env_forest_bush_low_071, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-262:
+  castShadow: true
+  feetPosition: {x: 32.07, y: 1.129, z: -127.72}
+  id: zs-city-262
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 205}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-263:
+  castShadow: true
+  feetPosition: {x: 35.7, y: 2.374, z: -125.1}
+  id: zs-city-263
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 216}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-264:
+  castShadow: true
+  feetPosition: {x: 33.27, y: 1.274, z: -121.72}
+  id: zs-city-264
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 229}
+  scale: 0.1078
+  state: {fit: flower, prefab: sm_env_forest_bush_low_071, role: flower}
+  tags: [zone-set, zs-city, zs-flower]
+zs-city-265:
+  castShadow: true
+  feetPosition: {x: 39.09, y: 0, z: -106.15}
+  id: zs-city-265
+  model: /cdn/value.e53f63de230b5b188a168424c5b778c07b5c80c5acf543473cd903ac9f2ddcaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 165}
+  scale: 0.2447
+  state: {fit: house, prefab: sm_prop_capital_statue_archmage_129, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-266:
+  castShadow: true
+  feetPosition: {x: 44.3, y: 0, z: -109.32}
+  id: zs-city-266
+  model: /cdn/value.15250adfa91a8434f17d695cf908b4d0c91d22f86a9145fa9a1f36ffca2fb0c3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 75}
+  scale: 0.6942
+  state: {fit: acc, prefab: sm_prop_capital_park_bench_125, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-267:
+  castShadow: true
+  feetPosition: {x: 48.51, y: 0, z: -106.55}
+  id: zs-city-267
+  model: /cdn/value.c642087337afd8dad1702e16243f5be9b18a6c09a227580fc95a95c0fdfd29e5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 192}
+  scale: 1.5254
+  state: {fit: house, prefab: sm_prop_capital_vendor_awning_134, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-268:
+  castShadow: true
+  feetPosition: {x: 51.69, y: 0, z: -110.94}
+  id: zs-city-268
+  model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 228}
+  scale: 0.2944
+  state: {fit: acc, prefab: sm_prop_capital_grand_planter_118, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-269:
+  castShadow: true
+  feetPosition: {x: 57.79, y: 0, z: -109.71}
+  id: zs-city-269
+  model: /cdn/value.475010e34f3092e73e684caeb3095bc159ea4b1a13fea03bb026d10be496e56b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 219}
+  scale: 0.3537
+  state: {fit: house, prefab: sm_prop_capital_statue_paladin_130, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-270:
+  castShadow: true
+  feetPosition: {x: 57.64, y: 0, z: -115.62}
+  id: zs-city-270
+  model: /cdn/value.94f76743241f57c04c8613f9c6390627289eab3e3b23bb8d145d6619192306f6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 140}
+  scale: 0.6539
+  state: {fit: acc, prefab: sm_prop_capital_mailbox_124, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-271:
+  castShadow: true
+  feetPosition: {x: 62.78, y: 0, z: -117.12}
+  id: zs-city-271
+  model: /cdn/value.784892a1b2d682acb65d57b6d44a4f8121d3b857cf7fb4e06b07ecd752ce55d0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 243}
+  scale: 0.5193
+  state: {fit: house, prefab: sm_prop_capital_gypsy_wagon_120, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-272:
+  castShadow: true
+  feetPosition: {x: 60.98, y: 0, z: -122.41}
+  id: zs-city-272
+  model: /cdn/value.cf6b81c697eaf03f9071ce4814dfb7d8b84aaa4e60a4c6ea3e73704fb0e679d1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 45}
+  scale: 1.0975
+  state: {fit: acc, prefab: sm_prop_capital_tavern_ale_keg_133, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-274:
+  castShadow: true
+  feetPosition: {x: 61.03, y: 0, z: -129.97}
+  id: zs-city-274
+  model: /cdn/value.15250adfa91a8434f17d695cf908b4d0c91d22f86a9145fa9a1f36ffca2fb0c3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 171}
+  scale: 0.704
+  state: {fit: acc, prefab: sm_prop_capital_park_bench_125, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-275:
+  castShadow: true
+  feetPosition: {x: 63.3, y: 0, z: -134.49}
+  id: zs-city-275
+  model: /cdn/value.ac756a53ca7c33ea738b137db284895920e3b9eb7f248242ad04ed668c353b93.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 293}
+  scale: 0.5294
+  state: {fit: house, prefab: sm_prop_capital_fountain_116, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-276:
+  castShadow: true
+  feetPosition: {x: 57.8, y: 0, z: -136.81}
+  id: zs-city-276
+  model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 228}
+  scale: 0.2944
+  state: {fit: acc, prefab: sm_prop_capital_grand_planter_118, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-277:
+  castShadow: true
+  feetPosition: {x: 57.45, y: 0, z: -142.28}
+  id: zs-city-277
+  model: /cdn/value.936efd556ddde826078e1347db304b5ef4736c772faf28b5b7d90dd6bf46cce3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 321}
+  scale: 0.3429
+  state: {fit: house, prefab: sm_prop_capital_statue_warrior_132, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-278:
+  castShadow: true
+  feetPosition: {x: 51.92, y: 0, z: -141.58}
+  id: zs-city-278
+  model: /cdn/value.94f76743241f57c04c8613f9c6390627289eab3e3b23bb8d145d6619192306f6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 36}
+  scale: 0.6539
+  state: {fit: acc, prefab: sm_prop_capital_mailbox_124, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-279:
+  castShadow: true
+  feetPosition: {x: 49.69, y: 0, z: -146.91}
+  id: zs-city-279
+  model: /cdn/value.e53f63de230b5b188a168424c5b778c07b5c80c5acf543473cd903ac9f2ddcaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 346}
+  scale: 0.2447
+  state: {fit: house, prefab: sm_prop_capital_statue_archmage_129, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-280:
+  castShadow: true
+  feetPosition: {x: 44.56, y: 0, z: -143.31}
+  id: zs-city-280
+  model: /cdn/value.cf6b81c697eaf03f9071ce4814dfb7d8b84aaa4e60a4c6ea3e73704fb0e679d1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 109}
+  scale: 1.1957
+  state: {fit: acc, prefab: sm_prop_capital_tavern_ale_keg_133, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-281:
+  castShadow: true
+  feetPosition: {x: 40.56, y: 0, z: -146.12}
+  id: zs-city-281
+  model: /cdn/value.c642087337afd8dad1702e16243f5be9b18a6c09a227580fc95a95c0fdfd29e5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 11}
+  scale: 1.5402
+  state: {fit: house, prefab: sm_prop_capital_vendor_awning_134, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-282:
+  castShadow: true
+  feetPosition: {x: 37.17, y: 0, z: -141.69}
+  id: zs-city-282
+  model: /cdn/value.15250adfa91a8434f17d695cf908b4d0c91d22f86a9145fa9a1f36ffca2fb0c3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 157}
+  scale: 0.6933
+  state: {fit: acc, prefab: sm_prop_capital_park_bench_125, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-283:
+  castShadow: true
+  feetPosition: {x: 31.76, y: 0, z: -142.17}
+  id: zs-city-283
+  model: /cdn/value.475010e34f3092e73e684caeb3095bc159ea4b1a13fea03bb026d10be496e56b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 39}
+  scale: 0.3537
+  state: {fit: house, prefab: sm_prop_capital_statue_paladin_130, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-284:
+  castShadow: true
+  feetPosition: {x: 31.22, y: 0, z: -137.01}
+  id: zs-city-284
+  model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 208}
+  scale: 0.3071
+  state: {fit: acc, prefab: sm_prop_capital_grand_planter_118, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-285:
+  castShadow: true
+  feetPosition: {x: 25.26, y: 0, z: -135.19}
+  id: zs-city-285
+  model: /cdn/value.784892a1b2d682acb65d57b6d44a4f8121d3b857cf7fb4e06b07ecd752ce55d0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 65}
+  scale: 0.5212
+  state: {fit: house, prefab: sm_prop_capital_gypsy_wagon_120, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-286:
+  castShadow: true
+  feetPosition: {x: 27.89, y: 0, z: -130.22}
+  id: zs-city-286
+  model: /cdn/value.94f76743241f57c04c8613f9c6390627289eab3e3b23bb8d145d6619192306f6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 177}
+  scale: 0.6539
+  state: {fit: acc, prefab: sm_prop_capital_mailbox_124, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-287:
+  castShadow: true
+  feetPosition: {x: 23.13, y: 0, z: -126.16}
+  id: zs-city-287
+  model: /cdn/value.d694f19fb9b6a3fbefc76f8ead23d82bdbb58493c06cf39d4e909c036ea029de.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 0.3278
+  state: {fit: house, prefab: sm_prop_capital_statue_ranger_131, role: ring}
+  tags: [zone-set, zs-city, zs-ring]
+zs-city-288:
+  castShadow: true
+  feetPosition: {x: 27.83, y: 0, z: -122.66}
+  id: zs-city-288
+  model: /cdn/value.cf6b81c697eaf03f9071ce4814dfb7d8b84aaa4e60a4c6ea3e73704fb0e679d1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 43}
+  scale: 1.0965
+  state: {fit: acc, prefab: sm_prop_capital_tavern_ale_keg_133, role: acc}
+  tags: [zone-set, zs-city, zs-acc]
+zs-city-289:
+  castShadow: true
+  feetPosition: {x: 47.94, y: 0.057, z: -110.58}
+  id: zs-city-289
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 265}
+  scale: 0.5806
+  state: {fit: fill, prefab: sm_prop_capital_bench_108, role: fill}
+  tags: [zone-set, zs-city, zs-fill]
+zs-city-290:
+  castShadow: true
+  feetPosition: {x: 58.8, y: 0, z: -118.44}
+  id: zs-city-290
+  model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 209}
+  scale: 0.25
+  state: {fit: fill, prefab: sm_prop_capital_grand_planter_118, role: fill}
+  tags: [zone-set, zs-city, zs-fill]
+zs-city-291:
+  castShadow: true
+  feetPosition: {x: 59.91, y: 0, z: -131.94}
+  id: zs-city-291
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 105}
+  scale: 0.5639
+  state: {fit: fill, prefab: sm_prop_capital_bench_108, role: fill}
+  tags: [zone-set, zs-city, zs-fill]
+zs-city-292:
+  castShadow: true
+  feetPosition: {x: 50.43, y: 0, z: -141.68}
+  id: zs-city-292
+  model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 13}
+  scale: 0.2829
+  state: {fit: fill, prefab: sm_prop_capital_grand_planter_118, role: fill}
+  tags: [zone-set, zs-city, zs-fill]
+zs-city-293:
+  castShadow: true
+  feetPosition: {x: 37.26, y: 0.138, z: -140.17}
+  id: zs-city-293
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 111}
+  scale: 0.5624
+  state: {fit: fill, prefab: sm_prop_capital_bench_108, role: fill}
+  tags: [zone-set, zs-city, zs-fill]
+zs-city-294:
+  castShadow: true
+  feetPosition: {x: 28.56, y: 0.031, z: -130.25}
+  id: zs-city-294
+  model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 323}
+  scale: 0.2428
+  state: {fit: fill, prefab: sm_prop_capital_grand_planter_118, role: fill}
+  tags: [zone-set, zs-city, zs-fill]
+zs-city-295:
+  castShadow: true
+  feetPosition: {x: 29.68, y: 0, z: -116}
+  id: zs-city-295
+  model: /cdn/value.338a672db59c1e7688ae0d9bb7901afba0784f039873868a8a1bad0046f6a45b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 260}
+  scale: 0.4594
+  state: {fit: light, prefab: sm_env_capital_streetlamp_068, role: light}
+  tags: [zone-set, zs-city, zs-light]
+zs-city-296:
+  castShadow: true
+  feetPosition: {x: 35.84, y: 2.196, z: -122.27}
+  id: zs-city-296
+  model: /cdn/value.ea51db8e6af9d3c6a4c74249a97fb44ee73fc559b1aff9dcf9658c23ce18cbf1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 197}
+  scale: 0.4858
+  state: {fit: light, prefab: sm_env_capital_streetlamp_tall_067, role: light}
+  tags: [zone-set, zs-city, zs-light]
+zs-city-297:
+  castShadow: true
+  feetPosition: {x: 37.41, y: 0, z: -109.74}
+  id: zs-city-297
+  model: /cdn/value.338a672db59c1e7688ae0d9bb7901afba0784f039873868a8a1bad0046f6a45b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 86}
+  scale: 0.4805
+  state: {fit: light, prefab: sm_env_capital_streetlamp_068, role: light}
+  tags: [zone-set, zs-city, zs-light]
+zs-city-298:
+  castShadow: true
+  feetPosition: {x: 42.26, y: 2.196, z: -117.07}
+  id: zs-city-298
+  model: /cdn/value.ea51db8e6af9d3c6a4c74249a97fb44ee73fc559b1aff9dcf9658c23ce18cbf1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 192}
+  scale: 0.4941
+  state: {fit: light, prefab: sm_env_capital_streetlamp_tall_067, role: light}
+  tags: [zone-set, zs-city, zs-light]
+zs-city-299:
+  castShadow: true
+  feetPosition: {x: 31.09, y: 0.393, z: -120.51}
+  id: zs-city-299
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.4aef9b15f5342e4590273edd36b58b5f7acfcd61370bd6627ad6f8abe26eb651.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -58}
+  scale: 1.0702
+  state: {fit: creature, name: Stormwind City Guard, prefab: sw-swRoyalGuard, role: creature, stance: friendly}
+  tags: [zone-set, zs-city, zs-creature, npc]
+zs-city-300:
+  castShadow: true
+  feetPosition: {x: 33.54, y: 0.373, z: -116.56}
+  id: zs-city-300
+  model: /cdn/value.f06c575d51c2a3203a8b8fba6bd940a576b555bd52970d564e61c4fc4c8853a7.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -28}
+  scale: 1.1595
+  state: {fit: creature, name: Capital City Noble 004, prefab: sk_char_capital_city_noble_004, role: creature, stance: friendly}
+  tags: [zone-set, zs-city, zs-creature, npc]
+zs-city-301:
+  castShadow: true
+  feetPosition: {x: 37.39, y: 0.512, z: -114.03}
+  id: zs-city-301
+  model: /cdn/value.a6b12fc56cf4a5578a33b7579a09675ce0b60bbe686d2842f246511155f70f89.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -12}
+  scale: 1.2509
+  state: {fit: creature, name: Capital Shopkeeper 012, prefab: sk_char_capital_shopkeeper_012, role: creature, stance: friendly}
+  tags: [zone-set, zs-city, zs-creature, npc]
+zs-city-302:
+  castShadow: true
+  feetPosition: {x: 41.72, y: 0.693, z: -112.97}
+  id: zs-city-302
+  model: /cdn/value.c5cbf6db7199135489ce4da44805e8b9ccd1745b7f48545b3be7726310f612ad.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -67}
+  scale: 2.0641
+  state: {fit: creature, name: Capital City Child 003, prefab: sk_char_capital_city_child_003, role: creature, stance: friendly}
+  tags: [zone-set, zs-city, zs-creature, npc]
+zs-city-v0:
+  castShadow: true
+  feetPosition: {x: 47.5, y: 0.03145161143141153, z: -110.25}
+  id: zs-city-v0
+  model: /cdn/value.475010e34f3092e73e684caeb3095bc159ea4b1a13fea03bb026d10be496e56b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 300}
+  scale: 0.2688
+  state: {cap: [3.799594871257243, 7.665601952777059], fit: vtree, prefab: sm_prop_capital_statue_paladin_130, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v1:
+  castShadow: true
+  feetPosition: {x: 58.97, y: 0, z: -136.14}
+  id: zs-city-v1
+  model: /cdn/value.475010e34f3092e73e684caeb3095bc159ea4b1a13fea03bb026d10be496e56b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 13}
+  scale: 0.3467
+  state: {cap: [6.2485445418853995, 6.860984748630312], fit: vtree, prefab: sm_prop_capital_statue_paladin_130, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v10:
+  castShadow: true
+  feetPosition: {x: 32.3, y: 0.1578896939973132, z: -135.96}
+  id: zs-city-v10
+  model: /cdn/value.936efd556ddde826078e1347db304b5ef4736c772faf28b5b7d90dd6bf46cce3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 183}
+  scale: 0.3927
+  state: {cap: [4.989885789686761, 8.016747624621143], fit: vtree, prefab: sm_prop_capital_statue_warrior_132, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v11:
+  castShadow: true
+  feetPosition: {x: 26.97, y: 0, z: -132.43}
+  id: zs-city-v11
+  model: /cdn/value.15250adfa91a8434f17d695cf908b4d0c91d22f86a9145fa9a1f36ffca2fb0c3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 239}
+  scale: 1.7822
+  state: {cap: [5.553336261912872, 7.876086351404007], fit: vtree, prefab: sm_prop_capital_park_bench_125, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v12:
+  castShadow: true
+  feetPosition: {x: 27.98, y: 0, z: -134.44}
+  id: zs-city-v12
+  model: /cdn/value.cf6b81c697eaf03f9071ce4814dfb7d8b84aaa4e60a4c6ea3e73704fb0e679d1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 151}
+  scale: 1.9517
+  state: {cap: [3.807776354978688, 7.675517002900838], fit: vtree, prefab: sm_prop_capital_tavern_ale_keg_133, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v13:
+  castShadow: true
+  feetPosition: {x: 51.45, y: 0, z: -109.98}
+  id: zs-city-v13
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 169}
+  scale: 1.4577
+  state: {cap: [4.616052523891466, 7.1916304701900255], fit: vtree, prefab: sm_prop_capital_bench_108, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v14:
+  castShadow: true
+  feetPosition: {x: 29.86, y: 0.38590486038151206, z: -126.39}
+  id: zs-city-v14
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 206}
+  scale: 0.2418
+  state: {cap: [1.8460139794256603, 1.5998517166123964], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v15:
+  castShadow: true
+  feetPosition: {x: 27, y: 0, z: -125.83}
+  id: zs-city-v15
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 266}
+  scale: 0.2528
+  state: {cap: [1.545521570833177, 1.2296985502725923], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v16:
+  castShadow: true
+  feetPosition: {x: 50.42, y: 0, z: -142.32}
+  id: zs-city-v16
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 279}
+  scale: 0.1601
+  state: {cap: [1.5749063067719837, 1.050231713010106], fit: vbush, prefab: sm_env_forest_bush_low_071, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v17:
+  castShadow: true
+  feetPosition: {x: 49.76, y: 0.1664047570803066, z: -140.82}
+  id: zs-city-v17
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 236}
+  scale: 0.1379
+  state: {cap: [1.6380765921380727, 1.5192209391245715], fit: vbush, prefab: sm_env_forest_bush_low_071, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v18:
+  castShadow: true
+  feetPosition: {x: 28.36, y: 0.0009304590415384784, z: -121.11}
+  id: zs-city-v18
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 356}
+  scale: 0.1603
+  state: {cap: [1.4726683881239353, 1.584799376984499], fit: vbush, prefab: sm_env_forest_bush_low_071, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v19:
+  castShadow: true
+  feetPosition: {x: 53.02, y: 0, z: -141.69}
+  id: zs-city-v19
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 33}
+  scale: 0.1982
+  state: {cap: [1.5639452965995042, 1.2666888483412047], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v2:
+  castShadow: true
+  feetPosition: {x: 43.45, y: 0.012209890867030926, z: -142.88}
+  id: zs-city-v2
+  model: /cdn/value.e53f63de230b5b188a168424c5b778c07b5c80c5acf543473cd903ac9f2ddcaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 342}
+  scale: 0.2735
+  state: {cap: [5.93859054482942, 7.826059116900926], fit: vtree, prefab: sm_prop_capital_statue_archmage_129, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v20:
+  castShadow: true
+  feetPosition: {x: 39.89, y: 0.8495162707783602, z: -138.68}
+  id: zs-city-v20
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 68}
+  scale: 0.1346
+  state: {cap: [1.5024701493105246, 1.256732914879328], fit: vbush, prefab: sm_env_forest_bush_low_071, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v21:
+  castShadow: true
+  feetPosition: {x: 42.94, y: 1.6545110750155212, z: -137.29}
+  id: zs-city-v21
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 314}
+  scale: 0.1737
+  state: {cap: [1.399331716284776, 1.2196765764009563], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v22:
+  castShadow: true
+  feetPosition: {x: 26.93, y: 0, z: -126.29}
+  id: zs-city-v22
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 173}
+  scale: 0.231
+  state: {cap: [2.2142076251396015, 1.4680988943288562], fit: vbush, prefab: sm_env_forest_bush_low_071, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v23:
+  castShadow: true
+  feetPosition: {x: 50.84, y: 0.01777333417822451, z: -141.53}
+  id: zs-city-v23
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 199}
+  scale: 0.2256
+  state: {cap: [1.638991130277976, 1.5741651192885662], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v24:
+  castShadow: true
+  feetPosition: {x: 54.97, y: 0.8579203581862361, z: -118.44}
+  id: zs-city-v24
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 97}
+  scale: 0.2311
+  state: {cap: [2.214724803233857, 1.2287084066675549], fit: vbush, prefab: sm_env_forest_bush_low_071, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v25:
+  castShadow: true
+  feetPosition: {x: 35.82, y: 1.3723482382697056, z: -134.4}
+  id: zs-city-v25
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 349}
+  scale: 0.1895
+  state: {cap: [1.9085414767537925, 1.3662442896590774], fit: vbush, prefab: sm_env_forest_bush_low_071, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v26:
+  castShadow: true
+  feetPosition: {x: 44.45, y: 0, z: -108.84}
+  id: zs-city-v26
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 92}
+  scale: 0.3121
+  state: {cap: [2.199159193713758, 1.4533312477652593], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v27:
+  castShadow: true
+  feetPosition: {x: 28.89, y: 0.06572998807448394, z: -122.29}
+  id: zs-city-v27
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 288}
+  scale: 0.2439
+  state: {cap: [1.7566404427432645, 1.5990498113674343], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-city, zs-vbush]
+zs-city-v28:
+  castShadow: true
+  feetPosition: {x: 41.1, y: 1.336967357548084, z: -137.74}
+  id: zs-city-v28
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 17}
+  scale: 1.1696
+  state: {cap: [1.3146253306952422, 0.9809497462031197], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v29:
+  castShadow: true
+  feetPosition: {x: 51.55, y: 0.22224744091070042, z: -139.74}
+  id: zs-city-v29
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 204}
+  scale: 1.1643
+  state: {cap: [1.3496305306207532, 1.2302461072477726], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v3:
+  castShadow: true
+  feetPosition: {x: 43.21, y: 0, z: -145.04}
+  id: zs-city-v3
+  model: /cdn/value.15250adfa91a8434f17d695cf908b4d0c91d22f86a9145fa9a1f36ffca2fb0c3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 209}
+  scale: 1.6649
+  state: {cap: [5.221414633081953, 6.10518113342355], fit: vtree, prefab: sm_prop_capital_park_bench_125, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v30:
+  castShadow: true
+  feetPosition: {x: 37.08, y: 0.7876540469024752, z: -137.45}
+  id: zs-city-v30
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 308}
+  scale: 0.9404
+  state: {cap: [1.733219255755292, 1.0620236093932873], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v31:
+  castShadow: true
+  feetPosition: {x: 49.97, y: 0.6405345406230808, z: -138.91}
+  id: zs-city-v31
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 71}
+  scale: 0.969
+  state: {cap: [1.7035891274472648, 1.3668487546345445], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v32:
+  castShadow: true
+  feetPosition: {x: 53.6, y: 1.6311039110627779, z: -119.98}
+  id: zs-city-v32
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 73}
+  scale: 1.2298
+  state: {cap: [1.3823484917089104, 1.4483251137418325], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v33:
+  castShadow: true
+  feetPosition: {x: 55, y: 0.0021625436287767696, z: -139.41}
+  id: zs-city-v33
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 61}
+  scale: 1.2215
+  state: {cap: [1.4337281760916711, 1.1020916795367801], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v34:
+  castShadow: true
+  feetPosition: {x: 29.48, y: 0.27823269504396997, z: -127.06}
+  id: zs-city-v34
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 297}
+  scale: 1.5246
+  state: {cap: [1.7823046433656964, 1.1956057854441953], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v35:
+  castShadow: true
+  feetPosition: {x: 55.04, y: 1.4333045808325722, z: -131.14}
+  id: zs-city-v35
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 25}
+  scale: 1.4532
+  state: {cap: [1.8484904523233376, 1.4842741487474524], fit: vprop, prefab: elw-barrel, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v36:
+  castShadow: true
+  feetPosition: {x: 55.64, y: 0, z: -139.12}
+  id: zs-city-v36
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 325}
+  scale: 0.9044
+  state: {cap: [1.666811785319267, 0.9792568956870851], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v37:
+  castShadow: true
+  feetPosition: {x: 52.85, y: 0, z: -110.11}
+  id: zs-city-v37
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 96}
+  scale: 1.0333
+  state: {cap: [1.35956334032098, 1.0357955810314954], fit: vprop, prefab: elw-barrel, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v38:
+  castShadow: true
+  feetPosition: {x: 32.19, y: 0.842622060005489, z: -131.24}
+  id: zs-city-v38
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 73}
+  scale: 0.9305
+  state: {cap: [1.61689683255595, 1.188798575889691], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v39:
+  castShadow: true
+  feetPosition: {x: 36.25, y: 0.0029213833356084074, z: -140.99}
+  id: zs-city-v39
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 97}
+  scale: 1.4633
+  state: {cap: [1.5289042962383965, 1.4208801590469107], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-city, zs-vprop]
+zs-city-v4:
+  castShadow: true
+  feetPosition: {x: 26.46, y: 0, z: -125.34}
+  id: zs-city-v4
+  model: /cdn/value.936efd556ddde826078e1347db304b5ef4736c772faf28b5b7d90dd6bf46cce3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 208}
+  scale: 0.3362
+  state: {cap: [5.010878558392115, 8.53748943402315], fit: vtree, prefab: sm_prop_capital_statue_warrior_132, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v5:
+  castShadow: true
+  feetPosition: {x: 26.05, y: 0, z: -129.99}
+  id: zs-city-v5
+  model: /cdn/value.03b4614cb71dc8ee014e8cb99def99186659f240fee8e333e9ab23e720812b2e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 115}
+  scale: 4.7651
+  state: {cap: [4.529082323787307, 8.458585429218871], fit: vtree, prefab: sm_prop_capital_gunpowder_keg_119, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v6:
+  castShadow: true
+  feetPosition: {x: 62.55, y: 0, z: -129.45}
+  id: zs-city-v6
+  model: /cdn/value.15250adfa91a8434f17d695cf908b4d0c91d22f86a9145fa9a1f36ffca2fb0c3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 194}
+  scale: 1.3308
+  state: {cap: [4.210745287342344, 7.993670980443094], fit: vtree, prefab: sm_prop_capital_park_bench_125, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v7:
+  castShadow: true
+  feetPosition: {x: 26.81, y: 0, z: -128.82}
+  id: zs-city-v7
+  model: /cdn/value.15250adfa91a8434f17d695cf908b4d0c91d22f86a9145fa9a1f36ffca2fb0c3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 29}
+  scale: 1.2369
+  state: {cap: [3.87924910878262, 9.663634095184335], fit: vtree, prefab: sm_prop_capital_park_bench_125, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v8:
+  castShadow: true
+  feetPosition: {x: 40.74, y: 0.010712192423513867, z: -142.52}
+  id: zs-city-v8
+  model: /cdn/value.d694f19fb9b6a3fbefc76f8ead23d82bdbb58493c06cf39d4e909c036ea029de.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 296}
+  scale: 0.1622
+  state: {cap: [4.095542006122667, 6.0391950458470705], fit: vtree, prefab: sm_prop_capital_statue_ranger_131, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-city-v9:
+  castShadow: true
+  feetPosition: {x: 39.37, y: 0, z: -143.11}
+  id: zs-city-v9
+  model: /cdn/value.cf6b81c697eaf03f9071ce4814dfb7d8b84aaa4e60a4c6ea3e73704fb0e679d1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 345}
+  scale: 2.7974
+  state: {cap: [4.978370762536475, 6.363849520852719], fit: vtree, prefab: sm_prop_capital_tavern_ale_keg_133, role: vtree}
+  tags: [zone-set, zs-city, zs-vtree]
+zs-harbor-447:
+  castShadow: true
+  feetPosition: {x: -63.23, y: 0, z: -117.51}
+  id: zs-harbor-447
+  model: /cdn/value.1ff2a8c89d53c908b673277ac0576524ad4baf680a1d7275182f5aa4c8d6e5b0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 161}
+  scale: 0.1945
+  state: {fit: ring, prefab: general-coral-tree01, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-449:
+  castShadow: true
+  feetPosition: {x: -61.21, y: 0, z: -126.31}
+  id: zs-harbor-449
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 285}
+  scale: 0.2011
+  state: {fit: ring, prefab: general-coral-tree01-06, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-451:
+  castShadow: true
+  feetPosition: {x: -62.8, y: 0, z: -136.04}
+  id: zs-harbor-451
+  model: /cdn/value.84cd44d7f2e37d66ffb1c39495f577ce4dd39676ce85976d6e124bc9aefbb751.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 307}
+  scale: 0.2005
+  state: {fit: ring, prefab: general-coral-tree02, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-v6:
+  castShadow: true
+  feetPosition: {x: -62.81, y: 0, z: -127.8}
+  id: zs-harbor-v6
+  model: /cdn/value.94bee95fe0d389ec70532f8e7f2dadcf7207d7a86783dfb8e5da023909418d4b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 280}
+  scale: 0.2651
+  state: {cap: [5.331243873378842, 7.545247805093065], fit: vtree, prefab: general-azr-tree04, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-post-city:
+  feetPosition: {x: 29.011650419278986, y: 0, z: -107.26992394430421}
+  id: zs-post-city
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-city]
+zs-post-road:
+  feetPosition: {x: -35.48869916857531, y: 0, z: -122.16793341276173}
+  id: zs-post-road
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-road]
+zs-post-village:
+  feetPosition: {x: -1.5113008314246779, y: 0, z: -122.16793341276173}
+  id: zs-post-village
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-village]
+zs-post-winter:
+  feetPosition: {x: 49.925459217602075, y: 0, z: -80.50585258735286}
+  id: zs-post-winter
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-winter]
+zs-road-364:
+  castShadow: true
+  feetPosition: {x: -41, y: 2.6, z: -146.04}
+  id: zs-road-364
+  model: /cdn/value.74887c7cce6b57a4b937c2bf4f54f66c1db8892f2481ff9e7065c412e3662386.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 13}
+  scale: 0.1738
+  state: {fit: hero, prefab: elw-guardtower, role: hero}
+  tags: [zone-set, zs-road, zs-hero]
+zs-road-365:
+  castShadow: true
+  feetPosition: {x: -34.91, y: 2.287, z: -139.19}
+  id: zs-road-365
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 37}
+  scale: 0.1573
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-366:
+  castShadow: true
+  feetPosition: {x: -31.31, y: 1.425, z: -139.52}
+  id: zs-road-366
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 66}
+  scale: 0.0985
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-367:
+  castShadow: true
+  feetPosition: {x: -32.19, y: 2.238, z: -142.92}
+  id: zs-road-367
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 121}
+  scale: 0.1505
+  state: {fit: flower, prefab: general-darkshore-bush03, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-368:
+  castShadow: true
+  feetPosition: {x: -28.55, y: 1.106, z: -144.92}
+  id: zs-road-368
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 195}
+  scale: 0.1786
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-369:
+  castShadow: true
+  feetPosition: {x: -32.48, y: 2.415, z: -147.43}
+  id: zs-road-369
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 172}
+  scale: 0.1038
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-370:
+  castShadow: true
+  feetPosition: {x: -30, y: 1.295, z: -150.87}
+  id: zs-road-370
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 5}
+  scale: 0.1855
+  state: {fit: flower, prefab: general-darkshore-bush03, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-371:
+  castShadow: true
+  feetPosition: {x: -33.88, y: 2.318, z: -151.62}
+  id: zs-road-371
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 295}
+  scale: 0.1652
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-372:
+  castShadow: true
+  feetPosition: {x: -33.74, y: 1.326, z: -155.51}
+  id: zs-road-372
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 76}
+  scale: 0.1008
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-373:
+  castShadow: true
+  feetPosition: {x: -37.64, y: 2.429, z: -153.92}
+  id: zs-road-373
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 229}
+  scale: 0.1477
+  state: {fit: flower, prefab: general-darkshore-bush03, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-374:
+  castShadow: true
+  feetPosition: {x: -39.21, y: 1.325, z: -157.84}
+  id: zs-road-374
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 47}
+  scale: 0.1562
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-375:
+  castShadow: true
+  feetPosition: {x: -41.94, y: 2.243, z: -155.32}
+  id: zs-road-375
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 7}
+  scale: 0.1044
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-376:
+  castShadow: true
+  feetPosition: {x: -45.28, y: 1.14, z: -157.69}
+  id: zs-road-376
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 259}
+  scale: 0.1727
+  state: {fit: flower, prefab: general-darkshore-bush03, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-377:
+  castShadow: true
+  feetPosition: {x: -46.33, y: 2.228, z: -153.76}
+  id: zs-road-377
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 241}
+  scale: 0.1617
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-378:
+  castShadow: true
+  feetPosition: {x: -50.19, y: 1.233, z: -154.02}
+  id: zs-road-378
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 303}
+  scale: 0.099
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-379:
+  castShadow: true
+  feetPosition: {x: -48.84, y: 2.386, z: -149.96}
+  id: zs-road-379
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 243}
+  scale: 0.153
+  state: {fit: flower, prefab: general-darkshore-bush03, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-380:
+  castShadow: true
+  feetPosition: {x: -52.69, y: 1.317, z: -148.55}
+  id: zs-road-380
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 0.199
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-381:
+  castShadow: true
+  feetPosition: {x: -49.61, y: 2.418, z: -145.69}
+  id: zs-road-381
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 32}
+  scale: 0.0988
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-382:
+  castShadow: true
+  feetPosition: {x: -52.07, y: 1.472, z: -142.72}
+  id: zs-road-382
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 186}
+  scale: 0.1831
+  state: {fit: flower, prefab: general-darkshore-bush03, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-383:
+  castShadow: true
+  feetPosition: {x: -48.38, y: 2.417, z: -141.58}
+  id: zs-road-383
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 80}
+  scale: 0.1885
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-384:
+  castShadow: true
+  feetPosition: {x: -49.31, y: 1.352, z: -137.57}
+  id: zs-road-384
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 236}
+  scale: 0.0992
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-385:
+  castShadow: true
+  feetPosition: {x: -45.38, y: 2.39, z: -138.47}
+  id: zs-road-385
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 88}
+  scale: 0.1934
+  state: {fit: flower, prefab: general-darkshore-bush03, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-386:
+  castShadow: true
+  feetPosition: {x: -44.29, y: 1.214, z: -134.27}
+  id: zs-road-386
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 270}
+  scale: 0.199
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-road, zs-flower]
+zs-road-387:
+  castShadow: true
+  feetPosition: {x: -27.38, y: 0, z: -130.02}
+  id: zs-road-387
+  model: /cdn/value.5a956547da96549a80d775523b19e5b676746b8608e5b1bcd695debd7ba47e8f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 65}
+  scale: 0.3519
+  state: {fit: ring, prefab: general-canopyless-tree02, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-388:
+  castShadow: true
+  feetPosition: {x: -27.68, y: 0, z: -135.47}
+  id: zs-road-388
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 100}
+  scale: 0.3588
+  state: {fit: acc, prefab: elw-signpost, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-389:
+  castShadow: true
+  feetPosition: {x: -22.28, y: 0, z: -136.91}
+  id: zs-road-389
+  model: /cdn/value.10fde1a827d4ec90b1e4b032b9b3e063ad84a0b2a2cd942d7ace7ca7f98d02fa.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 213}
+  scale: 0.1716
+  state: {fit: ring, prefab: general-canopyless-tree03, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-390:
+  castShadow: true
+  feetPosition: {x: -24.41, y: 0, z: -142.3}
+  id: zs-road-390
+  model: /cdn/value.3853fc76d7ed019b6635fe14c91469ef50531fb3a55da49c1cb26eb93b9184e3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 146}
+  scale: 0.671
+  state: {fit: acc, prefab: elw-wheelbarrow, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-391:
+  castShadow: true
+  feetPosition: {x: -20.18, y: 0, z: -146.72}
+  id: zs-road-391
+  model: /cdn/value.bc833ae586c7fffaffeef05171f49ebfb45d5cf213f45c9a648779086c8e0e26.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 307}
+  scale: 0.0544
+  state: {fit: ring, prefab: general-canopyless-tree01, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-392:
+  castShadow: true
+  feetPosition: {x: -24.43, y: 0, z: -149.86}
+  id: zs-road-392
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 147}
+  scale: 1.8659
+  state: {fit: acc, prefab: elw-sack, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-393:
+  castShadow: true
+  feetPosition: {x: -22.87, y: 0, z: -155.69}
+  id: zs-road-393
+  model: /cdn/value.bcce50a775206e553c904c13beee0582fd228047ab03e6219a4a1da9c3b81e38.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 266}
+  scale: 0.193
+  state: {fit: ring, prefab: general-canopyless-tree04, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-394:
+  castShadow: true
+  feetPosition: {x: -27.73, y: 0, z: -156.67}
+  id: zs-road-394
+  model: /cdn/value.17ee0e82e14033c97dd421a08e542a228363b2da5aae505f1016c82ee517c1db.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 337}
+  scale: 0.2155
+  state: {fit: acc, prefab: elw-meetingstone, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-395:
+  castShadow: true
+  feetPosition: {x: -28.94, y: 0, z: -162.44}
+  id: zs-road-395
+  model: /cdn/value.96e7cd5bcd6f1aeab272f05c824436a8903c558f12d16142576a01145abf1418.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 332}
+  scale: 0.1782
+  state: {fit: ring, prefab: general-highland-lake-tree05, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-396:
+  castShadow: true
+  feetPosition: {x: -33.66, y: 0, z: -161.37}
+  id: zs-road-396
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 257}
+  scale: 0.3588
+  state: {fit: acc, prefab: elw-signpost, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-397:
+  castShadow: true
+  feetPosition: {x: -36.65, y: 0, z: -166.43}
+  id: zs-road-397
+  model: /cdn/value.54cccdb7ae986a48a31e3e895b884eec9ceb901787cea3744b8abbde35806577.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 322}
+  scale: 0.4461
+  state: {fit: ring, prefab: elw-wagon, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-398:
+  castShadow: true
+  feetPosition: {x: -41.04, y: 0, z: -163.04}
+  id: zs-road-398
+  model: /cdn/value.3853fc76d7ed019b6635fe14c91469ef50531fb3a55da49c1cb26eb93b9184e3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 66}
+  scale: 0.6705
+  state: {fit: acc, prefab: elw-wheelbarrow, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-399:
+  castShadow: true
+  feetPosition: {x: -45.56, y: 0, z: -166.25}
+  id: zs-road-399
+  model: /cdn/value.cd4083ad148c8e04325396f7128a6e2dc1826a8d973f5df7edd82a846d1e3e0a.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 0.7238
+  state: {fit: ring, prefab: elw-haywagon, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-400:
+  castShadow: true
+  feetPosition: {x: -48.41, y: 0, z: -161.34}
+  id: zs-road-400
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 269}
+  scale: 2.2406
+  state: {fit: acc, prefab: elw-sack, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-401:
+  castShadow: true
+  feetPosition: {x: -54.3, y: 0, z: -162.33}
+  id: zs-road-401
+  model: /cdn/value.5a956547da96549a80d775523b19e5b676746b8608e5b1bcd695debd7ba47e8f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 2}
+  scale: 0.3674
+  state: {fit: ring, prefab: general-canopyless-tree02, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-402:
+  castShadow: true
+  feetPosition: {x: -54.31, y: 0, z: -156.6}
+  id: zs-road-402
+  model: /cdn/value.17ee0e82e14033c97dd421a08e542a228363b2da5aae505f1016c82ee517c1db.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 107}
+  scale: 0.2155
+  state: {fit: acc, prefab: elw-meetingstone, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-403:
+  castShadow: true
+  feetPosition: {x: -60.11, y: 0, z: -155.07}
+  id: zs-road-403
+  model: /cdn/value.10fde1a827d4ec90b1e4b032b9b3e063ad84a0b2a2cd942d7ace7ca7f98d02fa.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 12}
+  scale: 0.1948
+  state: {fit: ring, prefab: general-canopyless-tree03, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-404:
+  castShadow: true
+  feetPosition: {x: -57.58, y: 0, z: -149.78}
+  id: zs-road-404
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 199}
+  scale: 0.3588
+  state: {fit: acc, prefab: elw-signpost, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-405:
+  castShadow: true
+  feetPosition: {x: -62.37, y: 0, z: -146.82}
+  id: zs-road-405
+  model: /cdn/value.bc833ae586c7fffaffeef05171f49ebfb45d5cf213f45c9a648779086c8e0e26.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 343}
+  scale: 0.0607
+  state: {fit: ring, prefab: general-canopyless-tree01, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-406:
+  castShadow: true
+  feetPosition: {x: -57.56, y: 0, z: -142.21}
+  id: zs-road-406
+  model: /cdn/value.3853fc76d7ed019b6635fe14c91469ef50531fb3a55da49c1cb26eb93b9184e3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 240}
+  scale: 0.6683
+  state: {fit: acc, prefab: elw-wheelbarrow, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-407:
+  castShadow: true
+  feetPosition: {x: -59.46, y: 0, z: -136.42}
+  id: zs-road-407
+  model: /cdn/value.bcce50a775206e553c904c13beee0582fd228047ab03e6219a4a1da9c3b81e38.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 330}
+  scale: 0.193
+  state: {fit: ring, prefab: general-canopyless-tree04, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-408:
+  castShadow: true
+  feetPosition: {x: -54.26, y: 0, z: -135.4}
+  id: zs-road-408
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 330}
+  scale: 1.8713
+  state: {fit: acc, prefab: elw-sack, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-409:
+  castShadow: true
+  feetPosition: {x: -53.16, y: 0, z: -130.05}
+  id: zs-road-409
+  model: /cdn/value.96e7cd5bcd6f1aeab272f05c824436a8903c558f12d16142576a01145abf1418.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 131}
+  scale: 0.1782
+  state: {fit: ring, prefab: general-highland-lake-tree05, role: ring}
+  tags: [zone-set, zs-road, zs-ring]
+zs-road-410:
+  castShadow: true
+  feetPosition: {x: -48.33, y: 0, z: -130.7}
+  id: zs-road-410
+  model: /cdn/value.17ee0e82e14033c97dd421a08e542a228363b2da5aae505f1016c82ee517c1db.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 252}
+  scale: 0.2155
+  state: {fit: acc, prefab: elw-meetingstone, role: acc}
+  tags: [zone-set, zs-road, zs-acc]
+zs-road-411:
+  castShadow: true
+  feetPosition: {x: -26.92, y: 0.14, z: -139.34}
+  id: zs-road-411
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 148}
+  scale: 0.9794
+  state: {fit: fill, prefab: elw-crate, role: fill}
+  tags: [zone-set, zs-road, zs-fill]
+zs-road-412:
+  castShadow: true
+  feetPosition: {x: -26.68, y: 0.141, z: -152.19}
+  id: zs-road-412
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 109}
+  scale: 1.3967
+  state: {fit: fill, prefab: elw-barrel, role: fill}
+  tags: [zone-set, zs-road, zs-fill]
+zs-road-413:
+  castShadow: true
+  feetPosition: {x: -36.08, y: 0.092, z: -161.13}
+  id: zs-road-413
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 114}
+  scale: 0.0749
+  state: {fit: fill, prefab: elw-rock, role: fill}
+  tags: [zone-set, zs-road, zs-fill]
+zs-road-414:
+  castShadow: true
+  feetPosition: {x: -49.1, y: 0.09, z: -159.7}
+  id: zs-road-414
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 4}
+  scale: 1.17
+  state: {fit: fill, prefab: elw-crate, role: fill}
+  tags: [zone-set, zs-road, zs-fill]
+zs-road-415:
+  castShadow: true
+  feetPosition: {x: -56.62, y: 0.089, z: -148.97}
+  id: zs-road-415
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 150}
+  scale: 1.3865
+  state: {fit: fill, prefab: elw-barrel, role: fill}
+  tags: [zone-set, zs-road, zs-fill]
+zs-road-416:
+  castShadow: true
+  feetPosition: {x: -53.83, y: 0.036, z: -135.98}
+  id: zs-road-416
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 295}
+  scale: 0.0745
+  state: {fit: fill, prefab: elw-rock, role: fill}
+  tags: [zone-set, zs-road, zs-fill]
+zs-road-417:
+  castShadow: true
+  feetPosition: {x: -41.95, y: 0, z: -128.06}
+  id: zs-road-417
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 19}
+  scale: 0.4371
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-road, zs-light]
+zs-road-418:
+  castShadow: true
+  feetPosition: {x: -43.1, y: 2.192, z: -136.77}
+  id: zs-road-418
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 159}
+  scale: 0.4398
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-road, zs-light]
+zs-road-419:
+  castShadow: true
+  feetPosition: {x: -32.26, y: 0, z: -130.3}
+  id: zs-road-419
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 206}
+  scale: 0.4491
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-road, zs-light]
+zs-road-420:
+  castShadow: true
+  feetPosition: {x: -35.04, y: 2.191, z: -138.63}
+  id: zs-road-420
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 228}
+  scale: 0.5091
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-road, zs-light]
+zs-road-421:
+  castShadow: true
+  feetPosition: {x: -42.23, y: 0.813, z: -132.82}
+  id: zs-road-421
+  model: /cdn/value.9ddbd3607d040860ecf238b6a6ccfd7f2b3c2c6bfd18c150f24864624164784f.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -10}
+  scale: 0.6818
+  state: {fit: creature, name: Capital Pack Mule 009, prefab: sk_char_capital_pack_mule_009, role: creature, stance: friendly}
+  tags: [zone-set, zs-road, zs-creature, npc]
+zs-road-422:
+  castShadow: true
+  feetPosition: {x: -37.89, y: 0.623, z: -132.58}
+  id: zs-road-422
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.6bbde9919c388fd21b1496bb768eaaf6f8d313a4204447d70731ffaad021c3bc.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -14}
+  scale: 1.2605
+  state: {fit: creature, name: Defias Bandit, prefab: sw-defiasBandit, role: creature, stance: hostile}
+  tags: [zone-set, zs-road, zs-creature, npc]
+zs-road-423:
+  castShadow: true
+  feetPosition: {x: -33.95, y: 0.712, z: -134.46}
+  id: zs-road-423
+  model: /cdn/value.99fba0c5e5da5cbf6266db8b82b4700c73b590c30ce02f5662e68f42f1d3e22b.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 23}
+  scale: 1.2704
+  state: {fit: creature, name: Bandit 001, prefab: sk_char_bandit_001, role: creature, stance: hostile}
+  tags: [zone-set, zs-road, zs-creature, npc]
+zs-road-v0:
+  castShadow: true
+  feetPosition: {x: -24.31, y: 0.0020829523243247605, z: -143.83}
+  id: zs-road-v0
+  model: /cdn/value.5a956547da96549a80d775523b19e5b676746b8608e5b1bcd695debd7ba47e8f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 142}
+  scale: 0.3339
+  state: {cap: [5.947538276527792, 8.441301764194527], fit: vtree, prefab: general-canopyless-tree02, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v1:
+  castShadow: true
+  feetPosition: {x: -59.66, y: 0, z: -147.94}
+  id: zs-road-v1
+  model: /cdn/value.bcce50a775206e553c904c13beee0582fd228047ab03e6219a4a1da9c3b81e38.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 172}
+  scale: 0.2119
+  state: {cap: [4.52482141939682, 9.877753283771572], fit: vtree, prefab: general-canopyless-tree04, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v10:
+  castShadow: true
+  feetPosition: {x: -32.12, y: 0.007010696452234022, z: -160.18}
+  id: zs-road-v10
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 354}
+  scale: 0.4777
+  state: {cap: [3.872268498000814, 9.94663343948621], fit: vtree, prefab: elw-oak, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v11:
+  castShadow: true
+  feetPosition: {x: -59.57, y: 0, z: -145.29}
+  id: zs-road-v11
+  model: /cdn/value.5a956547da96549a80d775523b19e5b676746b8608e5b1bcd695debd7ba47e8f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 61}
+  scale: 0.2716
+  state: {cap: [4.72049215155211, 7.698545818076723], fit: vtree, prefab: general-canopyless-tree02, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v12:
+  castShadow: true
+  feetPosition: {x: -54.91, y: 0.03735009686270925, z: -137.56}
+  id: zs-road-v12
+  model: /cdn/value.bcce50a775206e553c904c13beee0582fd228047ab03e6219a4a1da9c3b81e38.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 300}
+  scale: 0.1645
+  state: {cap: [5.2973340028186024, 7.668136595593829], fit: vtree, prefab: general-canopyless-tree04, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v13:
+  castShadow: true
+  feetPosition: {x: -26.08, y: 0.12408191202511609, z: -141.22}
+  id: zs-road-v13
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 46}
+  scale: 0.6436
+  state: {cap: [5.924186496843671, 8.483923922518233], fit: vtree, prefab: elw-oak, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v14:
+  castShadow: true
+  feetPosition: {x: -52.28, y: 1.2925163951693304, z: -141.89}
+  id: zs-road-v14
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 219}
+  scale: 0.1254
+  state: {cap: [1.6185911030362319, 1.6027423455159842], fit: vbush, prefab: general-darkshore-bush02, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v15:
+  castShadow: true
+  feetPosition: {x: -31.28, y: 0, z: -160.78}
+  id: zs-road-v15
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 321}
+  scale: 0.2239
+  state: {cap: [1.8565496520169775, 1.4233344605999692], fit: vbush, prefab: general-darkshore-bush01, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v16:
+  castShadow: true
+  feetPosition: {x: -52.21, y: 1.605475137973275, z: -145.98}
+  id: zs-road-v16
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 144}
+  scale: 0.2349
+  state: {cap: [2.056060411131969, 1.2501454738900741], fit: vbush, prefab: general-darkshore-bush03, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v17:
+  castShadow: true
+  feetPosition: {x: -44.53, y: 0, z: -164.4}
+  id: zs-road-v17
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 198}
+  scale: 0.219
+  state: {cap: [1.5772060625381796, 1.7128946171435038], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v18:
+  castShadow: true
+  feetPosition: {x: -25.6, y: 0.07129668236665819, z: -141.66}
+  id: zs-road-v18
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 40}
+  scale: 0.2518
+  state: {cap: [2.0221889773719894, 1.5789998707962223], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v19:
+  castShadow: true
+  feetPosition: {x: -27.05, y: 0, z: -157.63}
+  id: zs-road-v19
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 64}
+  scale: 0.2431
+  state: {cap: [1.924462293309375, 1.5849272838490676], fit: vbush, prefab: general-darkshore-bush01, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v2:
+  castShadow: true
+  feetPosition: {x: -32.7, y: 0.0956600907768336, z: -159.54}
+  id: zs-road-v2
+  model: /cdn/value.bc833ae586c7fffaffeef05171f49ebfb45d5cf213f45c9a648779086c8e0e26.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 13}
+  scale: 0.0414
+  state: {cap: [3.937424302654073, 6.064407531202029], fit: vtree, prefab: general-canopyless-tree01, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v20:
+  castShadow: true
+  feetPosition: {x: -53.4, y: 0, z: -158.92}
+  id: zs-road-v20
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 9}
+  scale: 0.2612
+  state: {cap: [1.8030382372685887, 1.2161751569091226], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v21:
+  castShadow: true
+  feetPosition: {x: -55.49, y: 0, z: -137.14}
+  id: zs-road-v21
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 316}
+  scale: 0.1937
+  state: {cap: [1.560700858855015, 1.5550381592964], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v22:
+  castShadow: true
+  feetPosition: {x: -46.27, y: 1.6767119711134113, z: -136.36}
+  id: zs-road-v22
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 230}
+  scale: 0.1595
+  state: {cap: [1.4037090981629254, 1.7412988633342548], fit: vbush, prefab: general-darkshore-bush03, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v23:
+  castShadow: true
+  feetPosition: {x: -26.87, y: 0.2606726742355462, z: -140.89}
+  id: zs-road-v23
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 12}
+  scale: 0.1497
+  state: {cap: [1.9151620072150428, 1.1105540936163412], fit: vbush, prefab: general-darkshore-bush02, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v24:
+  castShadow: true
+  feetPosition: {x: -54.68, y: 0, z: -133.32}
+  id: zs-road-v24
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 141}
+  scale: 0.1762
+  state: {cap: [1.548658359376089, 1.6341469152756718], fit: vbush, prefab: general-darkshore-bush03, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v25:
+  castShadow: true
+  feetPosition: {x: -34.36, y: 0.2840244075119442, z: -159.43}
+  id: zs-road-v25
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 73}
+  scale: 0.1232
+  state: {cap: [1.6056638802660927, 1.3166499361706199], fit: vbush, prefab: general-darkshore-bush02, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v26:
+  castShadow: true
+  feetPosition: {x: -29.73, y: 0.7446878667471578, z: -153.41}
+  id: zs-road-v26
+  model: /cdn/value.1997ff0be70d33d39e2e1069d713e7cc5be70bff2c29b2996179a4d3c5867d1e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 276}
+  scale: 0.279
+  state: {cap: [2.1943751290181535, 1.2155059840835194], fit: vbush, prefab: general-darkshore-bush03, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v27:
+  castShadow: true
+  feetPosition: {x: -54.74, y: 0.5516574531735297, z: -143.2}
+  id: zs-road-v27
+  model: /cdn/value.9893e981af4d57f2d38388fc7e23edde7000dec825b3de81a622d58f342a158d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 352}
+  scale: 0.7515
+  state: {cap: [1.8107901105008977, 1.7495233688966945], fit: vbush, prefab: general-darkshore-bush05, role: vbush}
+  tags: [zone-set, zs-road, zs-vbush]
+zs-road-v28:
+  castShadow: true
+  feetPosition: {x: -47.07, y: 1.1959497821621414, z: -156.7}
+  id: zs-road-v28
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 112}
+  scale: 0.0648
+  state: {cap: [1.541019992689146, 1.1422628448541567], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v29:
+  castShadow: true
+  feetPosition: {x: -29.85, y: 1.5658223274159402, z: -147.96}
+  id: zs-road-v29
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 245}
+  scale: 0.072
+  state: {cap: [1.7397939122001613, 1.1372117610821555], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v3:
+  castShadow: true
+  feetPosition: {x: -53.81, y: 0.005346236236284896, z: -156.81}
+  id: zs-road-v3
+  model: /cdn/value.500244a0567d73d6f775cd8b584d74b58a80a1393786d742bba27a40ebbcf6a5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 125}
+  scale: 0.5225
+  state: {cap: [6.004684539397566, 9.172885847824107], fit: vtree, prefab: general-highland-lake-tree-stump01, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v30:
+  castShadow: true
+  feetPosition: {x: -57.46, y: 0, z: -151.57}
+  id: zs-road-v30
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 49}
+  scale: 0.1446
+  state: {cap: [1.6734941235154375, 1.211800442967471], fit: vprop, prefab: elw-log, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v31:
+  castShadow: true
+  feetPosition: {x: -27.34, y: 0.09197152662370582, z: -137.96}
+  id: zs-road-v31
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 1.0613
+  state: {cap: [1.702718938376158, 1.1978979660653966], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v32:
+  castShadow: true
+  feetPosition: {x: -52.59, y: 0.14904395030840872, z: -156.4}
+  id: zs-road-v32
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 124}
+  scale: 0.1195
+  state: {cap: [1.4723428589628744, 1.249822941771626], fit: vprop, prefab: elw-log, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v33:
+  castShadow: true
+  feetPosition: {x: -22.45, y: 0, z: -143.18}
+  id: zs-road-v33
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 73}
+  scale: 0.2377
+  state: {cap: [1.7330497386553558, 1.3252181854216467], fit: vprop, prefab: elw-signpost, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v34:
+  castShadow: true
+  feetPosition: {x: -26.08, y: 0.02545222094605253, z: -139.19}
+  id: zs-road-v34
+  model: /cdn/value.61b939e9a16a230f4d20df2ccd6d075aa3b59b0942f6a07faf69cbf200220bba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 238}
+  scale: 0.2053
+  state: {cap: [1.6524023438116549, 1.1446443318597248], fit: vprop, prefab: elw-signpost, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v35:
+  castShadow: true
+  feetPosition: {x: -50.98, y: 0.8721141524185717, z: -137.53}
+  id: zs-road-v35
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 319}
+  scale: 0.0716
+  state: {cap: [1.9394594594554322, 0.9713513005857128], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v36:
+  castShadow: true
+  feetPosition: {x: -53.19, y: 0.6755050847496048, z: -152.21}
+  id: zs-road-v36
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 241}
+  scale: 0.058
+  state: {cap: [1.4229711637939193, 1.1072624133002305], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v37:
+  castShadow: true
+  feetPosition: {x: -52.06, y: 1.660076814425907, z: -145.68}
+  id: zs-road-v37
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 193}
+  scale: 0.7967
+  state: {cap: [1.34685910164698, 1.0956910355927847], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v38:
+  castShadow: true
+  feetPosition: {x: -49.76, y: 1.6534704944165808, z: -152.83}
+  id: zs-road-v38
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 21}
+  scale: 0.7826
+  state: {cap: [1.3902036913624984, 1.4650805471302386], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v39:
+  castShadow: true
+  feetPosition: {x: -51.52, y: 1.4015256097690116, z: -140.83}
+  id: zs-road-v39
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 93}
+  scale: 0.0825
+  state: {cap: [1.6546556843699216, 1.3485654039534578], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-road, zs-vprop]
+zs-road-v4:
+  castShadow: true
+  feetPosition: {x: -58.07, y: 0, z: -154.21}
+  id: zs-road-v4
+  model: /cdn/value.500244a0567d73d6f775cd8b584d74b58a80a1393786d742bba27a40ebbcf6a5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 124}
+  scale: 0.3472
+  state: {cap: [3.978863575136691, 8.416171715788623], fit: vtree, prefab: general-highland-lake-tree-stump01, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v5:
+  castShadow: true
+  feetPosition: {x: -22.84, y: 0, z: -145.7}
+  id: zs-road-v5
+  model: /cdn/value.bc833ae586c7fffaffeef05171f49ebfb45d5cf213f45c9a648779086c8e0e26.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 9}
+  scale: 0.0443
+  state: {cap: [4.029491111999141, 9.851390991290748], fit: vtree, prefab: general-canopyless-tree01, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v6:
+  castShadow: true
+  feetPosition: {x: -51.08, y: 0.012106636197388566, z: -159.23}
+  id: zs-road-v6
+  model: /cdn/value.5a956547da96549a80d775523b19e5b676746b8608e5b1bcd695debd7ba47e8f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 302}
+  scale: 0.2851
+  state: {cap: [5.035810382704162, 6.984163374167012], fit: vtree, prefab: general-canopyless-tree02, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v7:
+  castShadow: true
+  feetPosition: {x: -24.31, y: 0, z: -150.96}
+  id: zs-road-v7
+  model: /cdn/value.500244a0567d73d6f775cd8b584d74b58a80a1393786d742bba27a40ebbcf6a5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 164}
+  scale: 0.4222
+  state: {cap: [4.352130915784338, 6.022882539789603], fit: vtree, prefab: general-highland-lake-tree-stump01, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v8:
+  castShadow: true
+  feetPosition: {x: -22.78, y: 0, z: -145.43}
+  id: zs-road-v8
+  model: /cdn/value.890c04ef528ae3d644737ad3f0c27a91e80fabd4ecdae818259b6101249c4f40.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 40}
+  scale: 0.4373
+  state: {cap: [5.071478441274482, 6.141060000351192], fit: vtree, prefab: general-highland-lake-tree-stump02, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-road-v9:
+  castShadow: true
+  feetPosition: {x: -58.01, y: 0, z: -151.55}
+  id: zs-road-v9
+  model: /cdn/value.5a956547da96549a80d775523b19e5b676746b8608e5b1bcd695debd7ba47e8f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 67}
+  scale: 0.2992
+  state: {cap: [5.042251496944694, 8.19345463914492], fit: vtree, prefab: general-canopyless-tree02, role: vtree}
+  tags: [zone-set, zs-road, zs-vtree]
+zs-sign-city:
+  feetPosition: {x: 30.282305748925367, y: 2.1, z: -109.67385556001668}
+  id: zs-sign-city
+  rotation: 132.5874031717697
+  tags: [zone-set, zs-city]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>CITY</text></svg>"
+zs-sign-road:
+  feetPosition: {x: -37.07650275636748, y: 2.1, z: -124.37526900951444}
+  id: zs-sign-road
+  rotation: -163.82423319969456
+  tags: [zone-set, zs-road]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>ROAD</text></svg>"
+zs-sign-village:
+  feetPosition: {x: -1.6714742503207936, y: 2.1, z: -124.88230175507805}
+  id: zs-sign-village
+  rotation: 163.82423319969456
+  tags: [zone-set, zs-village]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>VILLAGE</text></svg>"
+zs-sign-winter:
+  feetPosition: {x: 52.19467645630621, y: 2.1, z: -82.00388561019199}
+  id: zs-sign-winter
+  rotation: 103.87811117464408
+  tags: [zone-set, zs-winter]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>WINTER</text></svg>"
+zs-village-303:
+  castShadow: true
+  feetPosition: {x: 4, y: 2.6, z: -146.04}
+  id: zs-village-303
+  model: /cdn/value.bf365c30bbc1a04818792e56a3ca1919d7840f4ffe3f5a97a72973161773fa97.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: -13}
+  scale: 0.218
+  state: {fit: hero, prefab: elw-inn, role: hero}
+  tags: [zone-set, zs-village, zs-hero]
+zs-village-304:
+  castShadow: true
+  feetPosition: {x: 6.49, y: 2.267, z: -137.14}
+  id: zs-village-304
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 185}
+  scale: 0.2095
+  state: {fit: flower, prefab: elw-bush, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-305:
+  castShadow: true
+  feetPosition: {x: 10.06, y: 1.255, z: -135.55}
+  id: zs-village-305
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 249}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-306:
+  castShadow: true
+  feetPosition: {x: 10.43, y: 2.284, z: -139.49}
+  id: zs-village-306
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 16}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-307:
+  castShadow: true
+  feetPosition: {x: 14.45, y: 1.219, z: -139.73}
+  id: zs-village-307
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 353}
+  scale: 0.2037
+  state: {fit: flower, prefab: elw-bush, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-308:
+  castShadow: true
+  feetPosition: {x: 12.95, y: 2.238, z: -143.35}
+  id: zs-village-308
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 245}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-309:
+  castShadow: true
+  feetPosition: {x: 16.05, y: 1.277, z: -145.56}
+  id: zs-village-309
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 79}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-310:
+  castShadow: true
+  feetPosition: {x: 12.92, y: 2.298, z: -147.96}
+  id: zs-village-310
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 204}
+  scale: 0.1724
+  state: {fit: flower, prefab: elw-bush, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-311:
+  castShadow: true
+  feetPosition: {x: 14.68, y: 1.325, z: -151.37}
+  id: zs-village-311
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 8}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-312:
+  castShadow: true
+  feetPosition: {x: 11.07, y: 2.233, z: -152.18}
+  id: zs-village-312
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 235}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-313:
+  castShadow: true
+  feetPosition: {x: 11.08, y: 1.119, z: -156.3}
+  id: zs-village-313
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 111}
+  scale: 0.1761
+  state: {fit: flower, prefab: elw-bush, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-314:
+  castShadow: true
+  feetPosition: {x: 7.19, y: 2.268, z: -154.71}
+  id: zs-village-314
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 338}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-315:
+  castShadow: true
+  feetPosition: {x: 5.21, y: 1.272, z: -158.05}
+  id: zs-village-315
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 224}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-316:
+  castShadow: true
+  feetPosition: {x: 2.69, y: 2.4, z: -154.64}
+  id: zs-village-316
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 87}
+  scale: 0.2159
+  state: {fit: flower, prefab: elw-bush, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-317:
+  castShadow: true
+  feetPosition: {x: -0.68, y: 1.321, z: -157.03}
+  id: zs-village-317
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 156}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-318:
+  castShadow: true
+  feetPosition: {x: -1.2, y: 2.433, z: -152.82}
+  id: zs-village-318
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 204}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-319:
+  castShadow: true
+  feetPosition: {x: -5.66, y: 1.191, z: -153.62}
+  id: zs-village-319
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 303}
+  scale: 0.1647
+  state: {fit: flower, prefab: elw-bush, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-320:
+  castShadow: true
+  feetPosition: {x: -3.86, y: 2.425, z: -149.49}
+  id: zs-village-320
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 110}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-321:
+  castShadow: true
+  feetPosition: {x: -7.96, y: 1.253, z: -148}
+  id: zs-village-321
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 152}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-322:
+  castShadow: true
+  feetPosition: {x: -4.79, y: 2.372, z: -145.25}
+  id: zs-village-322
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 104}
+  scale: 0.1875
+  state: {fit: flower, prefab: elw-bush, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-323:
+  castShadow: true
+  feetPosition: {x: -6.91, y: 1.465, z: -142.17}
+  id: zs-village-323
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 133}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-324:
+  castShadow: true
+  feetPosition: {x: -3.42, y: 2.344, z: -141.05}
+  id: zs-village-324
+  model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 229}
+  scale: 0.0921
+  state: {fit: flower, prefab: general-dnrdream-bell-flower02, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-325:
+  castShadow: true
+  feetPosition: {x: -3.98, y: 1.298, z: -137.07}
+  id: zs-village-325
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 196}
+  scale: 0.1838
+  state: {fit: flower, prefab: elw-bush, role: flower}
+  tags: [zone-set, zs-village, zs-flower]
+zs-village-326:
+  castShadow: true
+  feetPosition: {x: 8.74, y: 0, z: -125.94}
+  id: zs-village-326
+  model: /cdn/value.c3177b8182c5d35d6a4ccee74c9e1c9e9859b1a4db62a8156b8843598cf98309.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 193}
+  scale: 0.3092
+  state: {fit: house, prefab: elw-farmhouse, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-327:
+  castShadow: true
+  feetPosition: {x: 11.33, y: 0, z: -130.7}
+  id: zs-village-327
+  model: /cdn/value.6418c2b5f982ae8649db9512f50f2d8159ab9fa00a10683d4621c47b090ccb23.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 323}
+  scale: 0.6074
+  state: {fit: acc, prefab: elw-fence, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-328:
+  castShadow: true
+  feetPosition: {x: 17.26, y: 0, z: -129.22}
+  id: zs-village-328
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 300}
+  scale: 0.6475
+  state: {fit: ring, prefab: elw-oak, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-329:
+  castShadow: true
+  feetPosition: {x: 17.26, y: 0, z: -135.4}
+  id: zs-village-329
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 353}
+  scale: 1.446
+  state: {fit: acc, prefab: elw-haystack, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-330:
+  castShadow: true
+  feetPosition: {x: 22.8, y: 0, z: -136.75}
+  id: zs-village-330
+  model: /cdn/value.c03258816c135af900f89ca7bb9bb6d7726c3cf8e100c20bc41b1cc4b63c881b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 244}
+  scale: 3.4911
+  state: {fit: house, prefab: elw-smithy, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-331:
+  castShadow: true
+  feetPosition: {x: 20.56, y: 0, z: -142.21}
+  id: zs-village-331
+  model: /cdn/value.8a37c1bc7e90d4b9790a14bbba416bde54b8e9392c053051ef746c898a6dbe2e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 226}
+  scale: 0.5164
+  state: {fit: acc, prefab: elw-scarecrow, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-332:
+  castShadow: true
+  feetPosition: {x: 24.07, y: 0, z: -145.64}
+  id: zs-village-332
+  model: /cdn/value.a4e78de1b8604cfa828fea18cd8c8a670763a611cd1eea800bf6d8b29c9b6c58.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 269}
+  scale: 0.293
+  state: {fit: house, prefab: elw-stables, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-333:
+  castShadow: true
+  feetPosition: {x: 20.58, y: 0, z: -149.78}
+  id: zs-village-333
+  model: /cdn/value.0d37bcaf06d376aea301eeb02a4f06b477425d88814d659c4e18279d31c4a093.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 10}
+  scale: 0.4898
+  state: {fit: acc, prefab: elw-stall, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-334:
+  castShadow: true
+  feetPosition: {x: 23.45, y: 0, z: -154.61}
+  id: zs-village-334
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 86}
+  scale: 0.7357
+  state: {fit: ring, prefab: elw-oak, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-335:
+  castShadow: true
+  feetPosition: {x: 17.31, y: 0, z: -156.6}
+  id: zs-village-335
+  model: /cdn/value.3853fc76d7ed019b6635fe14c91469ef50531fb3a55da49c1cb26eb93b9184e3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 240}
+  scale: 0.6683
+  state: {fit: acc, prefab: elw-wheelbarrow, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-336:
+  castShadow: true
+  feetPosition: {x: 17, y: 0, z: -161.67}
+  id: zs-village-336
+  model: /cdn/value.beeb2dca119b653a41fc4f8c2211177a27dc94ead621cb53da71fa1f92af5b02.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 320}
+  scale: 0.1417
+  state: {fit: house, prefab: elw-silo, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-337:
+  castShadow: true
+  feetPosition: {x: 11.41, y: 0, z: -161.34}
+  id: zs-village-337
+  model: /cdn/value.6418c2b5f982ae8649db9512f50f2d8159ab9fa00a10683d4621c47b090ccb23.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 51}
+  scale: 0.6218
+  state: {fit: acc, prefab: elw-fence, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-338:
+  castShadow: true
+  feetPosition: {x: 9.07, y: 0, z: -166.56}
+  id: zs-village-338
+  model: /cdn/value.461c1836853c4ffbe70109cdf8fe7346507433d1a48a6530ce710e445bf66697.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 346}
+  scale: 0.1666
+  state: {fit: house, prefab: elw-barn, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-339:
+  castShadow: true
+  feetPosition: {x: 4.04, y: 0, z: -163.04}
+  id: zs-village-339
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 225}
+  scale: 1.4265
+  state: {fit: acc, prefab: elw-haystack, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-340:
+  castShadow: true
+  feetPosition: {x: 0.15, y: 0, z: -166.82}
+  id: zs-village-340
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 297}
+  scale: 0.6517
+  state: {fit: ring, prefab: elw-oak, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-341:
+  castShadow: true
+  feetPosition: {x: -3.34, y: 0, z: -161.37}
+  id: zs-village-341
+  model: /cdn/value.8a37c1bc7e90d4b9790a14bbba416bde54b8e9392c053051ef746c898a6dbe2e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 328}
+  scale: 0.5164
+  state: {fit: acc, prefab: elw-scarecrow, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-342:
+  castShadow: true
+  feetPosition: {x: -9.74, y: 0, z: -162.12}
+  id: zs-village-342
+  model: /cdn/value.c3177b8182c5d35d6a4ccee74c9e1c9e9859b1a4db62a8156b8843598cf98309.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 41}
+  scale: 0.2662
+  state: {fit: house, prefab: elw-farmhouse, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-343:
+  castShadow: true
+  feetPosition: {x: -9.27, y: 0, z: -156.67}
+  id: zs-village-343
+  model: /cdn/value.0d37bcaf06d376aea301eeb02a4f06b477425d88814d659c4e18279d31c4a093.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 26}
+  scale: 0.4363
+  state: {fit: acc, prefab: elw-stall, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-344:
+  castShadow: true
+  feetPosition: {x: -13.91, y: 0, z: -155.55}
+  id: zs-village-344
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 354}
+  scale: 0.7357
+  state: {fit: ring, prefab: elw-oak, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-345:
+  castShadow: true
+  feetPosition: {x: -12.57, y: 0, z: -149.86}
+  id: zs-village-345
+  model: /cdn/value.3853fc76d7ed019b6635fe14c91469ef50531fb3a55da49c1cb26eb93b9184e3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 172}
+  scale: 0.73
+  state: {fit: acc, prefab: elw-wheelbarrow, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-346:
+  castShadow: true
+  feetPosition: {x: -16.42, y: 0, z: -146.05}
+  id: zs-village-346
+  model: /cdn/value.c03258816c135af900f89ca7bb9bb6d7726c3cf8e100c20bc41b1cc4b63c881b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 3.4911
+  state: {fit: house, prefab: elw-smithy, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-347:
+  castShadow: true
+  feetPosition: {x: -12.59, y: 0, z: -142.3}
+  id: zs-village-347
+  model: /cdn/value.6418c2b5f982ae8649db9512f50f2d8159ab9fa00a10683d4621c47b090ccb23.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 301}
+  scale: 0.57
+  state: {fit: acc, prefab: elw-fence, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-348:
+  castShadow: true
+  feetPosition: {x: -14.79, y: 0, z: -136.51}
+  id: zs-village-348
+  model: /cdn/value.a4e78de1b8604cfa828fea18cd8c8a670763a611cd1eea800bf6d8b29c9b6c58.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 117}
+  scale: 0.2279
+  state: {fit: house, prefab: elw-stables, role: ring}
+  tags: [zone-set, zs-village, zs-ring]
+zs-village-349:
+  castShadow: true
+  feetPosition: {x: -9.32, y: 0, z: -135.47}
+  id: zs-village-349
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 3}
+  scale: 1.4877
+  state: {fit: acc, prefab: elw-haystack, role: acc}
+  tags: [zone-set, zs-village, zs-acc]
+zs-village-350:
+  castShadow: true
+  feetPosition: {x: 13.73, y: 0.136, z: -133.83}
+  id: zs-village-350
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 222}
+  scale: 1.3631
+  state: {fit: fill, prefab: elw-barrel, role: fill}
+  tags: [zone-set, zs-village, zs-fill]
+zs-village-351:
+  castShadow: true
+  feetPosition: {x: 20.23, y: 0.042, z: -145.26}
+  id: zs-village-351
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 32}
+  scale: 0.9794
+  state: {fit: fill, prefab: elw-crate, role: fill}
+  tags: [zone-set, zs-village, zs-fill]
+zs-village-352:
+  castShadow: true
+  feetPosition: {x: 14.97, y: 0.106, z: -157.39}
+  id: zs-village-352
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 146}
+  scale: 1.4273
+  state: {fit: fill, prefab: elw-firewood, role: fill}
+  tags: [zone-set, zs-village, zs-fill]
+zs-village-353:
+  castShadow: true
+  feetPosition: {x: 2.67, y: 0.04, z: -162.25}
+  id: zs-village-353
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 243}
+  scale: 1.3967
+  state: {fit: fill, prefab: elw-barrel, role: fill}
+  tags: [zone-set, zs-village, zs-fill]
+zs-village-354:
+  castShadow: true
+  feetPosition: {x: -8.95, y: 0.055, z: -155.66}
+  id: zs-village-354
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 56}
+  scale: 0.9773
+  state: {fit: fill, prefab: elw-crate, role: fill}
+  tags: [zone-set, zs-village, zs-fill]
+zs-village-355:
+  castShadow: true
+  feetPosition: {x: -12.07, y: 0, z: -142.6}
+  id: zs-village-355
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 359}
+  scale: 1.5251
+  state: {fit: fill, prefab: elw-firewood, role: fill}
+  tags: [zone-set, zs-village, zs-fill]
+zs-village-356:
+  castShadow: true
+  feetPosition: {x: -4.74, y: 0, z: -130.3}
+  id: zs-village-356
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 223}
+  scale: 0.5148
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-village, zs-light]
+zs-village-357:
+  castShadow: true
+  feetPosition: {x: -1.96, y: 2.191, z: -138.63}
+  id: zs-village-357
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 260}
+  scale: 0.4317
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-village, zs-light]
+zs-village-358:
+  castShadow: true
+  feetPosition: {x: 4.95, y: 0, z: -128.06}
+  id: zs-village-358
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 58}
+  scale: 0.4656
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-village, zs-light]
+zs-village-359:
+  castShadow: true
+  feetPosition: {x: 6.1, y: 2.192, z: -136.77}
+  id: zs-village-359
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 320}
+  scale: 0.4985
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-village, zs-light]
+zs-village-360:
+  castShadow: true
+  feetPosition: {x: -4.66, y: 0.795, z: -135.91}
+  id: zs-village-360
+  model: /cdn/value.b9498f094e48042665e070b43d5f6ec3d4601251bafa82499fe3111f66d6d756.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -22}
+  scale: 1.2489
+  state: {fit: creature, name: Elwynn Peasant, prefab: sw-peasant, role: creature, stance: friendly}
+  tags: [zone-set, zs-village, zs-creature, npc]
+zs-village-361:
+  castShadow: true
+  feetPosition: {x: -1.44, y: 0.437, z: -132.71}
+  id: zs-village-361
+  model: /cdn/value.f3baf07a8f6f8c7a95abd8dd64dc05ded95bc00a6dbec3b3ef2ac95e698a1c5a.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -18}
+  scale: 1.253
+  state: {fit: creature, name: Village Milkmaid, prefab: sw-milkmaid, role: creature, stance: friendly}
+  tags: [zone-set, zs-village, zs-creature, npc]
+zs-village-362:
+  castShadow: true
+  feetPosition: {x: 3.06, y: 0.584, z: -132.14}
+  id: zs-village-362
+  model: /cdn/value.7ce579e8d559b8f09c2852622eb390f970f132477bc61c7be5cea441c60e76c3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 16}
+  scale: 1.5185
+  state: {fit: creature, name: Pasture Sheep, prefab: sw-sheep, role: creature, stance: friendly}
+  tags: [zone-set, zs-village, zs-creature, npc]
+zs-village-363:
+  castShadow: true
+  feetPosition: {x: 7.47, y: 0.595, z: -132.58}
+  id: zs-village-363
+  model: /cdn/value.5bc9fbcc18cb33c5b81dd7df6e2b75fe98279827c1d64b1ea87ce0d4cce828dd.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -10}
+  scale: 0.7934
+  state: {fit: creature, name: Elwynn Riding Horse, prefab: sw-horse, role: creature, stance: friendly}
+  tags: [zone-set, zs-village, zs-creature, npc]
+zs-village-v0:
+  castShadow: true
+  feetPosition: {x: -9.39, y: 0.002486965117469331, z: -156.22}
+  id: zs-village-v0
+  model: /cdn/value.9c53590fc654c0004e62ee483266a13c142963becd4ddec5821d754ca1f2d10b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 19}
+  scale: 0.1629
+  state: {cap: [4.6891287881597545, 8.300068161590056], fit: vtree, prefab: general-highland-lake-tree-log01, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v1:
+  castShadow: true
+  feetPosition: {x: 20.65, y: 0, z: -152.43}
+  id: zs-village-v1
+  model: /cdn/value.890c04ef528ae3d644737ad3f0c27a91e80fabd4ecdae818259b6101249c4f40.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 65}
+  scale: 0.5265
+  state: {cap: [5.802416699962885, 9.947962041920032], fit: vtree, prefab: general-highland-lake-tree-stump02, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v10:
+  castShadow: true
+  feetPosition: {x: 12.92, y: 0, z: -129.62}
+  id: zs-village-v10
+  model: /cdn/value.500244a0567d73d6f775cd8b584d74b58a80a1393786d742bba27a40ebbcf6a5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 184}
+  scale: 0.4986
+  state: {cap: [4.471353377784301, 8.057952673201427], fit: vtree, prefab: general-highland-lake-tree-stump01, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v11:
+  castShadow: true
+  feetPosition: {x: 9.64, y: 0, z: -129.93}
+  id: zs-village-v11
+  model: /cdn/value.890c04ef528ae3d644737ad3f0c27a91e80fabd4ecdae818259b6101249c4f40.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 174}
+  scale: 0.6051
+  state: {cap: [5.579452826329252, 6.181843385185042], fit: vtree, prefab: general-highland-lake-tree-stump02, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v12:
+  castShadow: true
+  feetPosition: {x: 15.04, y: 0, z: -131.1}
+  id: zs-village-v12
+  model: /cdn/value.500244a0567d73d6f775cd8b584d74b58a80a1393786d742bba27a40ebbcf6a5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 89}
+  scale: 0.4997
+  state: {cap: [4.282272737721108, 7.452644605866002], fit: vtree, prefab: general-highland-lake-tree-stump01, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v13:
+  castShadow: true
+  feetPosition: {x: -5.33, y: 0, z: -161.33}
+  id: zs-village-v13
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 349}
+  scale: 0.567
+  state: {cap: [4.804764688506148, 9.888191556505948], fit: vtree, prefab: elw-oak, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v14:
+  castShadow: true
+  feetPosition: {x: 18.96, y: 0.23032491516443607, z: -143.55}
+  id: zs-village-v14
+  model: /cdn/value.6418c2b5f982ae8649db9512f50f2d8159ab9fa00a10683d4621c47b090ccb23.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 240}
+  scale: 0.4262
+  state: {cap: [1.653537333991163, 1.3237563029275072], fit: vbush, prefab: elw-fence, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v15:
+  castShadow: true
+  feetPosition: {x: -11.59, y: 0.077476031419805, z: -142.59}
+  id: zs-village-v15
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 3}
+  scale: 0.3
+  state: {cap: [1.7654736380630516, 1.5675604977726751], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v16:
+  castShadow: true
+  feetPosition: {x: -1.5, y: 0.891240902045965, z: -157.89}
+  id: zs-village-v16
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 315}
+  scale: 1.223
+  state: {cap: [1.886095094604462, 1.2446427911495057], fit: vbush, prefab: elw-haystack, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v17:
+  castShadow: true
+  feetPosition: {x: 18.65, y: 0, z: -158.07}
+  id: zs-village-v17
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 266}
+  scale: 1.0045
+  state: {cap: [1.496924396765849, 1.5620394561495816], fit: vbush, prefab: elw-haystack, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v18:
+  castShadow: true
+  feetPosition: {x: 14.93, y: 0, z: -132.3}
+  id: zs-village-v18
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 350}
+  scale: 1.4473
+  state: {cap: [2.241102453456774, 1.6402829706623605], fit: vbush, prefab: elw-haystack, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v19:
+  castShadow: true
+  feetPosition: {x: -4.68, y: 1.1624033781610523, z: -154.83}
+  id: zs-village-v19
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 298}
+  scale: 1.279
+  state: {cap: [2.072230327372546, 1.2250872280798326], fit: vbush, prefab: elw-haystack, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v2:
+  castShadow: true
+  feetPosition: {x: 17.72, y: 0.04389135789191312, z: -154.71}
+  id: zs-village-v2
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 289}
+  scale: 0.6175
+  state: {cap: [5.913590279949639, 7.538936181710538], fit: vtree, prefab: sm_env_forest_tree_083, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v20:
+  castShadow: true
+  feetPosition: {x: -14.41, y: 0, z: -146.28}
+  id: zs-village-v20
+  model: /cdn/value.847ecea039b852fad95c7a985b195642d905a3f6d2722112d377333213bc12b9.glb
+  receiveShadow: true
+  rotation: {yaw: 306}
+  scale: 0.3605
+  state: {cap: [1.9608214889237756, 1.5763722659211477], fit: vbush, prefab: elw-pumpkins, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v21:
+  castShadow: true
+  feetPosition: {x: 19, y: 0.18388838683163541, z: -142.67}
+  id: zs-village-v21
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 85}
+  scale: 0.3097
+  state: {cap: [1.9217824949285867, 1.5543050948084822], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v22:
+  castShadow: true
+  feetPosition: {x: 13.04, y: 1.564320744871515, z: -152.85}
+  id: zs-village-v22
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 66}
+  scale: 0.1986
+  state: {cap: [1.4977042201197261, 1.255976985071775], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v23:
+  castShadow: true
+  feetPosition: {x: 6.16, y: 1.4811912625991193, z: -157.37}
+  id: zs-village-v23
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 175}
+  scale: 0.9808
+  state: {cap: [1.472264361950692, 1.2033243485509064], fit: vbush, prefab: elw-haystack, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v24:
+  castShadow: true
+  feetPosition: {x: 14.5, y: 1.5358039459965664, z: -150.46}
+  id: zs-village-v24
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 11}
+  scale: 0.26
+  state: {cap: [2.203103266820825, 1.2106931336972364], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v25:
+  castShadow: true
+  feetPosition: {x: 20.18, y: 0.049527844157703595, z: -146.16}
+  id: zs-village-v25
+  model: /cdn/value.6418c2b5f982ae8649db9512f50f2d8159ab9fa00a10683d4621c47b090ccb23.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 113}
+  scale: 0.4664
+  state: {cap: [2.189175658039365, 1.1474436303588764], fit: vbush, prefab: elw-fence, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v26:
+  castShadow: true
+  feetPosition: {x: -2.33, y: 0.055163183863800924, z: -160.88}
+  id: zs-village-v26
+  model: /cdn/value.847ecea039b852fad95c7a985b195642d905a3f6d2722112d377333213bc12b9.glb
+  receiveShadow: true
+  rotation: {yaw: 121}
+  scale: 0.3595
+  state: {cap: [1.9481267508110622, 1.5293451300726013], fit: vbush, prefab: elw-pumpkins, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v27:
+  castShadow: true
+  feetPosition: {x: 16.33, y: 0, z: -131.98}
+  id: zs-village-v27
+  model: /cdn/value.847ecea039b852fad95c7a985b195642d905a3f6d2722112d377333213bc12b9.glb
+  receiveShadow: true
+  rotation: {yaw: 30}
+  scale: 0.2895
+  state: {cap: [1.5660965753328506, 1.3884434816140885], fit: vbush, prefab: elw-pumpkins, role: vbush}
+  tags: [zone-set, zs-village, zs-vbush]
+zs-village-v28:
+  castShadow: true
+  feetPosition: {x: 10.72, y: 0.2954893971408154, z: -132.74}
+  id: zs-village-v28
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 312}
+  scale: 1.1457
+  state: {cap: [1.7885364002494777, 1.1484592447283022], fit: vprop, prefab: elw-barrel, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v29:
+  castShadow: true
+  feetPosition: {x: -6.09, y: 1.5793449751929478, z: -151.08}
+  id: zs-village-v29
+  model: /cdn/value.3853fc76d7ed019b6635fe14c91469ef50531fb3a55da49c1cb26eb93b9184e3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 340}
+  scale: 0.5469
+  state: {cap: [1.7796080089079256, 1.4038542866259134], fit: vprop, prefab: elw-wheelbarrow, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v3:
+  castShadow: true
+  feetPosition: {x: 20.43, y: 0.020073135806075438, z: -144.71}
+  id: zs-village-v3
+  model: /cdn/value.be0cd32ada12ba490fd58d4dc2cd7fe47bdee3c6ebd667acf45e2e1b9f7af5cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 22}
+  scale: 0.5796
+  state: {cap: [3.871955470005961, 9.528935024295437], fit: vtree, prefab: sm_env_forest_tree_stump_082, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v30:
+  castShadow: true
+  feetPosition: {x: -10.2, y: 0.360022551202599, z: -149.69}
+  id: zs-village-v30
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 221}
+  scale: 1.5764
+  state: {cap: [1.929982905802309, 0.9170233645555672], fit: vprop, prefab: elw-firewood, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v31:
+  castShadow: true
+  feetPosition: {x: -8.88, y: 0.9579974254894935, z: -145.64}
+  id: zs-village-v31
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 214}
+  scale: 0.8011
+  state: {cap: [1.4755598971040733, 1.0013929711195606], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v32:
+  castShadow: true
+  feetPosition: {x: 21.78, y: 0, z: -140.87}
+  id: zs-village-v32
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 282}
+  scale: 1.0605
+  state: {cap: [1.329495407701235, 1.2219879259923416], fit: vprop, prefab: elw-firewood, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v33:
+  castShadow: true
+  feetPosition: {x: 15.25, y: 0, z: -160.85}
+  id: zs-village-v33
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 155}
+  scale: 1.353
+  state: {cap: [1.573356300021222, 1.3495008425086275], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v34:
+  castShadow: true
+  feetPosition: {x: 17.71, y: 0.613047687608126, z: -147.97}
+  id: zs-village-v34
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 57}
+  scale: 1.5355
+  state: {cap: [1.9421924240617976, 1.2210534049761732], fit: vprop, prefab: elw-firewood, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v35:
+  castShadow: true
+  feetPosition: {x: 21.84, y: 0, z: -146.06}
+  id: zs-village-v35
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 66}
+  scale: 1.5415
+  state: {cap: [1.786861329798988, 1.0337774486903928], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v36:
+  castShadow: true
+  feetPosition: {x: 17.8, y: 0.17979670834298608, z: -152.86}
+  id: zs-village-v36
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 43}
+  scale: 1.3474
+  state: {cap: [1.5723935363685682, 1.2136243098944537], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v37:
+  castShadow: true
+  feetPosition: {x: 18.49, y: 0.00543287910097432, z: -137.67}
+  id: zs-village-v37
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 15}
+  scale: 1.1
+  state: {cap: [1.2204427197670764, 1.1855933439385113], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v38:
+  castShadow: true
+  feetPosition: {x: -11.89, y: 0, z: -137.12}
+  id: zs-village-v38
+  model: /cdn/value.3853fc76d7ed019b6635fe14c91469ef50531fb3a55da49c1cb26eb93b9184e3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 288}
+  scale: 0.5147
+  state: {cap: [1.664816490032159, 1.0280609778724894], fit: vprop, prefab: elw-wheelbarrow, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v39:
+  castShadow: true
+  feetPosition: {x: 17.54, y: 0.6193567701331294, z: -143.24}
+  id: zs-village-v39
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 116}
+  scale: 1.2217
+  state: {cap: [1.4245968137982288, 1.1989871301217876], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-village, zs-vprop]
+zs-village-v4:
+  castShadow: true
+  feetPosition: {x: -9.75, y: 0, z: -158.76}
+  id: zs-village-v4
+  model: /cdn/value.be0cd32ada12ba490fd58d4dc2cd7fe47bdee3c6ebd667acf45e2e1b9f7af5cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 331}
+  scale: 0.7812
+  state: {cap: [5.428860716837859, 8.579308630237033], fit: vtree, prefab: sm_env_forest_tree_stump_082, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v5:
+  castShadow: true
+  feetPosition: {x: -2.27, y: 0, z: -163.58}
+  id: zs-village-v5
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 124}
+  scale: 0.4756
+  state: {cap: [4.425161552231368, 9.904333364173926], fit: vtree, prefab: elw-oak, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v6:
+  castShadow: true
+  feetPosition: {x: 12.67, y: 0, z: -129.9}
+  id: zs-village-v6
+  model: /cdn/value.500244a0567d73d6f775cd8b584d74b58a80a1393786d742bba27a40ebbcf6a5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 158}
+  scale: 0.5577
+  state: {cap: [6.030206173788852, 7.480260590780648], fit: vtree, prefab: general-highland-lake-tree-stump01, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v7:
+  castShadow: true
+  feetPosition: {x: -8.09, y: 0, z: -159.5}
+  id: zs-village-v7
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 97}
+  scale: 0.507
+  state: {cap: [4.149509223829726, 9.282439849936608], fit: vtree, prefab: elw-oak, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v8:
+  castShadow: true
+  feetPosition: {x: -8.58, y: 0, z: -134.31}
+  id: zs-village-v8
+  model: /cdn/value.9c53590fc654c0004e62ee483266a13c142963becd4ddec5821d754ca1f2d10b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 87}
+  scale: 0.1558
+  state: {cap: [4.062708327692332, 7.102181640035557], fit: vtree, prefab: general-highland-lake-tree-log01, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-village-v9:
+  castShadow: true
+  feetPosition: {x: 15.86, y: 0.014539995965805996, z: -134.48}
+  id: zs-village-v9
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 29}
+  scale: 0.4627
+  state: {cap: [4.279204206787611, 8.936165566992091], fit: vtree, prefab: elw-oak, role: vtree}
+  tags: [zone-set, zs-village, zs-vtree]
+zs-winter-202:
+  castShadow: true
+  feetPosition: {x: 62.26, y: 1.417, z: -97.14}
+  id: zs-winter-202
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 11}
+  scale: 0.3333
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-203:
+  castShadow: true
+  feetPosition: {x: 63.6, y: 2.337, z: -93.64}
+  id: zs-winter-203
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 201}
+  scale: 0.3103
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-204:
+  castShadow: true
+  feetPosition: {x: 60.51, y: 1.439, z: -91.6}
+  id: zs-winter-204
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 116}
+  scale: 0.2948
+  state: {fit: flower, prefab: general-aerie-peaks-bush02, role: flower}
+  tags: [zone-set, zs-winter, zs-flower]
+zs-winter-205:
+  castShadow: true
+  feetPosition: {x: 58.66, y: 0, z: -75.11}
+  id: zs-winter-205
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 20}
+  scale: 0.9461
+  state: {fit: ring, prefab: elw-pine, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-225:
+  castShadow: true
+  feetPosition: {x: 59.39, y: 0, z: -107.75}
+  id: zs-winter-225
+  model: /cdn/value.7ca716257fe722ac00f4001547cec521d8da2dbf4544f62e0a426fa0b74a6c4f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 145}
+  scale: 1.7289
+  state: {fit: ring, prefab: sm_env_forest_pine_small_076, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-226:
+  castShadow: true
+  feetPosition: {x: 58.97, y: 0, z: -101.63}
+  id: zs-winter-226
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 327}
+  scale: 0.4839
+  state: {fit: acc, prefab: general-aerie-peaks-bush02, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-227:
+  castShadow: true
+  feetPosition: {x: 53.53, y: 0, z: -101.03}
+  id: zs-winter-227
+  model: /cdn/value.7c456976f718e40d4cad44594d09a04d45ee655a55fada2bc43b7735d8b35fcc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 358}
+  scale: 0.2516
+  state: {fit: ring, prefab: general-aerie-tree01, role: ring}
+  tags: [zone-set, zs-winter, zs-ring]
+zs-winter-228:
+  castShadow: true
+  feetPosition: {x: 55.61, y: 0, z: -94.85}
+  id: zs-winter-228
+  model: /cdn/value.3bbc56aa3372caf1cae47fa7375f8af979fa1d9a503007e0a615210ddcc7e7b0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 74}
+  scale: 1.7337
+  state: {fit: acc, prefab: elw-firewood, role: acc}
+  tags: [zone-set, zs-winter, zs-acc]
+zs-winter-234:
+  castShadow: true
+  feetPosition: {x: 59.89, y: 0.079, z: -101.1}
+  id: zs-winter-234
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 108}
+  scale: 0.0776
+  state: {fit: fill, prefab: elw-rock, role: fill}
+  tags: [zone-set, zs-winter, zs-fill]
+zs-winter-235:
+  castShadow: true
+  feetPosition: {x: 54.35, y: 0, z: -88.06}
+  id: zs-winter-235
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 91}
+  scale: 0.4252
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-winter, zs-light]
+zs-winter-236:
+  castShadow: true
+  feetPosition: {x: 62.63, y: 2.193, z: -90.99}
+  id: zs-winter-236
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 317}
+  scale: 0.3124
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-winter, zs-light]
+zs-winter-237:
+  castShadow: true
+  feetPosition: {x: 58.55, y: 0, z: -79.04}
+  id: zs-winter-237
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 313}
+  scale: 0.3124
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-winter, zs-light]
+zs-winter-239:
+  castShadow: true
+  feetPosition: {x: 58.23, y: 0.564, z: -89.24}
+  id: zs-winter-239
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.8e09b0b853ca9252869c3dafde21015bb536b283eb99b31df9860d013c9a7309.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -43}
+  scale: 0.7767
+  state: {fit: creature, name: Young Forest Bear, prefab: sw-forestBear, role: creature, stance: hostile}
+  tags: [zone-set, zs-winter, zs-creature, npc]
+zs-winter-240:
+  castShadow: true
+  feetPosition: {x: 58.86, y: 0.365, z: -84.67}
+  id: zs-winter-240
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.07acf4ba3713ba2d12266b7e5d46e224475d9616981fc29af5d73d43ce57a5ba.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -46}
+  scale: 0.7603
+  state: {fit: creature, name: Mangy Wolf, prefab: sw-mangyWolf, role: creature, stance: hostile}
+  tags: [zone-set, zs-winter, zs-creature, npc]
+zs-winter-241:
+  castShadow: true
+  feetPosition: {x: 61.57, y: 0.402, z: -80.9}
+  id: zs-winter-241
+  model: /cdn/value.188b9d953ad0efdcdc73f1801365f34e7ce577a32c424d0a88075d3f05770a09.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -37}
+  scale: 0.5837
+  state: {fit: bigcreature, name: Gryphon White 048, prefab: sk_char_gryphon_white_048, role: creature, stance: friendly}
+  tags: [zone-set, zs-winter, zs-creature, npc]
+zs-winter-v0:
+  castShadow: true
+  feetPosition: {x: 53.58, y: 0, z: -93.68}
+  id: zs-winter-v0
+  model: /cdn/value.64af4ea4f0abbde8dd996af87133a06eef453c883dc21a4ba547c63b6ed13a27.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 31}
+  scale: 0.079
+  state: {cap: [4.134900170790451, 8.427472760168591], fit: vtree, prefab: monuments-world-architecture-snake-spine-giant-arch, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v14:
+  castShadow: true
+  feetPosition: {x: 60.35, y: 1.0887913722129858, z: -95.17}
+  id: zs-winter-v14
+  model: /cdn/value.51c3315123232fcb4e5cbce2c5fe09f48c20632ded3a566a8f41a368865dec0f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 61}
+  scale: 0.2675
+  state: {cap: [1.616199941358622, 1.1452112111706338], fit: vbush, prefab: sm_env_pine_sapling_dense_084, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v15:
+  castShadow: true
+  feetPosition: {x: 63.53, y: 0, z: -74.13}
+  id: zs-winter-v15
+  model: /cdn/value.cdafdb516ca45a705dfb118ca70e4dd46ede5eb93efa42e1fef9a5b2747912db.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 110}
+  scale: 0.4204
+  state: {cap: [1.782563122842723, 1.663204369281048], fit: vbush, prefab: general-aerie-peaks-bush02, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v23:
+  castShadow: true
+  feetPosition: {x: 57.7, y: 0.29276899181855465, z: -94.62}
+  id: zs-winter-v23
+  model: /cdn/value.1e27a8a2f41d5e50f2daebb01a47502aa1b1c097691775223cbeed481cc60fd1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 331}
+  scale: 1.0333
+  state: {cap: [1.6233967310159452, 1.4224452549929008], fit: vbush, prefab: general-g-sapling01, role: vbush}
+  tags: [zone-set, zs-winter, zs-vbush]
+zs-winter-v3:
+  castShadow: true
+  feetPosition: {x: 63.59, y: 0, z: -105.93}
+  id: zs-winter-v3
+  model: /cdn/value.44321869c5fd7a8761baca435133b0fca768715c80a461bb52189f31e9ecef9d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 190}
+  scale: 0.484
+  state: {cap: [4.06556144720668, 7.825989124284121], fit: vtree, prefab: sm_env_pine_stump_hollow_01, role: vtree}
+  tags: [zone-set, zs-winter, zs-vtree]
+zs-winter-v33:
+  castShadow: true
+  feetPosition: {x: 61.43, y: 0.02820996027377549, z: -103.27}
+  id: zs-winter-v33
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 72}
+  scale: 0.1308
+  state: {cap: [1.7450506127183563, 1.399235968058573], fit: vprop, prefab: elw-log, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v35:
+  castShadow: true
+  feetPosition: {x: 58.25, y: 0, z: -103.11}
+  id: zs-winter-v35
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 106}
+  scale: 0.0561
+  state: {cap: [1.2826888204005962, 1.0132533546133216], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]
+zs-winter-v38:
+  castShadow: true
+  feetPosition: {x: 59.68, y: 0.8490074994282634, z: -95.18}
+  id: zs-winter-v38
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 128}
+  scale: 0.063
+  state: {cap: [1.5701923252875882, 1.066808331369799], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-winter, zs-vprop]

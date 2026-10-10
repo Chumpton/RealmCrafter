@@ -1,0 +1,31 @@
+# spawn-scene v2 yaml x-2z2
+mtn-pine-530:
+  castShadow: true
+  feetPosition: {x: -217.2273197291546, y: {terrain: -0.3}, z: 218.63582054741485}
+  id: mtn-pine-530
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 257.03286767799074}
+  scale: 1.5526710518415416
+  visibleRange: {max: 900}
+mtn-pine-550:
+  castShadow: true
+  feetPosition: {x: -217.58214126228455, y: {terrain: -0.3}, z: 222.94394907399266}
+  id: mtn-pine-550
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 101.46734765799128}
+  scale: 1.529591894210126
+  visibleRange: {max: 900}
+mtn-pine-552:
+  castShadow: true
+  feetPosition: {x: -215.7929613328506, y: {terrain: -0.3}, z: 267.4866640295306}
+  id: mtn-pine-552
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 324.1327059288196}
+  scale: 2.305613172476
+  visibleRange: {max: 900}

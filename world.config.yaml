@@ -1,0 +1,318 @@
+# name: the game's name — fill it once you know what this is. description: one line for the box art.
+camera: templates/camera.js#camera
+lighting: scripts/lighting.js
+defaultPlace: main
+chat: scripts/chat.js
+engine:
+  behaviors:
+    - scripts/arrival.js
+  networking:
+    mode: multiplayer
+  ui:
+    theme:
+      font: Georgia, 'Times New Roman', serif
+inputs:
+  actions:
+    campfire: {} # hotbar campfire (scripts/campfire-player.js)
+    devbook: {} # Dev Team Tracker book ops (scripts/devbook-player.js)
+    keeper: # CAMPTON'S KEEPER window (scripts/keeper-player.js)
+      keys: [f7]
+    emote: {} # Emotes tab tiles (sendAction); L opens the tab in ui.js
+    horse:
+      keys: [z]
+    options:
+      keys: [o]
+    sysWin: {}
+    propsHide: {} # Admin → Hide Props (scripts/props-toggle.js)
+    wardrobe: {} # O → Character → Wardrobe (scripts/wardrobe-player.js)
+    look: {}
+    lookForm: {}
+    zezimaForm: {}
+    bld: {}
+    closeAll:
+      keys: [down] # Shift+Down only: the scripts read runHold (shift) held with it
+    bugTag: {}
+    bugJournal: {}
+    bugSave: {}
+    bugCancel: {}
+    bugOpen: {}
+    bugPage: {}
+    bugEdit: {}
+    bugDelete: {}
+    bugStatus: {}
+    bugSend: {}
+    maToggle:
+      keys: [f6]
+    maOff:
+      keys: ['`', backquote]
+    maReset: {}
+    maSet: {}
+    maHide: {}
+    maHover: {}
+    maHideKey:
+      keys: [x]
+    maShowAll: {}
+    sysToggle: {}
+    wakeSavi:
+      keys: [f8]
+    winSkills:
+      keys: [k]
+    winBags:
+      keys: [b]
+    winMenu:
+      keys: [f10]
+    winChar:
+      keys: [p]
+    saviWatch:
+      keys: [g]
+    setFov: {}
+    setSetting: {}
+    uiSet: {}
+    setSpeed: {}
+    setRolfVol: {}
+    setEmoteVol: {}
+    chatFilter: {}
+    osSay: {} # OSRS chat box typed line { tab, text<=80 } (UI-sent; scripts/lib/os-chat-scope.js resolves scope)
+    osChatOpen: # Enter in the game view opens the OSRS chat box's typing line (scripts/os-chat-player.js → uiEvent osChatOpen → ui.js)
+      keys: [enter]
+    osHist: {} # OSRS chat box history pull { scope } for party/guild/private tabs (UI-sent)
+    setUlfVol: {}
+    setOrmVol: {}
+    setOldSong: {}
+    oldSongOff: {}
+    setSong: {}
+    previewSong: {}
+    setGain: {}
+    optTab: {}
+    le: {}
+    edl: {} # LOGIC TOOLS ops (scripts/ed-logic.js)
+    post: {} # Post tab look sliders (scripts/ed-post.js)
+    te: {} # TERRAIN EDITOR dock ops (scripts/terrain-editor.js)
+    teKey: # F4 toggles the world editor (scripts/terrain-editor-core.js)
+      keys: [f4]
+    teBigger:
+      keys: [']', bracketright]
+    teSmaller:
+      keys: ['[', bracketleft]
+    teEnd:
+      keys: [end]
+    edDrop: # End: drop the selection to the surface below (scripts/ed-scatter.js)
+      keys: [end]
+    edx: {} # editor scatter brush / settle ops (scripts/ed-scatter.js)
+    teDel:
+      keys: [delete, backspace]
+    teTray:
+      keys: [Backslash]
+    teDup:
+      keys: [d]
+    teSwap:
+      keys: [insert]
+    teRotL:
+      keys: [',', comma]
+    teRotR:
+      keys: ['.', period]
+    teLiftUp:
+      keys: [pageup]
+    teLiftDn:
+      keys: [pagedown]
+    teHere:
+      keys: [home]
+    teAll:
+      keys: [a]
+    teRestore:
+      keys: [z]
+    ms: {} # Terrain Editor multi-select ops (scripts/build-multi.js)
+    ai: {} # editor AI copilot ops (scripts/ed-ai.js)
+    ol: {} # Editor Outliner / Layers ops (scripts/ed-outliner.js)
+    edSolo: # Editor Solo: Shift+H only (scripts/ed-outliner.js reads runHold with it)
+      keys: [h]
+    leDrop:
+      keys: [j]
+    leArm:
+      keys: [y]
+    leUndo:
+      keys: [z]
+    leCtrl:
+      keys: [control]
+    edPlay:
+      keys: [f9]
+    edh: {}
+    setWx: {}
+    wxReset: {}
+    wxPreset: {}
+    wxHour: {}
+    wxHold: {}
+    wxNewArc: {}
+    rolfAlways: {}
+    ulfAlways: {}
+    ormAlways: {}
+    jevWander: {}
+    devbookSee: {}
+    devbookReact: {}
+    voteLedger: {}
+    votePin: {}
+    voteStarJev: {}
+    jevMaster: {}
+    interact:
+      keys: [e]
+    use:
+      mouse: left
+    combatMode: {}
+    classCast: {}
+    hearth: {} # A1 hearthstone (scripts/stones-player.js)
+    stonePortal: {} # A2 portal stone: { zone }
+    stoneCancel: {}
+    classGem: {}
+    talent: {} # 3rd person talent tree: learn a rank / reset (scripts/class-cast-player.js)
+    pluck1:
+      keys: ['1']
+    pluck2:
+      keys: ['2']
+    pluck3:
+      keys: ['3']
+    pluck4:
+      keys: ['4']
+    pluck5:
+      keys: ['5']
+    pluck6:
+      keys: ['6']
+    pluck7:
+      keys: ['7']
+    pluck8:
+      keys: ['8']
+    pluck9:
+      keys: ['9']
+    pluck10:
+      keys: ['0']
+    chordG:
+      keys: [z]
+    chordC:
+      keys: [x]
+    chordD:
+      keys: [c]
+    tuneNext:
+      keys: [t]
+    guitarTune: {}
+    strum:
+      mouse: left
+    strumUp:
+      mouse: right
+    dig:
+      mouse: left
+    jump:
+      keys:
+        - space
+    judgeClose: {}
+    huginnClose: {}
+    huginnMap:
+      keys: [m]
+    mapZone: {} # the painted map's zone select / rename / move / add (ui/hud/worldmap.js)
+    huginnIssue: {}
+    skillsPanel: {} # creator 2026-10-05: L window retired (skills K and bags B cover it); the panel code stays dormant
+    runToggle:
+      keys: [r]
+    runHold:
+      keys: [shift]
+    flyDown:
+      keys: [c, control]
+    skillDebug: {}
+    skillDebugSet: {}
+    skillDebugXp: {}
+    skillDebugAxe: {}
+    invDropLogs: {}
+    invUse: {}
+    invDrop: {}
+    invMove: {}
+    invBury: {}
+    menuOpen:
+      mouse: right
+      activeOn: hold
+    cbAttack:
+      keys: [f]
+    cbCycle:
+      keys: [q]
+    cbStop:
+      keys: [h]
+    viewToggle:
+      keys: [v]
+    tpDrag:
+      mouse: middle
+      activeOn: hold
+    camHoldL:
+      mouse: left
+      activeOn: hold
+    camHoldR:
+      mouse: right
+      activeOn: hold
+    cbCast: {}
+    prayToggle: {}
+    winSpell:
+      keys: [n]
+    winPrayer:
+      keys: [i]
+    menuAt: {}
+    equip: {}
+    unequip: {}
+    ammoCycle: {}
+    menuPick: {}
+    menuClose: {}
+    shopBuy: {}
+    shopSell: {}
+    shopClose: {}
+    questAccept: {}
+    questTurnIn: {}
+    questClose: {}
+    fletch: {}
+    fletchMenu: {}
+    fletchClose: {}
+    smith: {}
+    smithClose: {}
+    bankDeposit: {}
+    bankDepositAll: {}
+    bankWithdraw: {}
+    bankClose: {}
+    skillDebugFletch: {}
+    skillDebugKit: {}
+    skillDebugItem: {}
+    cbWeapon: {}
+    cbStyle: {}
+    cbAutoRet: {}
+    cbSpell: {}
+    cbHurt: {}
+    cbHeal: {}
+    cbTab: {}
+    huginnDismiss: {}
+    keybinds:
+      keys: [u]
+    travelPanel: {}
+    travelGo: {}
+    travelSummon: {}
+    travelGoto: {}
+    travelBack: {}
+    travelSendBack: {}
+  axes:
+    camZoom:
+      mouse: wheelY
+    camOrbitX:
+      keys: left/right
+    camOrbitY:
+      keys: down/up
+    moveX:
+      keys: a/d
+    moveZ:
+      keys: s/w
+  touch:
+    active: scripts/touch-surface.js
+    surfaces:
+      default: {buttons: [{action: interact, label: USE, size: primary, slot: 1}, {action: jump, label: JUMP, slot: 2}], look: true, orientation: any, pinch: false, sticks: [{x: moveX, y: moveZ, zone: left, anchor: fixed, visibility: always, quantize: 8}]}
+      lyre: {buttons: [{action: strum, label: STRUM, size: primary, slot: 1}, {action: interact, label: SET DOWN, slot: 2}, {action: pluck4, label: '4', slot: 3}, {action: pluck5, label: '5', slot: 4}, {action: pluck6, label: '6', slot: 5}, {action: pluck1, label: '1', zone: left, slot: 1}, {action: pluck2, label: '2', zone: left, slot: 2}, {action: pluck3, label: '3', zone: left, slot: 3}], look: true, orientation: any, pinch: false, sticks: [{x: moveX, y: moveZ, zone: left, anchor: fixed, visibility: always, quantize: 8}]}
+      guitar: {buttons: [{action: chordG, label: G, size: primary, slot: 1}, {action: interact, label: GIVE BACK, slot: 2}, {action: pluck4, label: '4', slot: 3}, {action: pluck5, label: '5', slot: 4}, {action: pluck6, label: '6', slot: 5}, {action: chordC, label: C, slot: 6}, {action: chordD, label: D, slot: 7}, {action: pluck1, label: '1', zone: left, slot: 1}, {action: pluck2, label: '2', zone: left, slot: 2}, {action: pluck3, label: '3', zone: left, slot: 3}], look: true, orientation: any, pinch: false, sticks: [{x: moveX, y: moveZ, zone: left, anchor: fixed, visibility: always, quantize: 8}]}
+      owner: {buttons: [{action: interact, label: USE, size: primary, slot: 1}, {action: jump, label: JUMP, slot: 2}, {action: wakeSavi, label: SAVI, slot: 3}], look: true, orientation: any, pinch: false, sticks: [{x: moveX, y: moveZ, zone: left, anchor: fixed, visibility: always, quantize: 8}]}
+      seated: {buttons: [{action: interact, label: STAND, size: primary, slot: 1}], look: true, orientation: any, pinch: false, sticks: [{x: moveX, y: moveZ, zone: left, anchor: fixed, visibility: always, quantize: 8}]}
+player: templates/player.js#player
+name: ""
+description: ""
+ui:
+  render: ui.js
+audio:
+  gains: { Master: 1, Music: 0.69, SFX: 1.5, UI: 1.5, Ambience: 1.5, Voice: 1 } # Sep 30 creator: song down (then +15%), all sound effects +50%

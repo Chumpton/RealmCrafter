@@ -1,0 +1,54 @@
+# spawn-scene v2 yaml x-1z-3
+svq-db1-51:
+  castShadow: false
+  feetPosition: {x: -145.67399276653757, y: 10.136259713658182, z: -324.47527991051516}
+  id: svq-db1-51
+  model: /cdn/value.6e74ad3a99565347813a25849a3eaeeb4c576e2d9d6f0660a6856d800bd99dcc.glb
+  receiveShadow: true
+  rotation: {yaw: 293.27355575434564}
+  scale: 0.316357777824792
+  tags: [sunreach, sv-detail, sv-grove, sv-pass-1010]
+  visibleRange: {max: 150}
+svq-db1-53:
+  castShadow: false
+  feetPosition: {x: -139.96368474074958, y: 7.051342316465671, z: -329.2375860575424}
+  id: svq-db1-53
+  model: /cdn/value.6e74ad3a99565347813a25849a3eaeeb4c576e2d9d6f0660a6856d800bd99dcc.glb
+  receiveShadow: true
+  rotation: {yaw: 233.65248569923105}
+  scale: 0.30036365340480753
+  tags: [sunreach, sv-detail, sv-grove, sv-pass-1010]
+  visibleRange: {max: 150}
+svq-pine-42:
+  castShadow: true
+  feetPosition: {x: -135.84720860693966, y: 4.366236893846395, z: -320.85976358968435}
+  id: svq-pine-42
+  model: /cdn/value.725fce2c4ee0b522b78fbb3acd06fc4ef5455ad637497e8edc1745d6162d3360.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 9.430630304585504}
+  scale: 0.12793900076669595
+  tags: [sunreach, sv-detail, sv-grove, sv-pass-1010]
+  visibleRange: {max: 900}
+svq-pine-46:
+  castShadow: true
+  feetPosition: {x: -142.63094977741554, y: 7.804440596060267, z: -327.248605252448}
+  id: svq-pine-46
+  model: /cdn/value.725fce2c4ee0b522b78fbb3acd06fc4ef5455ad637497e8edc1745d6162d3360.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 238.75448176579292}
+  scale: 0.1290521744634268
+  tags: [sunreach, sv-detail, sv-grove, sv-pass-1010]
+  visibleRange: {max: 900}
+svq-rock-56:
+  castShadow: true
+  feetPosition: {x: -141.1865318044028, y: 7.192235647906199, z: -324.74402234754183}
+  id: svq-rock-56
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 69.17240881788192}
+  scale: 0.05062746262672704
+  tags: [sunreach, sv-detail, sv-grove, sv-pass-1010]
+  visibleRange: {max: 200}

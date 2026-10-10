@@ -1,0 +1,65 @@
+# spawn-scene v2 yaml x-2z-2
+sv-tree03-283:
+  castShadow: true
+  feetPosition: {x: -200, y: {terrain: 0}, z: -200}
+  id: sv-tree03-283
+  model: /cdn/value.5b60f39835bde50b74298a010faa267c062ff6f1c08b5e694cab76b8905f7222.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 82}
+  scale: 1.235640232002195
+  tags: [sunreach, sv-wild]
+  visibleRange: {max: 1400}
+svd-berry-403:
+  castShadow: false
+  feetPosition: {x: -198.28, y: {terrain: 0}, z: -198.66}
+  id: svd-berry-403
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  receiveShadow: true
+  rotation: {yaw: 124}
+  scale: 0.3277
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 160}
+svd-dbush1-402:
+  castShadow: false
+  feetPosition: {x: -198.95, y: {terrain: 0}, z: -201.55}
+  id: svd-dbush1-402
+  model: /cdn/value.6e74ad3a99565347813a25849a3eaeeb4c576e2d9d6f0660a6856d800bd99dcc.glb
+  receiveShadow: true
+  rotation: {yaw: 6}
+  scale: 0.2918
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 150}
+svd-rock-404:
+  castShadow: true
+  feetPosition: {x: -199.62, y: {terrain: -0.2}, z: -198.71}
+  id: svd-rock-404
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 265}
+  scale: 0.0447
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 140}
+svd-tree03-400:
+  castShadow: true
+  feetPosition: {x: -203.42, y: {terrain: 0}, z: -204.99}
+  id: svd-tree03-400
+  model: /cdn/value.5b60f39835bde50b74298a010faa267c062ff6f1c08b5e694cab76b8905f7222.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 267}
+  scale: 1.1040270019807048
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 1400}
+svd-tree03-401:
+  castShadow: true
+  feetPosition: {x: -198.07, y: {terrain: 0}, z: -194.02}
+  id: svd-tree03-401
+  model: /cdn/value.94bee95fe0d389ec70532f8e7f2dadcf7207d7a86783dfb8e5da023909418d4b.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 330}
+  scale: 1.08722305953839
+  tags: [sunreach, sv-detail, sv-grove]
+  visibleRange: {max: 1400}

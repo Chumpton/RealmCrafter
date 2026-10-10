@@ -1,0 +1,19 @@
+{
+  "note": "Emberwood design pass 2026-10-10: thin roads and empty quarters dressed. clone = copy an existing ew- placement's model/scale/physics by id prefix; ew = a scripts/gen/ew-props.js kind.",
+  "groves": [
+    { "c": [30, -270], "r": 14, "trees": 6 }, { "c": [90, -265], "r": 12, "trees": 5 },
+    { "c": [140, -215], "r": 13, "trees": 6 }, { "c": [150, -40], "r": 12, "trees": 5 },
+    { "c": [-160, -40], "r": 12, "trees": 5 }, { "c": [-80, -270], "r": 13, "trees": 5 },
+    { "c": [-140, -270], "r": 11, "trees": 4 }, { "c": [30, -150], "r": 9, "trees": 4 },
+    { "c": [130, -170], "r": 11, "trees": 5 }, { "c": [-170, -150], "r": 11, "trees": 5 }
+  ],
+  "props": [
+    ["ew", "ciderpress", -58, -80, 160], ["clone", "elw-pumpkins", -50, -66, 0], ["clone", "elw-haystack", -46, -79, 30],
+    ["ew", "leafpile", -30, -71, 0], ["clone", "elw-firewood", -20, -57, 90], ["ew", "fungilog", -38, -60, 20], ["clone", "mile", -10, -63, 100],
+    ["ew", "fungilog", 20, -168, 40], ["clone", "elw-stump", 32, -165, 0], ["ew", "leafpile", 38, -184, 0], ["clone", "kalidar-bush02", 26, -160, 0],
+    ["clone", "elw-lantern", 78, -84, 0], ["clone", "mile", 72, -70, 200], ["ew", "leafpile", 95, -100, 0], ["clone", "elw-rock", 82, -96, 0],
+    ["ew", "fungilog", 40, -40, 70], ["ew", "leafpile", 56, -36, 0], ["ew", "fungilog", -90, -186, 110], ["ew", "leafpile", 12, -95, 0],
+    ["ew", "fungilog", 150, -110, 30], ["ew", "fungilog", -150, -95, 150], ["ew", "leafpile", 115, -230, 0], ["ew", "fungilog", 60, -255, 60],
+    ["ew", "leafpile", -45, -250, 0], ["ew", "fungilog", -120, -235, 10], ["ew", "ciderpress", -82, -54, 200]
+  ]
+}

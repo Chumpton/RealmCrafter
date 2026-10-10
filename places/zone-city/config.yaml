@@ -1,0 +1,120 @@
+# Crown District (zone-city): a capital quarter in a walled bowl; arrival dais at the origin looking south down the avenue to the cathedral.
+mode: 3d
+gravity:
+  x: 0
+  y: -24
+  z: 0
+atmosphere:
+  sky:
+    kind: realistic
+    model: hosek
+    turbidity: 2.1
+  sun:
+    color: '#FFF9E8'
+    orbit:
+      maxElevation: 68
+      noonYaw: 200
+  moon:
+    intensity: 3.5
+    enabled: true
+    phase: 0.45
+  stars:
+    density: 0.6
+    enabled: true
+    milkyWay: 0
+  clouds:
+    altitude: 700
+    density: 0.36
+    enabled: true
+    opacity: 0.85
+    speed: 0.9
+    color: '#ffffff'
+  wind:
+    direction: 245
+    speed: 2.5
+  cycle:
+    frozen: 12.4
+  timeOfDay: 12
+  look:
+    script: scripts/look-den.js
+    params:
+      bloomRadius: 0.7
+      bloomStrength: 0.3
+      bloomThreshold: 0.9
+      exposure: 1.55
+      vignette: 0.1
+      csCover: 0
+      csK: 0.14
+      csScale: 150
+      csSeed: 831
+      csSoft: 0.22
+      nightK: 0
+      twExp: 0
+      twSat: 0.02
+      twTemp: 0.02
+      wetG: 0
+      csN: 0.04
+      inkPx: 3
+      aerialK: 0.15
+      aoK: 0.78
+      aoR: 0.008
+      bloomThrUser: 0.9
+      bloomUser: 0.35
+      celK: 0.3
+      celSteps: 3
+      contrast: 1.12
+      creaseLo: 0.28
+      daySat: 1.05
+      fogFarX: 3
+      fogNearX: 3.2
+      glintK: 0.7
+      mistK: 0.08
+      posterK: 0.15
+      shB: 1.02
+      shG: 0.9
+      shR: 0.98
+      sunsetK: 0.55
+      gradeHaze: 0.05
+      inkFar: 900
+      inkStrength: 1
+  fog:
+    kind: linear
+    near: 260
+    far: 2000
+    color: '#8EA4BA'
+terrain:
+  kind: heightmap
+  generator: scripts/zone-city-ground.js
+  materials:
+  - {albedo: /cdn/value.96e008930bbd4997348d53686c120c9ea25194233dbb361a89028dbd5b3655a9.png, antiTiling: stochastic, id: wowCobble, normalStrength: 1.6, pbr: true, roughnessIntensity: 0.7, textureScale: 2.3, tint: oklch(0.96 0.01 250)}
+  - {albedo: /cdn/value.96e008930bbd4997348d53686c120c9ea25194233dbb361a89028dbd5b3655a9.png, antiTiling: stochastic, id: wowCobbleWet, normalStrength: 1.5, pbr: true, roughnessIntensity: 0.35, textureScale: 1.4, tint: oklch(0.74 0.02 240)}
+  - {albedo: cdn/texture-terrain-wow-hand-painted-worn-limestone-flagstones.png, antiTiling: stochastic, id: wowFlagWorn, normalStrength: 0.9, pbr: true, roughnessIntensity: 0.75, textureScale: 3, tint: oklch(0.97 0.015 85)}
+  - {albedo: cdn/texture-terrain-wow-hand-painted-mossy-damp-cobblestones-green-moss-in-joints.png, antiTiling: stochastic, id: wowCobbleMoss, normalStrength: 1.4, pbr: true, roughnessIntensity: 0.45, textureScale: 2.3, tint: oklch(0.9 0.03 120)}
+  - {albedo: /cdn/10803e8e1cdd4bf4f20d4a49492bcc4f94355e937271d62cbef9f77b9a5f39ff-u0zoehkca.webp, antiTiling: stochastic, id: grass, macro: {hue: 0.015, scale: 45, value: 0.075}, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.7, textureScale: 3, tint: oklch(0.98 0.01 120)}
+  - {albedo: cdn/texture-terrain-wow-classic-hand-painted-grey-rock-strata-broad-brushstrokes-cool-purple-crevices-warm-sunlit-tops.png, antiTiling: stochastic, id: rock, macro: {hue: 0.03, scale: 90, value: 0.16}, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.84, textureScale: 16, tint: oklch(0.8 0.03 75)}
+  marks:
+    avenue: {kind: path, grade: false, width: 8, material: wowFlagWorn, edgeMaterial: wowCobble, noise: 0.3, falloff: 0.8, points: [[0, -9], [0, -60], [0, -110], [0, -168]]}
+    cross-street: {kind: path, grade: false, width: 5, material: wowCobble, edgeMaterial: wowCobbleWet, noise: 0.5, falloff: 1, points: [[-108, -55], [-50, -58], [0, -60], [50, -60], [104, -60]]}
+    canal-lane: {kind: path, grade: false, width: 4, material: wowFlagWorn, edgeMaterial: wowCobble, noise: 0.6, falloff: 1, points: [[-45, -59], [-70, -80], [-80, -100]]}
+    canal-lane-s: {kind: path, grade: false, width: 4, material: wowFlagWorn, edgeMaterial: wowCobble, noise: 0.6, falloff: 1, points: [[-80, -120], [-90, -160], [-95, -186]]}
+    towpath: {kind: path, grade: false, width: 3, material: wowFlagWorn, edgeMaterial: wowCobbleMoss, noise: 0.5, falloff: 0.8, points: [[-24, -119], [-80, -119.5], [-150, -119.5], [-168, -120]]}
+    tavern-lane: {kind: path, grade: false, width: 4, material: wowCobble, edgeMaterial: wowCobbleWet, noise: 0.6, falloff: 1, points: [[0, -110], [40, -128], [72, -148]]}
+    barracks-lane: {kind: path, grade: false, width: 4, material: wowCobble, edgeMaterial: wowCobbleWet, noise: 0.6, falloff: 1, points: [[-6, -150], [-40, -175], [-75, -200]]}
+    alley-east: {kind: path, grade: false, width: 3, material: wowCobbleWet, edgeMaterial: wowCobble, noise: 0.8, falloff: 1, points: [[112, -150], [135, -165], [150, -180]]}
+    alley-west: {kind: path, grade: false, width: 3, material: wowCobbleWet, edgeMaterial: wowCobble, noise: 0.8, falloff: 1, points: [[-108, -55], [-132, -45], [-150, -38]]}
+  decorations:
+    bindings:
+      grass: [blades]
+    layers:
+      blades:
+        density: 30
+        items: [{colorJitter: {hue: 0.012, value: 0.06}, kind: scripted, maxDistance: 30, params: {height: 0.22}, randomRotation: true, scale: [0.8, 1.2], script: scripts/gen/valley-meadow.js, seed: 11, useTerrainColor: false, wind: {force: 0.06, scale: 1.3, speed: 0.7}}]
+defaultSpawnPoint:
+  x: 0
+  z: -2
+  y:
+    terrain: 0
+worldBounds:
+  bottom: -60
+arrivalBudget:
+  bytes: 3000000 # same as main: creator 2026-09-28 a 10-15 s first load is fine

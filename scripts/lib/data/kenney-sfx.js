@@ -1,0 +1,131 @@
+// Kenney CC0 sound packs (kenney.nl: rpg-audio, impact-sounds, interface-sounds), creator 2026-10-10. Each list is round-robin variants.
+export const KSFX = {
+ "grass": [
+  "/cdn/value.2e0092761ba54da727892fcf3450d99af9b5803130b023eccbdf27c1d986f76d.mp3",
+  "/cdn/value.3b6ea0af02c26b9d56b16e2f4f2dc33a6db3ced29cbdfd7999ebd739d40353b7.mp3",
+  "/cdn/value.765fab34d16207fc26adf8fc87f02568338ca9ac7fc6311a133501d3581ccc57.mp3",
+  "/cdn/value.b24aea7de52fea0dc28c5e4f75508e74d507bf39e6e4de0ad131bc922dccebfe.mp3",
+  "/cdn/value.d4897afc8f28ce68ec8e11976b60d922820128f446e1d1811a4d291a49ad2e2c.mp3"
+ ],
+ "wood": [
+  "/cdn/value.3db0876cb8515707e4aef4fa49d6488d29dc06c959d60355bbff081ce02c58c5.mp3",
+  "/cdn/value.62b803fef94a153ea908224c63c806efa6771bbd2dd99416698f2e8692c69627.mp3",
+  "/cdn/value.953e472a6b481c434cb9e8e6a6eb11c3261482f20dbab1f248dc17bf918e43b9.mp3",
+  "/cdn/value.bb561761f14dc65a3c7e38d7dcb4fa149b51009c523198a063144076a967d7aa.mp3",
+  "/cdn/value.cde1f055db7625e164be17f5b8a9ca24a5be62134f59e5fe8ddf00bcc2d07e0d.mp3"
+ ],
+ "stone": [
+  "/cdn/value.11aeb4a1a2e532b389469edbacabd1035c1f0e406af52d0e49902d370d9e73d7.mp3",
+  "/cdn/value.3e5c0f59f98b78cc374b6577cfaa74ba99b60ec6731836c87621503b74e1329b.mp3",
+  "/cdn/value.5500a929f9ec235ba81c4f4ff23e1825966102aea56546a50cd1cc98f090e7d1.mp3",
+  "/cdn/value.cb7a270a78d7065625d47e0ca73bede9d0734a76867282c5ba593a99e9bb7b77.mp3",
+  "/cdn/value.e518f951ea15f2416d31103c6d8bdd309e162cc12523ea551802b310bf21896a.mp3"
+ ],
+ "snow": [
+  "/cdn/value.4d6ff557d5c09798eb9663cb799a13dff4c8926fdcd2fd5ce2a45f26e13181d2.mp3",
+  "/cdn/value.676f3f7aa159cbe1f380d653c412fe8ca488c295742f77182164725daf634e5b.mp3",
+  "/cdn/value.6a33089c82c3e76e7ad66aafde4042c1596265c6e36de7042b8cb1596a7ac9bb.mp3",
+  "/cdn/value.a6cd48e43923a007b0451aa8aca73c88bd84998b3edbc07c38ec4e23369e75a8.mp3",
+  "/cdn/value.d70e2779e89b613b6bb9970725a2941710cbf2881a25ba2afa3ca12375da08ce.mp3"
+ ],
+ "swing": [
+  "/cdn/value.2e23c4a9f93dfa0d1dc405b9b3050331bb1cdc29c059efd52982f5f1a3ca0dfb.mp3",
+  "/cdn/value.5a7a49bc6a44438823838e7a02abf5c36b0b84d7d86b5c3b2793af9f59557fcb.mp3",
+  "/cdn/value.801e1a57969faedd1b0c964592d676630556a1908b39dc2a7f38a6106392ddcd.mp3",
+  "/cdn/value.93efe1fcb0e0499fa595e4c2ecaf0c7042e95875a0fe7c094bf55b592ce06d03.mp3",
+  "/cdn/value.94f5b5cae348d052d1ac6e31e22a4507fc87edd47b815a74ebc5ab1bea0144e5.mp3",
+  "/cdn/value.aaa776829c45393f8e643966844dc249830a4b4465804d25433ba1928ec04b6c.mp3"
+ ],
+ "flesh": [
+  "/cdn/value.160d3fabcab39b7ea225b229cb967654f84b61e526f7f305ab4733fa73250ed5.mp3",
+  "/cdn/value.28a6727fafda2125c4df5c8f1eebc79e35ad80294f786fb15f6faf9096bd7382.mp3",
+  "/cdn/value.48e5277b35a36ee19c7bdda26bcee6ea57f65d3d5a212ee8561adf9aad26bd14.mp3",
+  "/cdn/value.6c63a28b565381d4ddd36d0f9f4d7f47ca70b85d6ebeca080aae4733109577a3.mp3",
+  "/cdn/value.aeb9066225993667e7396e8e538a0cd2755f7dcb62b0a0b414c5366abcb1d166.mp3",
+  "/cdn/value.c8187d15c91ce3601f4a0184695319b86b6c273eccae69722affc15379540413.mp3",
+  "/cdn/value.cc93fcebcf6685b0006ef8188f64ec0f85b924a2ce52249758e6b8a7c4ea0cdc.mp3",
+  "/cdn/value.d8b372c9b64b5ecc7c4b412da553d114a0ee8e54973b9e1cef3e8558bf0efe8d.mp3",
+  "/cdn/value.e1843b316949bcad640ec88bc93543fc042df0d7a590428278629a82a27f661f.mp3",
+  "/cdn/value.ecc3c44526e0fff9d80f2510ed3ec9bb55421814fd9b06abb52a13caa6737452.mp3"
+ ],
+ "plate": [
+  "/cdn/value.15a746f49d30c9715937c02b87caad97ee417ab0fb4926f82663282d75a4aa65.mp3",
+  "/cdn/value.2fc8fe489cebbf2016c97f7b588f43ed4d61415106c29668440387d5ac854c56.mp3",
+  "/cdn/value.57247d54d8e30ee17400c443a13f7c3a773e2258a0d1912750cae24f46f6ee40.mp3",
+  "/cdn/value.5a870978bc7ca3c5eaa9a9f2f7b00f45ff8629b2346c1725a7fd53457e77b944.mp3",
+  "/cdn/value.6058b51ef910c95f151fa997790ff49f27597c80caa7a47d40bb7217a7767ac6.mp3",
+  "/cdn/value.689ee0d85180ad3a793eed3719b56a3357d04cb0fca613faba613c162a896b58.mp3",
+  "/cdn/value.955cf665d2dc46e4ac4b99d1f7c4437c4d42f715efacce0d6f0a3c1f1b3fd754.mp3",
+  "/cdn/value.d5d9c1fe3a9c300bc51bb305e021ae9d4a22b3da2aedfc1a68bb5e72302dde37.mp3",
+  "/cdn/value.e645f8656eb0579f548c6328e9dae9467fa93a6c2113e4a4b7ccc21669452738.mp3",
+  "/cdn/value.e8f1f2f65f6c1e350b85748dc077768084e56cb088e01aee4e58056712673549.mp3"
+ ],
+ "metal": [
+  "/cdn/value.29f4959d783456bb6935438f5536632d33f41cb8912cb162dc603710083c374d.mp3",
+  "/cdn/value.303c9066df7087ca519055e8e5f063d146a5f14fb110e5d0c5f960c6d7693d6e.mp3",
+  "/cdn/value.76b3284e22e0090ca7a2330dda1d24c195a5c862c569bb909209922c33b8884a.mp3",
+  "/cdn/value.7716a9f2b8dd805502b338a6791bbab35e2bab71ee1107f0b808922fd4a996a3.mp3",
+  "/cdn/value.772facd7ab3ea3f66fd39c965b9c6120e654631c52e5b3f49b0e125bb36d64f0.mp3",
+  "/cdn/value.88e15b24ad62d5600690a120c021a909c4f624267136879c8ed1ef905a0ef10d.mp3",
+  "/cdn/value.909addaa57f46dd04c6a9f7dd282ba7599d17347d43cdd12e506ad11ed323f4f.mp3",
+  "/cdn/value.aeaac14a48573145f2af3c6bc446037a56f7214dc6ef41702d90b549fde56665.mp3",
+  "/cdn/value.af11795c522462c4ca9ad9ad430f651ef9ae6b17373f4bd2c45277d024af53f9.mp3",
+  "/cdn/value.ed767752b41023ec5acf0a4cbaa1ed56b1f80d0f2e6bbc314968e319815352f4.mp3"
+ ],
+ "soft": [
+  "/cdn/value.23fa2850ebe5eaec3aa22d7ef0c84f6cc450d46489aebba7923d5ee99e5d5df6.mp3",
+  "/cdn/value.5ba482ca8a0da6a6d29ee6f003006c7be51b43b62af026728b8f03ee28d448c7.mp3",
+  "/cdn/value.a70dc9d9592165998c69f1d6d719afa315f87687cde3149135fa8c9867f44cca.mp3",
+  "/cdn/value.aa8380139c09d9b2727a1d4810590aca3e8bae4e6c9adc55e068640605819c36.mp3",
+  "/cdn/value.e6de2b0887fbcb366e0f2c9ccdd185236808a66d804c52d67967963f307b9bb2.mp3"
+ ],
+ "bookOpen": [
+  "/cdn/value.4587ec387903083f55fffbb12be2faa4241e56c833c8175fb91d9219b476a534.mp3"
+ ],
+ "bookClose": [
+  "/cdn/value.9b190c319c3f8106a7b60d59cf3e9292e19bb9da37dd73430dccf6842e3c5307.mp3"
+ ],
+ "bookFlip": [
+  "/cdn/value.397dfd19a23004605e21b56a97f853053a9b082df16d893b46d8b847c06a0de8.mp3",
+  "/cdn/value.755d71e689ffac6561781af6516d2034f9670a0bc1694e0a9d5c8db4f43bcf45.mp3",
+  "/cdn/value.78ee30e2272073fcf8440f0dad39455367951e42c9a2d043b27dd6d8019a2c02.mp3"
+ ],
+ "click": [
+  "/cdn/value.30c7b51bf38b89c9f3dd609d2bfa1353ac4747dd525d17849a3919f4b18163e0.mp3",
+  "/cdn/value.7af5de3d4691243e8d7d2734dbe3977a0b48f4ce580388fc156f1f4951ea7834.mp3",
+  "/cdn/value.9a3b28944c2227f79205abe431e1456cf047b8045e2f8d277aa2cbd796b675c2.mp3",
+  "/cdn/value.a13a412d7f39117d44338f41277f89657794323b02b253acb3ef2f24290bb8cf.mp3",
+  "/cdn/value.f6462374fff2be3036fb090510487966f992dd886ff9544c70d10dd6fb399c99.mp3"
+ ],
+ "select": [
+  "/cdn/value.357e0f3cc4f15c3c965430c01863117c9e50b9cfbcf7c7c7ccac2a8210833c48.mp3",
+  "/cdn/value.43ce0a65cffc77f467d327306be4045578e9f8d25d7fa06510bfb84eaf217a96.mp3",
+  "/cdn/value.45e8517604efcc228c03c9c4435fd0e4dc64a96dd5b8016accbeb4132238c1d4.mp3",
+  "/cdn/value.b1cc231daa97efc7fc32284faf6a0686202c3ca1b8dfaf2df3afbb82fbd7d85b.mp3",
+  "/cdn/value.b7aad06aa8bcaf1bdad97c37470ce5c7285f75bab81fbdfaf670568426c9e0f4.mp3",
+  "/cdn/value.d47c43af902adc36331f2a10a04fbf8274f4ba08aa5101e25d1c05533b980084.mp3",
+  "/cdn/value.d660b1a134991ef1df6ce13e2038f9be20c7925af5529b814c66adbe4006f59a.mp3",
+  "/cdn/value.ea7be2a2d2b14a3f1f79a6d7c3f136068dab2760b16bcf0d6fa06e92a6ac36c2.mp3"
+ ],
+ "error": [
+  "/cdn/value.3dc4590187e20499bbc661a937d4758c4b82b9b8c8a926af56864569b337be2b.mp3",
+  "/cdn/value.4c973522478202d3a2c94cd7d7c189839850878f625925ff5441740ff67c5d71.mp3",
+  "/cdn/value.8301d4cda2517e56b0542cbb7d9c68d070ae227d868f5748ab560a99e1021f73.mp3",
+  "/cdn/value.a04a7b46a1e0d9bf443b9313135ef9f3d8acf1b7b34a16e962527e4b5a419923.mp3",
+  "/cdn/value.a87f8aba6fb64cee50b67b17df81ddd26ec6770dfa8c520b112d886d84b701bc.mp3",
+  "/cdn/value.ab38f0391a44bb31522de8390f7affa207b2adc7c3abb2d57d35e4cd68790932.mp3",
+  "/cdn/value.b533f3ecf135ff78b0deaae29336f692d684e7b0bcbf478457fac41e3113c0e1.mp3",
+  "/cdn/value.e21d7c9992d8dfedd498ee61c86edab5419a7b4596ab1e185e876c12d8dfffe3.mp3"
+ ],
+ "confirm": [
+  "/cdn/value.0acd5247658264d9cd3f602222415a9bfcf4ef65837b102bfe0e315bf7ee55c9.mp3",
+  "/cdn/value.1b56c94529b7fb0a71d2437f22fdcee48f01a89897280878b0bbe76b118da368.mp3",
+  "/cdn/value.57345a36e4d66f9d009f5bd6023b7c61036b811a9f12b9786c028dcbc06b854e.mp3",
+  "/cdn/value.9841098ad72880cf95e3ed5edc1b244eb3c036ecb9382ef3eac3f461062cb4a4.mp3"
+ ],
+ "coins": [
+  "/cdn/value.23e75ba1acbd05a02d2afdc06d3702b302086ba013638e7e04ced1c46fbd9dec.mp3",
+  "/cdn/value.7900e9e73c4e9184eb7480c589c1cdfbb5cd33156d3926bf96ba840e3681c359.mp3"
+ ]
+};
+export const pick = (list, r) => list[Math.floor(r * list.length) % list.length];

@@ -1,0 +1,26 @@
+# zone creatures that can walk (their model carries a Walk clip): model -> clip names. Built 2026-10-10 off the GLBs themselves.
+# creatures whose model has no clips stay where they stand: sliding a still model reads as broken.
+tune: { walk: 1.1, roam: 5.5, pauseMin: 2.5, pauseMax: 7, playerNear: 4.5, every: 2 }
+clips:
+  "/cdn/value.d1c23cadca470ac6e32b376140d0c7a754e0814d829254df86c1b3589d4f2c5f.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.7658bbcc7d40ca7f552343b3cdaab8d78f9f92057c7472c5bc70d07fc05b17e2.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.ee6584605048af5122f67f9a807ee7b1528848fd4c85c0be34936ce483d73cd7.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.c63d5e8e954f0f44fd20e7b9307777a850c9a5cb1507459eb30e0d9d4794f096.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.dea275f2b076a4002c37b77cb901840ea54d07d0061877e5750924e8715ae0c5.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.58ccab821a337b273e9bc71e5a6b7a3434d4314b551e2d52df58fd405d130b94.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.30192ee14a8c0e244cee271621522c1a321957d0e4afd1738836529b4f64ed24.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.4dd187c7279b7567d3264ba479242e4ca672e1dbbf6a6d87ba1484a1074c6f54.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.8a0886966bf7f23fc9082344e00eb7b345feaba396b2ad12b72499178f95a0c1.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.4aef9b15f5342e4590273edd36b58b5f7acfcd61370bd6627ad6f8abe26eb651.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.6bbde9919c388fd21b1496bb768eaaf6f8d313a4204447d70731ffaad021c3bc.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.8e09b0b853ca9252869c3dafde21015bb536b283eb99b31df9860d013c9a7309.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.07acf4ba3713ba2d12266b7e5d46e224475d9616981fc29af5d73d43ce57a5ba.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.188b9d953ad0efdcdc73f1801365f34e7ce577a32c424d0a88075d3f05770a09.glb": { idle: Stand, walk: Walk }
+  "/cdn/value.02bcb1c8e5520876cf6e35c401631afff2bc3b4a6bdab4f131ecfcf80abfdb92.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.64bd44beb03cdcf99a39c585c17686a2c8f97cbe7494bc82467f21d79df48117.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.fc141205035af2ec6e251e73cdeea4b78828c3e69cbae5be5e04b12fbe3cbce0.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.e61a45c7a19ea0bef0d07ac06faa70f278eeb357d6d64949f4d7ec716543ffbb.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.86c8b04ff6d859564c712e8a952b73a76290a35007a6994ac6830c7b7075d05c.glb": { idle: Stand, walk: Walk }
+  "/cdn/value.73ee71bfd6820592552b0680b22aceec96f7d532a7e55b10886978293a15287a.glb": { idle: Idle, walk: Walk, look: LookAround }
+  "/cdn/value.8984ca4def144cd69b6cf4508f6c0bd31c497f1ae7b5b3fb837e6c30b87839b5.glb": { idle: Idle, walk: Walk }
+  "/cdn/value.3b7eda03eb14ebc512621ea6811b9446f0eef20fe4e086ebbd343789d8daf0aa.glb": { idle: Idle, walk: Walk }

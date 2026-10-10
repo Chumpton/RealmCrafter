@@ -1,0 +1,61 @@
+# spawn-scene v2 yaml x2z2
+mtn-pine-20:
+  castShadow: true
+  feetPosition: {x: 220.18319093956762, y: {terrain: -0.3}, z: 271.10687021497023}
+  id: mtn-pine-20
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 10.25899468467524}
+  scale: 2.3028761763604715
+  visibleRange: {max: 900}
+mtn-pine-35:
+  castShadow: true
+  feetPosition: {x: 192.6571730559958, y: {terrain: -0.3}, z: 308.5355311131736}
+  id: mtn-pine-35
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 158.6068359197149}
+  scale: 2.5603865534814014
+  visibleRange: {max: 900}
+mtn-pine-36:
+  castShadow: true
+  feetPosition: {x: 196.1499666651478, y: {terrain: -0.3}, z: 293.9177201306064}
+  id: mtn-pine-36
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 74.56980963916044}
+  scale: 2.0799839348904716
+  visibleRange: {max: 900}
+mtn-pine-512:
+  castShadow: true
+  feetPosition: {x: 205.93069662616153, y: {terrain: -0.3}, z: 207.36126849491208}
+  id: mtn-pine-512
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 163.92507268298652}
+  scale: 2.9074152767227104
+  visibleRange: {max: 900}
+mtn-pine-559:
+  castShadow: true
+  feetPosition: {x: 225.82862078483618, y: {terrain: -0.3}, z: 208.5120514978245}
+  id: mtn-pine-559
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 294.9741211975804}
+  scale: 2.3113173675310414
+  visibleRange: {max: 900}
+mtn-pine-573:
+  castShadow: true
+  feetPosition: {x: 229.69833947238436, y: {terrain: -0.3}, z: 255.0412640948972}
+  id: mtn-pine-573
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 106.79167705904304}
+  scale: 2.766411294679349
+  visibleRange: {max: 900}

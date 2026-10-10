@@ -1,0 +1,23 @@
+# spawn-scene v2 yaml x-1z1
+vg-rim17:
+  castShadow: true
+  feetPosition: {x: -96.20274577636889, y: {terrain: 0}, z: 71.97228050320035}
+  id: vg-rim17
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 304.77781489936433}
+  scale: 1.4671510657920979
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim21:
+  castShadow: true
+  feetPosition: {x: -98.82154845116555, y: {terrain: 0}, z: 65.04868196701813}
+  id: vg-rim21
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 292.44678960409647}
+  scale: 1.2563448211702937
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}

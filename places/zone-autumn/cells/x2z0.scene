@@ -1,0 +1,12 @@
+# spawn-scene v2 yaml x2z0
+ew-darkshore-tree05-255:
+  castShadow: true
+  feetPosition: {x: 198.07966901218836, y: {terrain: -0.5}, z: -59.801843439991025}
+  id: ew-darkshore-tree05-255
+  model: /cdn/value.9ceb9c17e74a85140a49222d46988e36cd8ff4bc561537e5bddb942cb8da0681.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 203.71581592597067}
+  scale: 0.4677316747792065
+  tags: [emberwood, ew-dress, ew-tree]
+  visibleRange: {max: 1400}

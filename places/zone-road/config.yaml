@@ -1,0 +1,127 @@
+# The Old Road (bible §6, design-zones.md), built 2026-10-10. Gate home at the origin; the road runs south.
+mode: 3d
+gravity:
+  x: 0
+  y: -24
+  z: 0
+atmosphere:
+  sky:
+    kind: realistic
+    model: hosek
+    turbidity: 4.5
+    horizonTint: "#c9ced4"
+    saturation: 0.75
+    zenithTint: "#aeb6c0"
+  sun:
+    orbit:
+      maxElevation: 56.5
+      noonYaw: 200
+    light: {color: "#e8debe"}
+  moon:
+    intensity: 3.5
+    enabled: true
+    phase: 0.45
+  stars:
+    density: 0.6
+    enabled: true
+    milkyWay: 0
+  clouds:
+    altitude: 650
+    density: 0.72
+    enabled: true
+    opacity: 0.9
+    speed: 1.4
+    color: "#d4d9de"
+  wind:
+    direction: 245
+    speed: 2.5
+  cycle:
+    frozen: 13.8
+  timeOfDay: 13.8
+  look:
+    script: scripts/look-den.js
+    params:
+      bloomRadius: 0.7
+      bloomStrength: 0.3
+      bloomThreshold: 0.9
+      exposure: 1.75
+      vignette: 0.1
+      csCover: 0
+      csK: 0.14
+      csScale: 150
+      csSeed: 831
+      csSoft: 0.22
+      nightK: 0
+      twExp: 0
+      twSat: 0.02
+      twTemp: 0.0
+      wetG: 0
+      csN: 0.04
+      inkPx: 3
+      aerialK: 0.15
+      aoK: 0.78
+      aoR: 0.008
+      bloomThrUser: 0.9
+      bloomUser: 0.35
+      celK: 0.3
+      celSteps: 3
+      contrast: 1.12
+      creaseLo: 0.28
+      daySat: 1.05
+      fogFarX: 3
+      fogNearX: 3.2
+      glintK: 0.7
+      mistK: 0.08
+      posterK: 0.15
+      shB: 1.02
+      shG: 0.9
+      shR: 0.98
+      sunsetK: 0.3
+      gradeHaze: 0.05
+      inkFar: 520
+      inkStrength: 1
+  ambient:
+    light:
+      color: "#68707a"
+      intensity: 2.6
+  fog:
+    kind: exp2
+    density: 0.002
+    color: '#9ba4ad'
+terrain:
+  kind: heightmap
+  generator: scripts/zone-road-ground.js
+  water: {kind: water, color: 'oklch(0.62 0.07 200)', clarity: 0.8, turbulence: 0.4, waves: 0.1}
+  decorations:
+    bindings:
+      ground: [blades]
+      clover: [blades]
+    layers:
+      blades:
+        density: 12
+        items: [{colorJitter: {hue: 0.012, value: 0.06}, kind: scripted, maxDistance: 30, params: {height: 0.28}, randomRotation: true, scale: [0.8, 1.2], script: scripts/gen/valley-meadow.js, seed: 31, useTerrainColor: false, wind: {force: 0.08, scale: 1.3, speed: 0.6}}]
+        constraints: {slopeRange: [0, 0.28]}
+    settings: {budget: 30000, enabled: true, fadeDistance: 10, maxDistance: 40}
+  materials:
+  - {albedo: /cdn/10803e8e1cdd4bf4f20d4a49492bcc4f94355e937271d62cbef9f77b9a5f39ff-u0zoehkca.webp, antiTiling: stochastic, id: ground, macro: {hue: 0.015, scale: 45, value: 0.08}, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.75, textureScale: 4, tint: oklch(0.93 0.06 115)}
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-summer-meadow-grass-dense-red-yellow-white-wildflowers.png, antiTiling: stochastic, id: clover, macro: {hue: 0.02, scale: 40, value: 0.06}, normalStrength: 0.25, pbr: true, roughnessIntensity: 0.75, textureScale: 4, tint: oklch(0.95 0.03 80)}
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-dark-moist-forest-soil-with-brown-leaf-litter.png, antiTiling: stochastic, id: dirt, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.7, textureScale: 4, tint: oklch(0.9 0.04 70)}
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-dark-moist-forest-soil-with-brown-leaf-litter.png, antiTiling: stochastic, id: soil, normalStrength: 0.4, pbr: true, roughnessIntensity: 0.6, textureScale: 2.5, tint: oklch(0.62 0.05 50)}
+  - {albedo: cdn/texture-terrain-wow-classic-hand-painted-grey-rock-strata-broad-brushstrokes-cool-purple-crevices-warm-sunlit-tops.png, antiTiling: stochastic, id: rock, macro: {hue: 0.03, scale: 90, value: 0.16}, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.84, textureScale: 16, tint: oklch(0.72 0.03 60)}
+  - {albedo: /cdn/value.1ad36c231a9134867589eb73ca8ac91efb65d573620355c0def8e4a2912e417b.png, antiTiling: stochastic, id: gravel, normalStrength: 0.5, pbr: true, roughnessIntensity: 0.82, textureScale: 1.9, tint: oklch(0.9 0.04 70)}
+  marks:
+    creek: {kind: river, width: 4, depth: 0.8, bedMaterial: gravel, points: [[-230, -214], [-150, -220], [-80, -224], [-20, -218], [32, -212], [90, -206], [160, -214], [230, -206]]}
+    road-old: {kind: road, grade: true, maxGrade: 0.2, width: 6, material: gravel, edgeMaterial: dirt, noise: 0.6, falloff: 1.2, points: [[0, -8], [0, -30], [2, -56], [-14, -86], [-40, -112], [-46, -124], [-30, -146], [6, -166], [26, -178], [30, -200]]}
+    road-old-south: {kind: road, grade: true, maxGrade: 0.2, width: 6, material: gravel, edgeMaterial: dirt, noise: 0.6, falloff: 1.2, points: [[32, -222], [44, -244], [62, -260], [52, -290], [20, -318]]}
+    spur-bandit: {kind: path, grade: true, maxGrade: 0.32, width: 3, material: dirt, edgeMaterial: dirt, noise: 0.8, falloff: 1.2, points: [[-46, -124], [-70, -150], [-88, -180], [-100, -200]]}
+    spur-dell: {kind: path, grade: true, maxGrade: 0.3, width: 3, material: dirt, edgeMaterial: dirt, noise: 0.8, falloff: 1.2, points: [[-14, -86], [40, -100], [100, -110]]}
+    clear-arrival: {kind: clear-scatter, center: {x: 0, z: -2}, shape: {kind: circle, radius: 8}}
+defaultSpawnPoint:
+  x: 0
+  z: -2
+  y:
+    terrain: 0
+worldBounds:
+  bottom: -60
+arrivalBudget:
+  bytes: 3000000 # same as main: creator 2026-09-28 a 10-15 s first load is fine

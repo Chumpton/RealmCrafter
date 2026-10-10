@@ -1,0 +1,21 @@
+# spawn-scene v2 yaml x1z3
+mtn-pine-21:
+  castShadow: true
+  feetPosition: {x: 128.73271935234442, y: {terrain: -0.3}, z: 350.19178912145634}
+  id: mtn-pine-21
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 252.4475408403424}
+  scale: 2.1736527482856314
+  visibleRange: {max: 900}
+mtn-pine-22:
+  castShadow: true
+  feetPosition: {x: 132.95484855768964, y: {terrain: -0.3}, z: 354.2520832485762}
+  id: mtn-pine-22
+  model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 213.53240036104452}
+  scale: 2.4673546976723495
+  visibleRange: {max: 900}

@@ -1,0 +1,6 @@
+# spawn-scene v2 yaml objects
+td-motes:
+  feetPosition: {attach: camera, depth: 0, x: 0, y: 0}
+  fx: {script: "fx follow=camera\npop motes n=?mobile:50|110 wrap=24 on=box(<24,8,24>) size=.02..0.04 v=sdir()*.12 acc=curl(.25)*.4+wind() col=hdr(1.5,1.1,.7) a=.5*flick(.6,.4) sz=$size r=sprite(soft-disc,add)"}
+  id: td-motes
+  tags: [thistledown]

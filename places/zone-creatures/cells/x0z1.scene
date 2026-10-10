@@ -1,0 +1,45 @@
+# spawn-scene v2 yaml x0z1
+bw-rim-518:
+  castShadow: true
+  feetPosition: {x: 32.79916384897581, y: {terrain: -0.3}, z: 64.80087423509491}
+  id: bw-rim-518
+  model: /cdn/value.fd65266cd8b6bf8aa7361e09be2dbdcca53b652b44e95d84fb1804b771fc43a2.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 228.325059352594}
+  scale: 0.346189291582531
+  tags: [bw-tree]
+  visibleRange: {max: 900}
+bw-rim-519:
+  castShadow: true
+  feetPosition: {x: 18.99311593200483, y: {terrain: -0.3}, z: 71.56710717627931}
+  id: bw-rim-519
+  model: /cdn/value.25f38e9e9990dadb284029b59c448428b718dc220149e4c383137c1abc4d69ac.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 100.04680081272814}
+  scale: 0.3276829767821743
+  tags: [bw-tree]
+  visibleRange: {max: 900}
+bw-rim-520:
+  castShadow: true
+  feetPosition: {x: 0.901041735251403, y: {terrain: -0.3}, z: 65.91632978199232}
+  id: bw-rim-520
+  model: /cdn/value.e20a453a3ffad588b54cce933e2a0e93bc55b083b59e27992bc6e5750dce9e63.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 171.1671283893134}
+  scale: 0.7123681394440905
+  tags: [bw-tree]
+  visibleRange: {max: 900}
+bw-rim-522:
+  castShadow: true
+  feetPosition: {x: -30.88027362211122, y: {terrain: -0.3}, z: 65.2010530333173}
+  id: bw-rim-522
+  model: /cdn/value.7c456976f718e40d4cad44594d09a04d45ee655a55fada2bc43b7735d8b35fcc.glb
+  physics: {body: static, collider: capsule}
+  receiveShadow: true
+  rotation: {yaw: 342.02718793508933}
+  scale: 0.6962094669678293
+  tags: [bw-tree]
+  visibleRange: {max: 900}

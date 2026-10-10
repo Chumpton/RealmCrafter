@@ -1,0 +1,21 @@
+flap:
+  duration: 0.16
+  tracks:
+    wingL: { roll: [55, -45, 55], yaw: [0, 0, 0] }
+    wingR: { roll: [-55, 45, -55], yaw: [0, 0, 0] }
+    tail: { pitch: [6, -4, 6] }
+    head: { pitch: [0, 0, 0], yaw: [0, 0, 0] }
+glide:
+  duration: 1
+  tracks:
+    wingL: { roll: [8, 4, 8], yaw: [0, 0, 0] }
+    wingR: { roll: [-8, -4, -8], yaw: [0, 0, 0] }
+    tail: { pitch: [0, 0, 0] }
+perch:
+  duration: 4.8
+  tracks:
+    wingL: { yaw: [78, 78, 78, 74, 78, 78], roll: [-14, -14, -14, -24, -14, -14] }
+    wingR: { yaw: [-78, -78, -78, -74, -78, -78], roll: [14, 14, 14, 24, 14, 14] }
+    head: { yaw: [0, 0, 38, 38, 0, -32, -32, 0, 0, 0], pitch: [0, 0, 0, 0, 0, 0, 0, 28, 0, 0] }
+    tail: { pitch: [0, 0, -18, 6, 0, 0, 0, 0, -14, 0] }
+    root: { pitch: [0, 0, 0, 0, 0, 0, 0, 10, 0, 0] }

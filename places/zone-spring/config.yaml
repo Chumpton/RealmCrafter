@@ -1,0 +1,130 @@
+# Verdant Glade: the spring zone (design-zones.md Verdant Glade + bible §1), built 2026-10-10. Gate home at the origin.
+mode: 3d
+gravity:
+  x: 0
+  y: -24
+  z: 0
+atmosphere:
+  sky:
+    kind: realistic
+    model: hosek
+    turbidity: 2.4
+  sun:
+    orbit:
+      maxElevation: 52
+      noonYaw: 180
+    light: {color: "#fff6d6"}
+  moon:
+    intensity: 3.5
+    enabled: true
+    phase: 0.45
+  stars:
+    density: 0.6
+    enabled: true
+    milkyWay: 0
+  clouds:
+    altitude: 650
+    density: 0.3
+    enabled: true
+    opacity: 0.8
+    speed: 2.2
+    color: '#ffffff'
+  wind:
+    direction: 220
+    speed: 2.5
+  cycle:
+    frozen: 9.5
+  timeOfDay: 9.5
+  look:
+    script: scripts/look-den.js
+    params:
+      bloomRadius: 0.7
+      bloomStrength: 0.3
+      bloomThreshold: 0.9
+      exposure: 1.12
+      vignette: 0.1
+      csCover: 0
+      csK: 0.14
+      csScale: 150
+      csSeed: 831
+      csSoft: 0.22
+      nightK: 0
+      twExp: 0
+      twSat: 0.02
+      twTemp: 0.0
+      wetG: 0
+      csN: 0.04
+      inkPx: 3
+      aerialK: 0.15
+      aoK: 0.78
+      aoR: 0.008
+      bloomThrUser: 0.9
+      bloomUser: 0.35
+      celK: 0.3
+      celSteps: 3
+      contrast: 1.12
+      creaseLo: 0.28
+      daySat: 1.08
+      fogFarX: 3
+      fogNearX: 3.2
+      glintK: 0.7
+      mistK: 0.08
+      posterK: 0.15
+      shB: 1.12
+      shG: 0.9
+      shR: 0.9
+      sunsetK: 0.15
+      gradeHaze: 0.05
+      inkFar: 520
+      inkStrength: 1
+  ambient:
+    light:
+      color: '#98bee8'
+      intensity: 0.7
+  fog:
+    kind: exp2
+    density: 0.0022
+    color: '#a6d1ec'
+  hemisphere:
+    groundColor: "#5f7c40"
+    intensity: 0.45
+    skyColor: "#a6d1ec"
+terrain:
+  kind: heightmap
+  generator: scripts/zone-spring-ground.js
+  water: {kind: water, color: 'oklch(0.74 0.1 210)', clarity: 0.85, turbulence: 0.45, waves: 0.12}
+  decorations:
+    bindings:
+      ground: [blades]
+      flowers: [blades]
+    layers:
+      blades:
+        density: 14
+        items: [{colorJitter: {hue: 0.012, value: 0.06}, kind: scripted, maxDistance: 30, params: {height: 0.3}, randomRotation: true, scale: [0.8, 1.2], script: scripts/gen/valley-meadow.js, seed: 23, useTerrainColor: false, wind: {force: 0.09, scale: 1.3, speed: 0.7}}]
+        constraints: {slopeRange: [0, 0.28]}
+    settings: {budget: 30000, enabled: true, fadeDistance: 10, maxDistance: 40}
+  materials:
+  - {albedo: /cdn/10803e8e1cdd4bf4f20d4a49492bcc4f94355e937271d62cbef9f77b9a5f39ff-u0zoehkca.webp, antiTiling: stochastic, id: ground, macro: {hue: 0.015, scale: 45, value: 0.075}, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.75, textureScale: 4, tint: oklch(0.95 0.06 140)}
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-summer-meadow-grass-dense-red-yellow-white-wildflowers.png, antiTiling: stochastic, id: flowers, macro: {hue: 0.02, scale: 40, value: 0.06}, normalStrength: 0.25, pbr: true, roughnessIntensity: 0.75, textureScale: 4, tint: oklch(1 0.03 330)}
+  - {albedo: cdn/texture-terrain-hand-painted-warcraft-dark-moist-forest-soil-with-brown-leaf-litter.png, antiTiling: stochastic, id: loam, normalStrength: 0.3, pbr: true, roughnessIntensity: 0.6, textureScale: 4, tint: oklch(0.8 0.03 70)}
+  - {albedo: cdn/texture-terrain-wow-classic-hand-painted-grey-rock-strata-broad-brushstrokes-cool-purple-crevices-warm-sunlit-tops.png, antiTiling: stochastic, id: rock, macro: {hue: 0.03, scale: 90, value: 0.16}, normalStrength: 0.22, pbr: true, roughnessIntensity: 0.84, textureScale: 16, tint: oklch(0.72 0.03 140)}
+  - {albedo: /cdn/value.1ad36c231a9134867589eb73ca8ac91efb65d573620355c0def8e4a2912e417b.png, antiTiling: stochastic, id: gravel, normalStrength: 0.5, pbr: true, roughnessIntensity: 0.82, textureScale: 1.9, tint: oklch(0.92 0.03 80)}
+  marks:
+    brightrun: {kind: river, width: 4.5, depth: 1.1, bedMaterial: gravel, points: [[-200, -70], [-150, -88], [-100, -110], [-55, -104], [-20, -98], [0, -100], [30, -110], [70, -118], [120, -108], [200, -125]]}
+    road-main: {kind: road, grade: true, maxGrade: 0.22, width: 5.5, material: gravel, edgeMaterial: loam, noise: 0.5, falloff: 1.1, points: [[0, -8], [-2, -30], [4, -78], [0, -100], [10, -125], [35, -150], [50, -160]]}
+    path-orchard: {kind: path, grade: true, maxGrade: 0.3, width: 3, material: gravel, edgeMaterial: loam, noise: 0.7, falloff: 1.1, points: [[-2, -28], [20, -34], [34, -38]]}
+    path-meadow: {kind: path, grade: true, maxGrade: 0.3, width: 3, material: gravel, edgeMaterial: loam, noise: 0.7, falloff: 1.1, points: [[5, -115], [-30, -125], [-62, -140]]}
+    path-shrine: {kind: path, grade: true, maxGrade: 0.3, width: 2.6, material: gravel, edgeMaterial: loam, noise: 0.8, falloff: 1.1, points: [[3, -70], [40, -68], [72, -70]]}
+    path-den: {kind: path, grade: true, maxGrade: 0.3, width: 2.4, material: gravel, edgeMaterial: loam, noise: 0.8, falloff: 1.1, points: [[-80, -165], [-76, -185]]}
+    clear-arrival: {kind: clear-scatter, center: {x: 0, z: -2}, shape: {kind: circle, radius: 8}}
+    bridge-south: {center: {x: 1, z: -106.5}, falloff: 6, falloffCurve: smooth, height: -0.4, kind: flatten, material: gravel, shape: {depth: 4, kind: rectangle, width: 6}}
+    bridge-north: {center: {x: 0, z: -93.5}, falloff: 6, falloffCurve: smooth, height: -0.4, kind: flatten, material: gravel, shape: {depth: 3, kind: rectangle, width: 6}}
+defaultSpawnPoint:
+  x: 0
+  z: -2
+  y:
+    terrain: 0
+worldBounds:
+  bottom: -60
+arrivalBudget:
+  bytes: 3000000 # same as main: creator 2026-09-28 a 10-15 s first load is fine

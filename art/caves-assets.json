@@ -1,0 +1,182 @@
+{
+ "elw-mine": {
+  "model": "/cdn/value.405d6e7e32cd7d44e42dc63b6b0a1d6a72dd5ee875600ce8e81861fa1d516218.glb",
+  "scale": 0.32,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "caves-mines-underground-mushroom-den": {
+  "model": "/cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "caves-mines-underground-mushroomcave": {
+  "model": "/cdn/value.feb6220cfe9cb9552c35b15a3ba34c1dbfb454b8b5ea78a4e6baa01eab1f7571.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "general-g-spore-mushroom": {
+  "model": "/cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "general-burnt-stone-tree07": {
+  "model": "/cdn/value.14b3227947dc6266868f7887cb9419c6f0dab5d18b0521b9876f12fd3708ad82.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "caves-mines-underground-junglecave-crystal": {
+  "model": "/cdn/value.ee5833bf36044a55a5f3869bbf60ed6b32f56a7fa50c1a08c2809f5e3aeff655.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "general-burnt-stone-tree08": {
+  "model": "/cdn/value.f22583709a7c3d849d112a8dd5678548b80d3d1f82237b1d7a15a7028b135349.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "general-corrupted-crystal-vine": {
+  "model": "/cdn/value.67cbcf720bb3bbd36cce954537db7847185980b9c1c6faa9ad784ca47850b5da.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "general-burnt-stone-tree01": {
+  "model": "/cdn/value.a0e4412d536b1be58e22a81e8e41649517c2fb91b08bf3a0e2263d734e0e49fa.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "general-ancient-ruins-crystal-generator": {
+  "model": "/cdn/value.8c68e7dca659d97751465d91c200ed78f2e348a2b6738fb0707b0b928148129c.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "general-maraudon-spore-tree": {
+  "model": "/cdn/value.1c16dbdd6ea67c2d55ec9b02a36dc5f22db83581372495076ef4c65f68b4d202.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "elw-minecart": {
+  "model": "/cdn/value.903265ac0e10bdb4f3d2b1fa628ca566f0a46f322810dd15824b1ac760c61bea.glb",
+  "scale": 0.8,
+  "physics": {
+   "body": "static",
+   "collider": "box"
+  },
+  "modelspec": null
+ },
+ "general-maraudon-transition-tree01": {
+  "model": "/cdn/value.1df7f7a5d44621d03401f94a628531f4ce3aa366697feae33d4a5fceb471e3f3.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "general-maraudon-transition-tree02": {
+  "model": "/cdn/value.7637a081dc4a54969aa580765cb819cc90309d1d5d563c22035864db4d989335.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "elw-rock": {
+  "model": "/cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb",
+  "scale": 0.2,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "elw-crate": {
+  "model": "/cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb",
+  "scale": 1.17,
+  "physics": {
+   "body": "static",
+   "collider": "box"
+  },
+  "modelspec": null
+ },
+ "sm_prop_capital_brazier_109": {
+  "model": "/cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb",
+  "scale": 1,
+  "physics": {
+   "body": "static",
+   "collider": "mesh"
+  },
+  "modelspec": null
+ },
+ "sw-koboldVermin": {
+  "model": "/cdn/value.c63d5e8e954f0f44fd20e7b9307777a850c9a5cb1507459eb30e0d9d4794f096.glb",
+  "scale": 0.8025,
+  "physics": {
+   "body": "static",
+   "collider": "box"
+  },
+  "modelspec": null
+ },
+ "sw-koboldGoldtooth": {
+  "model": "/cdn/value.dea275f2b076a4002c37b77cb901840ea54d07d0061877e5750924e8715ae0c5.glb",
+  "scale": 0.9877,
+  "physics": {
+   "body": "static",
+   "collider": "box"
+  },
+  "modelspec": null
+ },
+ "sw-mineSpider": {
+  "model": "/cdn/value.58ccab821a337b273e9bc71e5a6b7a3434d4314b551e2d52df58fd405d130b94.glb",
+  "scale": 0.3618,
+  "physics": {
+   "body": "static",
+   "collider": "box"
+  },
+  "modelspec": null
+ }
+}

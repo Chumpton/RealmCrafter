@@ -1,0 +1,1971 @@
+# spawn-scene v2 yaml x1z-1
+mf-candle-76:
+  feetPosition: {x: 66, y: {terrain: 0.6}, z: -88}
+  fx: {script: "fx\npop f n=1 at=point() size=.18 sz=$size*flick(6,.3) col=hdr(1.2,3,1) a=.9 r=sprite(soft-disc,add)"}
+  id: mf-candle-76
+  light: {color: "#9cff9a", distance: 9, intensity: 1.6, kind: point}
+  tags: [murkfen, mf-room]
+mf-deadwind-hanging-tree-210:
+  castShadow: true
+  feetPosition: {x: 126.846556160599, y: {terrain: 0}, z: -87.16826995601878}
+  id: mf-deadwind-hanging-tree-210
+  model: /cdn/value.1f9c0eb2bbdbe5379c5a67f22fa143c539ea3114c9762d3930bd24ce638fb590.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 267.33480331487954}
+  scale: 0.1360610836884007
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-dp2-grass2-11:
+  castShadow: false
+  feetPosition: {x: 162.42567099630782, y: {terrain: 0}, z: -184.38289304509962}
+  id: mf-dp2-grass2-11
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 88.2146994676441}
+  scale: 1.1687145617371424
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-12:
+  castShadow: false
+  feetPosition: {x: 158.51087767861677, y: {terrain: 0}, z: -188.90862738323534}
+  id: mf-dp2-grass2-12
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 320.41415490210056}
+  scale: 1.4234821945102882
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-13:
+  castShadow: false
+  feetPosition: {x: 159.10323312717412, y: {terrain: 0}, z: -185.45750855598084}
+  id: mf-dp2-grass2-13
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 258.4630020428449}
+  scale: 1.2818779821088537
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-30:
+  castShadow: false
+  feetPosition: {x: 156.24947194908424, y: {terrain: 0}, z: -105.34894757773117}
+  id: mf-dp2-grass2-30
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 248.85730379261076}
+  scale: 1.157166888490319
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-31:
+  castShadow: false
+  feetPosition: {x: 154.15106979475735, y: {terrain: 0}, z: -104.27815588246098}
+  id: mf-dp2-grass2-31
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 291.69332672841847}
+  scale: 1.4301802561897785
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-32:
+  castShadow: false
+  feetPosition: {x: 160.92728362458072, y: {terrain: 0}, z: -96.30154006827017}
+  id: mf-dp2-grass2-32
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 32.81755551695824}
+  scale: 1.368128809640184
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-49:
+  castShadow: false
+  feetPosition: {x: 83.60501473964605, y: {terrain: 0}, z: -182.79251522122902}
+  id: mf-dp2-grass2-49
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 243.68983601219952}
+  scale: 1.1007840174995362
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-50:
+  castShadow: false
+  feetPosition: {x: 87.29470237241554, y: {terrain: 0}, z: -188.11799707018636}
+  id: mf-dp2-grass2-50
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 309.74870547652245}
+  scale: 1.1657638493645934
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-51:
+  castShadow: false
+  feetPosition: {x: 96.54549894195354, y: {terrain: 0}, z: -168.06123531501652}
+  id: mf-dp2-grass2-51
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 249.87452988512814}
+  scale: 1.2447408958571031
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-52:
+  castShadow: false
+  feetPosition: {x: 93.36174734243531, y: {terrain: 0}, z: -187.84887703349577}
+  id: mf-dp2-grass2-52
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 305.59354092925787}
+  scale: 1.0572262476989998
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-53:
+  castShadow: false
+  feetPosition: {x: 90.34050990383669, y: {terrain: 0}, z: -176.8199370953317}
+  id: mf-dp2-grass2-53
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 281.6546238027513}
+  scale: 1.263099816413596
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-54:
+  castShadow: false
+  feetPosition: {x: 104.41730603469358, y: {terrain: 0}, z: -186.19453093227733}
+  id: mf-dp2-grass2-54
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 105.5883635301143}
+  scale: 1.4108488522097467
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-55:
+  castShadow: false
+  feetPosition: {x: 92.15622209052742, y: {terrain: 0}, z: -168.07999104704564}
+  id: mf-dp2-grass2-55
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 56.18084737099707}
+  scale: 1.3691470679361373
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass2-9:
+  castShadow: false
+  feetPosition: {x: 162.69889318249568, y: {terrain: 0}, z: -186.86012688816393}
+  id: mf-dp2-grass2-9
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 129.66673465445638}
+  scale: 1.2920367694180457
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-14:
+  castShadow: false
+  feetPosition: {x: 162.687819071505, y: {terrain: 0}, z: -177.99873646929439}
+  id: mf-dp2-grass4-14
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 163.60505539923906}
+  scale: 0.911225022864528
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-15:
+  castShadow: false
+  feetPosition: {x: 153.7561364254732, y: {terrain: 0}, z: -178.04393778214595}
+  id: mf-dp2-grass4-15
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 300.57011783123016}
+  scale: 0.9077987689524889
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-16:
+  castShadow: false
+  feetPosition: {x: 133.6623938436348, y: {terrain: 0}, z: -167.09480419249493}
+  id: mf-dp2-grass4-16
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 15.603638123720884}
+  scale: 1.1812549220980144
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-17:
+  castShadow: false
+  feetPosition: {x: 150.9673569380405, y: {terrain: 0}, z: -187.53442293581355}
+  id: mf-dp2-grass4-17
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 89.00008413009346}
+  scale: 1.1532458441681228
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-18:
+  castShadow: false
+  feetPosition: {x: 150.2041648307802, y: {terrain: 0}, z: -160.6135365629038}
+  id: mf-dp2-grass4-18
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 204.04342780821025}
+  scale: 0.8958127482444979
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-33:
+  castShadow: false
+  feetPosition: {x: 157.998639804304, y: {terrain: 0}, z: -106.37554376209}
+  id: mf-dp2-grass4-33
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 298.7511445954442}
+  scale: 1.0479987011174672
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-34:
+  castShadow: false
+  feetPosition: {x: 164.67445489288156, y: {terrain: 0}, z: -102.49937992519416}
+  id: mf-dp2-grass4-34
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 175.65553000196815}
+  scale: 1.0302788265747949
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-35:
+  castShadow: false
+  feetPosition: {x: 154.03175747789498, y: {terrain: 0}, z: -104.79991463981852}
+  id: mf-dp2-grass4-35
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 136.00331582129002}
+  scale: 1.0806189768016339
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-56:
+  castShadow: false
+  feetPosition: {x: 90.52802996208014, y: {terrain: 0}, z: -189.43067820414745}
+  id: mf-dp2-grass4-56
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 195.42055598460138}
+  scale: 1.1334610801306553
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-57:
+  castShadow: false
+  feetPosition: {x: 89.26682323229002, y: {terrain: 0}, z: -182.97041978591005}
+  id: mf-dp2-grass4-57
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 12.051298376172781}
+  scale: 1.096266522235237
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-grass4-58:
+  castShadow: false
+  feetPosition: {x: 94.70302486349985, y: {terrain: 0}, z: -183.76548826962778}
+  id: mf-dp2-grass4-58
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 78.02162409760058}
+  scale: 0.9723129419842734
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 120}
+mf-dp2-log3-19:
+  castShadow: true
+  feetPosition: {x: 154.23000759963674, y: {terrain: -0.15}, z: -179.9561095466055}
+  id: mf-dp2-log3-19
+  model: /cdn/value.bce9b8a999aaf40b1ee8b9b6d981645c9d8d08239b565b02fb9c07289c2f61b4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 118.97483739070594}
+  scale: 0.27919274431234226
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 250}
+mf-dp2-log3-59:
+  castShadow: true
+  feetPosition: {x: 87.38443952810867, y: {terrain: -0.15}, z: -170.869189262896}
+  id: mf-dp2-log3-59
+  model: /cdn/value.bce9b8a999aaf40b1ee8b9b6d981645c9d8d08239b565b02fb9c07289c2f61b4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 109.70962747000158}
+  scale: 0.29697750642197207
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 250}
+mf-dp2-plant3-27:
+  castShadow: false
+  feetPosition: {x: 170.34426516151797, y: {terrain: 0}, z: -109.32212305942295}
+  id: mf-dp2-plant3-27
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 192.0359038375318}
+  scale: 0.4923669047944713
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-plant3-4:
+  castShadow: false
+  feetPosition: {x: 132.4633863849283, y: {terrain: 0}, z: -169.54345136784613}
+  id: mf-dp2-plant3-4
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 79.25040020607412}
+  scale: 0.5167694797215517
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-plant3-42:
+  castShadow: false
+  feetPosition: {x: 106.72555047028422, y: {terrain: 0}, z: -186.1408179509193}
+  id: mf-dp2-plant3-42
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 196.8304523639381}
+  scale: 0.5588058747409377
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-plant3-43:
+  castShadow: false
+  feetPosition: {x: 84.97769480739608, y: {terrain: 0}, z: -179.72012133375972}
+  id: mf-dp2-plant3-43
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 48.2565654348582}
+  scale: 0.4690835232438985
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-plant3-44:
+  castShadow: false
+  feetPosition: {x: 93.25385834872598, y: {terrain: 0}, z: -174.6878135746979}
+  id: mf-dp2-plant3-44
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 250.05488866008818}
+  scale: 0.5777914136822802
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-plant5-28:
+  castShadow: false
+  feetPosition: {x: 147.64545720491563, y: {terrain: 0}, z: -102.29220754223316}
+  id: mf-dp2-plant5-28
+  model: /cdn/value.dba65e686f06244da7c3e37ddc9cc2e3f065c54ead00fb64762c0e2d3ec0ec0d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 77.14200362563133}
+  scale: 0.6163450449408264
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-plant5-45:
+  castShadow: false
+  feetPosition: {x: 109.90979061636206, y: {terrain: 0}, z: -178.63051423978894}
+  id: mf-dp2-plant5-45
+  model: /cdn/value.dba65e686f06244da7c3e37ddc9cc2e3f065c54ead00fb64762c0e2d3ec0ec0d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 305.1040627621114}
+  scale: 0.6536171746929176
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-plant5-46:
+  castShadow: false
+  feetPosition: {x: 95.66441128174041, y: {terrain: 0}, z: -173.99300987371527}
+  id: mf-dp2-plant5-46
+  model: /cdn/value.dba65e686f06244da7c3e37ddc9cc2e3f065c54ead00fb64762c0e2d3ec0ec0d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 102.27005414664745}
+  scale: 0.7021505138097565
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-plant5-5:
+  castShadow: false
+  feetPosition: {x: 130.85202793422107, y: {terrain: 0}, z: -171.25319036499388}
+  id: mf-dp2-plant5-5
+  model: /cdn/value.dba65e686f06244da7c3e37ddc9cc2e3f065c54ead00fb64762c0e2d3ec0ec0d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 5.195946805179119}
+  scale: 0.7206598293664865
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-root1-24:
+  castShadow: true
+  feetPosition: {x: 147.02149959454655, y: {terrain: 0}, z: -103.0982803239021}
+  id: mf-dp2-root1-24
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 29.226999068632722}
+  scale: 1.0689701533899643
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 180}
+mf-dp2-root1-25:
+  castShadow: true
+  feetPosition: {x: 170.94346665409827, y: {terrain: 0}, z: -110.21717745868501}
+  id: mf-dp2-root1-25
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 259.22971970401704}
+  scale: 0.841755630337866
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 180}
+mf-dp2-root1-3:
+  castShadow: true
+  feetPosition: {x: 160.77442538624638, y: {terrain: 0}, z: -181.01810183070683}
+  id: mf-dp2-root1-3
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 100.76260917820036}
+  scale: 0.84488636517548
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 180}
+mf-dp2-root3-26:
+  castShadow: true
+  feetPosition: {x: 157.83020943469464, y: {terrain: 0}, z: -116.06667873918272}
+  id: mf-dp2-root3-26
+  model: /cdn/value.a7da9c0c712b698086275d6fc0e8ff49f63e3a1e5bfd7c65f8e00534bf94ad84.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 193.98230069316924}
+  scale: 0.8183494406263344
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 180}
+mf-dp2-root3-39:
+  castShadow: true
+  feetPosition: {x: 91.20839456350696, y: {terrain: 0}, z: -185.027808317869}
+  id: mf-dp2-root3-39
+  model: /cdn/value.a7da9c0c712b698086275d6fc0e8ff49f63e3a1e5bfd7c65f8e00534bf94ad84.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 297.2128490265459}
+  scale: 1.046767936362885
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 180}
+mf-dp2-root3-40:
+  castShadow: true
+  feetPosition: {x: 90.93458358086957, y: {terrain: 0}, z: -190.92460802456705}
+  id: mf-dp2-root3-40
+  model: /cdn/value.a7da9c0c712b698086275d6fc0e8ff49f63e3a1e5bfd7c65f8e00534bf94ad84.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 156.10392462462187}
+  scale: 1.0331716262293047
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 180}
+mf-dp2-root3-41:
+  castShadow: true
+  feetPosition: {x: 87.64779743435423, y: {terrain: 0}, z: -187.33840930074396}
+  id: mf-dp2-root3-41
+  model: /cdn/value.a7da9c0c712b698086275d6fc0e8ff49f63e3a1e5bfd7c65f8e00534bf94ad84.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 116.37661906890571}
+  scale: 0.9898287784215062
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 180}
+mf-dp2-sorrow1-29:
+  castShadow: false
+  feetPosition: {x: 147.80300422013406, y: {terrain: 0}, z: -101.44348984489028}
+  id: mf-dp2-sorrow1-29
+  model: /cdn/value.9ea248841602ff5392ba4370ac1f674757f6f0a7ec3e8571e15d815b4de3f2cf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 134.84098725020885}
+  scale: 0.4677179969968275
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-sorrow1-47:
+  castShadow: false
+  feetPosition: {x: 100.73559498705438, y: {terrain: 0}, z: -187.94849962639105}
+  id: mf-dp2-sorrow1-47
+  model: /cdn/value.9ea248841602ff5392ba4370ac1f674757f6f0a7ec3e8571e15d815b4de3f2cf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 345.35461977124214}
+  scale: 0.5531327621518867
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-sorrow1-48:
+  castShadow: false
+  feetPosition: {x: 89.98072306508121, y: {terrain: 0}, z: -184.23222263264657}
+  id: mf-dp2-sorrow1-48
+  model: /cdn/value.9ea248841602ff5392ba4370ac1f674757f6f0a7ec3e8571e15d815b4de3f2cf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 225.6624346319586}
+  scale: 0.5904704167919699
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-sorrow1-6:
+  castShadow: false
+  feetPosition: {x: 166.2963901593637, y: {terrain: 0}, z: -180.36416898849706}
+  id: mf-dp2-sorrow1-6
+  model: /cdn/value.9ea248841602ff5392ba4370ac1f674757f6f0a7ec3e8571e15d815b4de3f2cf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 59.85625625588}
+  scale: 0.5390848595183343
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-sorrow1-7:
+  castShadow: false
+  feetPosition: {x: 139.2318563154001, y: {terrain: 0}, z: -165.80067472683325}
+  id: mf-dp2-sorrow1-7
+  model: /cdn/value.9ea248841602ff5392ba4370ac1f674757f6f0a7ec3e8571e15d815b4de3f2cf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 142.07580945454538}
+  scale: 0.5123655462114839
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 150}
+mf-dp2-tree1-0:
+  castShadow: true
+  feetPosition: {x: 156.38288481389787, y: {terrain: -0.25}, z: -191.00161897865618}
+  id: mf-dp2-tree1-0
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 235.73930731974542}
+  scale: 0.5094031042564894
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree1-1:
+  castShadow: true
+  feetPosition: {x: 160.67254772281728, y: {terrain: -0.25}, z: -189.56799552456937}
+  id: mf-dp2-tree1-1
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 291.66405100375414}
+  scale: 0.5153777295572217
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree1-20:
+  castShadow: true
+  feetPosition: {x: 159.94188039963393, y: {terrain: -0.25}, z: -106.04226697505959}
+  id: mf-dp2-tree1-20
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 161.6030158661306}
+  scale: 0.49186570373363797
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree1-21:
+  castShadow: true
+  feetPosition: {x: 152.18985257650684, y: {terrain: -0.25}, z: -113.80599352882722}
+  id: mf-dp2-tree1-21
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 221.68753447942436}
+  scale: 0.3871484184841393
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree1-22:
+  castShadow: true
+  feetPosition: {x: 157.59253529129026, y: {terrain: -0.25}, z: -109.95071331704465}
+  id: mf-dp2-tree1-22
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 200.81065063364804}
+  scale: 0.47565958006249276
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree1-36:
+  castShadow: true
+  feetPosition: {x: 103.21990844727605, y: {terrain: -0.25}, z: -181.59867887830126}
+  id: mf-dp2-tree1-36
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 176.58252960070968}
+  scale: 0.3982103543775156
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree1-37:
+  castShadow: true
+  feetPosition: {x: 91.09329708993248, y: {terrain: -0.25}, z: -174.25591321613572}
+  id: mf-dp2-tree1-37
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 258.24158627539873}
+  scale: 0.48122143161075653
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree2-2:
+  castShadow: true
+  feetPosition: {x: 152.42524389049734, y: {terrain: -0.25}, z: -186.05847990630588}
+  id: mf-dp2-tree2-2
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 37.493394166231155}
+  scale: 0.5091227270786185
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree2-23:
+  castShadow: true
+  feetPosition: {x: 159.70719146949375, y: {terrain: -0.25}, z: -106.86530518166519}
+  id: mf-dp2-tree2-23
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 349.93020742200315}
+  scale: 0.5374218635295983
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-dp2-tree2-38:
+  castShadow: true
+  feetPosition: {x: 98.18813611143676, y: {terrain: -0.25}, z: -177.15485076216223}
+  id: mf-dp2-tree2-38
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 65.51129884086549}
+  scale: 0.48643068349757235
+  tags: [murkfen, mf-dress, mf-dp2]
+  visibleRange: {max: 400}
+mf-elw-lilypad-519:
+  castShadow: false
+  feetPosition: {x: 74.24619125202298, y: -1.18, z: -141.71609226847067}
+  id: mf-elw-lilypad-519
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 121.01924300193787}
+  scale: 0.43200289813801646
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-elw-lilypad-525:
+  castShadow: false
+  feetPosition: {x: 92.15194422751665, y: -1.18, z: -116.17202715249732}
+  id: mf-elw-lilypad-525
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 84.47154711931944}
+  scale: 0.37550402646884323
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-elw-lilypad-543:
+  castShadow: false
+  feetPosition: {x: 105.55458169430494, y: -1.18, z: -127.52063852967694}
+  id: mf-elw-lilypad-543
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 160.86118306964636}
+  scale: 0.41161367392167447
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-elw-lilypad-547:
+  castShadow: false
+  feetPosition: {x: 165.34829268231988, y: -1.18, z: -91.81833744281903}
+  id: mf-elw-lilypad-547
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 19.711963087320328}
+  scale: 0.4548371916823089
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-elw-lilypad-564:
+  castShadow: false
+  feetPosition: {x: 159.30899694096297, y: -1.18, z: -121.38603694736958}
+  id: mf-elw-lilypad-564
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 206.03390232659876}
+  scale: 0.4270994792506098
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-elw-lilypad-574:
+  castShadow: false
+  feetPosition: {x: 136.63721600081772, y: -1.18, z: -80.3047859761864}
+  id: mf-elw-lilypad-574
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 322.17908305116}
+  scale: 0.47830620635300874
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-elw-lilypad-583:
+  castShadow: false
+  feetPosition: {x: 86.7642090562731, y: -1.18, z: -131.34811954339966}
+  id: mf-elw-lilypad-583
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 41.961673591285944}
+  scale: 0.4286544517613948
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-elw-lilypad-586:
+  castShadow: false
+  feetPosition: {x: 181.2436625128612, y: -1.18, z: -106.72496187500656}
+  id: mf-elw-lilypad-586
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 194.6565554011613}
+  scale: 0.2954498088732362
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-elw-lilypad-588:
+  castShadow: false
+  feetPosition: {x: 95.74273366015404, y: -1.18, z: -162.8922781534493}
+  id: mf-elw-lilypad-588
+  model: /cdn/value.33896b617766f2b93f193574d893458d638f1bf003ac01b5ee7857489b8e898c.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 253.11484255827963}
+  scale: 0.37553148921579127
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-gas-2:
+  feetPosition: {x: 80, y: -1.18, z: -145}
+  fx: {script: "fx\npop bub rate=3 on=disc(1.4) life=.5..1 v=up(.4..0.8) size=.08..0.2 col=<.55,.62,.35> a=.8>0 sz=$size*(1>1.6) r=sprite(soft-disc,alpha)\npop puff rate=.5 on=disc(1.2) life=2..3 v=up(.3) size=.6..1 acc=buoy(.2)+drag(1) col=<.6,.75,.35> a=0>.22:.3>0 sz=$size*(.6>2.2) rot=spin(.05) r=sprite(smoke-puff,alpha)"}
+  id: mf-gas-2
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 220}
+mf-maraudon-mu-shroom-light01-640:
+  castShadow: true
+  feetPosition: {x: 136.67192039545625, y: {terrain: 0}, z: -75.47209951095283}
+  id: mf-maraudon-mu-shroom-light01-640
+  model: /cdn/value.2ac501b3b4b3320c9955b88ef2a510e06cb2aa308e07ee188a9531fbedbb9bcf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 163.60388092696667}
+  scale: 0.04480874686036259
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-maraudon-mu-shroom-light01-660:
+  castShadow: true
+  feetPosition: {x: 99.85268030315638, y: {terrain: 0}, z: -186.5990581479855}
+  id: mf-maraudon-mu-shroom-light01-660
+  model: /cdn/value.2ac501b3b4b3320c9955b88ef2a510e06cb2aa308e07ee188a9531fbedbb9bcf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 184.41728132776916}
+  scale: 0.04958808099851012
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-mist-1:
+  feetPosition: {x: 85, y: -0.6, z: -150}
+  fx: {script: "fx\npop mist n=?mobile:4|7 on=disc(14) life=9..15 v=sdir()*.15 size=3.5..5.5 acc=curl(.1)*.3 col=<.5,.6,.42> a=0>.14:.5>.14:.8>0 sz=$size*(.8>1.3) rot=spin(.04) r=sprite(smoke-puff,alpha)"}
+  id: mf-mist-1
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 220}
+mf-r-capital_canal_rowboat_111-31:
+  castShadow: true
+  feetPosition: {x: 70, y: -2, z: -160}
+  id: mf-r-capital_canal_rowboat_111-31
+  model: /cdn/value.e60e7fb7d771c7b01b88a3fd1b492f1ee44c444ad68a964415e205422e960119.glb
+  physics: none
+  receiveShadow: true
+  rotation: {roll: 35, yaw: 250}
+  scale: 0.5
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 500}
+mf-r-elw-tombstone-56:
+  castShadow: true
+  feetPosition: {x: 64.08370727734835, y: {terrain: -0.15}, z: -83.4954331297602}
+  id: mf-r-elw-tombstone-56
+  model: /cdn/value.f37cf046f9d46cab38caca665c1726fd78fc8d650559c1d624d24ff6c56e525e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {pitch: -6.7418231051415205, roll: -2.4941824497655034, yaw: 234.97944514267147}
+  scale: 0.733872619801201
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 500}
+mf-r-elw-tombstone-72:
+  castShadow: true
+  feetPosition: {x: 64.74630343178441, y: {terrain: -0.15}, z: -103.7850480654205}
+  id: mf-r-elw-tombstone-72
+  model: /cdn/value.f37cf046f9d46cab38caca665c1726fd78fc8d650559c1d624d24ff6c56e525e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {pitch: -11.133200524374843, roll: 8.007068204693496, yaw: 222.6732278894633}
+  scale: 0.5856741126785054
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 500}
+mf-r-tombstone_cross_221-55:
+  castShadow: true
+  feetPosition: {x: 68.98816057967977, y: {terrain: -0.15}, z: -93.0305723485161}
+  id: mf-r-tombstone_cross_221-55
+  model: /cdn/value.0d549b5897f61bf15c56720fd7445fd11eb4b5e3af5d47dfbebeb56f2ea54aa8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {pitch: 12.691842190921307, roll: 7.232746527530253, yaw: 217.34677982516587}
+  scale: 0.8908620533067733
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 500}
+mf-r-tombstone_cross_221-67:
+  castShadow: true
+  feetPosition: {x: 67.27911457002324, y: {terrain: -0.15}, z: -101.0746676003703}
+  id: mf-r-tombstone_cross_221-67
+  model: /cdn/value.0d549b5897f61bf15c56720fd7445fd11eb4b5e3af5d47dfbebeb56f2ea54aa8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {pitch: -9.033271357417107, roll: 12.603698530234396, yaw: 201.27212126739323}
+  scale: 0.9244472379330546
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 500}
+mf-r-tombstone_weathered_223-61:
+  castShadow: true
+  feetPosition: {x: 64.69301460762591, y: {terrain: -0.15}, z: -85.82531494491231}
+  id: mf-r-tombstone_weathered_223-61
+  model: /cdn/value.645c001642fdbb6da5b7ee62d049cb517bf42268b72070eb7282ff6b2442972a.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {pitch: -3.715091522783041, roll: -0.10705720167607069, yaw: 213.19737778045237}
+  scale: 0.9359401199501007
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 500}
+mf-r-tombstone_weathered_223-69:
+  castShadow: true
+  feetPosition: {x: 65.05552109916268, y: {terrain: -0.15}, z: -90.9610389937581}
+  id: mf-r-tombstone_weathered_223-69
+  model: /cdn/value.645c001642fdbb6da5b7ee62d049cb517bf42268b72070eb7282ff6b2442972a.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {pitch: -11.040336053818464, roll: -4.76007893960923, yaw: 217.17849523760378}
+  scale: 0.8981154731940478
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 500}
+mf-r-wall-piece-ruin01-78:
+  castShadow: true
+  feetPosition: {x: 70, y: {terrain: -0.3}, z: -80}
+  id: mf-r-wall-piece-ruin01-78
+  model: /cdn/value.ee800714ab5baa1615eb286cc09e20b909c0f81d2829b86694be0b6f3710e702.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {roll: 5, yaw: 20}
+  scale: 0.1
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 500}
+mf-swamp-hanging-vines01-112:
+  castShadow: false
+  feetPosition: {x: 144.4171285144644, y: {terrain: 5.066059224423952}, z: -107.32668693519112}
+  id: mf-swamp-hanging-vines01-112
+  model: /cdn/value.7cf12ade746495a7c92d4dbca14c380173d522d073a860ef65fe009d6ba517ff.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 46.18140645325184}
+  scale: 0.16289112114347518
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines01-117:
+  castShadow: false
+  feetPosition: {x: 148.36098129317605, y: {terrain: 4.71717210044153}, z: -103.16729961711027}
+  id: mf-swamp-hanging-vines01-117
+  model: /cdn/value.7cf12ade746495a7c92d4dbca14c380173d522d073a860ef65fe009d6ba517ff.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 213.2146613392979}
+  scale: 0.17509784175548704
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines01-133:
+  castShadow: false
+  feetPosition: {x: 101.58514993329051, y: {terrain: 4.23322776646819}, z: -165.9559639119159}
+  id: mf-swamp-hanging-vines01-133
+  model: /cdn/value.7cf12ade746495a7c92d4dbca14c380173d522d073a860ef65fe009d6ba517ff.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 221.4936569519341}
+  scale: 0.19468035832047464
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines01-188:
+  castShadow: false
+  feetPosition: {x: 105.14774497784674, y: {terrain: 5.44444739818573}, z: -78.9579339781776}
+  id: mf-swamp-hanging-vines01-188
+  model: /cdn/value.7cf12ade746495a7c92d4dbca14c380173d522d073a860ef65fe009d6ba517ff.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 61.640282487496734}
+  scale: 0.2
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 220}
+mf-swamp-hanging-vines01-190:
+  castShadow: false
+  feetPosition: {x: 96.85545005090535, y: {terrain: 6.329058466479182}, z: -75.17120110336691}
+  id: mf-swamp-hanging-vines01-190
+  model: /cdn/value.7cf12ade746495a7c92d4dbca14c380173d522d073a860ef65fe009d6ba517ff.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 90.25442152284086}
+  scale: 0.2
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 220}
+mf-swamp-hanging-vines01-26:
+  castShadow: false
+  feetPosition: {x: 84.1791412619649, y: {terrain: 3.741555846296251}, z: -125.67029337838389}
+  id: mf-swamp-hanging-vines01-26
+  model: /cdn/value.7cf12ade746495a7c92d4dbca14c380173d522d073a860ef65fe009d6ba517ff.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 192.2725726570934}
+  scale: 0.15897329967003318
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines02-114:
+  castShadow: false
+  feetPosition: {x: 138.35981832175264, y: {terrain: 4.993472290458158}, z: -103.24022654482187}
+  id: mf-swamp-hanging-vines02-114
+  model: /cdn/value.520ca2af3bd71ea0537a2764b6fccbcc03be7652ef6af49cbafcaed069e08d15.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 7.840050766244531}
+  scale: 0.17406522682402284
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines02-122:
+  castShadow: false
+  feetPosition: {x: 129.36324436814033, y: {terrain: 4.560294694034383}, z: -101.22237532989337}
+  id: mf-swamp-hanging-vines02-122
+  model: /cdn/value.520ca2af3bd71ea0537a2764b6fccbcc03be7652ef6af49cbafcaed069e08d15.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 16.669081868603826}
+  scale: 0.15974632479716094
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines02-189:
+  castShadow: false
+  feetPosition: {x: 96.53973235748708, y: {terrain: 6.157000041566789}, z: -79.16483813989908}
+  id: mf-swamp-hanging-vines02-189
+  model: /cdn/value.520ca2af3bd71ea0537a2764b6fccbcc03be7652ef6af49cbafcaed069e08d15.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 24.28714538924396}
+  scale: 0.2
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 220}
+mf-swamp-hanging-vines02-28:
+  castShadow: false
+  feetPosition: {x: 99.54529789588396, y: {terrain: 4.997134180390276}, z: -105.39036517980388}
+  id: mf-swamp-hanging-vines02-28
+  model: /cdn/value.520ca2af3bd71ea0537a2764b6fccbcc03be7652ef6af49cbafcaed069e08d15.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 52.09690410643816}
+  scale: 0.17066429267637434
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines02-32:
+  castShadow: false
+  feetPosition: {x: 92.1193108271832, y: {terrain: 4.98451677931007}, z: -135.7608838606347}
+  id: mf-swamp-hanging-vines02-32
+  model: /cdn/value.520ca2af3bd71ea0537a2764b6fccbcc03be7652ef6af49cbafcaed069e08d15.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 127.04414779320359}
+  scale: 0.14044233728200198
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines02-36:
+  castShadow: false
+  feetPosition: {x: 99.36291864666235, y: {terrain: 4.548688155715354}, z: -131.9606036827739}
+  id: mf-swamp-hanging-vines02-36
+  model: /cdn/value.520ca2af3bd71ea0537a2764b6fccbcc03be7652ef6af49cbafcaed069e08d15.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 106.92893251776695}
+  scale: 0.15535087247379126
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-hanging-vines02-41:
+  castShadow: false
+  feetPosition: {x: 99.93211524380224, y: {terrain: 5.657571144634858}, z: -125.32014180615855}
+  id: mf-swamp-hanging-vines02-41
+  model: /cdn/value.520ca2af3bd71ea0537a2764b6fccbcc03be7652ef6af49cbafcaed069e08d15.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 244.75583069957793}
+  scale: 0.18568966979626567
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 200}
+mf-swamp-plant03-228:
+  castShadow: true
+  feetPosition: {x: 146.29719880968332, y: {terrain: 0}, z: -163.32114653661847}
+  id: mf-swamp-plant03-228
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 102.23935844376683}
+  scale: 0.4393968335585669
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant03-254:
+  castShadow: true
+  feetPosition: {x: 91.28413514047861, y: {terrain: 0}, z: -114.24718299787492}
+  id: mf-swamp-plant03-254
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 140.47131411731243}
+  scale: 0.6897722450783476
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant03-313:
+  castShadow: true
+  feetPosition: {x: 97.67491630464792, y: {terrain: 0}, z: -71.8075796160847}
+  id: mf-swamp-plant03-313
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 126.34927360340953}
+  scale: 0.4449386067921296
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant03-408:
+  castShadow: true
+  feetPosition: {x: 114.2921531572938, y: {terrain: 0}, z: -189.09162436518818}
+  id: mf-swamp-plant03-408
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 103.46989575773478}
+  scale: 0.46427924807649107
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant03-619:
+  castShadow: true
+  feetPosition: {x: 171.0530586494133, y: {terrain: 0}, z: -163.88228721916676}
+  id: mf-swamp-plant03-619
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 245.74857283383608}
+  scale: 0.5753201267449185
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant03-629:
+  castShadow: true
+  feetPosition: {x: 163.1029516691342, y: {terrain: 0}, z: -188.1670009670779}
+  id: mf-swamp-plant03-629
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 137.05374715849757}
+  scale: 0.5499690562719479
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant03-671:
+  castShadow: true
+  feetPosition: {x: 107.63222995214164, y: {terrain: 0}, z: -190.5068255471997}
+  id: mf-swamp-plant03-671
+  model: /cdn/value.6a53887447ad157690b71c0279dc71bbd20353568006624f825fb7f99ae4cdf2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 173.58521525748074}
+  scale: 0.5542457901407033
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant04-492:
+  castShadow: true
+  feetPosition: {x: 70.75582722574472, y: {terrain: 0}, z: -84.89335905667394}
+  id: mf-swamp-plant04-492
+  model: /cdn/value.b46ac313d692de053fd508632916195c4aae9c0a50a91631fb37503bb9c70147.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 314.1551524400711}
+  scale: 0.5606636073207483
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant04-638:
+  castShadow: true
+  feetPosition: {x: 75.13154482003301, y: {terrain: 0}, z: -101.15593529306352}
+  id: mf-swamp-plant04-638
+  model: /cdn/value.b46ac313d692de053fd508632916195c4aae9c0a50a91631fb37503bb9c70147.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 41.484700217843056}
+  scale: 0.7456152738770471
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant04-642:
+  castShadow: true
+  feetPosition: {x: 158.3951638592407, y: {terrain: 0}, z: -89.34130690991879}
+  id: mf-swamp-plant04-642
+  model: /cdn/value.b46ac313d692de053fd508632916195c4aae9c0a50a91631fb37503bb9c70147.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 48.74773968011141}
+  scale: 0.7564172780839726
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant04-651:
+  castShadow: true
+  feetPosition: {x: 74.00532197207212, y: {terrain: 0}, z: -166.85314742149785}
+  id: mf-swamp-plant04-651
+  model: /cdn/value.b46ac313d692de053fd508632916195c4aae9c0a50a91631fb37503bb9c70147.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 296.586676267907}
+  scale: 0.6947066438384355
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant05-464:
+  castShadow: true
+  feetPosition: {x: 174.30252937227488, y: {terrain: 0}, z: -116.78188508190215}
+  id: mf-swamp-plant05-464
+  model: /cdn/value.dba65e686f06244da7c3e37ddc9cc2e3f065c54ead00fb64762c0e2d3ec0ec0d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 283.3581960014999}
+  scale: 0.6842190206283703
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-plant05-630:
+  castShadow: true
+  feetPosition: {x: 183.1108833057806, y: {terrain: 0}, z: -94.75075948983431}
+  id: mf-swamp-plant05-630
+  model: /cdn/value.dba65e686f06244da7c3e37ddc9cc2e3f065c54ead00fb64762c0e2d3ec0ec0d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 288.17138973623514}
+  scale: 0.7425714659271763
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-sorrow-canopy-tree03-187:
+  castShadow: true
+  feetPosition: {x: 100, y: {terrain: -0.4}, z: -80}
+  id: mf-swamp-sorrow-canopy-tree03-187
+  model: /cdn/value.ba6f72d01227a96bbf0a4c1e4e791e6839e966d4c074f182d481cfaebf430786.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 155.8848376851529}
+  scale: 0.38
+  tags: [murkfen, mf-dress, mf-tree, mf-hero]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-plant01-274:
+  castShadow: true
+  feetPosition: {x: 66.10627583414316, y: {terrain: 0}, z: -77.040029338561}
+  id: mf-swamp-sorrow-plant01-274
+  model: /cdn/value.9ea248841602ff5392ba4370ac1f674757f6f0a7ec3e8571e15d815b4de3f2cf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 8.361384272575378}
+  scale: 0.584928935370408
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-sorrow-plant01-371:
+  castShadow: true
+  feetPosition: {x: 109.70817283540964, y: {terrain: 0}, z: -114.23166711069643}
+  id: mf-swamp-sorrow-plant01-371
+  model: /cdn/value.9ea248841602ff5392ba4370ac1f674757f6f0a7ec3e8571e15d815b4de3f2cf.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 320.05396155640483}
+  scale: 0.5243417166406289
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 150}
+mf-swamp-sorrow-root01-111:
+  castShadow: true
+  feetPosition: {x: 147.04584104005565, y: {terrain: 0}, z: -108.66575526135888}
+  id: mf-swamp-sorrow-root01-111
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 36.897455770522356}
+  scale: 1.0882366119883955
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-root01-116:
+  castShadow: true
+  feetPosition: {x: 149.84397184025937, y: {terrain: 0}, z: -103.38264386544981}
+  id: mf-swamp-sorrow-root01-116
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 79.31988316588104}
+  scale: 1.0699580322951079
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-root01-20:
+  castShadow: true
+  feetPosition: {x: 155.8179114852513, y: {terrain: 0}, z: -68.35800764976216}
+  id: mf-swamp-sorrow-root01-20
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 6.773450737819076}
+  scale: 1.0311329737305641
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-root01-25:
+  castShadow: true
+  feetPosition: {x: 85.01567431388037, y: {terrain: 0}, z: -126.547781894655}
+  id: mf-swamp-sorrow-root01-25
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 48.425907203927636}
+  scale: 1.0318306179717185
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-root01-30:
+  castShadow: true
+  feetPosition: {x: 89.60807192564646, y: {terrain: 0}, z: -129.7664545630101}
+  id: mf-swamp-sorrow-root01-30
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 42.62410847470164}
+  scale: 1.0744986425153913
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-root01-34:
+  castShadow: true
+  feetPosition: {x: 93.65975788006641, y: {terrain: 0}, z: -124.10517192227779}
+  id: mf-swamp-sorrow-root01-34
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 176.4976428821683}
+  scale: 1.0769455560483039
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-root01-40:
+  castShadow: true
+  feetPosition: {x: 102.0760296965562, y: {terrain: 0}, z: -125.17139962770355}
+  id: mf-swamp-sorrow-root01-40
+  model: /cdn/value.e5629cff3b76db345f707bbf8f545f3bae26542dcc45d7912e31b9371981b8d5.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 51.66680778376758}
+  scale: 1.0532421339303255
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-root02-38:
+  castShadow: true
+  feetPosition: {x: 83.3262010936736, y: {terrain: 0}, z: -113.38736055318907}
+  id: mf-swamp-sorrow-root02-38
+  model: /cdn/value.46c035c76cac6e69b1b10505d0ebd1ab6f9fbb4ce0a434a649d3ca1eab883bf0.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 328.4503563679755}
+  scale: 0.9130391976796091
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-root03-121:
+  castShadow: true
+  feetPosition: {x: 130.46753268819742, y: {terrain: 0}, z: -104.76216040396346}
+  id: mf-swamp-sorrow-root03-121
+  model: /cdn/value.a7da9c0c712b698086275d6fc0e8ff49f63e3a1e5bfd7c65f8e00534bf94ad84.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 78.38319106958807}
+  scale: 0.8755138508975506
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 180}
+mf-swamp-sorrow-tree01-110:
+  castShadow: true
+  feetPosition: {x: 143.08316152539422, y: {terrain: -0.3}, z: -105.67344086307016}
+  id: mf-swamp-sorrow-tree01-110
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 246.57221149653196}
+  scale: 0.4370462274923921
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-115:
+  castShadow: true
+  feetPosition: {x: 148.295972081986, y: {terrain: -0.3}, z: -101.56882761794188}
+  id: mf-swamp-sorrow-tree01-115
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 26.49681572802365}
+  scale: 0.3810958405584097
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-119:
+  castShadow: true
+  feetPosition: {x: 145.214978163061, y: {terrain: -0.3}, z: -98.11653451375987}
+  id: mf-swamp-sorrow-tree01-119
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 232.72333594970405}
+  scale: 0.3916063295304775
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-132:
+  castShadow: true
+  feetPosition: {x: 103.20281701412502, y: {terrain: -0.3}, z: -167.60250974396126}
+  id: mf-swamp-sorrow-tree01-132
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 158.57578047551215}
+  scale: 0.35832729019224646
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-135:
+  castShadow: true
+  feetPosition: {x: 117.71052441336116, y: {terrain: -0.3}, z: -157.64584202766608}
+  id: mf-swamp-sorrow-tree01-135
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 171.0668220743537}
+  scale: 0.3863630634918809
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-19:
+  castShadow: true
+  feetPosition: {x: 158.3732836377288, y: {terrain: -0.3}, z: -69.41444881713164}
+  id: mf-swamp-sorrow-tree01-19
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 202.37837665714324}
+  scale: 0.4357987246662378
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-24:
+  castShadow: true
+  feetPosition: {x: 86.13385736045973, y: {terrain: -0.3}, z: -124.8007181666056}
+  id: mf-swamp-sorrow-tree01-24
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 15.63014212064445}
+  scale: 0.3328486560285091
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-29:
+  castShadow: true
+  feetPosition: {x: 90.7906861608539, y: {terrain: -0.3}, z: -128.69513968424832}
+  id: mf-swamp-sorrow-tree01-29
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 342.7392802387476}
+  scale: 0.36225302387028935
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-33:
+  castShadow: true
+  feetPosition: {x: 96.1281388099686, y: {terrain: -0.3}, z: -124.22637025235234}
+  id: mf-swamp-sorrow-tree01-33
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 43.7627343647182}
+  scale: 0.30367094617336987
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree01-37:
+  castShadow: true
+  feetPosition: {x: 80.95700069080283, y: {terrain: -0.3}, z: -116.57649281148508}
+  id: mf-swamp-sorrow-tree01-37
+  model: /cdn/value.7bc00d8283afbce4800650a66bd98fff3dfc8b9c160b69f04719a45592dca564.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 189.08027831465006}
+  scale: 0.4191460904851556
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-113:
+  castShadow: true
+  feetPosition: {x: 137.57335772375325, y: {terrain: -0.3}, z: -103.51138337739766}
+  id: mf-swamp-sorrow-tree02-113
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 144.68979623168707}
+  scale: 0.3484020525589585
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-118:
+  castShadow: true
+  feetPosition: {x: 138.74130392789633, y: {terrain: -0.3}, z: -116.4868455260998}
+  id: mf-swamp-sorrow-tree02-118
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 69.18658752925694}
+  scale: 0.4265410330146551
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-120:
+  castShadow: true
+  feetPosition: {x: 130.00522054490142, y: {terrain: -0.3}, z: -100.7710239666815}
+  id: mf-swamp-sorrow-tree02-120
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 342.9038566444069}
+  scale: 0.3375215960294008
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-134:
+  castShadow: true
+  feetPosition: {x: 116.35404024793485, y: {terrain: -0.3}, z: -161.1590945878871}
+  id: mf-swamp-sorrow-tree02-134
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 178.26458713039756}
+  scale: 0.4142588795349002
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-136:
+  castShadow: true
+  feetPosition: {x: 104.14081580982817, y: {terrain: -0.3}, z: -167.1368392977244}
+  id: mf-swamp-sorrow-tree02-136
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 344.854346383363}
+  scale: 0.3836398344859481
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-27:
+  castShadow: true
+  feetPosition: {x: 100.09672943255846, y: {terrain: -0.3}, z: -106.756053949882}
+  id: mf-swamp-sorrow-tree02-27
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 265.82580643706024}
+  scale: 0.3578082518279552
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-31:
+  castShadow: true
+  feetPosition: {x: 93.52615381330497, y: {terrain: -0.3}, z: -135.38368140661163}
+  id: mf-swamp-sorrow-tree02-31
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 131.10629023052752}
+  scale: 0.4221008158475161
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-35:
+  castShadow: true
+  feetPosition: {x: 99.35333124327552, y: {terrain: -0.3}, z: -131.37749803949404}
+  id: mf-swamp-sorrow-tree02-35
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 90.98957478068769}
+  scale: 0.40343102246522905
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-sorrow-tree02-39:
+  castShadow: true
+  feetPosition: {x: 98.29991382831561, y: {terrain: -0.3}, z: -126.3255265866251}
+  id: mf-swamp-sorrow-tree02-39
+  model: /cdn/value.bf615a9f1222b0f3b0715edad8ce4d2aa97461895ec2c7e7243eb39d99f1d42f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 3.507570745423436}
+  scale: 0.43409651629626755
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-swamp-tree-log01-650:
+  castShadow: true
+  feetPosition: {x: 109.63694791309536, y: {terrain: -0.3}, z: -96.51327981380746}
+  id: mf-swamp-tree-log01-650
+  model: /cdn/value.c104e5c71a89e4834b8bcbc97fccfbd177d803b7bb4bd12c4e62fb19bb4830e4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 72.23259796388447}
+  scale: 0.2898415142204612
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 250}
+mf-water_lilypad_090-534:
+  castShadow: false
+  feetPosition: {x: 175.6970489723608, y: -1.18, z: -104.36184454709291}
+  id: mf-water_lilypad_090-534
+  model: /cdn/value.64be0574a0e1fce80b3b40bde85074532b97e6027b761c3d28aecf7011823985.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 8.594711730256677}
+  scale: 0.7599673616699874
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-water_lilypad_090-540:
+  castShadow: false
+  feetPosition: {x: 107.30923695955426, y: -1.18, z: -137.01784157659858}
+  id: mf-water_lilypad_090-540
+  model: /cdn/value.64be0574a0e1fce80b3b40bde85074532b97e6027b761c3d28aecf7011823985.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 231.74089442007244}
+  scale: 1.0718320509418846
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-water_lilypad_090-551:
+  castShadow: false
+  feetPosition: {x: 101.87633718363941, y: -1.18, z: -104.58325302926823}
+  id: mf-water_lilypad_090-551
+  model: /cdn/value.64be0574a0e1fce80b3b40bde85074532b97e6027b761c3d28aecf7011823985.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 214.651383664459}
+  scale: 0.9315145258326083
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-water_lilypad_090-582:
+  castShadow: false
+  feetPosition: {x: 101.36110714171082, y: -1.18, z: -68.93274498637766}
+  id: mf-water_lilypad_090-582
+  model: /cdn/value.64be0574a0e1fce80b3b40bde85074532b97e6027b761c3d28aecf7011823985.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 30.18017585389316}
+  scale: 1.1205538569018243
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-water_lilypad_090-597:
+  castShadow: false
+  feetPosition: {x: 167.01483018696308, y: -1.18, z: -96.90103295492008}
+  id: mf-water_lilypad_090-597
+  model: /cdn/value.64be0574a0e1fce80b3b40bde85074532b97e6027b761c3d28aecf7011823985.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 222.0961308851838}
+  scale: 0.8034639482852071
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass01-244:
+  castShadow: false
+  feetPosition: {x: 143.25535736512393, y: {terrain: 0}, z: -185.80799039453268}
+  id: mf-wetland-grass01-244
+  model: /cdn/value.03bfc97d4630030fcfc3ef0486f8d0e99b06a6f50300691eda534a9530c1053d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 116.3465339038521}
+  scale: 1.156208384362981
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass01-334:
+  castShadow: false
+  feetPosition: {x: 111.8940236279741, y: {terrain: 0}, z: -173.62709698732942}
+  id: mf-wetland-grass01-334
+  model: /cdn/value.03bfc97d4630030fcfc3ef0486f8d0e99b06a6f50300691eda534a9530c1053d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 302.85015936009586}
+  scale: 0.9903340133838356
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass01-398:
+  castShadow: false
+  feetPosition: {x: 181.50664574932307, y: {terrain: 0}, z: -120.33079136162996}
+  id: mf-wetland-grass01-398
+  model: /cdn/value.03bfc97d4630030fcfc3ef0486f8d0e99b06a6f50300691eda534a9530c1053d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 88.70978445746005}
+  scale: 1.1839047219138594
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass01-407:
+  castShadow: false
+  feetPosition: {x: 114.07192947808653, y: {terrain: 0}, z: -189.85552872996777}
+  id: mf-wetland-grass01-407
+  model: /cdn/value.03bfc97d4630030fcfc3ef0486f8d0e99b06a6f50300691eda534a9530c1053d.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 94.50930121354759}
+  scale: 1.4571802877821027
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass02-273:
+  castShadow: false
+  feetPosition: {x: 66.93788562435657, y: {terrain: 0}, z: -78.69824626017362}
+  id: mf-wetland-grass02-273
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 202.60502650402486}
+  scale: 1.0235649982467294
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass02-280:
+  castShadow: false
+  feetPosition: {x: 145.21685833577067, y: {terrain: 0}, z: -180.1582059962675}
+  id: mf-wetland-grass02-280
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 162.9559989552945}
+  scale: 1.0870430012233556
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass02-370:
+  castShadow: false
+  feetPosition: {x: 108.04664199706167, y: {terrain: 0}, z: -114.7946401592344}
+  id: mf-wetland-grass02-370
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 195.94257672317326}
+  scale: 1.4995145256165416
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass02-406:
+  castShadow: false
+  feetPosition: {x: 137.81950613018125, y: {terrain: 0}, z: -132.59821265004575}
+  id: mf-wetland-grass02-406
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 160.83488275296986}
+  scale: 1.5642247172538193
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass02-479:
+  castShadow: false
+  feetPosition: {x: 161.22366403695196, y: {terrain: 0}, z: -158.59154797159135}
+  id: mf-wetland-grass02-479
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 138.46450586803257}
+  scale: 1.4841336140874775
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass02-491:
+  castShadow: false
+  feetPosition: {x: 68.8057777704671, y: {terrain: 0}, z: -83.90717693138868}
+  id: mf-wetland-grass02-491
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 255.90065910480917}
+  scale: 1.1805805454030633
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass02-495:
+  castShadow: false
+  feetPosition: {x: 93.32424253690988, y: {terrain: 0}, z: -101.02834715042263}
+  id: mf-wetland-grass02-495
+  model: /cdn/value.556aebee8aa323061d36bdfab2e16402c45f6ee99226559d5393752eabc2b528.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 150.19687584601343}
+  scale: 1.1528609223663806
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass03-317:
+  castShadow: false
+  feetPosition: {x: 106.91198963206261, y: {terrain: 0}, z: -158.46852572634816}
+  id: mf-wetland-grass03-317
+  model: /cdn/value.93f463ca30b18b5f6124db2bb6e63dde1a397ae068feb14fc83acaa629613075.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 230.51787533797324}
+  scale: 0.9043111295904964
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass03-441:
+  castShadow: false
+  feetPosition: {x: 103.83210661355406, y: {terrain: 0}, z: -129.68326534610242}
+  id: mf-wetland-grass03-441
+  model: /cdn/value.93f463ca30b18b5f6124db2bb6e63dde1a397ae068feb14fc83acaa629613075.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 276.66884425096214}
+  scale: 1.1569882535375655
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass03-456:
+  castShadow: false
+  feetPosition: {x: 141.64588877465576, y: {terrain: 0}, z: -186.34643570519984}
+  id: mf-wetland-grass03-456
+  model: /cdn/value.93f463ca30b18b5f6124db2bb6e63dde1a397ae068feb14fc83acaa629613075.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 73.94805771298707}
+  scale: 1.0335026380140335
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass03-481:
+  castShadow: false
+  feetPosition: {x: 139.40906663890928, y: {terrain: 0}, z: -191.2043198850006}
+  id: mf-wetland-grass03-481
+  model: /cdn/value.93f463ca30b18b5f6124db2bb6e63dde1a397ae068feb14fc83acaa629613075.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 157.68395234830678}
+  scale: 1.2824874612037094
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass04-227:
+  castShadow: false
+  feetPosition: {x: 147.7173702744767, y: {terrain: 0}, z: -161.35798322036862}
+  id: mf-wetland-grass04-227
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 193.84466984309256}
+  scale: 1.0164183245506138
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass04-245:
+  castShadow: false
+  feetPosition: {x: 74.5975387422368, y: {terrain: 0}, z: -136.6173213161528}
+  id: mf-wetland-grass04-245
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 289.5023686531931}
+  scale: 1.0394219958689064
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass04-268:
+  castShadow: false
+  feetPosition: {x: 178.2559909345582, y: {terrain: 0}, z: -102.17186630237848}
+  id: mf-wetland-grass04-268
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 4.9874113406986}
+  scale: 1.5905074687674643
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass04-312:
+  castShadow: false
+  feetPosition: {x: 99.66945087071508, y: {terrain: 0}, z: -72.10326856933534}
+  id: mf-wetland-grass04-312
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 127.17919726856053}
+  scale: 1.3458098749164493
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass04-335:
+  castShadow: false
+  feetPosition: {x: 73.70698395650834, y: {terrain: 0}, z: -114.2603930272162}
+  id: mf-wetland-grass04-335
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 86.58629366196692}
+  scale: 1.204108321061358
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass04-372:
+  castShadow: false
+  feetPosition: {x: 104.18938825372607, y: {terrain: 0}, z: -126.46113082300872}
+  id: mf-wetland-grass04-372
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 346.0360305290669}
+  scale: 1.4843756672926247
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass04-463:
+  castShadow: false
+  feetPosition: {x: 174.88020678516477, y: {terrain: 0}, z: -115.23046641610563}
+  id: mf-wetland-grass04-463
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 99.11255409009755}
+  scale: 1.1463269265834242
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass04-490:
+  castShadow: false
+  feetPosition: {x: 72.51300937961787, y: {terrain: 0}, z: -114.66684985905886}
+  id: mf-wetland-grass04-490
+  model: /cdn/value.af2e169e9a73637256a0233d96160b2aec675984b3ee6c59022a9d32a4276da2.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 57.36538262106478}
+  scale: 1.0156485761981457
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass05-253:
+  castShadow: false
+  feetPosition: {x: 89.51127775479108, y: {terrain: 0}, z: -112.63136642519385}
+  id: mf-wetland-grass05-253
+  model: /cdn/value.246d163dadfe70b2199439f3c333019d2b24b0e916a6ea22b45cc007c9f01bd1.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 148.51953900419176}
+  scale: 1.066007974371314
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass05-345:
+  castShadow: false
+  feetPosition: {x: 70.54163841996342, y: {terrain: 0}, z: -188.1182168563828}
+  id: mf-wetland-grass05-345
+  model: /cdn/value.246d163dadfe70b2199439f3c333019d2b24b0e916a6ea22b45cc007c9f01bd1.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 227.57835547439754}
+  scale: 1.5635935640893877
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass05-420:
+  castShadow: false
+  feetPosition: {x: 124.95997092220932, y: {terrain: 0}, z: -130.95135567244142}
+  id: mf-wetland-grass05-420
+  model: /cdn/value.246d163dadfe70b2199439f3c333019d2b24b0e916a6ea22b45cc007c9f01bd1.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 324.6097194682807}
+  scale: 0.9533962938003242
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-grass05-475:
+  castShadow: false
+  feetPosition: {x: 174.60672803688794, y: {terrain: 0}, z: -94.02496086899191}
+  id: mf-wetland-grass05-475
+  model: /cdn/value.246d163dadfe70b2199439f3c333019d2b24b0e916a6ea22b45cc007c9f01bd1.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 167.82724893651903}
+  scale: 1.5816906090825797
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 120}
+mf-wetland-shrub01-611:
+  castShadow: true
+  feetPosition: {x: 139.02010381687433, y: {terrain: 0}, z: -128.88587473426014}
+  id: mf-wetland-shrub01-611
+  model: /cdn/value.106ff97ae4c31648cc65bb3ebef3ce456bf01145cc78c6a86494a4bb7844c321.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 304.35384722426534}
+  scale: 0.7495260237483308
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 160}
+mf-wetland-shrub01-677:
+  castShadow: true
+  feetPosition: {x: 99.80086790397763, y: {terrain: 0}, z: -173.65112517261878}
+  id: mf-wetland-shrub01-677
+  model: /cdn/value.106ff97ae4c31648cc65bb3ebef3ce456bf01145cc78c6a86494a4bb7844c321.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 314.68548140488565}
+  scale: 0.7506653964519501
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 160}
+mf-wetland-shrub03-609:
+  castShadow: true
+  feetPosition: {x: 85.0722899241373, y: {terrain: 0}, z: -178.42993881553411}
+  id: mf-wetland-shrub03-609
+  model: /cdn/value.622f16d7b6ca2ff18700148c2215f1dcbbe6397ea87e1b9fc79a3f7d0fd4adf6.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 10.188596583902836}
+  scale: 0.7051894060568884
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 160}
+mf-wetland-shrub03-672:
+  castShadow: true
+  feetPosition: {x: 107.76875512674451, y: {terrain: 0}, z: -183.20626188302413}
+  id: mf-wetland-shrub03-672
+  model: /cdn/value.622f16d7b6ca2ff18700148c2215f1dcbbe6397ea87e1b9fc79a3f7d0fd4adf6.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 204.53397533856332}
+  scale: 0.7343801781535149
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 160}
+mf-wetland-shrub06-682:
+  castShadow: true
+  feetPosition: {x: 160.81226317211986, y: {terrain: 0}, z: -179.21553494641557}
+  id: mf-wetland-shrub06-682
+  model: /cdn/value.7e8180d6233dd280c1910860f5fbcb6057f1c1710b28c4528f4232dd8b61d0cc.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 272.2371345665306}
+  scale: 0.9180776858702302
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 160}
+mf-wetland-shrub07-610:
+  castShadow: true
+  feetPosition: {x: 179.9860006896779, y: {terrain: 0}, z: -98.74708795920014}
+  id: mf-wetland-shrub07-610
+  model: /cdn/value.8c5b530b8cf3871966bb4b8d5947643540b8314f21ff5338a22227d2dd765c31.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 264.49051033705473}
+  scale: 0.5214516149135306
+  tags: [murkfen, mf-dress]
+  visibleRange: {max: 160}
+mf-wetland-tree01-204:
+  castShadow: true
+  feetPosition: {x: 145.53102934733033, y: {terrain: 0}, z: -78.32719774683937}
+  id: mf-wetland-tree01-204
+  model: /cdn/value.27ef2ceee17cd1b7f6eff658f907de30911dd022951aa807bd9723e18a068fc3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 60.534051060676575}
+  scale: 0.17221124700736254
+  tags: [murkfen, mf-dress, mf-tree]
+  visibleRange: {max: 400}
+mf-wisp-4:
+  feetPosition: {x: 90, y: 0.8674341531004759, z: -150}
+  fx: {script: "fx\npop core n=1 at=point() size=.32 sz=$size*flick(1.4,.25) col=hdr(1.3,3.2,1.6) a=.9 r=sprite(soft-disc,add)\npop halo n=1 at=point() size=1.1 sz=$size*flick(.7,.2) col=hdr(.3,.9,.45) a=.35 r=sprite(soft-disc,add)\npop trail rate=12 on=sphere(.18) life=.8..1.6 v=sdir()*.25 size=.05..0.1 acc=curl(.6)+buoy(.25) col=hdr(.8,2.6,1.1) a=1>0 r=sprite(soft-disc,add)\npop glow n=1 at=point() r=light(<.5,1,.65>,4,9)"}
+  id: mf-wisp-4
+  tags: [murkfen, mf-room]
+  visibleRange: {max: 220}
+mfc-nest:
+  behavior: scripts/ed-camp.js
+  feetPosition: {x: 105.26334186806346, y: {terrain: 0}, z: -141.43279646920968}
+  id: mfc-nest
+  primitive: {height: 0.2, kind: cylinder, radiusBottom: 0.4, radiusTop: 0.4}
+  state: {comp: {fen-murloc: 4, fen-tidehunter: 1}, label: Murloc nest, respawn: 40, tether: 10, wake: 600}
+  tags: [ed-camp, murkfen]
+  visible: false
+  visibleTo: all
+mfx-spider-0:
+  behavior: scripts/monster.js
+  castShadow: true
+  feetPosition: {x: 95, y: {terrain: 0}, z: -75}
+  id: mfx-spider-0
+  model: /cdn/value.ee6584605048af5122f67f9a807ee7b1528848fd4c85c0be34936ce483d73cd7.glb
+  physics: kinematic
+  rotation: {yaw: 146.57514106482267}
+  scale: 1
+  state: {kind: fen-spider, route: [[95, -75], [110, -95], [85, -110], [75, -80]]}
+  tags: [enemy, monster, fen-spider, murkfen]
+  visibleRange: {max: 120}

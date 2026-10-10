@@ -1,0 +1,78 @@
+# spawn-scene v2 yaml x-2z-1
+ew-darkshore-tree02-269:
+  castShadow: true
+  feetPosition: {x: -198.3938762499018, y: {terrain: -0.5}, z: -78.16991560885269}
+  id: ew-darkshore-tree02-269
+  model: /cdn/value.bc43ca859d274ea7945abe580b3240e14bfe93e3b2e3cd02db413caa140ea223.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 152.96723163686693}
+  scale: 0.21669134183549413
+  tags: [emberwood, ew-dress, ew-tree]
+  visibleRange: {max: 1400}
+ew-darkshore-tree02-281:
+  castShadow: true
+  feetPosition: {x: -192.4880340090473, y: {terrain: -0.5}, z: -69.07014199610438}
+  id: ew-darkshore-tree02-281
+  model: /cdn/value.bc43ca859d274ea7945abe580b3240e14bfe93e3b2e3cd02db413caa140ea223.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 263.04325045086443}
+  scale: 0.2140925497857525
+  tags: [emberwood, ew-dress, ew-tree]
+  visibleRange: {max: 1400}
+ew-darkshore-tree05-282:
+  castShadow: true
+  feetPosition: {x: -201.69442595687838, y: {terrain: -0.5}, z: -96.40907945257965}
+  id: ew-darkshore-tree05-282
+  model: /cdn/value.9ceb9c17e74a85140a49222d46988e36cd8ff4bc561537e5bddb942cb8da0681.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 220.0623839534819}
+  scale: 0.45399286585859955
+  tags: [emberwood, ew-dress, ew-tree]
+  visibleRange: {max: 1400}
+ew-elw-log-310:
+  castShadow: true
+  feetPosition: {x: -197.65592757612467, y: {terrain: -0.15}, z: -101.58191891247407}
+  id: ew-elw-log-310
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 101.09293755143881}
+  scale: 0.3379849747437984
+  tags: [emberwood, ew-dress]
+  visibleRange: {max: 260}
+ew-elw-log-324:
+  castShadow: true
+  feetPosition: {x: -193.01345366984606, y: {terrain: -0.3}, z: -173.49308049539104}
+  id: ew-elw-log-324
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 58.36946178227663}
+  scale: 0.16399127993243748
+  tags: [emberwood, ew-dress]
+  visibleRange: {max: 260}
+ew-kalidar-bush02-296:
+  castShadow: true
+  feetPosition: {x: -199.16624873876572, y: {terrain: 0}, z: -74.30517856357619}
+  id: ew-kalidar-bush02-296
+  model: /cdn/value.0e8e104330d2e403c0cbc454a14c7b8df022e1c1b1f62f88077c18ee9328b3ac.glb
+  physics: none
+  receiveShadow: true
+  rotation: {yaw: 220.67701432853937}
+  scale: 0.3003248413442634
+  tags: [emberwood, ew-dress]
+  visibleRange: {max: 260}
+ew-pine_stump_hollow_01-431:
+  castShadow: true
+  feetPosition: {x: -192.29322476312518, y: {terrain: -0.2}, z: -140.9105792567134}
+  id: ew-pine_stump_hollow_01-431
+  model: /cdn/value.44321869c5fd7a8761baca435133b0fca768715c80a461bb52189f31e9ecef9d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 41.08937353827059}
+  scale: 0.28671389003284276
+  tags: [emberwood, ew-dress]
+  visibleRange: {max: 220}

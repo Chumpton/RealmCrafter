@@ -1,0 +1,2548 @@
+# spawn-scene v2 yaml x0z0
+buddha-bird-0:
+  castShadow: true
+  feetPosition: {x: -18.5, y: 40, z: 30}
+  id: buddha-bird-0
+  interpolation: {teleportThreshold: 8}
+  primitive: {kind: scripted, params: {beak: oklch(0.8 0.08 80), belly: oklch(0.62 0.21 30), body: oklch(0.58 0.22 27), head: oklch(0.58 0.22 27), wing: oklch(0.2 0.02 260)}, script: scripts/gen/songbird.js}
+  scale: 5
+  tags: [buddha-bird]
+  visible: false
+  visibleRange: {max: 250}
+buddha-bird-1:
+  castShadow: true
+  feetPosition: {x: -18.5, y: 40, z: 31}
+  id: buddha-bird-1
+  interpolation: {teleportThreshold: 8}
+  primitive: {kind: scripted, params: {beak: oklch(0.3 0.02 260), belly: oklch(0.75 0.14 55), body: oklch(0.58 0.16 250), head: oklch(0.6 0.16 250), wing: oklch(0.5 0.17 255)}, script: scripts/gen/songbird.js}
+  scale: 5
+  tags: [buddha-bird]
+  visible: false
+  visibleRange: {max: 250}
+buddha-bird-2:
+  castShadow: true
+  feetPosition: {x: -18.5, y: 40, z: 32}
+  id: buddha-bird-2
+  interpolation: {teleportThreshold: 8}
+  primitive: {kind: scripted, params: {beak: oklch(0.8 0.1 60), belly: oklch(0.92 0.12 100), body: oklch(0.88 0.17 98), head: oklch(0.22 0.02 260), wing: oklch(0.2 0.02 260)}, script: scripts/gen/songbird.js}
+  scale: 5
+  tags: [buddha-bird]
+  visible: false
+  visibleRange: {max: 250}
+buddha-bird-3:
+  castShadow: true
+  feetPosition: {x: -18.5, y: 40, z: 33}
+  id: buddha-bird-3
+  interpolation: {teleportThreshold: 8}
+  primitive: {kind: scripted, params: {beak: oklch(0.85 0.1 85), belly: oklch(0.85 0.15 120), body: oklch(0.72 0.17 155), head: oklch(0.65 0.17 25), wing: oklch(0.55 0.13 200)}, script: scripts/gen/songbird.js}
+  scale: 5
+  tags: [buddha-bird]
+  visible: false
+  visibleRange: {max: 250}
+buddha-bird-4:
+  castShadow: true
+  feetPosition: {x: -18.5, y: 40, z: 34}
+  id: buddha-bird-4
+  interpolation: {teleportThreshold: 8}
+  primitive: {kind: scripted, params: {beak: oklch(0.25 0.02 260), belly: oklch(0.75 0.14 350), body: oklch(0.55 0.2 330), head: oklch(0.55 0.15 200), wing: oklch(0.4 0.15 300)}, script: scripts/gen/songbird.js}
+  scale: 5
+  tags: [buddha-bird]
+  visible: false
+  visibleRange: {max: 250}
+buddha-bird-5:
+  castShadow: true
+  feetPosition: {x: -18.5, y: 40, z: 35}
+  id: buddha-bird-5
+  interpolation: {teleportThreshold: 8}
+  primitive: {kind: scripted, params: {beak: oklch(0.4 0.02 260), belly: oklch(0.78 0.17 60), body: oklch(0.72 0.18 55), head: oklch(0.22 0.02 260), wing: oklch(0.22 0.02 260)}, script: scripts/gen/songbird.js}
+  scale: 5
+  tags: [buddha-bird]
+  visible: false
+  visibleRange: {max: 250}
+buddha-birds:
+  behavior: scripts/buddha-birds.js
+  feetPosition: {x: -18.5, y: 3.6, z: 44}
+  id: buddha-birds
+  tags: [buddha-birds]
+buddha-garden-plan:
+  feetPosition: {x: -18.47, y: {terrain: 0}, z: 51.4}
+  id: buddha-garden-plan
+  state: {note: "Buddha garden root: hill, mother tree, flower ring, tree ring"}
+  tags: [buddha-garden]
+camp-dummy:
+  behavior: scripts/training-dummy.js
+  castShadow: true
+  feetPosition: {x: -46.774, y: 0.24, z: 35.924}
+  id: camp-dummy
+  model: /cdn/value.1df3bd563fb131e9d1b06f460972c958a8b842de61239ee430160948f06a7c93.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 172.99999976151375}
+  state: {name: Training Dummy, stance: neutral}
+  tags: [placed, enemy, training-dummy, camp]
+  visibleRange: {max: 1000}
+camp-dwarf:
+  behavior: scripts/camp-dwarf.js
+  castShadow: true
+  feetPosition: {x: -41.548, y: 0, z: 39.051}
+  id: camp-dwarf
+  model: /cdn/value.20bd212ca23631c8bd8404ce3efff7287d162a32f2236f2f03afde4aaa7feb7a.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -7.0000002384862565}
+  state: {baseYaw: -7.0000002384862565, markY: 2.4, name: Bruni Emberbeard, stance: friendly, title: "Bruni Emberbeard, Camp Quartermaster", verb: Talk-to}
+  tags: [placed, npc, hover-pick, camp, interactable]
+  visibleRange: {max: 1000}
+camp-flowers-1:
+  castShadow: false
+  feetPosition: {x: -48, y: {terrain: 0}, z: 49.5}
+  id: camp-flowers-1
+  primitive: {kind: scripted, params: {patch: {gx: 0, gz: 0, kinds: [[daisy, 3], [buttercup, 1.5]], n: 40, r: 2.4, scale: [1.8, 2.5]}}, script: scripts/gen/buddha-flowers.js, seed: 971}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+camp-flowers-2:
+  castShadow: false
+  feetPosition: {x: -35.5, y: {terrain: 0}, z: 46}
+  id: camp-flowers-2
+  primitive: {kind: scripted, params: {patch: {gx: 0, gz: 0, kinds: [[heather, 3], [bluebell, 1]], n: 28, r: 2, scale: [1.8, 2.5]}}, script: scripts/gen/buddha-flowers.js, seed: 983.5}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+camp-flowers-3:
+  castShadow: false
+  feetPosition: {x: -51, y: {terrain: 0}, z: 37}
+  id: camp-flowers-3
+  primitive: {kind: scripted, params: {patch: {gx: 0, gz: 0, kinds: [[poppy, 2], [daisy, 2]], n: 47, r: 2.6, scale: [1.8, 2.5]}}, script: scripts/gen/buddha-flowers.js, seed: 968}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-bush-1:
+  feetPosition: {x: -2.769999999999995, y: {terrain: -0.1}, z: 28.017314097820158}
+  id: garden-bush-1
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  rotation: {yaw: 0}
+  scale: 0.4
+  tags: [buddha-garden]
+garden-bush-2:
+  feetPosition: {x: 4.369300167520878, y: {terrain: -0.1}, z: 40.75123616657737}
+  id: garden-bush-2
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 41}
+  scale: 0.55
+  tags: [buddha-garden]
+garden-bush-3:
+  feetPosition: {x: 8.614476959596288, y: {terrain: -0.1}, z: 53.4004543390165}
+  id: garden-bush-3
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  rotation: {yaw: 82}
+  scale: 0.4
+  tags: [buddha-garden]
+garden-bush-4:
+  feetPosition: {x: 0.136626198305549, y: {terrain: -0.1}, z: 63.71046401773171}
+  id: garden-bush-4
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 123}
+  scale: 0.55
+  tags: [buddha-garden]
+garden-bush-8:
+  feetPosition: {x: -43.79496736996032, y: {terrain: -0.1}, z: 53.787656928148856}
+  id: garden-bush-8
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  rotation: {yaw: 287}
+  scale: 0.55
+  tags: [buddha-garden]
+garden-drift-0:
+  castShadow: false
+  feetPosition: {x: -7.799580918081066, y: {terrain: 0}, z: 50.538103555195626}
+  id: garden-drift-0
+  primitive: {kind: scripted, params: {patch: {gx: -0.234, gz: 0.02, kinds: [[poppy, 3], [daisy, 1.4]], n: 121, r: 4.164557441975921, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 900}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-1:
+  castShadow: false
+  feetPosition: {x: -4.413770416223304, y: {terrain: 0}, z: 54.46221065132632}
+  id: garden-drift-1
+  primitive: {kind: scripted, params: {patch: {gx: -0.368, gz: -0.081, kinds: [[bluebell, 3], [daisy, 1.4]], n: 99, r: 3.763482718914747, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 901}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-10:
+  castShadow: false
+  feetPosition: {x: -27.874362247489415, y: {terrain: 0}, z: 59.304261860928555}
+  id: garden-drift-10
+  primitive: {kind: scripted, params: {patch: {gx: 0.249, gz: -0.21, kinds: [[buttercup, 3], [yellowDaisy, 1.4]], n: 98, r: 3.732996072852984, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 902}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-11:
+  castShadow: false
+  feetPosition: {x: -34.172648600290856, y: {terrain: 0}, z: 59.047389828151324}
+  id: garden-drift-11
+  primitive: {kind: scripted, params: {patch: {gx: 0.299, gz: -0.146, kinds: [[heather, 3], [bluebell, 1.4]], n: 134, r: 4.373070267774165, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 903}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-12:
+  castShadow: false
+  feetPosition: {x: -29.96408191885195, y: {terrain: 0}, z: 53.75984097265481}
+  id: garden-drift-12
+  primitive: {kind: scripted, params: {patch: {gx: 0.29, gz: -0.061, kinds: [[daisy, 3], [buttercup, 1.4]], n: 52, r: 2.7225151685532185, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 904}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-13:
+  castShadow: false
+  feetPosition: {x: -34.10815224084365, y: {terrain: 0}, z: 51.476351922394734}
+  id: garden-drift-13
+  primitive: {kind: scripted, params: {patch: {gx: 0.377, gz: -0.002, kinds: [[poppy, 3], [yellowDaisy, 1.4]], n: 67, r: 3.1048333012033256, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 905}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-14:
+  castShadow: false
+  feetPosition: {x: -35.76311512301971, y: {terrain: 0}, z: 46.48802896281015}
+  id: garden-drift-14
+  primitive: {kind: scripted, params: {patch: {gx: 0.298, gz: 0.085, kinds: [[heather, 3], [daisy, 1.4]], n: 64, r: 3.0218337061349305, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 906}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-15:
+  castShadow: false
+  feetPosition: {x: -32.803340375628395, y: {terrain: 0}, z: 42.95596506492572}
+  id: garden-drift-15
+  primitive: {kind: scripted, params: {patch: {gx: 0.31, gz: 0.183, kinds: [[bluebell, 3], [heather, 1.4]], n: 125, r: 4.232009465806186, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 907}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-16:
+  castShadow: false
+  feetPosition: {x: -33.032017961866906, y: {terrain: 0}, z: 39.23058226301015}
+  id: garden-drift-16
+  primitive: {kind: scripted, params: {patch: {gx: 0.196, gz: 0.164, kinds: [[poppy, 3], [daisy, 1.4]], n: 74, r: 3.24767489717342, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 908}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-17:
+  castShadow: false
+  feetPosition: {x: -26.982312950568357, y: {terrain: 0}, z: 38.22286020563614}
+  id: garden-drift-17
+  primitive: {kind: scripted, params: {patch: {gx: 0.205, gz: 0.317, kinds: [[bluebell, 3], [daisy, 1.4]], n: 66, r: 3.0750797112472354, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 909}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-18:
+  castShadow: false
+  feetPosition: {x: -24.603226896065248, y: {terrain: 0}, z: 34.76617184883806}
+  id: garden-drift-18
+  primitive: {kind: scripted, params: {patch: {gx: 0.112, gz: 0.302, kinds: [[buttercup, 3], [yellowDaisy, 1.4]], n: 127, r: 4.252695846511051, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 910}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-19:
+  castShadow: false
+  feetPosition: {x: -20.556339905383197, y: {terrain: 0}, z: 41.68308269697546}
+  id: garden-drift-19
+  primitive: {kind: scripted, params: {patch: {gx: 0.04, gz: 0.175, kinds: [[heather, 3], [bluebell, 1.4]], n: 76, r: 3.2884218376129866, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 911}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-2:
+  castShadow: false
+  feetPosition: {x: -7.844928186418496, y: {terrain: 0}, z: 57.98677157923058}
+  id: garden-drift-2
+  primitive: {kind: scripted, params: {patch: {gx: -0.283, gz: -0.177, kinds: [[buttercup, 3], [yellowDaisy, 1.4]], n: 56, r: 2.831136420648545, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 912}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-20:
+  castShadow: false
+  feetPosition: {x: -16.438340816475645, y: {terrain: 0}, z: 39.99752334841299}
+  id: garden-drift-20
+  primitive: {kind: scripted, params: {patch: {gx: -0.052, gz: 0.284, kinds: [[daisy, 3], [buttercup, 1.4]], n: 53, r: 2.7640414172783494, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 913}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-21:
+  castShadow: false
+  feetPosition: {x: -11.809863639396324, y: {terrain: 0}, z: 35.42426893500142}
+  id: garden-drift-21
+  primitive: {kind: scripted, params: {patch: {gx: -0.131, gz: 0.312, kinds: [[poppy, 3], [yellowDaisy, 1.4]], n: 102, r: 3.826177181629464, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 914}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-22:
+  castShadow: false
+  feetPosition: {x: -10.273975336326577, y: {terrain: 0}, z: 38.72681930406499}
+  id: garden-drift-22
+  primitive: {kind: scripted, params: {patch: {gx: -0.208, gz: 0.32, kinds: [[heather, 3], [daisy, 1.4]], n: 82, r: 3.4146907530725006, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 915}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-23:
+  castShadow: false
+  feetPosition: {x: -8.800664751731171, y: {terrain: 0}, z: 41.03811866803432}
+  id: garden-drift-23
+  primitive: {kind: scripted, params: {patch: {gx: -0.257, gz: 0.275, kinds: [[bluebell, 3], [heather, 1.4]], n: 70, r: 3.1525560495443643, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 916}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-24:
+  castShadow: false
+  feetPosition: {x: -7.798438383275169, y: {terrain: 0}, z: 45.3090725197936}
+  id: garden-drift-24
+  primitive: {kind: scripted, params: {patch: {gx: -0.281, gz: 0.162, kinds: [[poppy, 3], [daisy, 1.4]], n: 54, r: 2.7833225287497045, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 917}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-25:
+  castShadow: false
+  feetPosition: {x: -3.2468461721097874, y: {terrain: 0}, z: 48.858078619872764}
+  id: garden-drift-25
+  primitive: {kind: scripted, params: {patch: {gx: -0.373, gz: 0.063, kinds: [[bluebell, 3], [daisy, 1.4]], n: 109, r: 3.9509558500256388, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 918}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-3:
+  castShadow: false
+  feetPosition: {x: -6.9726482247053205, y: {terrain: 0}, z: 60.79502651728515}
+  id: garden-drift-3
+  primitive: {kind: scripted, params: {patch: {gx: -0.295, gz: -0.242, kinds: [[heather, 3], [bluebell, 1.4]], n: 88, r: 3.552011977741495, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 919}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-5:
+  castShadow: false
+  feetPosition: {x: -15.36874105912774, y: {terrain: 0}, z: 62.720392004976816}
+  id: garden-drift-5
+  primitive: {kind: scripted, params: {patch: {gx: -0.08, gz: -0.286, kinds: [[poppy, 3], [yellowDaisy, 1.4]], n: 66, r: 3.0592393626458945, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 921}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-8:
+  castShadow: false
+  feetPosition: {x: -22.034446618985733, y: {terrain: 0}, z: 60.91378269339445}
+  id: garden-drift-8
+  primitive: {kind: scripted, params: {patch: {gx: 0.072, gz: -0.184, kinds: [[poppy, 3], [daisy, 1.4]], n: 70, r: 3.155468120938167, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 924}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-drift-9:
+  castShadow: false
+  feetPosition: {x: -24.4613723711269, y: {terrain: 0}, z: 60.70665609711168}
+  id: garden-drift-9
+  primitive: {kind: scripted, params: {patch: {gx: 0.143, gz: -0.219, kinds: [[bluebell, 3], [daisy, 1.4]], n: 135, r: 4.385068806260824, scale: [2, 2.8]}}, script: scripts/gen/buddha-flowers.js, seed: 925}
+  tags: [buddha-garden, garden-drift]
+  visibleRange: {max: 160}
+garden-rock-1:
+  feetPosition: {x: -4.969999999999995, y: {terrain: -0.15}, z: 30.017314097820158}
+  id: garden-rock-1
+  model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb
+  physics: static
+  rotation: {yaw: 0}
+  scale: 0.12
+  tags: [buddha-garden]
+garden-rock-4:
+  feetPosition: {x: 2.032369674706795, y: {terrain: -0.15}, z: 61.420015006799105}
+  id: garden-rock-4
+  model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb
+  physics: static
+  rotation: {yaw: 201}
+  scale: 0.12
+  tags: [buddha-garden]
+garden-tree-1:
+  children: [{id: trunk, physics: static, primitive: {height: 4, kind: cylinder, radiusBottom: 0.5, radiusTop: 0.4}, scale: 3.846153846153846, visible: false}]
+  feetPosition: {x: -4.969999999999995, y: {terrain: -0.1}, z: 28.017314097820158}
+  id: garden-tree-1
+  model: /cdn/value.c2c3fa4d71cbe595b66faa858f46355152cd4c1f2e9324d411d284de2df50599.glb
+  rotation: {yaw: 0}
+  scale: 0.26
+  tags: [buddha-garden]
+garden-tree-2:
+  children: [{id: trunk, physics: static, primitive: {height: 4, kind: cylinder, radiusBottom: 0.5, radiusTop: 0.4}, scale: 0.8695652173913044, visible: false}]
+  feetPosition: {x: 3.1806350946109703, y: {terrain: -0.1}, z: 38.9}
+  id: garden-tree-2
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  rotation: {yaw: 73}
+  scale: 1.15
+  tags: [buddha-garden]
+garden-tree-3:
+  children: [{id: trunk, physics: static, primitive: {height: 4, kind: cylinder, radiusBottom: 0.5, radiusTop: 0.4}, scale: 2.0833333333333335, visible: false}]
+  feetPosition: {x: 9.530000000000001, y: {terrain: -0.1}, z: 51.4}
+  id: garden-tree-3
+  model: /cdn/value.c969fca372ffdf322feaa608b7057e27c6b31d6fcd070d8a41b9b906611740c7.glb
+  rotation: {yaw: 146}
+  scale: 0.48
+  tags: [buddha-garden]
+garden-tree-4:
+  children: [{id: trunk, physics: static, primitive: {height: 4, kind: cylinder, radiusBottom: 0.5, radiusTop: 0.4}, scale: 0.8, visible: false}]
+  feetPosition: {x: 2.3146096908265292, y: {terrain: -0.1}, z: 63.4}
+  id: garden-tree-4
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  rotation: {yaw: 219}
+  scale: 1.25
+  tags: [buddha-garden]
+garden-tree-8:
+  children: [{id: trunk, physics: static, primitive: {height: 4, kind: cylinder, radiusBottom: 0.5, radiusTop: 0.4}, scale: 3.7037037037037033, visible: false}]
+  feetPosition: {x: -45.45355232951559, y: {terrain: -0.1}, z: 52.34228641096752}
+  id: garden-tree-8
+  model: /cdn/value.c2c3fa4d71cbe595b66faa858f46355152cd4c1f2e9324d411d284de2df50599.glb
+  rotation: {yaw: 151}
+  scale: 0.27
+  tags: [buddha-garden]
+inn-barrel-5:
+  castShadow: true
+  feetPosition: {x: -46.2, y: 0, z: 47.6}
+  id: inn-barrel-5
+  model: /cdn/value.a64db59efa4e923f7e1167d43a57555cf1eb840b56ffca14abba1e21f62f3d49.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 30}
+  scale: 0.8
+  state: {pf: general-barrel01}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 1000}
+inn-barrel-6:
+  castShadow: true
+  feetPosition: {x: -45.6, y: 0, z: 46.9}
+  id: inn-barrel-6
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 310}
+  scale: 0.8250000000000001
+  state: {pf: elw-barrel}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 900}
+inn-fence-1:
+  castShadow: true
+  feetPosition: {x: -43.25, y: 0, z: 56.4}
+  id: inn-fence-1
+  model: /cdn/value.6418c2b5f982ae8649db9512f50f2d8159ab9fa00a10683d4621c47b090ccb23.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -14}
+  scale: 0.513
+  state: {pf: elw-fence}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 900}
+inn-fence-1/inn-fence-1-cap:
+  castShadow: true
+  feetPosition: {x: 0, y: 0, z: 8.5}
+  id: inn-fence-1/inn-fence-1-cap
+  model: /cdn/value.6bcdedd6b75f75cbf27b6f014f739e7a2a624584b54366803479546c8febff97.glb
+  parent: inn-fence-1
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 180}
+inn-fence-1/inn-fence-1-seg2:
+  castShadow: true
+  feetPosition: {x: 0, y: 0, z: 4.25}
+  id: inn-fence-1/inn-fence-1-seg2
+  model: /cdn/value.1cd0070e82a3ed59f32453b9bb2960057d284a11c6ffd1526a0acddd830c2853.glb
+  parent: inn-fence-1
+  physics: {body: static, collider: box}
+  receiveShadow: true
+inn-fencepost:
+  castShadow: true
+  feetPosition: {x: -42.9, y: 0, z: 57.6}
+  id: inn-fencepost
+  model: /cdn/value.1c5ac1221998a502d1c361fabac3bec71f30c47fed5eb86b76311b77eeffd47f.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 12}
+  scale: 0.36
+  state: {pf: human-generic-fence-post}
+  tags: [placed, inn-yard]
+  visibleRange: {max: 1000}
+mother-tree-hangout:
+  feetPosition: {x: -42, y: 0, z: 43}
+  id: mother-tree-hangout
+  tags: [buddha-garden]
+mother-tree-hangout/basket:
+  feetPosition: {x: 1.8986563682556152, y: 0, z: -2.0117104053497314}
+  id: mother-tree-hangout/basket
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: basket}, script: scripts/gen/buddha-hangout.js, seed: 1}
+  rotation: {yaw: 30}
+mother-tree-hangout/bench-n:
+  feetPosition: {x: 0, y: 0, z: 2.9000000953674316}
+  id: mother-tree-hangout/bench-n
+  parent: mother-tree-hangout
+  physics: static
+  primitive: {kind: scripted, params: {item: bench}, script: scripts/gen/buddha-hangout.js, seed: 7}
+  rotation: {yaw: 0}
+mother-tree-hangout/bench-w:
+  feetPosition: {x: -2.377641201019287, y: 0, z: 1.1725424528121948}
+  id: mother-tree-hangout/bench-w
+  parent: mother-tree-hangout
+  physics: static
+  primitive: {kind: scripted, params: {item: bench}, script: scripts/gen/buddha-hangout.js, seed: 7}
+  rotation: {yaw: -72}
+mother-tree-hangout/blanket:
+  feetPosition: {x: 1.5486563444137573, y: 0, z: -1.8117104768753052}
+  id: mother-tree-hangout/blanket
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: blanket}, script: scripts/gen/buddha-hangout.js, seed: 1}
+  rotation: {yaw: 145}
+mother-tree-hangout/bush-a:
+  castShadow: true
+  feetPosition: {x: -8.2, y: 0, z: -3.6}
+  id: mother-tree-hangout/bush-a
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  parent: mother-tree-hangout
+  receiveShadow: true
+  rotation: {yaw: 10}
+mother-tree-hangout/bush-b:
+  castShadow: true
+  feetPosition: {x: 5.5, y: 0, z: 6.2}
+  id: mother-tree-hangout/bush-b
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  parent: mother-tree-hangout
+  receiveShadow: true
+  rotation: {yaw: 130}
+mother-tree-hangout/cauldron:
+  castShadow: true
+  feetPosition: {x: 1.9, y: 0, z: 1.9}
+  id: mother-tree-hangout/cauldron
+  model: /cdn/value.17236654b3e2797b5c1ec4df12001bc1e41ea3c498b4c7c6995a5c55c97b8a31.glb
+  parent: mother-tree-hangout
+  physics: {body: static, collider: box}
+  receiveShadow: true
+mother-tree-hangout/cup-1:
+  feetPosition: {x: 1.2486563920974731, y: 0.04, z: -1.7117105722427368}
+  id: mother-tree-hangout/cup-1
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: cup}, script: scripts/gen/buddha-hangout.js, seed: 1}
+mother-tree-hangout/cup-2:
+  feetPosition: {x: 1.4986563920974731, y: 0.04, z: -1.4617105722427368}
+  id: mother-tree-hangout/cup-2
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: cup}, script: scripts/gen/buddha-hangout.js, seed: 1}
+mother-tree-hangout/cushion-1:
+  feetPosition: {x: 1.098656415939331, y: 0.03, z: -2.161710500717163}
+  id: mother-tree-hangout/cushion-1
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {color: oklch(0.62 0.13 300), item: cushion}, script: scripts/gen/buddha-hangout.js, seed: 1}
+mother-tree-hangout/cushion-2:
+  feetPosition: {x: 2.048656463623047, y: 0.03, z: -1.411710500717163}
+  id: mother-tree-hangout/cushion-2
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {color: oklch(0.7 0.13 70), item: cushion}, script: scripts/gen/buddha-hangout.js, seed: 1}
+mother-tree-hangout/firepit:
+  audio: {clip: /cdn/moodboard-lowpoly-cozy/sfx-campfire-crackle-loop.mp3, gain: 0.15, loop: true, maxDistance: 18, spatial: true}
+  feetPosition: {x: 0, y: 0, z: 0.4000000059604645}
+  id: mother-tree-hangout/firepit
+  parent: mother-tree-hangout
+  physics: static
+  primitive: {kind: scripted, params: {item: firepit}, script: scripts/gen/buddha-hangout.js, seed: 1}
+mother-tree-hangout/firepit/fire:
+  feetPosition: {x: 0, y: 0.08, z: 0}
+  fx: {script: "fx\npop coals n=10 on=disc(.25) size=.07..0.15 tint=<2.6,1,.28>..<1.2,.35,.09> sz=$size*flick(.5,.12) col=$tint*flick(.8,.3) a=.9 r=sprite(soft-disc,add)\npop flame rate=flick(.45,.2)*60 on=disc(.2) life=.5..0.9 v=up(1.5)+cone(24)*(.35..0.9) size=.2..0.38 acc=curl(.5)*1.3+buoy(2.4)+drag(1.5)\n  sz=$size*(.5>.25:1>.7:.72>.14) col=hdr(4.8,3.6,1.5)>.3:hdr(3.4,1.5,.35)>.65:hdr(1.9,.55,.12)>hdr(.7,.14,.03) a=0>.12:1>.75:.85>0 rot=spin(.2) r=sprite(flame-wisp,add)\npop embers rate=5 on=disc(.2) life=.7..1.5 v=up(2.4)+cone(32)*(.4..1.3) size=.02..0.05 acc=curl(.8)*1.1+grav()*.45+drag(.5)\n  sz=$size*(1>.7:.8>.3) col=hdr(5,2.8,.8)>.6:hdr(2.4,.8,.15)>hdr(1,.22,.04) a=(0>.08:1>.65:.9>0)*flick(11,.35) r=sprite(ember,add,velocity,.02)\npop smoke on=@flame?.22 inh=p;v:$v*.4 life=1.8..3.2 size=.16..0.26 acc=buoy(.9)+curl(.35)*.5+drag(.8) sz=$size*(.7>3.4) col=<.3,.28,.26>><.15,.15,.16> a=0>.25:.3>.7:.21>0 rot=spin(.15) r=sprite(smoke-puff,alpha)\npop hearth n=1 at=disc(.2).c(.45) glo=fire()*(#flame/40)~ r=light(<1,.55,.24>,$glo*20,10)"}
+  id: mother-tree-hangout/firepit/fire
+  parent: mother-tree-hangout/firepit
+mother-tree-hangout/log-e:
+  feetPosition: {x: 2.377641201019287, y: 0, z: 1.1725424528121948}
+  id: mother-tree-hangout/log-e
+  parent: mother-tree-hangout
+  physics: static
+  primitive: {kind: scripted, params: {item: log}, script: scripts/gen/buddha-hangout.js, seed: 5}
+  rotation: {yaw: 72}
+mother-tree-hangout/log-sw:
+  feetPosition: {x: -1.433941125869751, y: 0, z: -1.6478800773620605}
+  id: mother-tree-hangout/log-sw
+  parent: mother-tree-hangout
+  physics: static
+  primitive: {kind: scripted, params: {item: log}, script: scripts/gen/buddha-hangout.js, seed: 6}
+  rotation: {yaw: -145}
+mother-tree-hangout/post-0:
+  castShadow: true
+  children: [{feetPosition: {x: 0, y: 2.2, z: 0}, id: glow, light: {color: "#ffb766", distance: 11, intensity: 2.2, kind: point}}]
+  feetPosition: {x: 3.4, y: 0, z: -3.2}
+  id: mother-tree-hangout/post-0
+  model: /cdn/value.4e7a7e03b5b8c899bdb6c72192d091a1a96b699dc5e82643f05aa32b432066f9.glb
+  parent: mother-tree-hangout
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 0.75
+mother-tree-hangout/post-1:
+  castShadow: true
+  children: [{feetPosition: {x: 0, y: 2.2, z: 0}, id: glow, light: {color: "#ffb766", distance: 11, intensity: 2.2, kind: point}}]
+  feetPosition: {x: -3.6, y: 0, z: -3.4}
+  id: mother-tree-hangout/post-1
+  model: /cdn/value.4e7a7e03b5b8c899bdb6c72192d091a1a96b699dc5e82643f05aa32b432066f9.glb
+  parent: mother-tree-hangout
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 70}
+  scale: 0.75
+mother-tree-hangout/post-2:
+  castShadow: true
+  children: [{feetPosition: {x: 0, y: 2.2, z: 0}, id: glow, light: {color: "#ffb766", distance: 11, intensity: 2.2, kind: point}}]
+  feetPosition: {x: 7.4, y: 0, z: -7.2}
+  id: mother-tree-hangout/post-2
+  model: /cdn/value.4e7a7e03b5b8c899bdb6c72192d091a1a96b699dc5e82643f05aa32b432066f9.glb
+  parent: mother-tree-hangout
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 140}
+  scale: 0.75
+mother-tree-hangout/spit:
+  castShadow: true
+  feetPosition: {x: 0, y: 0, z: 0.4}
+  id: mother-tree-hangout/spit
+  model: /cdn/value.fff88e9d92347c1228790d92b2e849ea2ce1f07f38af40add0d0aa7212d8315b.glb
+  parent: mother-tree-hangout
+  receiveShadow: true
+  rotation: {yaw: 0}
+mother-tree-hangout/stone-0:
+  feetPosition: {x: 6.199999809265137, y: 0, z: -5.599999904632568}
+  id: mother-tree-hangout/stone-0
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: stone}, script: scripts/gen/buddha-hangout.js, seed: 3}
+  rotation: {yaw: 0}
+mother-tree-hangout/stone-1:
+  feetPosition: {x: 5.599999904632568, y: 0, z: -4.699999809265137}
+  id: mother-tree-hangout/stone-1
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: stone}, script: scripts/gen/buddha-hangout.js, seed: 4}
+  rotation: {yaw: 47}
+mother-tree-hangout/stone-2:
+  feetPosition: {x: 5.199999809265137, y: 0, z: -3.700000047683716}
+  id: mother-tree-hangout/stone-2
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: stone}, script: scripts/gen/buddha-hangout.js, seed: 5}
+  rotation: {yaw: 94}
+mother-tree-hangout/stone-3:
+  feetPosition: {x: 4.599999904632568, y: 0, z: -2.9000000953674316}
+  id: mother-tree-hangout/stone-3
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: stone}, script: scripts/gen/buddha-hangout.js, seed: 6}
+  rotation: {yaw: 141}
+mother-tree-hangout/stone-4:
+  feetPosition: {x: 4.099999904632568, y: 0, z: -2}
+  id: mother-tree-hangout/stone-4
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: stone}, script: scripts/gen/buddha-hangout.js, seed: 7}
+  rotation: {yaw: 188}
+mother-tree-hangout/stone-5:
+  feetPosition: {x: 3.700000047683716, y: 0, z: -1.100000023841858}
+  id: mother-tree-hangout/stone-5
+  parent: mother-tree-hangout
+  primitive: {kind: scripted, params: {item: stone}, script: scripts/gen/buddha-hangout.js, seed: 8}
+  rotation: {yaw: 235}
+mother-tree-hangout/tent:
+  castShadow: true
+  feetPosition: {x: -6.2, y: 0, z: -0.5}
+  id: mother-tree-hangout/tent
+  model: /cdn/value.c649e3f0f7f5962cf8c7682b68eef45fbc471c24f5b0ca139b625125ddbc530c.glb
+  parent: mother-tree-hangout
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 0.8
+mother-tree-hangout/woodpile:
+  castShadow: true
+  feetPosition: {x: -1.6, y: 0, z: 2.2}
+  id: mother-tree-hangout/woodpile
+  model: /cdn/value.1ea2bdc5f6d1d355d33150302aea8be8bee536fcf93d0e8735dcfee1e83e0792.glb
+  parent: mother-tree-hangout
+  receiveShadow: true
+  rotation: {yaw: 70}
+mother-tree-hangout/woodstack:
+  castShadow: true
+  feetPosition: {x: -4.6, y: 0, z: 4.2}
+  id: mother-tree-hangout/woodstack
+  model: /cdn/value.c491e63ecde56634c1a33617104017d2f66b4373d811efee5b2865b142f6c925.glb
+  parent: mother-tree-hangout
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 20}
+pf-buddha-statue-127n5:
+  castShadow: true
+  feetPosition: {x: -18.47, y: 3.5500000000000003, z: 51.4}
+  id: pf-buddha-statue-127n5
+  model: /cdn/value.583068a42e38ab32f3c9a168394b688f36d2f8f19493a25c550976a746e97eaf.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 364}
+  scale: 1.4
+  state: {pf: buddha-statue}
+  tags: [placed, pf-props]
+  visibleRange: {max: 8000}
+pf-general-meetingstone02-ixt7s:
+  castShadow: true
+  feetPosition: {x: -54.98, y: 0, z: 51.05}
+  id: pf-general-meetingstone02-ixt7s
+  model: /cdn/value.8ce6345f249768d8d542e9d720344afd5313665b7003eacfa1b0f6d3a4a5c04c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 355}
+  scale: 1
+  state: {pf: general-meetingstone02}
+  tags: [placed, pf-props]
+  visibleRange: {max: 1000}
+pier-ext:
+  children: [{castShadow: true, feetPosition: {x: -73.2, y: 0.2560421359765074, z: 69.55}, id: p0, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.550013304827741}, receiveShadow: true, rotation: {yaw: 123.10844226278678}}, {castShadow: true, feetPosition: {x: -73.28459559947247, y: 0.25335564554010315, z: 69.60332468913559}, id: p1, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.629705224269864}, receiveShadow: true, rotation: {yaw: 122.13636350235944}}, {castShadow: true, feetPosition: {x: -73.54273813604813, y: 0.26061050280142134, z: 69.75612878409166}, id: p2, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.6299758475646264}, receiveShadow: true, rotation: {yaw: 119.48698940631051}}, {castShadow: true, feetPosition: {x: -73.80706784602417, y: 0.2602930297599142, z: 69.89796241158285}, id: p3, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.6389779230994073}, receiveShadow: true, rotation: {yaw: 117.47774842780737}}, {castShadow: true, feetPosition: {x: -74.07709957054283, y: 0.2613158881845027, z: 70.02861064724905}, id: p4, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.5626410883910213}, receiveShadow: true, rotation: {yaw: 115.19786403774474}}, {castShadow: true, feetPosition: {x: -74.35232242440581, y: 0.2586430929396968, z: 70.14794277012935}, id: p5, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.5504903286697767}, receiveShadow: true, rotation: {yaw: 111.7445908845855}}, {castShadow: true, feetPosition: {x: -74.63219785282625, y: 0.2545447705672331, z: 70.25590669526242}, id: p6, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.6018066062833216}, receiveShadow: true, rotation: {yaw: 109.37085955393266}}, {castShadow: true, feetPosition: {x: -74.91619230845606, y: 0.25268904392849145, z: 70.35253524171885}, id: p7, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.617513611012843}, receiveShadow: true, rotation: {yaw: 108.09994282292679}}, {castShadow: true, feetPosition: {x: -75.20375795812117, y: 0.26686683828447333, z: 70.43792999741471}, id: p8, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.588483713864574}, receiveShadow: true, rotation: {yaw: 105.52161984298324}}, {castShadow: true, feetPosition: {x: -75.49438368949977, y: 0.2535798359970003, z: 70.51226764311781}, id: p9, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.561662235908053}, receiveShadow: true, rotation: {yaw: 103.86215151770371}}, {castShadow: true, feetPosition: {x: -75.78756909739711, y: 0.2668605001197944, z: 70.57577989394665}, id: p10, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.597545411832419}, receiveShadow: true, rotation: {yaw: 101.13058178055734}}, {castShadow: true, feetPosition: {x: -76.08284255093595, y: 0.2602008805692666, z: 70.62874813467339}, id: p11, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.6306896733030163}, receiveShadow: true, rotation: {yaw: 99.28023759922502}}, {castShadow: true, feetPosition: {x: -76.37976694222505, y: 0.2653846739176124, z: 70.67149374641048}, id: p12, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.625485565408825}, receiveShadow: true, rotation: {yaw: 97.71551696335256}}, {castShadow: true, feetPosition: {x: -76.67794375366708, y: 0.2554949158281064, z: 70.70436847629777}, id: p13, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.5710757402335647}, receiveShadow: true, rotation: {yaw: 95.65211836376469}}, {castShadow: true, feetPosition: {x: -76.97701551275127, y: 0.26460573792089975, z: 70.72774524968892}, id: p14, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.578522681318467}, receiveShadow: true, rotation: {yaw: 92.99058109694462}}, {castShadow: true, feetPosition: {x: -77.27666678292559, y: 0.2635668531158319, z: 70.74200972811497}, id: p15, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.5735660010127193}, receiveShadow: true, rotation: {yaw: 91.23534004239536}}, {castShadow: true, feetPosition: {x: -77.5766062169306, y: 0.2587849084410281, z: 70.74755274027873}, id: p16, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.613606943499114}, receiveShadow: true, rotation: {yaw: 89.59334813287542}}, {castShadow: true, feetPosition: {x: -77.87658392857585, y: 0.25313248058810484, z: 70.74476582621747}, id: p17, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.562144000507958}, receiveShadow: true, rotation: {yaw: 88.93970064283099}}, {castShadow: true, feetPosition: {x: -78.17637960179334, y: 0.264959336105948, z: 70.73403603649705}, id: p18, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.5607504648206527}, receiveShadow: true, rotation: {yaw: 86.89451096800556}}, {castShadow: true, feetPosition: {x: -78.47581523974915, y: 0.25934806591917203, z: 70.71574144986445}, id: p19, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.5760156871406434}, receiveShadow: true, rotation: {yaw: 85.14490477588667}}, {castShadow: true, feetPosition: {x: -78.77472474427212, y: 0.26115333815973873, z: 70.69024953438998}, id: p20, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.5879102569715635}, receiveShadow: true, rotation: {yaw: 84.84601602311471}}, {castShadow: true, feetPosition: {x: -79.07296958206503, y: 0.2640937385645666, z: 70.65791472059959}, id: p21, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.592355999975631}, receiveShadow: true, rotation: {yaw: 83.03339622875227}}, {castShadow: true, feetPosition: {x: -79.37043660998492, y: 0.2606368881944273, z: 70.61907653537753}, id: p22, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.6024456622788894}, receiveShadow: true, rotation: {yaw: 81.41261572205569}}, {castShadow: true, feetPosition: {x: -79.66703581947104, y: 0.26018030917163953, z: 70.57405829805401}, id: p23, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.5753734278610785}, receiveShadow: true, rotation: {yaw: 80.83496574726364}}, {castShadow: true, feetPosition: {x: -79.96269188067456, y: 0.2605234477054437, z: 70.5231674270729}, id: p24, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.6210390604897587}, receiveShadow: true, rotation: {yaw: 78.99135348678846}}, {castShadow: true, feetPosition: {x: -80.25731444547067, y: 0.2674498882260872, z: 70.46670114649966}, id: p25, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.6395579024169398}, receiveShadow: true, rotation: {yaw: 79.11790479662734}}, {castShadow: true, feetPosition: {x: -80.55089070790655, y: 0.25390215942235766, z: 70.40492866648259}, id: p26, material: {color: oklch(0.62 0.07 60), roughness: 0.9, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.28, height: 0.06, kind: box, width: 2.64457424571485}, receiveShadow: true, rotation: {yaw: 77.01905436404205}}, {castShadow: true, feetPosition: {x: -74.78851715893214, y: -2.4, z: 68.86716785453216}, id: q0, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.15, radiusTop: 0.12}}, {castShadow: true, feetPosition: {x: -73.7315569268936, y: -2.4, z: 71.3516869363444}, id: q1, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.15, radiusTop: 0.12}}, {feetPosition: {x: -74.26003704291287, y: 0.07, z: 70.10942739543827}, id: s2, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.16, height: 0.18, kind: box, width: 2.3000000000000003}, rotation: {yaw: 113.04579586164955}}, {castShadow: true, feetPosition: {x: -76.5496406548109, y: -2.4, z: 69.33222419857023}, id: q2, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.15, radiusTop: 0.12}}, {castShadow: true, feetPosition: {x: -76.20989322963925, y: -2.4, z: 72.01076329425078}, id: q3, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.15, radiusTop: 0.12}}, {feetPosition: {x: -76.37976694222507, y: 0.07, z: 70.6714937464105}, id: s4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.16, height: 0.18, kind: box, width: 2.3000000000000003}, rotation: {yaw: 97.22882718764224}}, {castShadow: true, feetPosition: {x: -78.46602887326323, y: -2.4, z: 69.36247329963686}, id: q4, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.15, radiusTop: 0.12}}, {castShadow: true, feetPosition: {x: -78.68501888772506, y: -2.4, z: 72.05357778916638}, id: q5, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {height: 3.17, kind: cylinder, radialSegments: 8, radiusBottom: 0.15, radiusTop: 0.12}}, {feetPosition: {x: -78.57552388049415, y: 0.07, z: 70.70802554440162}, id: s6, material: {color: oklch(0.42 0.05 55), roughness: 0.95, texture: cdn/texture-weathered-oak-planks.png}, primitive: {depth: 0.16, height: 0.18, kind: box, width: 2.3000000000000003}, rotation: {yaw: 85.34777731544374}}]
+  feetPosition: {x: 0, y: 0, z: 0}
+  id: pier-ext
+plaza-dress:
+  children: [{castShadow: true, feetPosition: {x: -34.7643232365759, y: 0, z: -62.913130539201816}, id: planter0, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -87.5817407799184}, scale: 0.8}, {castShadow: true, feetPosition: {x: -33.90840493460707, y: 0, z: -68.85176707129862}, id: planter1, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -108.82105133222869}, scale: 0.8}, {castShadow: true, feetPosition: {x: -33.15585463078708, y: 0, z: -70.68561394949208}, id: planter2, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -115.80220866045367}, scale: 0.8}, {castShadow: true, feetPosition: {x: -29.593498696804417, y: 0, z: -75.51361769841549}, id: planter3, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -137.04151921276394}, scale: 0.8}, {castShadow: true, feetPosition: {x: -27.43617938923931, y: 0, z: -77.20678867048852}, id: planter4, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -146.7053250351111}, scale: 0.8}, {castShadow: true, feetPosition: {x: -21.89994187462344, y: 0, z: -79.51981140746278}, id: planter5, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -167.94463558742135}, scale: 0.8}, {castShadow: true, feetPosition: {x: -18.767952109568096, y: 0, z: -79.87661517843861}, id: planter6, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -179.05685929485932}, scale: 0.8}, {castShadow: true, feetPosition: {x: -12.85331741106873, y: 0, z: -78.86810321355802}, id: planter7, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 159.7038301528304}, scale: 0.8}, {castShadow: true, feetPosition: {x: -10.206704519302805, y: 0, z: -77.6078995595288}, id: planter8, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 149.37259268497684}, scale: 0.8}, {castShadow: true, feetPosition: {x: -5.695462862464252, y: 0, z: -73.65205594361014}, id: planter9, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 128.13328213266658}, scale: 0.8}, {castShadow: true, feetPosition: {x: -4.426980469954076, y: 0, z: -71.78230537849485}, id: planter10, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 120.17448543675904}, scale: 0.8}, {castShadow: true, feetPosition: {x: -2.4187277726156595, y: 0, z: -66.12837567397669}, id: planter11, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 98.9351748844488}, scale: 0.8}, {castShadow: true, feetPosition: {x: -2.2537746382751838, y: 0, z: -64.62964144052644}, id: planter12, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 93.62640002001538}, scale: 0.8}, {castShadow: true, feetPosition: {x: -2.9842896504280443, y: 0, z: -58.6742784946583}, id: planter13, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 72.38708946770514}, scale: 0.8}, {castShadow: true, feetPosition: {x: -3.278182158205328, y: 0, z: -57.82970870828678}, id: planter14, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 69.23926888567311}, scale: 0.8}, {castShadow: true, feetPosition: {x: -6.402486630495038, y: 0, z: -52.7073341061681}, id: planter15, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 47.999958333362834}, scale: 0.8}, {castShadow: true, feetPosition: {x: -6.724448509476121, y: 0, z: -52.360053955021804}, id: planter16, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 46.33311884510984}, scale: 0.8}, {castShadow: true, feetPosition: {x: -11.596126800598144, y: 0, z: -48.857661825660735}, id: planter17, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 25.09380829279958}, scale: 0.8}, {castShadow: true, feetPosition: {x: -13.9, y: 0, z: -47.6}, id: planter18, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: 16.039943306049665}, scale: 0.8}, {castShadow: true, feetPosition: {x: -23.1, y: 0, z: -47.6}, id: planter19, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -16.039943306049672}, scale: 0.8}, {castShadow: true, feetPosition: {x: -28.592233373670375, y: 0, z: -50.82710582791144}, id: planter20, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -38.3132842019054}, scale: 0.8}, {castShadow: true, feetPosition: {x: -32.53388484459277, y: 0, z: -55.35075299383578}, id: planter21, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -59.55259475421567}, scale: 0.8}, {castShadow: true, feetPosition: {x: -32.86938579793394, y: 0, z: -55.950114262936054}, id: planter22, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -61.97032866437178}, scale: 0.8}, {castShadow: true, feetPosition: {x: -34.66463140697291, y: 0, z: -61.675242488856085}, id: planter23, model: /cdn/value.9b45fd0d1ab6a142e6405e9eb24f5dede69d0d93a502b750babf79738206a600.glb, physics: {body: static, collider: box}, rotation: {yaw: -83.20963921668204}, scale: 0.8}, {castShadow: false, feetPosition: {x: -48.74804183744456, y: 0, z: -72.46436664756561}, id: flowers0, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2.6320268070474393, rz: 1.0890911627044395, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1000}, rotation: {yaw: 253.66646676000514}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -45.893827981904835, y: 0, z: -79.41638983873915}, id: flowers1, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 1.6798749428614392, rz: 1.3392134309463266, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1001}, rotation: {yaw: 239.99912801739782}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -55.52141498772184, y: 0, z: -73.13672251504644}, id: flowers2, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 1.883804630899711, rz: 0.844756370617429, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1002}, rotation: {yaw: 255.55465298524078}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -52.34775926632826, y: 0, z: -81.90923119073739}, id: flowers3, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 2.2948435547271946, rz: 1.1581246999828725, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1003}, rotation: {yaw: 241.58976341191698}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -63.76283608876823, y: 0, z: -82.17437578644086}, id: flowers4, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 2.568805058937895, rz: 0.9026502276783112, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1004}, rotation: {yaw: 247.6883700036588}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -41.41745572766332, y: 0, z: -85.59766444830893}, id: flowers5, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 2.0469790463554576, rz: 1.3900708983606058, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1005}, rotation: {yaw: 226.17316380537108}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -33.517383799296276, y: 0, z: -89.9958794202839}, id: flowers6, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 1.9441466504447846, rz: 1.0883231537827864, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1006}, rotation: {yaw: 209.6368071832236}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -45.04678801648343, y: 0, z: -89.48292960206733}, id: flowers7, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2.460181487659077, rz: 1.0872556083310654, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1007}, rotation: {yaw: 225.7254331048492}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -37.450245350866965, y: 0, z: -96.54000566068648}, id: flowers8, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.2630268615963995, rz: 1.1824840788647926, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1008}, rotation: {yaw: 209.91163511541592}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -50.42990065362271, y: 0, z: -99.07485949055238}, id: flowers9, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 2.4730818541129502, rz: 0.9746888305408362, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1009}, rotation: {yaw: 221.98946742289465}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -45.515752466792286, y: 0, z: -103.25757760170526}, id: flowers10, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 3.1115834217106846, rz: 1.0930274765906052, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1010}, rotation: {yaw: 214.26368832923032}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -23.9920485182054, y: 0, z: -86.38577022418474}, id: flowers11, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 1.9593708077256433, rz: 0.9479280478078538, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1011}, rotation: {yaw: 193.5515072694118}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -17.422551494707598, y: 0, z: -87.00409966968968}, id: flowers12, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 1.8203421085236324, rz: 0.9242076957245393, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1012}, rotation: {yaw: 177.36415003635278}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -26.13727379938527, y: 0, z: -93.22705733336713}, id: flowers13, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 1.724059256503386, rz: 0.9988245938899111, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1013}, rotation: {yaw: 194.45502920401597}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -17.488360372719914, y: 0, z: -93.60392814469938}, id: flowers14, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.0038314394670684, rz: 1.3978584812944095, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1014}, rotation: {yaw: 178.06889514083292}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -27.287926459657932, y: 0, z: -99.48097542279336}, id: flowers15, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 2.8254012817635203, rz: 1.3654325426395202, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1015}, rotation: {yaw: 193.76191316468106}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -16.73447463897542, y: 0, z: -101.0571146766673}, id: flowers16, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 2.4084554662036037, rz: 1.1047230645570547, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1016}, rotation: {yaw: 177.30138480161912}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -27.350716477545234, y: 0, z: -111.15408971438269}, id: flowers17, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2.336325805977139, rz: 0.7911284231073821, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1017}, rotation: {yaw: 190.54319434132822}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -20.536122643827106, y: 0, z: -111.08474781469496}, id: flowers18, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2.2078916484526787, rz: 0.9539742176672323, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1018}, rotation: {yaw: 182.45531077639112}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -9.447577033052328, y: 0, z: -92.32142025566372}, id: flowers19, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2.805799717179406, rz: 1.1753628432635976, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1019}, rotation: {yaw: 162.50618047838128}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -1.5422614370993344, y: 0, z: -90.42760925056588}, id: flowers20, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 1.992168889749874, rz: 1.3925128683412973, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1020}, rotation: {yaw: 147.70300913703568}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -7.201882516514482, y: 0, z: -99.55378999528997}, id: flowers21, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.0881159419604187, rz: 1.2991299408949586, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1021}, rotation: {yaw: 162.55519753802278}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 2.2069572600121248, y: 0, z: -94.47359417112574}, id: flowers22, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.5526865893754582, rz: 0.8015032714239803, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1022}, rotation: {yaw: 146.15019451914316}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -0.8171596252128808, y: 0, z: -108.45498546436788}, id: flowers23, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2.625503301166698, rz: 0.8735930834773895, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1023}, rotation: {yaw: 158.4845299214241}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 5.517754365995575, y: 0, z: -106.21054872548636}, id: flowers24, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.809298613206157, rz: 0.8927168623510361, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1024}, rotation: {yaw: 150.59189291638313}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 5.319401199114264, y: 0, z: -84.79946408340204}, id: flowers25, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.2367535841822406, rz: 0.93606686468053, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1025}, rotation: {yaw: 131.6693470610951}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 8.179591543655878, y: 0, z: -77.5433329576179}, id: flowers26, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 1.9688905294839714, rz: 1.1184838730462285, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1026}, rotation: {yaw: 117.59254401148212}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 9.263801523232935, y: 0, z: -88.9667660071317}, id: flowers27, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.0974117109074313, rz: 1.0565536662268236, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1027}, rotation: {yaw: 132.41679873553284}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 15.197470063817448, y: 0, z: -81.42716303629228}, id: flowers28, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2.8934794916275326, rz: 0.9327781931184131, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1028}, rotation: {yaw: 117.88043636026782}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 21.54513785486298, y: 0, z: -90.76755551369753}, id: flowers29, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.5878003253544684, rz: 1.0040272930190093, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1029}, rotation: {yaw: 124.15388378471283}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 11.204131820644339, y: 0, z: -70.66980763132625}, id: flowers30, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 2.206147996432217, rz: 1.284018301257872, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1030}, rotation: {yaw: 103.38774302347187}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 12.094890016889241, y: 0, z: -63.06415919711995}, id: flowers31, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 2.4226441403956356, rz: 1.3057432697646987, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1031}, rotation: {yaw: 88.99662074565902}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 18.745068788844215, y: 0, z: -72.39648458645702}, id: flowers32, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 1.6587784948101167, rz: 1.1814981172706458, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1032}, rotation: {yaw: 103.28852380126702}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 19.146510093234582, y: 0, z: -64.02206595969955}, id: flowers33, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.410910375607624, rz: 1.3874355017149056, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1033}, rotation: {yaw: 90.64233271526972}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 30.057987751912314, y: 0, z: -68.94437133560695}, id: flowers34, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 3.030240480522737, rz: 1.0407024582571827, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1034}, rotation: {yaw: 96.28078745223209}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 10.483362496595298, y: 0, z: -53.105059498883485}, id: flowers35, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 2.5472287558704747, rz: 1.0887285350303764, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1035}, rotation: {yaw: 70.0945649232608}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 17.282873193774805, y: 0, z: -55.41975285075896}, id: flowers36, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 1.7728334485426702, rz: 1.3193298528526585, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1036}, rotation: {yaw: 77.1230130794882}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 15.485983051904292, y: 0, z: -47.15025542208622}, id: flowers37, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2.6833954492972207, rz: 0.897421287883735, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1037}, rotation: {yaw: 64.17229562135826}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 27.061064129203373, y: 0, z: -47.745708726498215}, id: flowers38, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 2.9587949348421745, rz: 0.7265879569699, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1038}, rotation: {yaw: 70.81317917668912}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 3.813415503670768, y: 0, z: -42.08200320132433}, id: flowers39, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.533442866864355, rz: 1.3889700239472882, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1039}, rotation: {yaw: 46.039645552868066}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 11.695220921378226, y: 0, z: -40.58998669534945}, id: flowers40, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.767614900026291, rz: 0.9301248893747688, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1040}, rotation: {yaw: 52.69109282573999}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 6.065569123838856, y: 0, z: -35.986900400341156}, id: flowers41, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 1.947515169972328, rz: 1.3517693106791793, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1041}, rotation: {yaw: 41.65739853903021}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 16.42998608596038, y: 0, z: -31.216565715322112}, id: flowers42, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.254148865888896, rz: 0.7319955978691557, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1042}, rotation: {yaw: 47.166538589236346}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -7.751334163932757, y: 0, z: -43.23704849153323}, id: flowers43, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 1.749765192880186, rz: 1.3586843159788682, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1043}, rotation: {yaw: 27.827512979315827}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -14.813482485367414, y: 0, z: -40.06209577023614}, id: flowers44, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2.445517544562704, rz: 1.0628734851548791, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1044}, rotation: {yaw: 8.901378216657847}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -4.547132968597337, y: 0, z: -36.06824245035207}, id: flowers45, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 2.1271455988879993, rz: 1.029748790259356, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1045}, rotation: {yaw: 26.87551465644176}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -13.660702515110062, y: 0, z: -32.98300541833402}, id: flowers46, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 2.982327962379124, rz: 1.308313016830158, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1046}, rotation: {yaw: 8.981819879586112}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 0.36317030451688836, y: 0, z: -30.782583763039916}, id: flowers47, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.511456041369334, rz: 0.8178659833119558, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1047}, rotation: {yaw: 29.889921065607204}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -6.525894065547259, y: 0, z: -27.86251098349024}, id: flowers48, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 2.1843591066935844, rz: 0.9386455138859552, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1048}, rotation: {yaw: 18.52380028214968}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -14.464472437763506, y: 0, z: -26.612422014242114}, id: flowers49, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2.863173873193177, rz: 1.0414086104563478, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1049}, rotation: {yaw: 6.226623651064884}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 0.09073993139369563, y: 0, z: -18.318180940143925}, id: flowers50, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2.9592870033156533, rz: 0.8346658904732511, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1050}, rotation: {yaw: 22.320914730596712}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -7.3181606926977505, y: 0, z: -16.636460743235155}, id: flowers51, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 3.12637842098548, rz: 0.9568486011851804, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1051}, rotation: {yaw: 13.39254883835801}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -23.51903572536733, y: 0, z: -41.13629587020844}, id: flowers52, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.558907685223458, rz: 1.2120566645693298, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1052}, rotation: {yaw: -12.594662767566334}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -32.778712298057584, y: 0, z: -44.29223685950693}, id: flowers53, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.9994978789237785, rz: 1.3832218879755689, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1053}, rotation: {yaw: -36.484117705828936}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -22.429144072781806, y: 0, z: -33.292554881662255}, id: flowers54, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 1.610051816427173, rz: 1.203233724927173, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1054}, rotation: {yaw: -7.386789054214304}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -30.802436829770222, y: 0, z: -36.02400563232829}, id: flowers55, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 1.9881315152105556, rz: 1.1113040616322793, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1055}, rotation: {yaw: -24.043011812076884}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -39.047696572739255, y: 0, z: -39.88142580789206}, id: flowers56, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2.6704427155994077, rz: 1.1988804625342044, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1056}, rotation: {yaw: -40.902791961523604}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -22.29188834296265, y: 0, z: -27.052276986478702}, id: flowers57, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 2.5051317723957505, rz: 0.8641565665901436, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1057}, rotation: {yaw: -5.923341347109755}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -30.559053286121483, y: 0, z: -28.50743575814389}, id: flowers58, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2.4258202837900353, rz: 1.3835041396243053, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1058}, rotation: {yaw: -18.964544057626554}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -37.67124782789061, y: 0, z: -30.444636179535443}, id: flowers59, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 1.6843134818991243, rz: 0.9100101193925414, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1059}, rotation: {yaw: -30.037558468820166}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -44.53994109046775, y: 0, z: -36.10115985033218}, id: flowers60, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2.9705362263929733, rz: 0.9724387085868227, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1060}, rotation: {yaw: -43.43911129328015}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -28.71129151261634, y: 0, z: -16.503184219530333}, id: flowers61, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2.5605017603191094, rz: 1.0812342733057374, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1061}, rotation: {yaw: -12.23323486951513}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -35.32231775437933, y: 0, z: -18.338890275806662}, id: flowers62, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.4618122143958754, rz: 0.8111549405898688, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1062}, rotation: {yaw: -20.388724782525216}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -41.309171624208396, y: 0, z: -21.667930645674154}, id: flowers63, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.6733953841372373, rz: 0.842488477817964, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1063}, rotation: {yaw: -28.544214695535302}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -47.1850127959894, y: 0, z: -25.115688905093045}, id: flowers64, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.6121933776942052, rz: 0.993639562601987, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1064}, rotation: {yaw: -36.6997046085454}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -45.32062967570121, y: 0, z: -48.31337394369028}, id: flowers65, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2.4421138927536616, rz: 1.1463695046242184, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1065}, rotation: {yaw: -60.318686466297095}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -49.515936232557095, y: 0, z: -41.33384784545057}, id: flowers66, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 1.8805707849006033, rz: 0.9513636390452105, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1066}, rotation: {yaw: -54.325663485267626}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -52.458129483991584, y: 0, z: -49.08228042276399}, id: flowers67, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 1.8541510477914247, rz: 0.8499972416320803, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1067}, rotation: {yaw: -66.852408818481}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -60.78609685943844, y: 0, z: -39.929758793531384}, id: flowers68, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2.3050184080866254, rz: 0.7177538847633422, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1068}, rotation: {yaw: -60.76146170929371}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -48.44002649768862, y: 0, z: -57.78418384531341}, id: flowers69, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 2.7812940648669815, rz: 1.0611492368677395, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1069}, rotation: {yaw: -79.0072571961669}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -49.301585211684035, y: 0, z: -64.5000508315554}, id: flowers70, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 10, kind: meadow, rx: 2.447153881586694, rz: 0.8494090689576274, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1070}, rotation: {yaw: -91.67375943517041}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -56.046362440728494, y: 0, z: -56.42914124732569}, id: flowers71, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 1.6406168126690281, rz: 1.162901655008505, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1071}, rotation: {yaw: -79.18747455388743}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -56.250093175842615, y: 0, z: -64.51178868299455}, id: flowers72, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 2.5496893591944545, rz: 0.8124542776553213, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1072}, rotation: {yaw: -91.38361216026055}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -66.71033739860403, y: 0, z: -59.717438293630906}, id: flowers73, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 3.185966378350727, rz: 0.7547683762641476, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1073}, rotation: {yaw: -85.39568999830024}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 56.18121834190035, y: 0, z: -59.47669948115242}, id: flowers74, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2, rz: 1.1, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1074}, rotation: {yaw: -6.993255256139738}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 54.96369332164558, y: 0, z: -49.551094571372175}, id: flowers75, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2, rz: 1.1, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1075}, rotation: {yaw: -6.993255256139738}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -86.43136389605742, y: 0, z: -68.33908404466766}, id: flowers76, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2, rz: 1.1, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1076}, rotation: {yaw: 171.79860394392645}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -85.00483339277604, y: 0, z: -78.23681159816235}, id: flowers77, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2, rz: 1.1, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1077}, rotation: {yaw: 171.79860394392645}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 18.61351387715594, y: 0, z: -113.50794606738576}, id: flowers78, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 2, rz: 1.1, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1078}, rotation: {yaw: 48.75293740882171}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 26.132249971886857, y: 0, z: -106.91487337418796}, id: flowers79, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 2, rz: 1.1, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1079}, rotation: {yaw: 48.75293740882171}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -88.21277185013085, y: 0, z: -36.49989997858078}, id: flowers80, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2, rz: 1.1, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1080}, rotation: {yaw: -162.5899839405269}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -91.2048478651958, y: 0, z: -46.04178035511416}, id: flowers81, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2, rz: 1.1, tufts: 13}, script: scripts/gen/home-garden-planting.js, seed: 1081}, rotation: {yaw: -162.5899839405269}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -71.35291413832456, y: 0, z: -96.38392075487347}, id: flowers82, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2, rz: 1.1, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1082}, rotation: {yaw: 143.57813606339118}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -65.41565424835346, y: 0, z: -104.43059366974582}, id: flowers83, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2, rz: 1.1, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1083}, rotation: {yaw: 143.57813606339118}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -45.65206027303131, y: 0, z: -115.6186216760072}, id: flowers84, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 13, kind: meadow, rx: 2, rz: 1.1, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1084}, rotation: {yaw: 112.6750196887338}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -36.42499774867153, y: 0, z: -119.47365957096432}, id: flowers85, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 2, rz: 1.1, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1085}, rotation: {yaw: 112.6750196887338}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 35.35234560837369, y: 0, z: 2.7407449664127848}, id: flowers86, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2, rz: 1.1, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1086}, rotation: {yaw: -54.286536431045285}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 27.23288178983698, y: 0, z: 8.578065182014576}, id: flowers87, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2, rz: 1.1, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1087}, rotation: {yaw: -54.286536431045285}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 53.05380782079404, y: 0, z: -25.81364175439103}, id: flowers88, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2, rz: 1.1, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1088}, rotation: {yaw: -31.380386390482023}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 47.846633700311195, y: 0, z: -17.27635075085989}, id: flowers89, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 11, kind: meadow, rx: 2, rz: 1.1, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1089}, rotation: {yaw: -31.380386390482023}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -76.10628240472718, y: 0, z: -6.773311634167451}, id: flowers90, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 2, rz: 1.1, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1090}, rotation: {yaw: -138.93293947806052}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -82.67570152293118, y: 0, z: -14.312723577374681}, id: flowers91, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2, rz: 1.1, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1091}, rotation: {yaw: -138.93293947806052}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -13.601731795208682, y: 0, z: -122.07374065968264}, id: flowers92, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 12, kind: meadow, rx: 2, rz: 1.1, tufts: 12}, script: scripts/gen/home-garden-planting.js, seed: 1092}, rotation: {yaw: 80.32348542898553}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: -3.7440072977097394, y: 0, z: -120.39288738488165}, id: flowers93, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2, rz: 1.1, tufts: 8}, script: scripts/gen/home-garden-planting.js, seed: 1093}, rotation: {yaw: 80.32348542898553}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 43.822021827426134, y: 0, z: -91.04257119336341}, id: flowers94, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2, rz: 1.1, tufts: 9}, script: scripts/gen/home-garden-planting.js, seed: 1094}, rotation: {yaw: 19.554830160603935}, visibleRange: {max: 110}}, {castShadow: false, feetPosition: {x: 47.16910965632349, y: 0, z: -81.61935501916645}, id: flowers95, material: {pbr: true, roughness: 0.9}, primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 2, rz: 1.1, tufts: 11}, script: scripts/gen/home-garden-planting.js, seed: 1095}, rotation: {yaw: 19.554830160603935}, visibleRange: {max: 110}}]
+  feetPosition: {x: 0, y: 0, z: 0}
+  id: plaza-dress
+plaza-fountain:
+  audio: {clip: /cdn/moodboard-lowpoly-cozy/sfx-plaza-fountain-splashing-loop.mp3, gain: 0.3, loop: true, maxDistance: 45, spatial: true}
+  castShadow: true
+  children: [{feetPosition: {x: 0, y: 1.2, z: 0}, id: glow, light: {color: "#9fd8ff", distance: 16, intensity: 3, kind: point}}]
+  feetPosition: {x: -18.5, y: 0, z: -63.6}
+  id: plaza-fountain
+  model: /cdn/value.ac756a53ca7c33ea738b137db284895920e3b9eb7f248242ad04ed668c353b93.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 2.1
+pond-trail-bush-0:
+  castShadow: true
+  feetPosition: {x: -57.906052042383784, y: {terrain: 0}, z: 63.611999822434456}
+  id: pond-trail-bush-0
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  receiveShadow: true
+  rotation: {yaw: 331.8910663481802}
+  scale: 0.4722521272674203
+  tags: [pond]
+pondg-oak-58:
+  castShadow: true
+  feetPosition: {x: -63.45001038318575, y: {terrain: -0.1}, z: 37.53533963929024}
+  id: pondg-oak-58
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 83.40940160835599}
+  scale: 1.2797429056743825
+  visibleRange: {max: 900}
+pondg-under-61:
+  castShadow: true
+  feetPosition: {x: -61.799800950880815, y: {terrain: -0.1}, z: 48.6052683883216}
+  id: pondg-under-61
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 123.76887258317736}
+  scale: 0.3086859273066213
+  visibleRange: {max: 900}
+pondg-under-65:
+  castShadow: false
+  feetPosition: {x: -63.702341441798, y: {terrain: -0.1}, z: 40.60723754324667}
+  id: pondg-under-65
+  material: {pbr: true, roughness: 0.95}
+  primitive: {kind: scripted, params: {kind: fern}, script: scripts/gen/forest-plant.js, seed: 9322}
+  rotation: {yaw: 334.8844636487237}
+  visibleRange: {max: 120}
+trail-flowers-0:
+  castShadow: false
+  feetPosition: {x: -35.41, y: {terrain: 0}, z: 42.88}
+  id: trail-flowers-0
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 3124}
+  rotation: {yaw: 47}
+  scale: 0.83
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-1:
+  castShadow: false
+  feetPosition: {x: -39.64, y: {terrain: 0}, z: 41.79}
+  id: trail-flowers-1
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 8228}
+  rotation: {yaw: 236}
+  scale: 1.16
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-10:
+  castShadow: false
+  feetPosition: {x: -42.08, y: {terrain: 0}, z: 51.12}
+  id: trail-flowers-10
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 5016}
+  rotation: {yaw: 101}
+  scale: 1.02
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-11:
+  castShadow: false
+  feetPosition: {x: -37.81, y: {terrain: 0}, z: 53.7}
+  id: trail-flowers-11
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 2789}
+  rotation: {yaw: 129}
+  scale: 1.02
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-12:
+  castShadow: false
+  feetPosition: {x: -42.45, y: {terrain: 0}, z: 56.11}
+  id: trail-flowers-12
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 18, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 777}
+  rotation: {yaw: 280}
+  scale: 0.99
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-13:
+  castShadow: false
+  feetPosition: {x: -37.27, y: {terrain: 0}, z: 56.88}
+  id: trail-flowers-13
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 19, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 5538}
+  rotation: {yaw: 6}
+  scale: 0.79
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-14:
+  castShadow: false
+  feetPosition: {x: -41.85, y: {terrain: 0}, z: 57.71}
+  id: trail-flowers-14
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 2707}
+  rotation: {yaw: 172}
+  scale: 0.78
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-15:
+  castShadow: false
+  feetPosition: {x: -37.33, y: {terrain: 0}, z: 58.72}
+  id: trail-flowers-15
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 1122}
+  rotation: {yaw: 87}
+  scale: 1.09
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-16:
+  castShadow: false
+  feetPosition: {x: -41.74, y: {terrain: 0}, z: 60.41}
+  id: trail-flowers-16
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 699}
+  rotation: {yaw: 2}
+  scale: 0.74
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-18:
+  castShadow: false
+  feetPosition: {x: -41.31, y: {terrain: 0}, z: 63.13}
+  id: trail-flowers-18
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 18, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 2424}
+  rotation: {yaw: 210}
+  scale: 1.09
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-2:
+  castShadow: false
+  feetPosition: {x: -36.66, y: {terrain: 0}, z: 44.79}
+  id: trail-flowers-2
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 4890}
+  rotation: {yaw: 91}
+  scale: 0.85
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-3:
+  castShadow: false
+  feetPosition: {x: -36.64, y: {terrain: 0}, z: 46}
+  id: trail-flowers-3
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 19, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 5556}
+  rotation: {yaw: 18}
+  scale: 0.92
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-4:
+  castShadow: false
+  feetPosition: {x: -40.89, y: {terrain: 0}, z: 44.32}
+  id: trail-flowers-4
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 17, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 6454}
+  rotation: {yaw: 327}
+  scale: 0.83
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-5:
+  castShadow: false
+  feetPosition: {x: -37.3, y: {terrain: 0}, z: 47.2}
+  id: trail-flowers-5
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 18, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 868}
+  rotation: {yaw: 167}
+  scale: 0.73
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-6:
+  castShadow: false
+  feetPosition: {x: -41.62, y: {terrain: 0}, z: 46.42}
+  id: trail-flowers-6
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 19, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 2854}
+  rotation: {yaw: 301}
+  scale: 1.05
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-7:
+  castShadow: false
+  feetPosition: {x: -37.14, y: {terrain: 0}, z: 49.83}
+  id: trail-flowers-7
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 14, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 255}
+  rotation: {yaw: 29}
+  scale: 1.05
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-8:
+  castShadow: false
+  feetPosition: {x: -42.19, y: {terrain: 0}, z: 50.13}
+  id: trail-flowers-8
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 15, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 2783}
+  rotation: {yaw: 262}
+  scale: 1.18
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+trail-flowers-9:
+  castShadow: false
+  feetPosition: {x: -37.36, y: {terrain: 0}, z: 51.85}
+  id: trail-flowers-9
+  material: {pbr: true}
+  primitive: {kind: scripted, params: {flowers: 16, kind: meadow, rx: 0.9, rz: 0.5, tufts: 10}, script: scripts/gen/home-garden-planting.js, seed: 3158}
+  rotation: {yaw: 208}
+  scale: 0.92
+  tags: [trail-flowers]
+  visibleRange: {max: 150}
+zgate-autumn:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ff8a3a' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO AUTUMN</text></svg>"}]
+  feetPosition: {x: 62.52037926861913, y: 0, z: -53.66162951208396}
+  id: zgate-autumn
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: 77.79836434219358
+  scale: 1.32
+  state: {link: null, to: "+zone-autumn#zhome-autumn"}
+  tags: [zone-gate, zs-autumn]
+zgate-autumn/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-autumn/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-autumn
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-autumn/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-autumn/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-autumn
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-spring:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#9be36b' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO SPRING</text></svg>"}]
+  feetPosition: {x: 35.37873785002659, y: 0, z: 11.343029747189375}
+  id: zgate-spring
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: 31.10872036366809
+  scale: 1.32
+  state: {link: null, to: "+zone-spring#zhome-spring"}
+  tags: [zone-gate, zs-spring]
+zgate-spring/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-spring/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-spring
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-spring/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-spring/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-spring
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-summer:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ffd25a' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO SUMMER</text></svg>"}]
+  feetPosition: {x: 56.426324463024415, y: 0, z: -17.899974368287467}
+  id: zgate-summer
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: 53.77627654378923
+  scale: 1.32
+  state: {link: null, to: "+zone-summer#zhome-summer"}
+  tags: [zone-gate, zs-summer]
+zgate-summer/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-summer/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-summer
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-summer/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-summer/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-summer
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zone-herd:
+  behavior: scripts/zone-herd.js
+  feetPosition: {x: -18.5, y: 0, z: -63.6}
+  id: zone-herd
+  tags: [herd-keeper]
+  visibleTo: editors
+zs-autumn-145:
+  castShadow: true
+  feetPosition: {x: 62.71, y: 0, z: -38.24}
+  id: zs-autumn-145
+  model: /cdn/value.96d1423dbc0d38e37c37654ef016318c4f84476aaef1b4a03de23f0e37441803.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 345}
+  scale: 0.0555
+  state: {fit: ring, prefab: general-darkshore-tree01, role: ring}
+  tags: [zone-set, zs-autumn, zs-ring]
+zs-creatures-708:
+  castShadow: true
+  feetPosition: {x: -59.29, y: 0, z: 39.65}
+  id: zs-creatures-708
+  model: /cdn/value.fd65266cd8b6bf8aa7361e09be2dbdcca53b652b44e95d84fb1804b771fc43a2.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 261}
+  scale: 0.1596
+  state: {fit: ring, prefab: general-hyjal-tree02, role: ring}
+  tags: [zone-set, zs-creatures, zs-ring]
+zs-creatures-709:
+  castShadow: true
+  feetPosition: {x: -62.01, y: 0, z: 34.59}
+  id: zs-creatures-709
+  model: /cdn/value.cc810be41dd06f846313e9ca4568aca4fe0dc328574934f13594fcd1a03772a1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 0}
+  scale: 0.6626
+  state: {fit: acc, prefab: general-highland-lake-shrub03, role: acc}
+  tags: [zone-set, zs-creatures, zs-acc]
+zs-creatures-710:
+  castShadow: true
+  feetPosition: {x: -58.19, y: 0, z: 30.29}
+  id: zs-creatures-710
+  model: /cdn/value.09bdc954de1303bebad08399c209a4d741abffdbe4e66982e94b132975e80ffb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 175}
+  scale: 0.1668
+  state: {fit: ring, prefab: general-hyjal-tree03, role: ring}
+  tags: [zone-set, zs-creatures, zs-ring]
+zs-creatures-711:
+  castShadow: true
+  feetPosition: {x: -62.22, y: 0, z: 27.03}
+  id: zs-creatures-711
+  model: /cdn/value.4ebec8f109e3110d1ac7441a39065d7a4821c4e7d731ec3820a462ef1440dd0a.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 328}
+  scale: 0.2943
+  state: {fit: acc, prefab: general-highland-lake-shrub02, role: acc}
+  tags: [zone-set, zs-creatures, zs-acc]
+zs-creatures-717:
+  castShadow: true
+  feetPosition: {x: -63.05, y: 0.076, z: 34.56}
+  id: zs-creatures-717
+  model: /cdn/value.585bfbade7e48212f57b69c837deb9f24b41c88bdb24d189007805520eab254f.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 107}
+  scale: 0.683
+  state: {fit: fill, prefab: elw-campfire, role: fill}
+  tags: [zone-set, zs-creatures, zs-fill]
+zs-creatures-731:
+  castShadow: true
+  feetPosition: {x: -62.46, y: 0, z: 34.27}
+  id: zs-creatures-731
+  model: /cdn/value.f381b3973a4a25ce600478ad0bac5434818a7fc855fc052a0ee400a05d5ef061.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 149}
+  scale: 0.8839
+  state: {fit: creature, name: Tusked Boar 060, prefab: sk_char_tusked_boar_060, role: creature, stance: hostile}
+  tags: [zone-set, zs-creatures, zs-creature, npc]
+zs-creatures-v12:
+  castShadow: true
+  feetPosition: {x: -60.81, y: 0, z: 26.41}
+  id: zs-creatures-v12
+  model: /cdn/value.be00f2f559b63472c869be981217a7672e54dddf80d754e3ef600eb66dedf69f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 338}
+  scale: 0.0797
+  state: {cap: [5.638404244970719, 7.45623235658567], fit: vtree, prefab: general-hyjal-tree01, role: vtree}
+  tags: [zone-set, zs-creatures, zs-vtree]
+zs-creatures-v39:
+  castShadow: true
+  feetPosition: {x: -63.14, y: 0.09334513870007675, z: 28.08}
+  id: zs-creatures-v39
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 216}
+  scale: 0.0776
+  state: {cap: [1.931262149257242, 1.4422069248474234], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-creatures, zs-vprop]
+zs-post-autumn:
+  feetPosition: {x: 56.98373146866842, y: 0, z: -47.277583957713446}
+  id: zs-post-autumn
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-autumn]
+zs-post-creatures:
+  feetPosition: {x: -63.93553193277483, y: 0, z: 11.693430003841325}
+  id: zs-post-creatures
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-creatures]
+zs-post-spring:
+  feetPosition: {x: 26.935531932774822, y: 0, z: 11.693430003841325}
+  id: zs-post-spring
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-spring]
+zs-post-summer:
+  feetPosition: {x: 48.77034015738498, y: 0, z: -14.322767243618895}
+  id: zs-post-summer
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-summer]
+zs-sign-autumn:
+  feetPosition: {x: 59.680471560874594, y: 2.1, z: -47.62549463854998}
+  id: zs-sign-autumn
+  rotation: 77.79836082114653
+  tags: [zone-set, zs-autumn]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>AUTUMN</text></svg>"
+zs-sign-spring:
+  feetPosition: {x: 29.038517376951777, y: 2.1, z: 13.417060690257246}
+  id: zs-sign-spring
+  rotation: 31.108719755819692
+  tags: [zone-set, zs-spring]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>SPRING</text></svg>"
+zs-sign-summer:
+  feetPosition: {x: 51.37514249189756, y: 2.1, z: -13.54273204147535}
+  id: zs-sign-summer
+  rotation: 53.77627518065348
+  tags: [zone-set, zs-summer]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>SUMMER</text></svg>"
+zs-spring-0:
+  castShadow: true
+  feetPosition: {x: 41.68, y: 2.6, z: 31.26}
+  id: zs-spring-0
+  model: /cdn/value.525c4c4032c7c096f52e8dcb1693bfc2b6825d529fcdc4c222241f60d290c3e7.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: -143}
+  scale: 0.2918
+  state: {fit: hero, prefab: elw-chapel, role: hero}
+  tags: [zone-set, zs-spring, zs-hero]
+zs-spring-1:
+  castShadow: true
+  feetPosition: {x: 33.94, y: 2.443, z: 27.76}
+  id: zs-spring-1
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 331}
+  scale: 0.2962
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-10:
+  castShadow: true
+  feetPosition: {x: 44.91, y: 1.228, z: 43.01}
+  id: zs-spring-10
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 168}
+  scale: 0.3179
+  state: {fit: flower, prefab: general-berry-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-11:
+  castShadow: true
+  feetPosition: {x: 46.36, y: 2.216, z: 39.44}
+  id: zs-spring-11
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 291}
+  scale: 0.1697
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-12:
+  castShadow: true
+  feetPosition: {x: 49.79, y: 1.443, z: 39.6}
+  id: zs-spring-12
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 185}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-13:
+  castShadow: true
+  feetPosition: {x: 49.73, y: 2.214, z: 36.17}
+  id: zs-spring-13
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 248}
+  scale: 0.3082
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-14:
+  castShadow: true
+  feetPosition: {x: 53.3, y: 1.241, z: 34.81}
+  id: zs-spring-14
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 208}
+  scale: 0.2884
+  state: {fit: flower, prefab: general-berry-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-15:
+  castShadow: true
+  feetPosition: {x: 51.08, y: 2.22, z: 31.68}
+  id: zs-spring-15
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 327}
+  scale: 0.1591
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-16:
+  castShadow: true
+  feetPosition: {x: 53.3, y: 1.349, z: 28.82}
+  id: zs-spring-16
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 121}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-17:
+  castShadow: true
+  feetPosition: {x: 50.05, y: 2.241, z: 27.13}
+  id: zs-spring-17
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 120}
+  scale: 0.2949
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-18:
+  castShadow: true
+  feetPosition: {x: 50.52, y: 1.436, z: 23.67}
+  id: zs-spring-18
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 107}
+  scale: 0.3054
+  state: {fit: flower, prefab: general-berry-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-19:
+  castShadow: true
+  feetPosition: {x: 46.79, y: 2.348, z: 23.94}
+  id: zs-spring-19
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 106}
+  scale: 0.177
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-2:
+  castShadow: true
+  feetPosition: {x: 30.07, y: 1.383, z: 29.23}
+  id: zs-spring-2
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 76}
+  scale: 0.3125
+  state: {fit: flower, prefab: general-berry-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-20:
+  castShadow: true
+  feetPosition: {x: 46.03, y: 1.131, z: 19.61}
+  id: zs-spring-20
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 201}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-21:
+  castShadow: true
+  feetPosition: {x: 42.66, y: 2.272, z: 22.09}
+  id: zs-spring-21
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 316}
+  scale: 0.2868
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-22:
+  castShadow: true
+  feetPosition: {x: 40, y: 1.474, z: 19.83}
+  id: zs-spring-22
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 98}
+  scale: 0.3305
+  state: {fit: flower, prefab: general-berry-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-23:
+  castShadow: true
+  feetPosition: {x: 23.15, y: 0, z: 21.72}
+  id: zs-spring-23
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 152}
+  scale: 0.6501
+  state: {fit: ring, prefab: elw-oak, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-24:
+  castShadow: true
+  feetPosition: {x: 25.22, y: 0, z: 27.03}
+  id: zs-spring-24
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 69}
+  scale: 0.3
+  state: {fit: acc, prefab: elw-bush, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-25:
+  castShadow: true
+  feetPosition: {x: 20.36, y: 0, z: 29.92}
+  id: zs-spring-25
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 132}
+  scale: 0.6503
+  state: {fit: ring, prefab: sm_env_forest_tree_083, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-26:
+  castShadow: true
+  feetPosition: {x: 25.01, y: 0, z: 34.59}
+  id: zs-spring-26
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 124}
+  scale: 0.278
+  state: {fit: acc, prefab: sm_env_forest_bush_072, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-27:
+  castShadow: true
+  feetPosition: {x: 22.82, y: 0, z: 40.5}
+  id: zs-spring-27
+  model: /cdn/value.cab442a2584f718d1ad2137fb25d8554a736c527196911b2bf18a5d8e2172265.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 185}
+  scale: 0.0292
+  state: {fit: ring, prefab: general-emerald-dream-fountain-tree02, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-28:
+  castShadow: true
+  feetPosition: {x: 28.1, y: 0, z: 41.49}
+  id: zs-spring-28
+  model: /cdn/value.938f8761a479c2c9f6d263542c3494aa2df35310ef8465f940205327853779f4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 60}
+  scale: 0.217
+  state: {fit: acc, prefab: sm_env_forest_bush_dense_070, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-29:
+  castShadow: true
+  feetPosition: {x: 28.12, y: 0, z: 46.79}
+  id: zs-spring-29
+  model: /cdn/value.2299c794c7fd4f17057bf5117de81625fdb8c8fdfad0729effe76a51f12bc88e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 131}
+  scale: 0.032
+  state: {fit: ring, prefab: general-emerald-dream-fountain-tree03, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-3:
+  castShadow: true
+  feetPosition: {x: 32.48, y: 2.27, z: 31.98}
+  id: zs-spring-3
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 192}
+  scale: 0.1843
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-30:
+  castShadow: true
+  feetPosition: {x: 33.89, y: 0, z: 46.37}
+  id: zs-spring-30
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 153}
+  scale: 0.191
+  state: {fit: acc, prefab: sm_env_forest_bush_low_071, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-31:
+  castShadow: true
+  feetPosition: {x: 36.62, y: 0, z: 51.13}
+  id: zs-spring-31
+  model: /cdn/value.e4bedb3b1f4b10211617ae0895514d20c3d821b321e4e0b74ce07e9b5e17509c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 221}
+  scale: 0.026
+  state: {fit: ring, prefab: general-emerald-dream-fountain-tree04, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-32:
+  castShadow: true
+  feetPosition: {x: 41.22, y: 0, z: 48.26}
+  id: zs-spring-32
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 84}
+  scale: 0.5716
+  state: {fit: acc, prefab: general-berry-bush01, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-33:
+  castShadow: true
+  feetPosition: {x: 45.79, y: 0, z: 52.22}
+  id: zs-spring-33
+  model: /cdn/value.6fc1a718854980e6c43ea34a737073047a334db9cf926c6d4bde5a9af3831c01.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 311}
+  scale: 0.0269
+  state: {fit: ring, prefab: general-emerald-dream-fountain-tree05, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-34:
+  castShadow: true
+  feetPosition: {x: 48.63, y: 0, z: 46.78}
+  id: zs-spring-34
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 229}
+  scale: 0.2736
+  state: {fit: acc, prefab: elw-bush, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-35:
+  castShadow: true
+  feetPosition: {x: 54.31, y: 0, z: 47.98}
+  id: zs-spring-35
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 182}
+  scale: 0.7357
+  state: {fit: ring, prefab: elw-oak, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-36:
+  castShadow: true
+  feetPosition: {x: 54.68, y: 0, z: 42.22}
+  id: zs-spring-36
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 248}
+  scale: 0.2961
+  state: {fit: acc, prefab: sm_env_forest_bush_072, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-37:
+  castShadow: true
+  feetPosition: {x: 60.63, y: 0, z: 41.24}
+  id: zs-spring-37
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 255}
+  scale: 0.689
+  state: {fit: ring, prefab: sm_env_forest_tree_083, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-38:
+  castShadow: true
+  feetPosition: {x: 58.15, y: 0, z: 35.5}
+  id: zs-spring-38
+  model: /cdn/value.938f8761a479c2c9f6d263542c3494aa2df35310ef8465f940205327853779f4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 90}
+  scale: 0.2949
+  state: {fit: acc, prefab: sm_env_forest_bush_dense_070, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-39:
+  castShadow: true
+  feetPosition: {x: 62.55, y: 0, z: 32.09}
+  id: zs-spring-39
+  model: /cdn/value.cab442a2584f718d1ad2137fb25d8554a736c527196911b2bf18a5d8e2172265.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 119}
+  scale: 0.0236
+  state: {fit: ring, prefab: general-emerald-dream-fountain-tree02, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-4:
+  castShadow: true
+  feetPosition: {x: 30.49, y: 1.367, z: 35.09}
+  id: zs-spring-4
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 271}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-40:
+  castShadow: true
+  feetPosition: {x: 58.35, y: 0, z: 27.94}
+  id: zs-spring-40
+  model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 141}
+  scale: 0.183
+  state: {fit: acc, prefab: sm_env_forest_bush_low_071, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-41:
+  castShadow: true
+  feetPosition: {x: 60.75, y: 0, z: 22.02}
+  id: zs-spring-41
+  model: /cdn/value.2299c794c7fd4f17057bf5117de81625fdb8c8fdfad0729effe76a51f12bc88e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 40}
+  scale: 0.032
+  state: {fit: ring, prefab: general-emerald-dream-fountain-tree03, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-42:
+  castShadow: true
+  feetPosition: {x: 55.26, y: 0, z: 21.03}
+  id: zs-spring-42
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 295}
+  scale: 0.4939
+  state: {fit: acc, prefab: general-berry-bush01, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-43:
+  castShadow: true
+  feetPosition: {x: 54.76, y: 0, z: 15.98}
+  id: zs-spring-43
+  model: /cdn/value.e4bedb3b1f4b10211617ae0895514d20c3d821b321e4e0b74ce07e9b5e17509c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 55}
+  scale: 0.0262
+  state: {fit: ring, prefab: general-emerald-dream-fountain-tree04, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-44:
+  castShadow: true
+  feetPosition: {x: 49.47, y: 0, z: 16.16}
+  id: zs-spring-44
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 28}
+  scale: 0.285
+  state: {fit: acc, prefab: elw-bush, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-45:
+  castShadow: true
+  feetPosition: {x: 47.5, y: 0, z: 10.57}
+  id: zs-spring-45
+  model: /cdn/value.6fc1a718854980e6c43ea34a737073047a334db9cf926c6d4bde5a9af3831c01.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 228}
+  scale: 0.0269
+  state: {fit: ring, prefab: general-emerald-dream-fountain-tree05, role: ring}
+  tags: [zone-set, zs-spring, zs-ring]
+zs-spring-46:
+  castShadow: true
+  feetPosition: {x: 42.15, y: 0, z: 14.27}
+  id: zs-spring-46
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 52}
+  scale: 0.2751
+  state: {fit: acc, prefab: sm_env_forest_bush_072, role: acc}
+  tags: [zone-set, zs-spring, zs-acc]
+zs-spring-47:
+  castShadow: true
+  feetPosition: {x: 25.73, y: 0.079, z: 30.86}
+  id: zs-spring-47
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 213}
+  scale: 0.0726
+  state: {fit: fill, prefab: elw-rock, role: fill}
+  tags: [zone-set, zs-spring, zs-fill]
+zs-spring-48:
+  castShadow: true
+  feetPosition: {x: 31.07, y: 0.131, z: 42.75}
+  id: zs-spring-48
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 332}
+  scale: 0.1404
+  state: {fit: fill, prefab: elw-log, role: fill}
+  tags: [zone-set, zs-spring, zs-fill]
+zs-spring-49:
+  castShadow: true
+  feetPosition: {x: 43.39, y: 0, z: 47.56}
+  id: zs-spring-49
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 321}
+  scale: 0.2511
+  state: {fit: fill, prefab: elw-stump, role: fill}
+  tags: [zone-set, zs-spring, zs-fill]
+zs-spring-5:
+  castShadow: true
+  feetPosition: {x: 33.95, y: 2.263, z: 36.35}
+  id: zs-spring-5
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 195}
+  scale: 0.3262
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-50:
+  castShadow: true
+  feetPosition: {x: 55.05, y: 0, z: 40.74}
+  id: zs-spring-50
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 327}
+  scale: 0.5783
+  state: {fit: fill, prefab: elw-bench, role: fill}
+  tags: [zone-set, zs-spring, zs-fill]
+zs-spring-51:
+  castShadow: true
+  feetPosition: {x: 57.5, y: 0.041, z: 27.5}
+  id: zs-spring-51
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 99}
+  scale: 0.0838
+  state: {fit: fill, prefab: elw-rock, role: fill}
+  tags: [zone-set, zs-spring, zs-fill]
+zs-spring-52:
+  castShadow: true
+  feetPosition: {x: 48.95, y: 0.156, z: 17.56}
+  id: zs-spring-52
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 89}
+  scale: 0.1354
+  state: {fit: fill, prefab: elw-log, role: fill}
+  tags: [zone-set, zs-spring, zs-fill]
+zs-spring-53:
+  castShadow: true
+  feetPosition: {x: 35.24, y: 0, z: 14.45}
+  id: zs-spring-53
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 27}
+  scale: 0.4514
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-spring, zs-light]
+zs-spring-54:
+  castShadow: true
+  feetPosition: {x: 39.83, y: 2.196, z: 21.95}
+  id: zs-spring-54
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 1}
+  scale: 0.4371
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-spring, zs-light]
+zs-spring-55:
+  castShadow: true
+  feetPosition: {x: 27.3, y: 0, z: 20.44}
+  id: zs-spring-55
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 222}
+  scale: 0.5091
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-spring, zs-light]
+zs-spring-56:
+  castShadow: true
+  feetPosition: {x: 33.23, y: 2.194, z: 26.92}
+  id: zs-spring-56
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 83}
+  scale: 0.4323
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-spring, zs-light]
+zs-spring-57:
+  castShadow: true
+  feetPosition: {x: 39.29, y: 0.413, z: 16.98}
+  id: zs-spring-57
+  model: /cdn/value.bafa80d4565b81731b60c47c29e77969d1ee2670a2ec6c12b6f18c00fa6ca9ad.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -144}
+  scale: 1.428
+  state: {fit: creature, name: Elwynn Forest Stag, prefab: sw-deer, role: creature, stance: friendly}
+  tags: [zone-set, zs-spring, zs-creature, npc]
+zs-spring-58:
+  castShadow: true
+  feetPosition: {x: 34.97, y: 0.444, z: 18.55}
+  id: zs-spring-58
+  model: /cdn/value.a0f5a32fab749b046d556115e762f056df4db0229f58532de611ef6bedaa7066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -159}
+  scale: 3.0582
+  state: {fit: creature, name: Forest Hare, prefab: sw-rabbit, role: creature, stance: friendly}
+  tags: [zone-set, zs-spring, zs-creature, npc]
+zs-spring-59:
+  castShadow: true
+  feetPosition: {x: 31.03, y: 0.333, z: 21.04}
+  id: zs-spring-59
+  model: /cdn/value.e3ddb1a006aea5041149bad1d401c998e1f07f8a2e0abce7f39797c4174efb93.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -159}
+  scale: 3.1968
+  state: {fit: creature, name: Red Squirrel, prefab: sw-squirrel, role: creature, stance: friendly}
+  tags: [zone-set, zs-spring, zs-creature, npc]
+zs-spring-6:
+  castShadow: true
+  feetPosition: {x: 33.48, y: 1.226, z: 40.28}
+  id: zs-spring-6
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 229}
+  scale: 0.2833
+  state: {fit: flower, prefab: general-berry-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-60:
+  castShadow: true
+  feetPosition: {x: 29.27, y: 0.647, z: 25.35}
+  id: zs-spring-60
+  model: /cdn/value.7e0bfdd29bf7230f91f2a8cf43ef0cded2c57b0b907d5a944b1ec56f3e6e1c85.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -119}
+  scale: 1.4343
+  state: {fit: creature, name: Tabby Cat, prefab: sw-cat, role: creature, stance: friendly}
+  tags: [zone-set, zs-spring, zs-creature, npc]
+zs-spring-7:
+  castShadow: true
+  feetPosition: {x: 37.33, y: 2.246, z: 39.5}
+  id: zs-spring-7
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 87}
+  scale: 0.199
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-8:
+  castShadow: true
+  feetPosition: {x: 38.92, y: 1.349, z: 42.81}
+  id: zs-spring-8
+  model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 255}
+  scale: 0.0413
+  state: {fit: flower, prefab: general-dnrdream-bell-flower01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-9:
+  castShadow: true
+  feetPosition: {x: 41.84, y: 2.277, z: 40.46}
+  id: zs-spring-9
+  model: /cdn/value.0dfb435f1e2ddb932beb092aa7a867bf600b2766d7eac1f9d546be8979163622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 19}
+  scale: 0.3151
+  state: {fit: flower, prefab: general-aerie-peaks-bush01, role: flower}
+  tags: [zone-set, zs-spring, zs-flower]
+zs-spring-v0:
+  castShadow: true
+  feetPosition: {x: 27, y: 0.10839852909059496, z: 25.5}
+  id: zs-spring-v0
+  model: /cdn/value.be00f2f559b63472c869be981217a7672e54dddf80d754e3ef600eb66dedf69f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 79}
+  scale: 0.079
+  state: {cap: [5.039460899443115, 9.150939104683204], fit: vtree, prefab: general-hyjal-tree01, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v1:
+  castShadow: true
+  feetPosition: {x: 48.21, y: 0.1281341242969077, z: 45.49}
+  id: zs-spring-v1
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 351}
+  scale: 0.5248
+  state: {cap: [5.971411005464108, 6.407630136426366], fit: vtree, prefab: sm_env_forest_tree_083, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v10:
+  castShadow: true
+  feetPosition: {x: 24.13, y: 0, z: 28.68}
+  id: zs-spring-v10
+  model: /cdn/value.be0cd32ada12ba490fd58d4dc2cd7fe47bdee3c6ebd667acf45e2e1b9f7af5cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 320}
+  scale: 0.7283
+  state: {cap: [5.214763681387884, 7.253108937876815], fit: vtree, prefab: sm_env_forest_tree_stump_082, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v11:
+  castShadow: true
+  feetPosition: {x: 30.61, y: 0, z: 45.89}
+  id: zs-spring-v11
+  model: /cdn/value.ab46416f9ef0d7b6b7562f6a2255362577d3e7613bb5a1e6cc3ffac2f5b1a99b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 103}
+  scale: 0.0978
+  state: {cap: [5.054799846282601, 9.633626354687673], fit: vtree, prefab: general-hyjal-tree05, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v12:
+  castShadow: true
+  feetPosition: {x: 56.59, y: 0.009342020842208277, z: 38.67}
+  id: zs-spring-v12
+  model: /cdn/value.327a5fd02ac7eef55d7cfe717acbba298e9f40ca0aebfc7e2ac60d883b3b51e8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 143}
+  scale: 0.3332
+  state: {cap: [4.175946421653939, 8.210413980395726], fit: vtree, prefab: general-hyjal-tree04, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v13:
+  castShadow: true
+  feetPosition: {x: 58.99, y: 0, z: 37.99}
+  id: zs-spring-v13
+  model: /cdn/value.be0cd32ada12ba490fd58d4dc2cd7fe47bdee3c6ebd667acf45e2e1b9f7af5cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 319}
+  scale: 0.6949
+  state: {cap: [4.979746848684617, 7.368457347791855], fit: vtree, prefab: sm_env_forest_tree_stump_082, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v14:
+  castShadow: true
+  feetPosition: {x: 46.74, y: 0.24072392764575415, z: 17.01}
+  id: zs-spring-v14
+  model: /cdn/value.cc810be41dd06f846313e9ca4568aca4fe0dc328574934f13594fcd1a03772a1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 176}
+  scale: 0.6312
+  state: {cap: [2.234874823868682, 1.4320170362861904], fit: vbush, prefab: general-highland-lake-shrub03, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v15:
+  castShadow: true
+  feetPosition: {x: 31.38, y: 0.27853134857419676, z: 42.12}
+  id: zs-spring-v15
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 328}
+  scale: 0.2089
+  state: {cap: [1.6420689525511438, 1.2077998543892987], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v16:
+  castShadow: true
+  feetPosition: {x: 51.96, y: 1.4181085443696537, z: 25.68}
+  id: zs-spring-v16
+  model: /cdn/value.cc810be41dd06f846313e9ca4568aca4fe0dc328574934f13594fcd1a03772a1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 316}
+  scale: 0.4161
+  state: {cap: [1.9407809183424252, 1.4038068964396633], fit: vbush, prefab: general-highland-lake-shrub03, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v17:
+  castShadow: true
+  feetPosition: {x: 47.66, y: 0.21696944428850234, z: 17.26}
+  id: zs-spring-v17
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 260}
+  scale: 0.2291
+  state: {cap: [2.13711978340853, 1.0672664700156387], fit: vbush, prefab: sm_env_forest_bush_072, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v18:
+  castShadow: true
+  feetPosition: {x: 53.97, y: 0.36993647982207256, z: 39.19}
+  id: zs-spring-v18
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 71}
+  scale: 0.2099
+  state: {cap: [1.5228893660813985, 1.4790033456073157], fit: vbush, prefab: sm_env_forest_bush_072, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v19:
+  castShadow: true
+  feetPosition: {x: 41.37, y: 1.368586548336854, z: 43.08}
+  id: zs-spring-v19
+  model: /cdn/value.cc810be41dd06f846313e9ca4568aca4fe0dc328574934f13594fcd1a03772a1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 214}
+  scale: 0.3251
+  state: {cap: [1.4904080990424418, 1.0802715826920566], fit: vbush, prefab: general-highland-lake-shrub03, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v2:
+  castShadow: true
+  feetPosition: {x: 56.05, y: 0.11151896271115512, z: 24.81}
+  id: zs-spring-v2
+  model: /cdn/value.327a5fd02ac7eef55d7cfe717acbba298e9f40ca0aebfc7e2ac60d883b3b51e8.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 151}
+  scale: 0.4653
+  state: {cap: [5.764077265986277, 6.954575090182281], fit: vtree, prefab: general-hyjal-tree04, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v20:
+  castShadow: true
+  feetPosition: {x: 52.86, y: 0.24587424745590514, z: 21.11}
+  id: zs-spring-v20
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 304}
+  scale: 0.2261
+  state: {cap: [2.0998485135146643, 1.0530851651928783], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v21:
+  castShadow: true
+  feetPosition: {x: 27.18, y: 0.4058859639983103, z: 31.45}
+  id: zs-spring-v21
+  model: /cdn/value.cc810be41dd06f846313e9ca4568aca4fe0dc328574934f13594fcd1a03772a1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 304}
+  scale: 0.3919
+  state: {cap: [1.797039473870322, 1.1996734854996547], fit: vbush, prefab: general-highland-lake-shrub03, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v22:
+  castShadow: true
+  feetPosition: {x: 53.6, y: 1.3107241793073834, z: 32.38}
+  id: zs-spring-v22
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 7}
+  scale: 0.2814
+  state: {cap: [1.7927748063778388, 1.451466171816674], fit: vbush, prefab: sm_env_forest_bush_072, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v23:
+  castShadow: true
+  feetPosition: {x: 31.77, y: 1.0269687475456688, z: 39.21}
+  id: zs-spring-v23
+  model: /cdn/value.cc810be41dd06f846313e9ca4568aca4fe0dc328574934f13594fcd1a03772a1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 222}
+  scale: 0.3362
+  state: {cap: [1.5664772671258438, 1.4648888987092714], fit: vbush, prefab: general-highland-lake-shrub03, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v24:
+  castShadow: true
+  feetPosition: {x: 50.31, y: 0.02891334797465823, z: 45.18}
+  id: zs-spring-v24
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 184}
+  scale: 0.2471
+  state: {cap: [2.0843267421863634, 1.1507657203826893], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v25:
+  castShadow: true
+  feetPosition: {x: 42.54, y: 0, z: 48.59}
+  id: zs-spring-v25
+  model: /cdn/value.cc810be41dd06f846313e9ca4568aca4fe0dc328574934f13594fcd1a03772a1.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 69}
+  scale: 0.5047
+  state: {cap: [2.157065901675758, 1.4051406945824345], fit: vbush, prefab: general-highland-lake-shrub03, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v26:
+  castShadow: true
+  feetPosition: {x: 45.1, y: 1.1030672607331107, z: 19.23}
+  id: zs-spring-v26
+  model: /cdn/value.f94ac788ff8f966be39a3049021e587b4f10af7b6b2a593c4b4b678f9b2f4eaf.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 322}
+  scale: 0.2456
+  state: {cap: [1.9647850566612486, 1.588570126583134], fit: vbush, prefab: sm_env_forest_bush_072, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v27:
+  castShadow: true
+  feetPosition: {x: 28.28, y: 0.767430782796779, z: 31.01}
+  id: zs-spring-v27
+  model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb
+  receiveShadow: true
+  rotation: {yaw: 343}
+  scale: 0.2171
+  state: {cap: [1.54927782393027, 1.3318563969255686], fit: vbush, prefab: elw-bush, role: vbush}
+  tags: [zone-set, zs-spring, zs-vbush]
+zs-spring-v28:
+  castShadow: true
+  feetPosition: {x: 41.39, y: 0.004329708860687487, z: 48.02}
+  id: zs-spring-v28
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 164}
+  scale: 0.0676
+  state: {cap: [1.8859060227339652, 0.9168930673119114], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v29:
+  castShadow: true
+  feetPosition: {x: 31.08, y: 0.6974227567122809, z: 39.78}
+  id: zs-spring-v29
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 68}
+  scale: 0.0598
+  state: {cap: [1.4221985851517873, 0.9687154845654571], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v3:
+  castShadow: true
+  feetPosition: {x: 49.17, y: 0.11097679598201869, z: 17.4}
+  id: zs-spring-v3
+  model: /cdn/value.be0cd32ada12ba490fd58d4dc2cd7fe47bdee3c6ebd667acf45e2e1b9f7af5cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 104}
+  scale: 0.703
+  state: {cap: [4.395689821404261, 9.37412534624996], fit: vtree, prefab: sm_env_forest_tree_stump_082, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v30:
+  castShadow: true
+  feetPosition: {x: 49.36, y: 1.6209711696799824, z: 23.15}
+  id: zs-spring-v30
+  model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 317}
+  scale: 0.1202
+  state: {cap: [1.3608221669498937, 1.3036199451441037], fit: vprop, prefab: elw-log, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v31:
+  castShadow: true
+  feetPosition: {x: 29.27, y: 1.1388605580755966, z: 30.94}
+  id: zs-spring-v31
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 247}
+  scale: 0.2505
+  state: {cap: [1.6873057479445386, 1.310779277892215], fit: vprop, prefab: elw-stump, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v32:
+  castShadow: true
+  feetPosition: {x: 54.63, y: 0.6444120752934449, z: 35.89}
+  id: zs-spring-v32
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 119}
+  scale: 0.065
+  state: {cap: [1.5939127696649698, 1.268939819358727], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v33:
+  castShadow: true
+  feetPosition: {x: 56.48, y: 0.15294553678248418, z: 35.95}
+  id: zs-spring-v33
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 0.2908
+  state: {cap: [1.681208394691911, 1.2521171902083408], fit: vprop, prefab: elw-stump, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v34:
+  castShadow: true
+  feetPosition: {x: 43.03, y: 0, z: 49.96}
+  id: zs-spring-v34
+  model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 341}
+  scale: 0.0374
+  state: {cap: [1.365161415266414, 1.400929786963821], fit: vprop, prefab: sm_env_mossy_shelf_rock_01, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v35:
+  castShadow: true
+  feetPosition: {x: 48, y: 1.1505118369219263, z: 20.61}
+  id: zs-spring-v35
+  model: /cdn/value.c4c5f0ff0f8f3f99b75c925fe11a8df6de86a125997ab61f2e5600fa5b796906.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 224}
+  scale: 0.0408
+  state: {cap: [1.957740699107638, 1.0109474265533254], fit: vprop, prefab: sm_env_mossy_shelf_rock_02, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v36:
+  castShadow: true
+  feetPosition: {x: 55.07, y: 0, z: 18.9}
+  id: zs-spring-v36
+  model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 213}
+  scale: 0.2226
+  state: {cap: [1.5735717074822504, 1.06476574063523], fit: vprop, prefab: elw-stump, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v37:
+  castShadow: true
+  feetPosition: {x: 40.96, y: 1.6195044475683282, z: 42.41}
+  id: zs-spring-v37
+  model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 57}
+  scale: 0.0462
+  state: {cap: [1.7584408174075379, 0.9861136263637401], fit: vprop, prefab: sm_env_mossy_shelf_rock_01, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v38:
+  castShadow: true
+  feetPosition: {x: 29.78, y: 0.4594015806393143, z: 39.23}
+  id: zs-spring-v38
+  model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 213}
+  scale: 0.0497
+  state: {cap: [1.8899180124932518, 1.0890269805626138], fit: vprop, prefab: sm_env_mossy_shelf_rock_01, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v39:
+  castShadow: true
+  feetPosition: {x: 43.44, y: 0.03012782526317177, z: 14.99}
+  id: zs-spring-v39
+  model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 298}
+  scale: 0.0485
+  state: {cap: [1.8301638337923976, 1.4726659116207927], fit: vprop, prefab: sm_env_mossy_shelf_rock_01, role: vprop}
+  tags: [zone-set, zs-spring, zs-vprop]
+zs-spring-v4:
+  castShadow: true
+  feetPosition: {x: 30.35, y: 0.008228527867896896, z: 43.49}
+  id: zs-spring-v4
+  model: /cdn/value.be0cd32ada12ba490fd58d4dc2cd7fe47bdee3c6ebd667acf45e2e1b9f7af5cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 98}
+  scale: 1
+  state: {cap: [5.9899501559510595, 8.947633711131118], fit: vtree, prefab: sm_env_forest_tree_stump_082, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v5:
+  castShadow: true
+  feetPosition: {x: 28.91, y: 0, z: 43.52}
+  id: zs-spring-v5
+  model: /cdn/value.ab46416f9ef0d7b6b7562f6a2255362577d3e7613bb5a1e6cc3ffac2f5b1a99b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 170}
+  scale: 0.068
+  state: {cap: [5.796346055365329, 6.701044040127212], fit: vtree, prefab: general-hyjal-tree05, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v6:
+  castShadow: true
+  feetPosition: {x: 57.74, y: 0, z: 37.04}
+  id: zs-spring-v6
+  model: /cdn/value.be00f2f559b63472c869be981217a7672e54dddf80d754e3ef600eb66dedf69f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 117}
+  scale: 0.0738
+  state: {cap: [5.395513634032342, 7.836235490551328], fit: vtree, prefab: general-hyjal-tree01, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v7:
+  castShadow: true
+  feetPosition: {x: 44.02, y: 0.005404523457652588, z: 47.83}
+  id: zs-spring-v7
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 91}
+  scale: 0.6297
+  state: {cap: [5.201690652850871, 7.703683943349721], fit: vtree, prefab: elw-oak, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v8:
+  castShadow: true
+  feetPosition: {x: 48.55, y: 0, z: 47.19}
+  id: zs-spring-v8
+  model: /cdn/value.ab46416f9ef0d7b6b7562f6a2255362577d3e7613bb5a1e6cc3ffac2f5b1a99b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 291}
+  scale: 0.0821
+  state: {cap: [4.677518610110282, 8.08844819762206], fit: vtree, prefab: general-hyjal-tree05, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-spring-v9:
+  castShadow: true
+  feetPosition: {x: 26.51, y: 0.06338603700641916, z: 36.56}
+  id: zs-spring-v9
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 298}
+  scale: 0.4574
+  state: {cap: [4.213627877395426, 9.509976615901094], fit: vtree, prefab: sm_env_forest_tree_083, role: vtree}
+  tags: [zone-set, zs-spring, zs-vtree]
+zs-summer-107:
+  castShadow: true
+  feetPosition: {x: 63.57, y: 0, z: -18.68}
+  id: zs-summer-107
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 216}
+  scale: 1.8657
+  state: {fit: acc, prefab: elw-sack, role: acc}
+  tags: [zone-set, zs-summer, zs-acc]
+zs-summer-108:
+  castShadow: true
+  feetPosition: {x: 55.85, y: 0.045, z: 3.54}
+  id: zs-summer-108
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 323}
+  scale: 1.1275
+  state: {fit: fill, prefab: elw-haystack, role: fill}
+  tags: [zone-set, zs-summer, zs-fill]
+zs-summer-114:
+  castShadow: true
+  feetPosition: {x: 57.45, y: 0, z: -15.49}
+  id: zs-summer-114
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 73}
+  scale: 0.3497
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-summer, zs-light]
+zs-summer-116:
+  castShadow: true
+  feetPosition: {x: 52.93, y: 0, z: -6.62}
+  id: zs-summer-116
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 88}
+  scale: 0.4185
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-summer, zs-light]
+zs-summer-117:
+  castShadow: true
+  feetPosition: {x: 61.1, y: 2.193, z: -3.4}
+  id: zs-summer-117
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 164}
+  scale: 0.4341
+  state: {fit: light, prefab: elw-lantern, role: light}
+  tags: [zone-set, zs-summer, zs-light]
+zs-summer-118:
+  castShadow: true
+  feetPosition: {x: 61.9, y: 0.274, z: -15.4}
+  id: zs-summer-118
+  model: /cdn/value.2c97f185ee70ca83dc95889e6d6f3011578a4e5bcd7938dd72b99c1703e79571.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -122}
+  scale: 0.8421
+  state: {fit: creature, name: Farm Dairy Cow, prefab: sw-cow, role: creature, stance: friendly}
+  tags: [zone-set, zs-summer, zs-creature, npc]
+zs-summer-119:
+  castShadow: true
+  feetPosition: {x: 59.02, y: 0.452, z: -11.67}
+  id: zs-summer-119
+  model: /cdn/value.d630a0c5012ff347280fdfcdbc58c2c622b6610779aafa5ac971999eb8d4d3d6.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -101}
+  scale: 1.4913
+  state: {fit: creature, name: Farm Pig, prefab: sw-pig, role: creature, stance: friendly}
+  tags: [zone-set, zs-summer, zs-creature, npc]
+zs-summer-120:
+  castShadow: true
+  feetPosition: {x: 57.47, y: 0.63, z: -7.43}
+  id: zs-summer-120
+  model: /cdn/value.ef3a8af228ebdc451782eb6f64a674e76db59841205c865dfa1c702758813880.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -122}
+  scale: 4.8204
+  state: {fit: creature, name: Chicken, prefab: sw-chicken, role: creature, stance: friendly}
+  tags: [zone-set, zs-summer, zs-creature, npc]
+zs-summer-121:
+  castShadow: true
+  feetPosition: {x: 57.48, y: 0.87, z: -3.09}
+  id: zs-summer-121
+  model: /cdn/value.4dc0fadd6a495a19aad8a139a44fa8a8f73d8d5d1bccb5765ed6982b7b9de792.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: -133}
+  scale: 5.0864
+  state: {fit: creature, name: Meadow Prairie Dog, prefab: sw-prairiedog, role: creature, stance: friendly}
+  tags: [zone-set, zs-summer, zs-creature, npc]
+zs-summer-62:
+  castShadow: true
+  feetPosition: {x: 61.99, y: 2.419, z: -2.95}
+  id: zs-summer-62
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 176}
+  scale: 0.3458
+  state: {fit: flower, prefab: general-berry-bush01, role: flower}
+  tags: [zone-set, zs-summer, zs-flower]
+zs-summer-63:
+  castShadow: true
+  feetPosition: {x: 59.55, y: 1.495, z: -0.02}
+  id: zs-summer-63
+  model: /cdn/value.6e74ad3a99565347813a25849a3eaeeb4c576e2d9d6f0660a6856d800bd99dcc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 329}
+  scale: 0.3117
+  state: {fit: flower, prefab: general-durotar-bush01, role: flower}
+  tags: [zone-set, zs-summer, zs-flower]
+zs-summer-64:
+  castShadow: true
+  feetPosition: {x: 62.73, y: 2.296, z: 1.43}
+  id: zs-summer-64
+  model: /cdn/value.010556476c8ad1b3e2c5755f8dca5d97766488b911d5319cf6d5773d10aea125.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 332}
+  scale: 0.2051
+  state: {fit: flower, prefab: general-durotar-bush02, role: flower}
+  tags: [zone-set, zs-summer, zs-flower]
+zs-summer-65:
+  castShadow: true
+  feetPosition: {x: 62.44, y: 1.487, z: 4.93}
+  id: zs-summer-65
+  model: /cdn/value.1123837c502724ebf4a233bb27d19acacee8f493a302422ded7ccbb2ee582318.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 324}
+  scale: 0.4032
+  state: {fit: flower, prefab: general-durotar-bush04, role: flower}
+  tags: [zone-set, zs-summer, zs-flower]
+zs-summer-83:
+  castShadow: true
+  feetPosition: {x: 63.91, y: 1.356, z: -12.99}
+  id: zs-summer-83
+  model: /cdn/value.6e74ad3a99565347813a25849a3eaeeb4c576e2d9d6f0660a6856d800bd99dcc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 224}
+  scale: 0.3054
+  state: {fit: flower, prefab: general-durotar-bush01, role: flower}
+  tags: [zone-set, zs-summer, zs-flower]
+zs-summer-84:
+  castShadow: true
+  feetPosition: {x: 49.51, y: 0, z: -3.95}
+  id: zs-summer-84
+  model: /cdn/value.5b60f39835bde50b74298a010faa267c062ff6f1c08b5e694cab76b8905f7222.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 261}
+  scale: 0.0608
+  state: {fit: ring, prefab: general-azr-tree01, role: ring}
+  tags: [zone-set, zs-summer, zs-ring]
+zs-summer-85:
+  castShadow: true
+  feetPosition: {x: 53.95, y: 0, z: 0.21}
+  id: zs-summer-85
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 152}
+  scale: 1.3579
+  state: {fit: acc, prefab: elw-haystack, role: acc}
+  tags: [zone-set, zs-summer, zs-acc]
+zs-summer-86:
+  castShadow: true
+  feetPosition: {x: 52, y: 0, z: 4.91}
+  id: zs-summer-86
+  model: /cdn/value.147c354e9a5923ea9516aaf42ac11a49b37b2a44ababf79bda34b709a553a381.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 355}
+  scale: 0.0879
+  state: {fit: ring, prefab: general-azr-tree02, role: ring}
+  tags: [zone-set, zs-summer, zs-ring]
+zs-summer-87:
+  castShadow: true
+  feetPosition: {x: 57.08, y: 0, z: 7.1}
+  id: zs-summer-87
+  model: /cdn/value.847ecea039b852fad95c7a985b195642d905a3f6d2722112d377333213bc12b9.glb
+  receiveShadow: true
+  rotation: {yaw: 358}
+  scale: 0.4872
+  state: {fit: acc, prefab: elw-pumpkins, role: acc}
+  tags: [zone-set, zs-summer, zs-acc]
+zs-summer-88:
+  castShadow: true
+  feetPosition: {x: 57.66, y: 0, z: 13.27}
+  id: zs-summer-88
+  model: /cdn/value.5f4befc8ba0a32a2b4f8c81cff255b72133a584a290cbefbd23f11182e7265e0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 331}
+  scale: 0.0914
+  state: {fit: ring, prefab: general-azr-tree03, role: ring}
+  tags: [zone-set, zs-summer, zs-ring]
+zs-summer-89:
+  castShadow: true
+  feetPosition: {x: 62.88, y: 0, z: 11.95}
+  id: zs-summer-89
+  model: /cdn/value.3853fc76d7ed019b6635fe14c91469ef50531fb3a55da49c1cb26eb93b9184e3.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 72}
+  scale: 0.6802
+  state: {fit: acc, prefab: elw-wheelbarrow, role: acc}
+  tags: [zone-set, zs-summer, zs-acc]
+zs-summer-v1:
+  castShadow: true
+  feetPosition: {x: 63.4, y: 0, z: -19.88}
+  id: zs-summer-v1
+  model: /cdn/value.24d0b56b591d5f0d9004685c92ef21761b2e8151b5a21232f71db801a2c91b7d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 38}
+  scale: 0.0546
+  state: {cap: [3.796115792377906, 6.10899599274108], fit: vtree, prefab: general-azr-tree05, role: vtree}
+  tags: [zone-set, zs-summer, zs-vtree]
+zs-summer-v11:
+  castShadow: true
+  feetPosition: {x: 52.69, y: 0, z: 1.79}
+  id: zs-summer-v11
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 231}
+  scale: 0.5758
+  state: {cap: [5.349230948648989, 7.239286309685226], fit: vtree, prefab: elw-oak, role: vtree}
+  tags: [zone-set, zs-summer, zs-vtree]
+zs-summer-v12:
+  castShadow: true
+  feetPosition: {x: 61.34, y: 0.03679333191295122, z: 10.21}
+  id: zs-summer-v12
+  model: /cdn/value.24d0b56b591d5f0d9004685c92ef21761b2e8151b5a21232f71db801a2c91b7d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 285}
+  scale: 0.0749
+  state: {cap: [4.836007663321685, 6.049275916092692], fit: vtree, prefab: general-azr-tree05, role: vtree}
+  tags: [zone-set, zs-summer, zs-vtree]
+zs-summer-v13:
+  castShadow: true
+  feetPosition: {x: 53.63, y: 0, z: 2.28}
+  id: zs-summer-v13
+  model: /cdn/value.70beaa9e33ddd920170f884ad41516c5b6893e1d04dd66ce8bd3645eb3b95164.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 94}
+  scale: 0.2279
+  state: {cap: [6.022237196924275, 9.184909930073148], fit: vtree, prefab: general-azr-tree06, role: vtree}
+  tags: [zone-set, zs-summer, zs-vtree]
+zs-summer-v15:
+  castShadow: true
+  feetPosition: {x: 56.09, y: 0.3176426616213865, z: -0.2}
+  id: zs-summer-v15
+  model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 307}
+  scale: 0.3743
+  state: {cap: [2.027504640388072, 1.0659374462514823], fit: vbush, prefab: general-berry-bush01, role: vbush}
+  tags: [zone-set, zs-summer, zs-vbush]
+zs-summer-v2:
+  castShadow: true
+  feetPosition: {x: 63.59, y: 0, z: -19.14}
+  id: zs-summer-v2
+  model: /cdn/value.5b60f39835bde50b74298a010faa267c062ff6f1c08b5e694cab76b8905f7222.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 342}
+  scale: 0.0398
+  state: {cap: [4.143303001948308, 6.389685992332961], fit: vtree, prefab: general-azr-tree01, role: vtree}
+  tags: [zone-set, zs-summer, zs-vtree]
+zs-summer-v23:
+  castShadow: true
+  feetPosition: {x: 58.06, y: 0.7610410073679182, z: 1.58}
+  id: zs-summer-v23
+  model: /cdn/value.1cae19a993a52e5f060cd1389a36d8e560a70577b3a1c46330e46919b26df3ae.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 204}
+  scale: 1.2014
+  state: {cap: [1.9483776266213402, 1.3088215971173818], fit: vbush, prefab: sm_prop_forest_haystack_161, role: vbush}
+  tags: [zone-set, zs-summer, zs-vbush]
+zs-summer-v26:
+  castShadow: true
+  feetPosition: {x: 54.5, y: 0, z: 4.65}
+  id: zs-summer-v26
+  model: /cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 249}
+  scale: 1.3736
+  state: {cap: [2.212967182259526, 1.3528917389935309], fit: vbush, prefab: elw-haystack, role: vbush}
+  tags: [zone-set, zs-summer, zs-vbush]
+zs-summer-v34:
+  castShadow: true
+  feetPosition: {x: 56.39, y: 0, z: 6.81}
+  id: zs-summer-v34
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 301}
+  scale: 1.0423
+  state: {cap: [1.9127048439871075, 0.9227346684889562], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-summer, zs-vprop]
+zs-summer-v6:
+  castShadow: true
+  feetPosition: {x: 56.14, y: 0.01533816812769835, z: 4.85}
+  id: zs-summer-v6
+  model: /cdn/value.70beaa9e33ddd920170f884ad41516c5b6893e1d04dd66ce8bd3645eb3b95164.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 269}
+  scale: 0.1497
+  state: {cap: [3.782479146044924, 7.403212123272573], fit: vtree, prefab: general-azr-tree06, role: vtree}
+  tags: [zone-set, zs-summer, zs-vtree]

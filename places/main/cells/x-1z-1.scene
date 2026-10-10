@@ -1,0 +1,2342 @@
+# spawn-scene v2 yaml x-1z-1
+meadow-copse-10:
+  feetPosition: {x: -174, y: {terrain: 0}, z: -150}
+  id: meadow-copse-10
+  scatter: {bounds: {radius: 12.6, shape: circle}, count: 9, seed: 110, templates: [{castShadow: true, model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 1.29, weight: 2}, {castShadow: true, model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.95, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress, meadow-copse]
+meadow-copse-2:
+  feetPosition: {x: -180, y: {terrain: 0}, z: -84}
+  id: meadow-copse-2
+  scatter: {bounds: {radius: 9.799999999999999, shape: circle}, count: 7, seed: 102, templates: [{castShadow: true, model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 1.29, weight: 2}, {castShadow: true, model: /cdn/value.c59b72f8c8e65d8a0712af285d257f6311fa8524c0171a146e16d7a1bf7fc5f0.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.95, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress, meadow-copse]
+meadow-deadwood-10:
+  feetPosition: {x: -174, y: {terrain: 0}, z: -150}
+  id: meadow-deadwood-10
+  scatter: {bounds: {innerRadius: 9, outerRadius: 20, shape: ring}, count: 6, seed: 310, templates: [{castShadow: true, model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.2, weight: 2}, {castShadow: true, model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.31, weight: 1.5}, {castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 1.5}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-deadwood-2:
+  feetPosition: {x: -180, y: {terrain: 0}, z: -84}
+  id: meadow-deadwood-2
+  scatter: {bounds: {innerRadius: 7, outerRadius: 16, shape: ring}, count: 6, seed: 302, templates: [{castShadow: true, model: /cdn/value.097cb7d56a4e57e2799289e6df11c403c67372c87d1fbee4d0ed75ef0b3210c6.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.2, weight: 2}, {castShadow: true, model: /cdn/value.2d46aa9e2c2020846c9da8912baab3767590793830e476e71e85930cd72884cb.glb, physics: {body: static, collider: box}, receiveShadow: true, scale: 0.31, weight: 1.5}, {castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 1.5}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1}], variation: {scale: [0.8, 1.3], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-flowers-24:
+  feetPosition: {x: -125, y: {terrain: 0}, z: -185}
+  id: meadow-flowers-24
+  scatter: {bounds: {radius: 8, shape: circle}, count: 45, seed: 524, templates: [{castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 2}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1.5}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 0.4}], variation: {scale: [0.7, 1.4], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-rest-bench-1:
+  castShadow: true
+  feetPosition: {x: -135.1839360700064, y: {terrain: 0}, z: -147.15401306554023}
+  id: meadow-rest-bench-1
+  model: /cdn/value.a3873ef5ee6b37660e9b36121843acc46168b7c7e27ff5905b89fdafbce3379e.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {w: -0.6054423451423645, x: 0, y: 0.795889139175415, z: 0}
+  scale: 1
+  state: {seatParams: {item: elw-bench, seat: 0.5, width: 2.8}}
+  tags: [meadow-dress, den-furniture, elw-seat]
+meadow-rest-lantern-1:
+  castShadow: true
+  children: [{feetPosition: {x: 0, y: 2.3, z: 0}, light: {color: "#ffc27a", distance: 12, intensity: 2.2, kind: point}}]
+  feetPosition: {x: -134.59680208744751, y: {terrain: 0}, z: -149.27421911366963}
+  id: meadow-rest-lantern-1
+  model: /cdn/value.778464f2b10f7c33302fc4f18742baf8201059dc89297c62e5b7cb0cb29d3252.glb
+  physics: {body: static, collider: box}
+  scale: 1
+  tags: [meadow-dress]
+meadow-stones-19:
+  feetPosition: {x: -140, y: {terrain: 0}, z: -150}
+  id: meadow-stones-19
+  scatter: {bounds: {radius: 5, shape: circle}, count: 4, seed: 419, templates: [{castShadow: true, model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.14, weight: 2}, {castShadow: true, model: /cdn/value.1c74453b2a35f28c0ea24a60298f09a2e44aff45792ed56ca618e4022ed54ef4.glb, physics: {body: static, collider: mesh}, receiveShadow: true, scale: 0.12, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 1}], variation: {scale: [0.7, 1.6], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-under-10:
+  feetPosition: {x: -174, y: {terrain: 0}, z: -150}
+  id: meadow-under-10
+  scatter: {bounds: {radius: 21, shape: circle}, count: 57, seed: 210, templates: [{castShadow: false, model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb, receiveShadow: true, scale: 0.42, weight: 3}, {castShadow: false, model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb, receiveShadow: true, scale: 1.25, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 2}, {castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 1.5}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1}], variation: {scale: [0.7, 1.35], yaw: [0, 360]}}
+  tags: [meadow-dress]
+meadow-under-2:
+  feetPosition: {x: -180, y: {terrain: 0}, z: -84}
+  id: meadow-under-2
+  scatter: {bounds: {radius: 17, shape: circle}, count: 44, seed: 202, templates: [{castShadow: false, model: /cdn/value.1b3c7471e0743bc579e19ef593eff972e05d7835c8ee1062bc15288259815020.glb, receiveShadow: true, scale: 0.42, weight: 3}, {castShadow: false, model: /cdn/value.27daa4080bd2f6a98ffaf269554b3c2ec2e1964acde1f7f0afe2871827173cdc.glb, receiveShadow: true, scale: 1.25, weight: 1.2}, {castShadow: false, model: /cdn/value.9e3dd96a91f24c9456d2222731a121cf1068b43c2fb862ff5d3d3003f81d52c6.glb, receiveShadow: true, scale: 0.22, weight: 2}, {castShadow: false, model: /cdn/value.02e4f49f8d04a68e98b756eb0c424ca172c0e639efa517c904a7625a1fa81ae5.glb, receiveShadow: true, scale: 0.11, weight: 1.5}, {castShadow: false, model: /cdn/value.e82f91e34d19db2a6a31f1383503155f15ff8706b004cba8a227b176507b6625.glb, receiveShadow: true, scale: 0.16, weight: 1}], variation: {scale: [0.7, 1.35], yaw: [0, 360]}}
+  tags: [meadow-dress]
+zgate-caves:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#c08cff' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO CAVES</text></svg>"}]
+  feetPosition: {x: -92.646507931863, y: 0, z: -74.28651917371198}
+  id: zgate-caves
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: -103.87811310833877
+  scale: 1.32
+  state: {to: "+zone-caves#zhome-caves"}
+  tags: [zone-gate, zs-caves]
+zgate-caves/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-caves/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-caves
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-caves/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-caves/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-caves
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-harbor:
+  behavior: scripts/zone-gate.js
+  children: [{id: frame, material: {color: "#8c8478", roughness: 0.95}, physics: static, primitive: {depth: 0.6, height: 3.8, kind: archway, thickness: 0.4, width: 3.2}}, {feetPosition: {x: 0, y: 4.3, z: 0}, id: label, vector: "<svg viewBox='0 0 220 54' width='3m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#5dd6d0' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='22' fill='#f2e6cf'>TO HARBOR</text></svg>"}]
+  feetPosition: {x: -74.01695523374966, y: 0, z: -104.56333913528943}
+  id: zgate-harbor
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, map: null, roughness: 0.6}
+  physics: {body: static, trigger: true}
+  primitive: {bevelEnabled: false, depth: 0.12, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+  rotation: -132.58740067271526
+  scale: 1.32
+  state: {link: null, to: "+zone-harbor#zhome-harbor"}
+  tags: [zone-gate, zs-harbor]
+zgate-harbor/pane-back:
+  feetPosition: {x: 0, y: 0, z: 0.15}
+  id: zgate-harbor/pane-back
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-harbor
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zgate-harbor/pane-front:
+  feetPosition: {x: 0, y: 0, z: -0.05}
+  id: zgate-harbor/pane-front
+  material: {color: oklch(0.98 0.01 90), emissive: oklch(0.98 0.01 90), emissiveIntensity: 0.6, roughness: 0.6}
+  parent: zgate-harbor
+  primitive: {bevelEnabled: false, depth: 0.02, kind: extrude, shape: [[-1.25, 0], [1.25, 0], [1.25, 2.2], [1.239, 2.363], [1.207, 2.524], [1.155, 2.678], [1.083, 2.825], [0.992, 2.961], [0.884, 3.084], [0.761, 3.192], [0.625, 3.283], [0.478, 3.355], [0.324, 3.407], [0.163, 3.439], [0, 3.45], [-0.163, 3.439], [-0.324, 3.407], [-0.478, 3.355], [-0.625, 3.283], [-0.761, 3.192], [-0.884, 3.084], [-0.992, 2.961], [-1.083, 2.825], [-1.155, 2.678], [-1.207, 2.524], [-1.239, 2.363], [-1.25, 2.2]]}
+zs-caves-484:
+  castShadow: true
+  feetPosition: {x: -109.13, y: 2.6, z: -90.86}
+  id: zs-caves-484
+  model: /cdn/value.405d6e7e32cd7d44e42dc63b6b0a1d6a72dd5ee875600ce8e81861fa1d516218.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 65}
+  scale: 0.0684
+  state: {fit: hero, prefab: elw-mine, role: hero}
+  tags: [zone-set, zs-caves, zs-hero]
+zs-caves-485:
+  castShadow: true
+  feetPosition: {x: -99.92, y: 2.27, z: -91.45}
+  id: zs-caves-485
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 122}
+  scale: 0.0163
+  state: {fit: flower, prefab: caves-mines-underground-mushroom-den, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-486:
+  castShadow: true
+  feetPosition: {x: -97.38, y: 1.16, z: -94.69}
+  id: zs-caves-486
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 5}
+  scale: 0.0632
+  state: {fit: flower, prefab: elw-rock, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-487:
+  castShadow: true
+  feetPosition: {x: -101.93, y: 2.434, z: -95.45}
+  id: zs-caves-487
+  model: /cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 240}
+  scale: 0.3707
+  state: {fit: flower, prefab: general-g-spore-mushroom, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-488:
+  castShadow: true
+  feetPosition: {x: -100.6, y: 1.113, z: -99.97}
+  id: zs-caves-488
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 73}
+  scale: 0.0173
+  state: {fit: flower, prefab: caves-mines-underground-mushroom-den, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-489:
+  castShadow: true
+  feetPosition: {x: -105.05, y: 2.44, z: -98.33}
+  id: zs-caves-489
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 78}
+  scale: 0.0588
+  state: {fit: flower, prefab: elw-rock, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-490:
+  castShadow: true
+  feetPosition: {x: -106.28, y: 1.48, z: -102.04}
+  id: zs-caves-490
+  model: /cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 160}
+  scale: 0.3944
+  state: {fit: flower, prefab: general-g-spore-mushroom, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-491:
+  castShadow: true
+  feetPosition: {x: -109.15, y: 2.283, z: -100.04}
+  id: zs-caves-491
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 222}
+  scale: 0.0162
+  state: {fit: flower, prefab: caves-mines-underground-mushroom-den, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-492:
+  castShadow: true
+  feetPosition: {x: -112.12, y: 1.335, z: -102.39}
+  id: zs-caves-492
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 306}
+  scale: 0.0522
+  state: {fit: flower, prefab: elw-rock, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-493:
+  castShadow: true
+  feetPosition: {x: -113.26, y: 2.435, z: -98.33}
+  id: zs-caves-493
+  model: /cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 301}
+  scale: 0.369
+  state: {fit: flower, prefab: general-g-spore-mushroom, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-494:
+  castShadow: true
+  feetPosition: {x: -117.63, y: 1.155, z: -99.85}
+  id: zs-caves-494
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 159}
+  scale: 0.0169
+  state: {fit: flower, prefab: caves-mines-underground-mushroom-den, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-495:
+  castShadow: true
+  feetPosition: {x: -116.61, y: 2.368, z: -95.57}
+  id: zs-caves-495
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 74}
+  scale: 0.0568
+  state: {fit: flower, prefab: elw-rock, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-496:
+  castShadow: true
+  feetPosition: {x: -120.69, y: 1.245, z: -94.57}
+  id: zs-caves-496
+  model: /cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 33}
+  scale: 0.3662
+  state: {fit: flower, prefab: general-g-spore-mushroom, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-497:
+  castShadow: true
+  feetPosition: {x: -117.91, y: 2.379, z: -91.38}
+  id: zs-caves-497
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 238}
+  scale: 0.0163
+  state: {fit: flower, prefab: caves-mines-underground-mushroom-den, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-498:
+  castShadow: true
+  feetPosition: {x: -120.5, y: 1.462, z: -88.64}
+  id: zs-caves-498
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 203}
+  scale: 0.0544
+  state: {fit: flower, prefab: elw-rock, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-499:
+  castShadow: true
+  feetPosition: {x: -117.64, y: 2.216, z: -86.81}
+  id: zs-caves-499
+  model: /cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 7}
+  scale: 0.4118
+  state: {fit: flower, prefab: general-g-spore-mushroom, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-500:
+  castShadow: true
+  feetPosition: {x: -118.66, y: 1.14, z: -82.91}
+  id: zs-caves-500
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 88}
+  scale: 0.02
+  state: {fit: flower, prefab: caves-mines-underground-mushroom-den, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-501:
+  castShadow: true
+  feetPosition: {x: -114.44, y: 2.304, z: -83.47}
+  id: zs-caves-501
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 12}
+  scale: 0.0588
+  state: {fit: flower, prefab: elw-rock, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-502:
+  castShadow: true
+  feetPosition: {x: -113.63, y: 1.146, z: -79.31}
+  id: zs-caves-502
+  model: /cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 224}
+  scale: 0.3588
+  state: {fit: flower, prefab: general-g-spore-mushroom, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-503:
+  castShadow: true
+  feetPosition: {x: -110.18, y: 2.388, z: -82.17}
+  id: zs-caves-503
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 221}
+  scale: 0.0162
+  state: {fit: flower, prefab: caves-mines-underground-mushroom-den, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-504:
+  castShadow: true
+  feetPosition: {x: -107.58, y: 1.358, z: -79.11}
+  id: zs-caves-504
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 186}
+  scale: 0.0625
+  state: {fit: flower, prefab: elw-rock, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-505:
+  castShadow: true
+  feetPosition: {x: -105.8, y: 2.35, z: -82.59}
+  id: zs-caves-505
+  model: /cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 347}
+  scale: 0.4118
+  state: {fit: flower, prefab: general-g-spore-mushroom, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-506:
+  castShadow: true
+  feetPosition: {x: -101.83, y: 1.177, z: -80.94}
+  id: zs-caves-506
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 345}
+  scale: 0.0176
+  state: {fit: flower, prefab: caves-mines-underground-mushroom-den, role: flower}
+  tags: [zone-set, zs-caves, zs-flower]
+zs-caves-507:
+  castShadow: true
+  feetPosition: {x: -87.82, y: 0, z: -90.36}
+  id: zs-caves-507
+  model: /cdn/value.14b3227947dc6266868f7887cb9419c6f0dab5d18b0521b9876f12fd3708ad82.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 97}
+  scale: 0.1379
+  state: {fit: ring, prefab: general-burnt-stone-tree07, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-508:
+  castShadow: true
+  feetPosition: {x: -92.61, y: 0, z: -94.85}
+  id: zs-caves-508
+  model: /cdn/value.ee5833bf36044a55a5f3869bbf60ed6b32f56a7fa50c1a08c2809f5e3aeff655.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 181}
+  scale: 0.0128
+  state: {fit: acc, prefab: caves-mines-underground-junglecave-crystal, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-509:
+  castShadow: true
+  feetPosition: {x: -90.23, y: 0, z: -99.56}
+  id: zs-caves-509
+  model: /cdn/value.f22583709a7c3d849d112a8dd5678548b80d3d1f82237b1d7a15a7028b135349.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 210}
+  scale: 0.2103
+  state: {fit: ring, prefab: general-burnt-stone-tree08, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-510:
+  castShadow: true
+  feetPosition: {x: -95.97, y: 0, z: -101.63}
+  id: zs-caves-510
+  model: /cdn/value.67cbcf720bb3bbd36cce954537db7847185980b9c1c6faa9ad784ca47850b5da.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 87}
+  scale: 0.4289
+  state: {fit: acc, prefab: general-corrupted-crystal-vine, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-511:
+  castShadow: true
+  feetPosition: {x: -96.64, y: 0, z: -107.23}
+  id: zs-caves-511
+  model: /cdn/value.a0e4412d536b1be58e22a81e8e41649517c2fb91b08bf3a0e2263d734e0e49fa.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 303}
+  scale: 0.1059
+  state: {fit: ring, prefab: general-burnt-stone-tree01, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-512:
+  castShadow: true
+  feetPosition: {x: -101.95, y: 0, z: -106.27}
+  id: zs-caves-512
+  model: /cdn/value.8c68e7dca659d97751465d91c200ed78f2e348a2b6738fb0707b0b928148129c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 127}
+  scale: 0.0354
+  state: {fit: acc, prefab: general-ancient-ruins-crystal-generator, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-513:
+  castShadow: true
+  feetPosition: {x: -104.37, y: 0, z: -110.46}
+  id: zs-caves-513
+  model: /cdn/value.1c16dbdd6ea67c2d55ec9b02a36dc5f22db83581372495076ef4c65f68b4d202.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 86}
+  scale: 0.9368
+  state: {fit: ring, prefab: general-maraudon-spore-tree, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-514:
+  castShadow: true
+  feetPosition: {x: -109.34, y: 0, z: -107.86}
+  id: zs-caves-514
+  model: /cdn/value.903265ac0e10bdb4f3d2b1fa628ca566f0a46f322810dd15824b1ac760c61bea.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 18}
+  scale: 0.9092
+  state: {fit: acc, prefab: elw-minecart, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-515:
+  castShadow: true
+  feetPosition: {x: -114.53, y: 0, z: -111.54}
+  id: zs-caves-515
+  model: /cdn/value.1df7f7a5d44621d03401f94a628531f4ce3aa366697feae33d4a5fceb471e3f3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 237}
+  scale: 0.0449
+  state: {fit: ring, prefab: general-maraudon-transition-tree01, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-516:
+  castShadow: true
+  feetPosition: {x: -116.7, y: 0, z: -106.09}
+  id: zs-caves-516
+  model: /cdn/value.ee5833bf36044a55a5f3869bbf60ed6b32f56a7fa50c1a08c2809f5e3aeff655.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 300}
+  scale: 0.0099
+  state: {fit: acc, prefab: caves-mines-underground-junglecave-crystal, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-517:
+  castShadow: true
+  feetPosition: {x: -122, y: 0, z: -106.31}
+  id: zs-caves-517
+  model: /cdn/value.7637a081dc4a54969aa580765cb819cc90309d1d5d563c22035864db4d989335.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 315}
+  scale: 0.0457
+  state: {fit: ring, prefab: general-maraudon-transition-tree02, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-518:
+  castShadow: true
+  feetPosition: {x: -122.55, y: 0, z: -101.29}
+  id: zs-caves-518
+  model: /cdn/value.67cbcf720bb3bbd36cce954537db7847185980b9c1c6faa9ad784ca47850b5da.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 48}
+  scale: 0.4289
+  state: {fit: acc, prefab: general-corrupted-crystal-vine, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-519:
+  castShadow: true
+  feetPosition: {x: -127.77, y: 0, z: -99.8}
+  id: zs-caves-519
+  model: /cdn/value.14b3227947dc6266868f7887cb9419c6f0dab5d18b0521b9876f12fd3708ad82.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 279}
+  scale: 0.1379
+  state: {fit: ring, prefab: general-burnt-stone-tree07, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-520:
+  castShadow: true
+  feetPosition: {x: -125.75, y: 0, z: -94.44}
+  id: zs-caves-520
+  model: /cdn/value.8c68e7dca659d97751465d91c200ed78f2e348a2b6738fb0707b0b928148129c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 238}
+  scale: 0.0354
+  state: {fit: acc, prefab: general-ancient-ruins-crystal-generator, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-521:
+  castShadow: true
+  feetPosition: {x: -130.55, y: 0, z: -91.39}
+  id: zs-caves-521
+  model: /cdn/value.f22583709a7c3d849d112a8dd5678548b80d3d1f82237b1d7a15a7028b135349.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 48}
+  scale: 0.2076
+  state: {fit: ring, prefab: general-burnt-stone-tree08, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-522:
+  castShadow: true
+  feetPosition: {x: -125.66, y: 0, z: -86.87}
+  id: zs-caves-522
+  model: /cdn/value.903265ac0e10bdb4f3d2b1fa628ca566f0a46f322810dd15824b1ac760c61bea.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 309}
+  scale: 0.8626
+  state: {fit: acc, prefab: elw-minecart, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-523:
+  castShadow: true
+  feetPosition: {x: -128.08, y: 0, z: -81.22}
+  id: zs-caves-523
+  model: /cdn/value.a0e4412d536b1be58e22a81e8e41649517c2fb91b08bf3a0e2263d734e0e49fa.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 41}
+  scale: 0.1059
+  state: {fit: ring, prefab: general-burnt-stone-tree01, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-524:
+  castShadow: true
+  feetPosition: {x: -122.29, y: 0, z: -80.1}
+  id: zs-caves-524
+  model: /cdn/value.ee5833bf36044a55a5f3869bbf60ed6b32f56a7fa50c1a08c2809f5e3aeff655.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 180}
+  scale: 0.013
+  state: {fit: acc, prefab: caves-mines-underground-junglecave-crystal, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-525:
+  castShadow: true
+  feetPosition: {x: -121.49, y: 0, z: -74.3}
+  id: zs-caves-525
+  model: /cdn/value.1c16dbdd6ea67c2d55ec9b02a36dc5f22db83581372495076ef4c65f68b4d202.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 234}
+  scale: 0.7884
+  state: {fit: ring, prefab: general-maraudon-spore-tree, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-526:
+  castShadow: true
+  feetPosition: {x: -116.32, y: 0, z: -75.45}
+  id: zs-caves-526
+  model: /cdn/value.67cbcf720bb3bbd36cce954537db7847185980b9c1c6faa9ad784ca47850b5da.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 95}
+  scale: 0.4289
+  state: {fit: acc, prefab: general-corrupted-crystal-vine, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-527:
+  castShadow: true
+  feetPosition: {x: -114, y: 0, z: -71.33}
+  id: zs-caves-527
+  model: /cdn/value.1df7f7a5d44621d03401f94a628531f4ce3aa366697feae33d4a5fceb471e3f3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 153}
+  scale: 0.046
+  state: {fit: ring, prefab: general-maraudon-transition-tree01, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-528:
+  castShadow: true
+  feetPosition: {x: -108.92, y: 0, z: -73.86}
+  id: zs-caves-528
+  model: /cdn/value.8c68e7dca659d97751465d91c200ed78f2e348a2b6738fb0707b0b928148129c.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 337}
+  scale: 0.0354
+  state: {fit: acc, prefab: general-ancient-ruins-crystal-generator, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-529:
+  castShadow: true
+  feetPosition: {x: -103.68, y: 0, z: -70.59}
+  id: zs-caves-529
+  model: /cdn/value.7637a081dc4a54969aa580765cb819cc90309d1d5d563c22035864db4d989335.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 328}
+  scale: 0.0464
+  state: {fit: ring, prefab: general-maraudon-transition-tree02, role: ring}
+  tags: [zone-set, zs-caves, zs-ring]
+zs-caves-530:
+  castShadow: true
+  feetPosition: {x: -101.56, y: 0, z: -75.64}
+  id: zs-caves-530
+  model: /cdn/value.903265ac0e10bdb4f3d2b1fa628ca566f0a46f322810dd15824b1ac760c61bea.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 308}
+  scale: 0.8621
+  state: {fit: acc, prefab: elw-minecart, role: acc}
+  tags: [zone-set, zs-caves, zs-acc]
+zs-caves-531:
+  castShadow: true
+  feetPosition: {x: -94.61, y: 0.043, z: -98.12}
+  id: zs-caves-531
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 119}
+  scale: 0.0734
+  state: {fit: fill, prefab: elw-rock, role: fill}
+  tags: [zone-set, zs-caves, zs-fill]
+zs-caves-532:
+  castShadow: true
+  feetPosition: {x: -105.02, y: 0.049, z: -106.51}
+  id: zs-caves-532
+  model: /cdn/value.903265ac0e10bdb4f3d2b1fa628ca566f0a46f322810dd15824b1ac760c61bea.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 271}
+  scale: 0.867
+  state: {fit: fill, prefab: elw-minecart, role: fill}
+  tags: [zone-set, zs-caves, zs-fill]
+zs-caves-533:
+  castShadow: true
+  feetPosition: {x: -118.2, y: 0.044, z: -104.32}
+  id: zs-caves-533
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 183}
+  scale: 1.17
+  state: {fit: fill, prefab: elw-crate, role: fill}
+  tags: [zone-set, zs-caves, zs-fill]
+zs-caves-534:
+  castShadow: true
+  feetPosition: {x: -125.14, y: 0.054, z: -92.92}
+  id: zs-caves-534
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 253}
+  scale: 0.0781
+  state: {fit: fill, prefab: elw-rock, role: fill}
+  tags: [zone-set, zs-caves, zs-fill]
+zs-caves-535:
+  castShadow: true
+  feetPosition: {x: -121.21, y: 0.061, z: -80.23}
+  id: zs-caves-535
+  model: /cdn/value.903265ac0e10bdb4f3d2b1fa628ca566f0a46f322810dd15824b1ac760c61bea.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 64}
+  scale: 0.7173
+  state: {fit: fill, prefab: elw-minecart, role: fill}
+  tags: [zone-set, zs-caves, zs-fill]
+zs-caves-536:
+  castShadow: true
+  feetPosition: {x: -109.11, y: 0, z: -74.48}
+  id: zs-caves-536
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 262}
+  scale: 1.1111
+  state: {fit: fill, prefab: elw-crate, role: fill}
+  tags: [zone-set, zs-caves, zs-fill]
+zs-caves-537:
+  castShadow: true
+  feetPosition: {x: -95.55, y: 0, z: -79.04}
+  id: zs-caves-537
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 75}
+  scale: 0.3562
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-caves, zs-light]
+zs-caves-538:
+  castShadow: true
+  feetPosition: {x: -103.12, y: 2.193, z: -83.5}
+  id: zs-caves-538
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 134}
+  scale: 0.3124
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-caves, zs-light]
+zs-caves-539:
+  castShadow: true
+  feetPosition: {x: -91.35, y: 0, z: -88.06}
+  id: zs-caves-539
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 51}
+  scale: 0.3134
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-caves, zs-light]
+zs-caves-540:
+  castShadow: true
+  feetPosition: {x: -99.63, y: 2.193, z: -90.99}
+  id: zs-caves-540
+  model: /cdn/value.0a283a621cc04387fef1218db91a1e668fd568bdc0e5c14aa61a90cacd816e20.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 307}
+  scale: 0.3145
+  state: {fit: light, prefab: sm_prop_capital_brazier_109, role: light}
+  tags: [zone-set, zs-caves, zs-light]
+zs-caves-541:
+  castShadow: true
+  feetPosition: {x: -99.36, y: 0.756, z: -81.64}
+  id: zs-caves-541
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.c63d5e8e954f0f44fd20e7b9307777a850c9a5cb1507459eb30e0d9d4794f096.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 57}
+  scale: 0.9768
+  state: {fit: creature, name: Kobold Vermin, prefab: sw-koboldVermin, role: creature, stance: hostile}
+  tags: [zone-set, zs-caves, zs-creature, npc]
+zs-caves-542:
+  castShadow: true
+  feetPosition: {x: -95.77, y: 0.338, z: -84.63}
+  id: zs-caves-542
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.dea275f2b076a4002c37b77cb901840ea54d07d0061877e5750924e8715ae0c5.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 77}
+  scale: 0.95
+  state: {fit: creature, name: Goldtooth, prefab: sw-koboldGoldtooth, role: creature, stance: hostile}
+  tags: [zone-set, zs-caves, zs-creature, npc]
+zs-caves-543:
+  castShadow: true
+  feetPosition: {x: -94.75, y: 0.413, z: -89.18}
+  id: zs-caves-543
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.58ccab821a337b273e9bc71e5a6b7a3434d4314b551e2d52df58fd405d130b94.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 41}
+  scale: 0.3479
+  state: {fit: creature, name: Mine Spider, prefab: sw-mineSpider, role: creature, stance: hostile}
+  tags: [zone-set, zs-caves, zs-creature, npc]
+zs-caves-v0:
+  castShadow: true
+  feetPosition: {x: -100.28, y: 0, z: -74.4}
+  id: zs-caves-v0
+  model: /cdn/value.f22583709a7c3d849d112a8dd5678548b80d3d1f82237b1d7a15a7028b135349.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 111}
+  scale: 0.1647
+  state: {cap: [5.361112885461708, 6.758825527857442], fit: vtree, prefab: general-burnt-stone-tree08, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v1:
+  castShadow: true
+  feetPosition: {x: -118.71, y: 0, z: -105.13}
+  id: zs-caves-v1
+  model: /cdn/value.5e63de35869ea7becd95be52927384131cb0b44773bd876d84398a8f59c23894.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 287}
+  scale: 0.2021
+  state: {cap: [5.458539593596264, 6.67991931581866], fit: vtree, prefab: general-burnt-stone-tree-stump02, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v10:
+  castShadow: true
+  feetPosition: {x: -91.49, y: 0, z: -93.35}
+  id: zs-caves-v10
+  model: /cdn/value.14b3227947dc6266868f7887cb9419c6f0dab5d18b0521b9876f12fd3708ad82.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 39}
+  scale: 0.1129
+  state: {cap: [5.468085194806608, 7.372590583456955], fit: vtree, prefab: general-burnt-stone-tree07, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v11:
+  castShadow: true
+  feetPosition: {x: -109.26, y: 0, z: -108.84}
+  id: zs-caves-v11
+  model: /cdn/value.debaa0567653ef74667486e6e9041825c5f05a3e56659a383c33288b71d33e77.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 199}
+  scale: 0.5992
+  state: {cap: [6.104382940034561, 6.182517057369704], fit: vtree, prefab: general-burnt-stone-tree-stump03, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v12:
+  castShadow: true
+  feetPosition: {x: -108.77, y: 0, z: -72.54}
+  id: zs-caves-v12
+  model: /cdn/value.a0e4412d536b1be58e22a81e8e41649517c2fb91b08bf3a0e2263d734e0e49fa.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 192}
+  scale: 0.0907
+  state: {cap: [5.758750353478245, 7.707505454173081], fit: vtree, prefab: general-burnt-stone-tree01, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v13:
+  castShadow: true
+  feetPosition: {x: -123.8, y: 0.10442467620456648, z: -96.71}
+  id: zs-caves-v13
+  model: /cdn/value.14b3227947dc6266868f7887cb9419c6f0dab5d18b0521b9876f12fd3708ad82.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 8}
+  scale: 0.1463
+  state: {cap: [5.089455050807192, 9.553662266374408], fit: vtree, prefab: general-burnt-stone-tree07, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v14:
+  castShadow: true
+  feetPosition: {x: -123.19, y: 0.5258621170184917, z: -89.67}
+  id: zs-caves-v14
+  model: /cdn/value.b169bde483e96d816b8b30aadd87ddfbef86525bad17e9d1dbaef2d29ca6ccea.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 355}
+  scale: 0.0486
+  state: {cap: [1.6116748569354762, 1.4928048446508144], fit: vbush, prefab: general-maraudon-mushroom-spikey01, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v15:
+  castShadow: true
+  feetPosition: {x: -120.8, y: 0, z: -78.09}
+  id: zs-caves-v15
+  model: /cdn/value.ee5833bf36044a55a5f3869bbf60ed6b32f56a7fa50c1a08c2809f5e3aeff655.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 191}
+  scale: 0.0096
+  state: {cap: [1.8800483573833706, 1.301021977351523], fit: vbush, prefab: caves-mines-underground-junglecave-crystal, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v16:
+  castShadow: true
+  feetPosition: {x: -96.94, y: 0.9923225220089453, z: -94.75}
+  id: zs-caves-v16
+  model: /cdn/value.ee5833bf36044a55a5f3869bbf60ed6b32f56a7fa50c1a08c2809f5e3aeff655.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 6}
+  scale: 0.0081
+  state: {cap: [1.4967452654367057, 1.3204148181110689], fit: vbush, prefab: caves-mines-underground-junglecave-crystal, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v17:
+  castShadow: true
+  feetPosition: {x: -126.47, y: 0, z: -83.69}
+  id: zs-caves-v17
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 169}
+  scale: 0.0854
+  state: {cap: [1.8709710655365934, 1.64165436829983], fit: vbush, prefab: elw-rock, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v18:
+  castShadow: true
+  feetPosition: {x: -124.5, y: 0.12753754534817077, z: -87.86}
+  id: zs-caves-v18
+  model: /cdn/value.ee5833bf36044a55a5f3869bbf60ed6b32f56a7fa50c1a08c2809f5e3aeff655.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 301}
+  scale: 0.0092
+  state: {cap: [2.0511570313019476, 1.5526195158728489], fit: vbush, prefab: caves-mines-underground-junglecave-crystal, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v19:
+  castShadow: true
+  feetPosition: {x: -108.67, y: 1.249807861557056, z: -78.74}
+  id: zs-caves-v19
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 178}
+  scale: 0.0814
+  state: {cap: [1.6102326867916774, 1.540596483783143], fit: vbush, prefab: elw-rock, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v2:
+  castShadow: true
+  feetPosition: {x: -112.36, y: 0, z: -73.88}
+  id: zs-caves-v2
+  model: /cdn/value.debaa0567653ef74667486e6e9041825c5f05a3e56659a383c33288b71d33e77.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 186}
+  scale: 0.6339
+  state: {cap: [4.317261723599985, 8.348461671894631], fit: vtree, prefab: general-burnt-stone-tree-stump03, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v20:
+  castShadow: true
+  feetPosition: {x: -105.74, y: 1.6182534163081157, z: -101.51}
+  id: zs-caves-v20
+  model: /cdn/value.08a1c39e565b1cb00ef70ef4e93e7332a4195fcf4fe25cf707a1690fc02807b5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 175}
+  scale: 0.03
+  state: {cap: [2.0222922047005465, 1.5283989793986075], fit: vbush, prefab: caves-mines-underground-mushroom-den, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v21:
+  castShadow: true
+  feetPosition: {x: -113.6, y: 1.5671059263515608, z: -101.25}
+  id: zs-caves-v21
+  model: /cdn/value.67cbcf720bb3bbd36cce954537db7847185980b9c1c6faa9ad784ca47850b5da.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 27}
+  scale: 0.2737
+  state: {cap: [1.7779283180497252, 1.2765211369034466], fit: vbush, prefab: general-corrupted-crystal-vine, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v22:
+  castShadow: true
+  feetPosition: {x: -116.9, y: 0.6072892777635378, z: -79.38}
+  id: zs-caves-v22
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 152}
+  scale: 0.0902
+  state: {cap: [2.2049818893684923, 1.2682558126366956], fit: vbush, prefab: elw-rock, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v23:
+  castShadow: true
+  feetPosition: {x: -112.94, y: 0, z: -108.54}
+  id: zs-caves-v23
+  model: /cdn/value.67cbcf720bb3bbd36cce954537db7847185980b9c1c6faa9ad784ca47850b5da.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 246}
+  scale: 0.3498
+  state: {cap: [1.686921959806663, 1.631294366010136], fit: vbush, prefab: general-corrupted-crystal-vine, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v24:
+  castShadow: true
+  feetPosition: {x: -110.06, y: 0, z: -72.1}
+  id: zs-caves-v24
+  model: /cdn/value.223dd8c22e56918f5cfe41c9bc0d16b8961b27c98ebf9990eebf050e1368202e.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 171}
+  scale: 0.4859
+  state: {cap: [2.1354238670717103, 1.2980596799627224], fit: vbush, prefab: general-g-spore-mushroom, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v25:
+  castShadow: true
+  feetPosition: {x: -107.27, y: 0.5537902433287532, z: -76.96}
+  id: zs-caves-v25
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 301}
+  scale: 0.0869
+  state: {cap: [2.1449478929838857, 1.1971846290152448], fit: vbush, prefab: elw-rock, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v26:
+  castShadow: true
+  feetPosition: {x: -107.74, y: 0, z: -73.86}
+  id: zs-caves-v26
+  model: /cdn/value.67cbcf720bb3bbd36cce954537db7847185980b9c1c6faa9ad784ca47850b5da.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 259}
+  scale: 0.2312
+  state: {cap: [1.883672644539584, 1.0781063819434988], fit: vbush, prefab: general-corrupted-crystal-vine, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v27:
+  castShadow: true
+  feetPosition: {x: -114.09, y: 0, z: -73.25}
+  id: zs-caves-v27
+  model: /cdn/value.ee5833bf36044a55a5f3869bbf60ed6b32f56a7fa50c1a08c2809f5e3aeff655.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 126}
+  scale: 0.0069
+  state: {cap: [1.5705615409745657, 1.6549704574071664], fit: vbush, prefab: caves-mines-underground-junglecave-crystal, role: vbush}
+  tags: [zone-set, zs-caves, zs-vbush]
+zs-caves-v28:
+  castShadow: true
+  feetPosition: {x: -114.53, y: 0, z: -107.8}
+  id: zs-caves-v28
+  model: /cdn/value.17430e7c45fa64be8ec5aeaffe56a125903e0c6574a5c71c316c6d9c3c49c683.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 257}
+  scale: 0.0471
+  state: {cap: [1.320827195849655, 1.1570104838614401], fit: vprop, prefab: sm_env_rock_boulder_tall_086, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v29:
+  castShadow: true
+  feetPosition: {x: -110.07, y: 0.008990295896189672, z: -107.49}
+  id: zs-caves-v29
+  model: /cdn/value.903265ac0e10bdb4f3d2b1fa628ca566f0a46f322810dd15824b1ac760c61bea.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 71}
+  scale: 0.7613
+  state: {cap: [1.8526593144296948, 1.2338232149061854], fit: vprop, prefab: elw-minecart, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v3:
+  castShadow: true
+  feetPosition: {x: -126.69, y: 0, z: -84.75}
+  id: zs-caves-v3
+  model: /cdn/value.debaa0567653ef74667486e6e9041825c5f05a3e56659a383c33288b71d33e77.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 161}
+  scale: 0.6882
+  state: {cap: [5.360860981331608, 7.984821184531237], fit: vtree, prefab: general-burnt-stone-tree-stump03, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v30:
+  castShadow: true
+  feetPosition: {x: -105.31, y: 0.9030781110615788, z: -78.4}
+  id: zs-caves-v30
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 129}
+  scale: 0.0489
+  state: {cap: [1.22063459009893, 1.2041668445356966], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v31:
+  castShadow: true
+  feetPosition: {x: -103.45, y: 0, z: -108.26}
+  id: zs-caves-v31
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 180}
+  scale: 0.8487
+  state: {cap: [1.2576164182543832, 1.1693562010626104], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v32:
+  castShadow: true
+  feetPosition: {x: -97.16, y: 0.09312211197214795, z: -101.27}
+  id: zs-caves-v32
+  model: /cdn/value.c065979c2d944e9a50fef439e24bda0487b80ce35387f990addf36048a6889d3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 108}
+  scale: 0.2262
+  state: {cap: [1.7154774984882577, 1.2227378191066616], fit: vprop, prefab: general-burning-steppes-boulders03, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v33:
+  castShadow: true
+  feetPosition: {x: -120.29, y: 0.017422885571209412, z: -103.04}
+  id: zs-caves-v33
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 196}
+  scale: 0.0696
+  state: {cap: [1.8515415917390685, 0.9446492688938273], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v34:
+  castShadow: true
+  feetPosition: {x: -119.82, y: 0.9231955271838407, z: -83.5}
+  id: zs-caves-v34
+  model: /cdn/value.903265ac0e10bdb4f3d2b1fa628ca566f0a46f322810dd15824b1ac760c61bea.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 259}
+  scale: 0.8
+  state: {cap: [1.8125321145227795, 1.220436588265205], fit: vprop, prefab: elw-minecart, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v35:
+  castShadow: true
+  feetPosition: {x: -103.61, y: 0.41935817385054275, z: -77.5}
+  id: zs-caves-v35
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 242}
+  scale: 0.0782
+  state: {cap: [1.910605781111217, 1.4635223521681142], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v36:
+  castShadow: true
+  feetPosition: {x: -103.86, y: 0.937112922496125, z: -102.68}
+  id: zs-caves-v36
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 306}
+  scale: 0.0573
+  state: {cap: [1.426858919964572, 0.9134008834200914], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v37:
+  castShadow: true
+  feetPosition: {x: -117.75, y: 0, z: -105.99}
+  id: zs-caves-v37
+  model: /cdn/value.17430e7c45fa64be8ec5aeaffe56a125903e0c6574a5c71c316c6d9c3c49c683.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 82}
+  scale: 0.0464
+  state: {cap: [1.721087553594768, 1.1388849504473084], fit: vprop, prefab: sm_env_rock_boulder_tall_086, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v38:
+  castShadow: true
+  feetPosition: {x: -120.87, y: 1.380194452472895, z: -91.99}
+  id: zs-caves-v38
+  model: /cdn/value.8a0ec2f551c63c864f3daa92721cc5471ccdc29e121639c0c73da6d05ed1624b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 81}
+  scale: 0.0837
+  state: {cap: [1.7991639583367687, 1.3114858245530565], fit: vprop, prefab: elw-rock, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v39:
+  castShadow: true
+  feetPosition: {x: -120.02, y: 0, z: -105.62}
+  id: zs-caves-v39
+  model: /cdn/value.c065979c2d944e9a50fef439e24bda0487b80ce35387f990addf36048a6889d3.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 30}
+  scale: 0.2725
+  state: {cap: [1.786086992447305, 1.4730615463913705], fit: vprop, prefab: general-burning-steppes-boulders03, role: vprop}
+  tags: [zone-set, zs-caves, zs-vprop]
+zs-caves-v4:
+  castShadow: true
+  feetPosition: {x: -122.35, y: 0, z: -79.35}
+  id: zs-caves-v4
+  model: /cdn/value.f22583709a7c3d849d112a8dd5678548b80d3d1f82237b1d7a15a7028b135349.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 177}
+  scale: 0.1918
+  state: {cap: [4.797103549841374, 7.870979494355144], fit: vtree, prefab: general-burnt-stone-tree08, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v5:
+  castShadow: true
+  feetPosition: {x: -118.46, y: 0, z: -105.93}
+  id: zs-caves-v5
+  model: /cdn/value.b9e8205818e25e6a900fc191462d85d57fbfc34edef372180ee313a2cd62d622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 289}
+  scale: 0.0697
+  state: {cap: [5.836627842898773, 9.926648959483323], fit: vtree, prefab: general-maraudon-corrupted-tree01, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v6:
+  castShadow: true
+  feetPosition: {x: -117.11, y: 0, z: -75.01}
+  id: zs-caves-v6
+  model: /cdn/value.1c16dbdd6ea67c2d55ec9b02a36dc5f22db83581372495076ef4c65f68b4d202.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 165}
+  scale: 0.8261
+  state: {cap: [5.950048199016623, 7.936129395820261], fit: vtree, prefab: general-maraudon-spore-tree, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v7:
+  castShadow: true
+  feetPosition: {x: -97.57, y: 0.016468921895091238, z: -102.68}
+  id: zs-caves-v7
+  model: /cdn/value.14b3227947dc6266868f7887cb9419c6f0dab5d18b0521b9876f12fd3708ad82.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 133}
+  scale: 0.122
+  state: {cap: [5.870915587116459, 7.965236266127432], fit: vtree, prefab: general-burnt-stone-tree07, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v8:
+  castShadow: true
+  feetPosition: {x: -122.25, y: 0, z: -104.14}
+  id: zs-caves-v8
+  model: /cdn/value.a0e4412d536b1be58e22a81e8e41649517c2fb91b08bf3a0e2263d734e0e49fa.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 71}
+  scale: 0.0762
+  state: {cap: [4.772657088945926, 6.476310262678336], fit: vtree, prefab: general-burnt-stone-tree01, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-caves-v9:
+  castShadow: true
+  feetPosition: {x: -113.54, y: 0.1484302114824638, z: -105.77}
+  id: zs-caves-v9
+  model: /cdn/value.b9e8205818e25e6a900fc191462d85d57fbfc34edef372180ee313a2cd62d622.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 42}
+  scale: 0.0475
+  state: {cap: [4.363080882752818, 8.480634282566903], fit: vtree, prefab: general-maraudon-corrupted-tree01, role: vtree}
+  tags: [zone-set, zs-caves, zs-vtree]
+zs-desert-571:
+  castShadow: true
+  feetPosition: {x: -114.71, y: 0, z: -67.54}
+  id: zs-desert-571
+  model: /cdn/value.bd54c630d9ce4e4f8b3400ca850b16b2c46b3ae6bbd6c1440cb4e7ce008fd33b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 116}
+  scale: 0.0769
+  state: {fit: ring, prefab: general-durotar-tree08, role: ring}
+  tags: [zone-set, zs-desert, zs-ring]
+zs-desert-573:
+  castShadow: true
+  feetPosition: {x: -123.96, y: 0, z: -67.56}
+  id: zs-desert-573
+  model: /cdn/value.a10f81fb2db2d80486c44f5249848807451e05e024515cf3f3d8d1d9518fb9e7.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 267}
+  scale: 0.1154
+  state: {fit: ring, prefab: general-durotar-tree06, role: ring}
+  tags: [zone-set, zs-desert, zs-ring]
+zs-desert-v11:
+  castShadow: true
+  feetPosition: {x: -116.9, y: 0, z: -64.25}
+  id: zs-desert-v11
+  model: /cdn/value.bd54c630d9ce4e4f8b3400ca850b16b2c46b3ae6bbd6c1440cb4e7ce008fd33b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 249}
+  scale: 0.0794
+  state: {cap: [6.0213577629864945, 9.535876022435668], fit: vtree, prefab: general-durotar-tree08, role: vtree}
+  tags: [zone-set, zs-desert, zs-vtree]
+zs-desert-v3:
+  castShadow: true
+  feetPosition: {x: -118.51, y: 0, z: -64.72}
+  id: zs-desert-v3
+  model: /cdn/value.a10f81fb2db2d80486c44f5249848807451e05e024515cf3f3d8d1d9518fb9e7.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 298}
+  scale: 0.0859
+  state: {cap: [5.511376862070233, 7.537473303050489], fit: vtree, prefab: general-durotar-tree06, role: vtree}
+  tags: [zone-set, zs-desert, zs-vtree]
+zs-desert-v34:
+  castShadow: true
+  feetPosition: {x: -118.54, y: 0, z: -64.25}
+  id: zs-desert-v34
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 283}
+  scale: 1.5637
+  state: {cap: [1.7142913772325459, 1.271382860546644], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-desert, zs-vprop]
+zs-harbor-424:
+  castShadow: true
+  feetPosition: {x: -81.43, y: 2.6, z: -126.31}
+  id: zs-harbor-424
+  model: /cdn/value.12ea545db3c08f39f4bf79b478bafc91a01c731e80580c0799953ba987dc89ab.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 39}
+  scale: 0.1118
+  state: {fit: hero, prefab: transports-ships-zeppelins-shipwreck-a, role: hero}
+  tags: [zone-set, zs-harbor, zs-hero]
+zs-harbor-425:
+  castShadow: true
+  feetPosition: {x: -73.4, y: 2.404, z: -123.01}
+  id: zs-harbor-425
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 349}
+  scale: 0.1863
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-426:
+  castShadow: true
+  feetPosition: {x: -69.16, y: 1.149, z: -124.6}
+  id: zs-harbor-426
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 201}
+  scale: 0.0988
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-427:
+  castShadow: true
+  feetPosition: {x: -72.83, y: 2.41, z: -127.29}
+  id: zs-harbor-427
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 152}
+  scale: 0.1625
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-428:
+  castShadow: true
+  feetPosition: {x: -70.03, y: 1.22, z: -130.67}
+  id: zs-harbor-428
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 102}
+  scale: 0.1016
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-429:
+  castShadow: true
+  feetPosition: {x: -74.14, y: 2.345, z: -131.48}
+  id: zs-harbor-429
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 111}
+  scale: 0.1697
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-430:
+  castShadow: true
+  feetPosition: {x: -73.74, y: 1.339, z: -135.39}
+  id: zs-harbor-430
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 70}
+  scale: 0.099
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-431:
+  castShadow: true
+  feetPosition: {x: -77.72, y: 2.44, z: -133.97}
+  id: zs-harbor-431
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 79}
+  scale: 0.1863
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-432:
+  castShadow: true
+  feetPosition: {x: -79.03, y: 1.249, z: -138.2}
+  id: zs-harbor-432
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 236}
+  scale: 0.0992
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-433:
+  castShadow: true
+  feetPosition: {x: -81.87, y: 2.436, z: -134.83}
+  id: zs-harbor-433
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 339}
+  scale: 0.1697
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-434:
+  castShadow: true
+  feetPosition: {x: -84.89, y: 1.46, z: -137.37}
+  id: zs-harbor-434
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 39}
+  scale: 0.1007
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-435:
+  castShadow: true
+  feetPosition: {x: -86.29, y: 2.271, z: -134.15}
+  id: zs-harbor-435
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 246}
+  scale: 0.1662
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-436:
+  castShadow: true
+  feetPosition: {x: -90.22, y: 1.23, z: -134.74}
+  id: zs-harbor-436
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 208}
+  scale: 0.0984
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-437:
+  castShadow: true
+  feetPosition: {x: -89.66, y: 2.209, z: -130.95}
+  id: zs-harbor-437
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 21}
+  scale: 0.1697
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-438:
+  castShadow: true
+  feetPosition: {x: -92.78, y: 1.397, z: -129.35}
+  id: zs-harbor-438
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 60}
+  scale: 0.0985
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-439:
+  castShadow: true
+  feetPosition: {x: -90.3, y: 2.361, z: -126.4}
+  id: zs-harbor-439
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 118}
+  scale: 0.1625
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-440:
+  castShadow: true
+  feetPosition: {x: -92.79, y: 1.417, z: -123.51}
+  id: zs-harbor-440
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 12}
+  scale: 0.1016
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-441:
+  castShadow: true
+  feetPosition: {x: -89.05, y: 2.41, z: -122.21}
+  id: zs-harbor-441
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 184}
+  scale: 0.199
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-442:
+  castShadow: true
+  feetPosition: {x: -90.6, y: 1.117, z: -117.86}
+  id: zs-harbor-442
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 55}
+  scale: 0.0994
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-443:
+  castShadow: true
+  feetPosition: {x: -86.33, y: 2.325, z: -118.74}
+  id: zs-harbor-443
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 226}
+  scale: 0.1561
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-444:
+  castShadow: true
+  feetPosition: {x: -85.12, y: 1.447, z: -115.29}
+  id: zs-harbor-444
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 330}
+  scale: 0.0985
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-445:
+  castShadow: true
+  feetPosition: {x: -82.08, y: 2.285, z: -117.16}
+  id: zs-harbor-445
+  model: /cdn/value.df9caed4ebae39909776dfc52967c06f8409fbb4d23c95d222875c614f517dbb.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 260}
+  scale: 0.1885
+  state: {fit: flower, prefab: general-darkshore-bush01, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-446:
+  castShadow: true
+  feetPosition: {x: -79.2, y: 1.132, z: -114.08}
+  id: zs-harbor-446
+  model: /cdn/value.cc2dee5bdf830e430309e77082a8a99c6d8a385c2dd70040baa3313bd06a4929.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 249}
+  scale: 0.0988
+  state: {fit: flower, prefab: general-darkshore-bush02, role: flower}
+  tags: [zone-set, zs-harbor, zs-flower]
+zs-harbor-448:
+  castShadow: true
+  feetPosition: {x: -64.83, y: 0, z: -122.66}
+  id: zs-harbor-448
+  model: /cdn/value.e60e7fb7d771c7b01b88a3fd1b492f1ee44c444ad68a964415e205422e960119.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 99}
+  scale: 0.2142
+  state: {fit: acc, prefab: sm_prop_capital_canal_rowboat_111, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-450:
+  castShadow: true
+  feetPosition: {x: -64.89, y: 0, z: -130.22}
+  id: zs-harbor-450
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 231}
+  scale: 1.17
+  state: {fit: acc, prefab: elw-crate, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-452:
+  castShadow: true
+  feetPosition: {x: -68.22, y: 0, z: -137.01}
+  id: zs-harbor-452
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 194}
+  scale: 1.8633
+  state: {fit: acc, prefab: elw-barrel, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-453:
+  castShadow: true
+  feetPosition: {x: -68.88, y: 0, z: -141.89}
+  id: zs-harbor-453
+  model: /cdn/value.44d587c25d0eb3a4cdf8197a8703ec90995ca182c8697e8406bf48eb31870ad6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 346}
+  scale: 0.2245
+  state: {fit: ring, prefab: general-coral-tree02-07, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-454:
+  castShadow: true
+  feetPosition: {x: -74.17, y: 0, z: -141.69}
+  id: zs-harbor-454
+  model: /cdn/value.f19e5b3db0bc45f05dd9adb6882304f9cbf36017563b5af35f822947c36ca8d5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 240}
+  scale: 0.0948
+  state: {fit: acc, prefab: sm_prop_capital_canal_lamp_110, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-455:
+  castShadow: true
+  feetPosition: {x: -77.44, y: 0, z: -147.04}
+  id: zs-harbor-455
+  model: /cdn/value.e13f831b4a3449af6bafdf58a4aa71c12b2f014421dab510485f45ab00e5b863.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 144}
+  scale: 0.4282
+  state: {fit: ring, prefab: general-durotar-palm02, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-456:
+  castShadow: true
+  feetPosition: {x: -81.56, y: 0, z: -143.31}
+  id: zs-harbor-456
+  model: /cdn/value.e60e7fb7d771c7b01b88a3fd1b492f1ee44c444ad68a964415e205422e960119.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 0.2164
+  state: {fit: acc, prefab: sm_prop_capital_canal_rowboat_111, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-457:
+  castShadow: true
+  feetPosition: {x: -86.21, y: 0, z: -146.29}
+  id: zs-harbor-457
+  model: /cdn/value.7bc5424cf4b5ce3e2a3e2eed9c2cac98b22723b633cc2720fe113fd744e99704.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 5}
+  scale: 0.4323
+  state: {fit: ring, prefab: general-durotar-palm03, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-458:
+  castShadow: true
+  feetPosition: {x: -88.92, y: 0, z: -141.58}
+  id: zs-harbor-458
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 202}
+  scale: 1.2326
+  state: {fit: acc, prefab: elw-crate, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-459:
+  castShadow: true
+  feetPosition: {x: -94.04, y: 0, z: -141.85}
+  id: zs-harbor-459
+  model: /cdn/value.1ff2a8c89d53c908b673277ac0576524ad4baf680a1d7275182f5aa4c8d6e5b0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 177}
+  scale: 0.231
+  state: {fit: ring, prefab: general-coral-tree01, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-460:
+  castShadow: true
+  feetPosition: {x: -94.8, y: 0, z: -136.81}
+  id: zs-harbor-460
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 139}
+  scale: 1.6655
+  state: {fit: acc, prefab: elw-barrel, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-461:
+  castShadow: true
+  feetPosition: {x: -99.72, y: 0, z: -134.96}
+  id: zs-harbor-461
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 67}
+  scale: 0.1893
+  state: {fit: ring, prefab: general-coral-tree01-06, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-462:
+  castShadow: true
+  feetPosition: {x: -98.03, y: 0, z: -129.97}
+  id: zs-harbor-462
+  model: /cdn/value.f19e5b3db0bc45f05dd9adb6882304f9cbf36017563b5af35f822947c36ca8d5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 191}
+  scale: 0.0948
+  state: {fit: acc, prefab: sm_prop_capital_canal_lamp_110, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-463:
+  castShadow: true
+  feetPosition: {x: -101.57, y: 0, z: -126.93}
+  id: zs-harbor-463
+  model: /cdn/value.84cd44d7f2e37d66ffb1c39495f577ce4dd39676ce85976d6e124bc9aefbb751.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 0.2413
+  state: {fit: ring, prefab: general-coral-tree02, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-464:
+  castShadow: true
+  feetPosition: {x: -97.98, y: 0, z: -122.41}
+  id: zs-harbor-464
+  model: /cdn/value.e60e7fb7d771c7b01b88a3fd1b492f1ee44c444ad68a964415e205422e960119.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 202}
+  scale: 0.2071
+  state: {fit: acc, prefab: sm_prop_capital_canal_rowboat_111, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-465:
+  castShadow: true
+  feetPosition: {x: -100.2, y: 0, z: -116.43}
+  id: zs-harbor-465
+  model: /cdn/value.44d587c25d0eb3a4cdf8197a8703ec90995ca182c8697e8406bf48eb31870ad6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 241}
+  scale: 0.2044
+  state: {fit: ring, prefab: general-coral-tree02-07, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-466:
+  castShadow: true
+  feetPosition: {x: -94.64, y: 0, z: -115.62}
+  id: zs-harbor-466
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 267}
+  scale: 1.4312
+  state: {fit: acc, prefab: elw-crate, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-467:
+  castShadow: true
+  feetPosition: {x: -94.71, y: 0, z: -109.72}
+  id: zs-harbor-467
+  model: /cdn/value.e13f831b4a3449af6bafdf58a4aa71c12b2f014421dab510485f45ab00e5b863.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 326}
+  scale: 0.4263
+  state: {fit: ring, prefab: general-durotar-palm02, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-468:
+  castShadow: true
+  feetPosition: {x: -88.69, y: 0, z: -110.94}
+  id: zs-harbor-468
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 135}
+  scale: 1.6703
+  state: {fit: acc, prefab: elw-barrel, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-469:
+  castShadow: true
+  feetPosition: {x: -86.61, y: 0, z: -106.42}
+  id: zs-harbor-469
+  model: /cdn/value.7bc5424cf4b5ce3e2a3e2eed9c2cac98b22723b633cc2720fe113fd744e99704.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 29}
+  scale: 0.3627
+  state: {fit: ring, prefab: general-durotar-palm03, role: ring}
+  tags: [zone-set, zs-harbor, zs-ring]
+zs-harbor-470:
+  castShadow: true
+  feetPosition: {x: -81.3, y: 0, z: -109.32}
+  id: zs-harbor-470
+  model: /cdn/value.f19e5b3db0bc45f05dd9adb6882304f9cbf36017563b5af35f822947c36ca8d5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 36}
+  scale: 0.0948
+  state: {fit: acc, prefab: sm_prop_capital_canal_lamp_110, role: acc}
+  tags: [zone-set, zs-harbor, zs-acc]
+zs-harbor-471:
+  castShadow: true
+  feetPosition: {x: -65.9, y: 0.152, z: -126.47}
+  id: zs-harbor-471
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 208}
+  scale: 1.3965
+  state: {fit: fill, prefab: elw-barrel, role: fill}
+  tags: [zone-set, zs-harbor, zs-fill]
+zs-harbor-472:
+  castShadow: true
+  feetPosition: {x: -70.88, y: 0.05, z: -138.57}
+  id: zs-harbor-472
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 72}
+  scale: 1.0296
+  state: {fit: fill, prefab: elw-crate, role: fill}
+  tags: [zone-set, zs-harbor, zs-fill]
+zs-harbor-473:
+  castShadow: true
+  feetPosition: {x: -83.58, y: 0.156, z: -141.67}
+  id: zs-harbor-473
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 15}
+  scale: 1.6204
+  state: {fit: fill, prefab: elw-sack, role: fill}
+  tags: [zone-set, zs-harbor, zs-fill]
+zs-harbor-474:
+  castShadow: true
+  feetPosition: {x: -94.96, y: 0.048, z: -135.21}
+  id: zs-harbor-474
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 348}
+  scale: 1.3967
+  state: {fit: fill, prefab: elw-barrel, role: fill}
+  tags: [zone-set, zs-harbor, zs-fill]
+zs-harbor-475:
+  castShadow: true
+  feetPosition: {x: -97.23, y: 0, z: -121.97}
+  id: zs-harbor-475
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 295}
+  scale: 0.9964
+  state: {fit: fill, prefab: elw-crate, role: fill}
+  tags: [zone-set, zs-harbor, zs-fill]
+zs-harbor-476:
+  castShadow: true
+  feetPosition: {x: -88.62, y: 0, z: -111.52}
+  id: zs-harbor-476
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 265}
+  scale: 1.7559
+  state: {fit: fill, prefab: elw-sack, role: fill}
+  tags: [zone-set, zs-harbor, zs-fill]
+zs-harbor-477:
+  castShadow: true
+  feetPosition: {x: -74.41, y: 0, z: -109.74}
+  id: zs-harbor-477
+  model: /cdn/value.f19e5b3db0bc45f05dd9adb6882304f9cbf36017563b5af35f822947c36ca8d5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 199}
+  scale: 0.1611
+  state: {fit: light, prefab: sm_prop_capital_canal_lamp_110, role: light}
+  tags: [zone-set, zs-harbor, zs-light]
+zs-harbor-478:
+  castShadow: true
+  feetPosition: {x: -79.26, y: 2.196, z: -117.07}
+  id: zs-harbor-478
+  model: /cdn/value.f19e5b3db0bc45f05dd9adb6882304f9cbf36017563b5af35f822947c36ca8d5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 223}
+  scale: 0.1611
+  state: {fit: light, prefab: sm_prop_capital_canal_lamp_110, role: light}
+  tags: [zone-set, zs-harbor, zs-light]
+zs-harbor-479:
+  castShadow: true
+  feetPosition: {x: -66.68, y: 0, z: -116}
+  id: zs-harbor-479
+  model: /cdn/value.f19e5b3db0bc45f05dd9adb6882304f9cbf36017563b5af35f822947c36ca8d5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 24}
+  scale: 0.1611
+  state: {fit: light, prefab: sm_prop_capital_canal_lamp_110, role: light}
+  tags: [zone-set, zs-harbor, zs-light]
+zs-harbor-480:
+  castShadow: true
+  feetPosition: {x: -72.84, y: 2.196, z: -122.27}
+  id: zs-harbor-480
+  model: /cdn/value.f19e5b3db0bc45f05dd9adb6882304f9cbf36017563b5af35f822947c36ca8d5.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 129}
+  scale: 0.1611
+  state: {fit: light, prefab: sm_prop_capital_canal_lamp_110, role: light}
+  tags: [zone-set, zs-harbor, zs-light]
+zs-harbor-481:
+  castShadow: true
+  feetPosition: {x: -76.51, y: 0.582, z: -113.27}
+  id: zs-harbor-481
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.30192ee14a8c0e244cee271621522c1a321957d0e4afd1738836529b4f64ed24.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 41}
+  scale: 1.7294
+  state: {fit: creature, name: Murloc Coastrunner, prefab: sw-murlocCoastrunner, role: creature, stance: hostile}
+  tags: [zone-set, zs-harbor, zs-creature, npc]
+zs-harbor-482:
+  castShadow: true
+  feetPosition: {x: -72.6, y: 0.553, z: -115.41}
+  id: zs-harbor-482
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.4dd187c7279b7567d3264ba479242e4ca672e1dbbf6a6d87ba1484a1074c6f54.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 45}
+  scale: 1.7294
+  state: {fit: creature, name: Murloc Forager, prefab: sw-murlocForager, role: creature, stance: hostile}
+  tags: [zone-set, zs-harbor, zs-creature, npc]
+zs-harbor-483:
+  castShadow: true
+  feetPosition: {x: -69.41, y: 0.474, z: -118.61}
+  id: zs-harbor-483
+  mixer: {base: {clip: Idle, loop: loop, weight: 1}}
+  model: /cdn/value.8a0886966bf7f23fc9082344e00eb7b345feaba396b2ad12b72499178f95a0c1.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 39}
+  scale: 1.7294
+  state: {fit: creature, name: Murloc Tidehunter, prefab: sw-murlocTidehunter, role: creature, stance: hostile}
+  tags: [zone-set, zs-harbor, zs-creature, npc]
+zs-harbor-v0:
+  castShadow: true
+  feetPosition: {x: -64.91, y: 0.017378649737098618, z: -126.22}
+  id: zs-harbor-v0
+  model: /cdn/value.5b60f39835bde50b74298a010faa267c062ff6f1c08b5e694cab76b8905f7222.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 253}
+  scale: 0.0505
+  state: {cap: [5.217535389339335, 9.787661801924772], fit: vtree, prefab: general-azr-tree01, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v1:
+  castShadow: true
+  feetPosition: {x: -94.97, y: 0, z: -114.76}
+  id: zs-harbor-v1
+  model: /cdn/value.5b60f39835bde50b74298a010faa267c062ff6f1c08b5e694cab76b8905f7222.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 221}
+  scale: 0.0513
+  state: {cap: [5.876263939834323, 7.788858872739998], fit: vtree, prefab: general-azr-tree01, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v10:
+  castShadow: true
+  feetPosition: {x: -76.88, y: 0, z: -143.07}
+  id: zs-harbor-v10
+  model: /cdn/value.24d0b56b591d5f0d9004685c92ef21761b2e8151b5a21232f71db801a2c91b7d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 115}
+  scale: 0.0613
+  state: {cap: [4.171930480712061, 8.21694292417585], fit: vtree, prefab: general-azr-tree05, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v11:
+  castShadow: true
+  feetPosition: {x: -65.61, y: 0.0783097946481761, z: -124.19}
+  id: zs-harbor-v11
+  model: /cdn/value.147c354e9a5923ea9516aaf42ac11a49b37b2a44ababf79bda34b709a553a381.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 118}
+  scale: 0.0618
+  state: {cap: [4.281189687564591, 6.328126236949175], fit: vtree, prefab: general-azr-tree02, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v12:
+  castShadow: true
+  feetPosition: {x: -97.13, y: 0.08336530124879481, z: -123.63}
+  id: zs-harbor-v12
+  model: /cdn/value.94bee95fe0d389ec70532f8e7f2dadcf7207d7a86783dfb8e5da023909418d4b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 10}
+  scale: 0.3251
+  state: {cap: [4.913029260310823, 9.25244487042187], fit: vtree, prefab: general-azr-tree04, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v13:
+  castShadow: true
+  feetPosition: {x: -82.77, y: 0, z: -108.56}
+  id: zs-harbor-v13
+  model: /cdn/value.24d0b56b591d5f0d9004685c92ef21761b2e8151b5a21232f71db801a2c91b7d.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 10}
+  scale: 0.0663
+  state: {cap: [4.11397152015193, 9.630942709572121], fit: vtree, prefab: general-azr-tree05, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v14:
+  castShadow: true
+  feetPosition: {x: -77.21, y: 0.27620944206216447, z: -140.68}
+  id: zs-harbor-v14
+  model: /cdn/value.1ff2a8c89d53c908b673277ac0576524ad4baf680a1d7275182f5aa4c8d6e5b0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 212}
+  scale: 0.0568
+  state: {cap: [1.8764685001813193, 1.4047308702276697], fit: vbush, prefab: general-coral-tree01, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v15:
+  castShadow: true
+  feetPosition: {x: -68.29, y: 0.8295722083555499, z: -127.86}
+  id: zs-harbor-v15
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 168}
+  scale: 0.072
+  state: {cap: [2.088190437452025, 1.2574195325874815], fit: vbush, prefab: general-coral-tree01-06, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v16:
+  castShadow: true
+  feetPosition: {x: -71.14, y: 1.6186081772958176, z: -130.67}
+  id: zs-harbor-v16
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 292}
+  scale: 0.0547
+  state: {cap: [1.7225531066640063, 1.205605101518149], fit: vbush, prefab: general-coral-tree01-06, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v17:
+  castShadow: true
+  feetPosition: {x: -69.35, y: 1.2582272524302875, z: -127.12}
+  id: zs-harbor-v17
+  model: /cdn/value.647c8fb694c42d4be3a207dfd52f70f63b6edb3608b42220b43131f6c5636955.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 253}
+  scale: 0.2607
+  state: {cap: [2.12203402359599, 1.264538004954596], fit: vbush, prefab: general-coral03-01, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v18:
+  castShadow: true
+  feetPosition: {x: -67.36, y: 0.5348318378631215, z: -125.72}
+  id: zs-harbor-v18
+  model: /cdn/value.44d587c25d0eb3a4cdf8197a8703ec90995ca182c8697e8406bf48eb31870ad6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 144}
+  scale: 0.0596
+  state: {cap: [2.1123483275353667, 1.352042912040857], fit: vbush, prefab: general-coral-tree02-07, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v19:
+  castShadow: true
+  feetPosition: {x: -64.91, y: 0.013889691133751537, z: -125}
+  id: zs-harbor-v19
+  model: /cdn/value.1ff2a8c89d53c908b673277ac0576524ad4baf680a1d7275182f5aa4c8d6e5b0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 82}
+  scale: 0.063
+  state: {cap: [1.747477444260138, 1.5193155289950384], fit: vbush, prefab: general-coral-tree01, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v2:
+  castShadow: true
+  feetPosition: {x: -78.47, y: 0, z: -144.64}
+  id: zs-harbor-v2
+  model: /cdn/value.5f4befc8ba0a32a2b4f8c81cff255b72133a584a290cbefbd23f11182e7265e0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 159}
+  scale: 0.081
+  state: {cap: [5.507228370642862, 7.979560631317813], fit: vtree, prefab: general-azr-tree03, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v20:
+  castShadow: true
+  feetPosition: {x: -75.19, y: 1.1897176180129496, z: -136.89}
+  id: zs-harbor-v20
+  model: /cdn/value.44d587c25d0eb3a4cdf8197a8703ec90995ca182c8697e8406bf48eb31870ad6.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 301}
+  scale: 0.0664
+  state: {cap: [2.006868507087635, 1.5081100392425943], fit: vbush, prefab: general-coral-tree02-07, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v21:
+  castShadow: true
+  feetPosition: {x: -69.09, y: 0, z: -139.29}
+  id: zs-harbor-v21
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 318}
+  scale: 0.0448
+  state: {cap: [1.5044179217211986, 1.5182302863654822], fit: vbush, prefab: general-coral-tree01-06, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v22:
+  castShadow: true
+  feetPosition: {x: -69.72, y: 0.08496714621234513, z: -137.09}
+  id: zs-harbor-v22
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 277}
+  scale: 0.0599
+  state: {cap: [1.642121204078254, 1.1908376224994834], fit: vbush, prefab: general-coral-tree01-06, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v23:
+  castShadow: true
+  feetPosition: {x: -92.57, y: 0.016297206468499637, z: -138.53}
+  id: zs-harbor-v23
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 251}
+  scale: 0.068
+  state: {cap: [2.0978073629307596, 1.6709379378803717], fit: vbush, prefab: general-coral-tree01-06, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v24:
+  castShadow: true
+  feetPosition: {x: -93.38, y: 1.170288786070044, z: -123.26}
+  id: zs-harbor-v24
+  model: /cdn/value.84cd44d7f2e37d66ffb1c39495f577ce4dd39676ce85976d6e124bc9aefbb751.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 220}
+  scale: 0.0495
+  state: {cap: [1.4846380681426443, 1.2537865459936606], fit: vbush, prefab: general-coral-tree02, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v25:
+  castShadow: true
+  feetPosition: {x: -86.96, y: 0, z: -109.06}
+  id: zs-harbor-v25
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 32}
+  scale: 0.0675
+  state: {cap: [2.2309753885869754, 1.5581657632292087], fit: vbush, prefab: general-coral-tree01-06, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v26:
+  castShadow: true
+  feetPosition: {x: -70.42, y: 1.6793119570575006, z: -125.99}
+  id: zs-harbor-v26
+  model: /cdn/value.1ff2a8c89d53c908b673277ac0576524ad4baf680a1d7275182f5aa4c8d6e5b0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 157}
+  scale: 0.0479
+  state: {cap: [1.5181759616677537, 1.4648571388399494], fit: vbush, prefab: general-coral-tree01, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v27:
+  castShadow: true
+  feetPosition: {x: -95.34, y: 0.44920688424686656, z: -122.76}
+  id: zs-harbor-v27
+  model: /cdn/value.7496a8dc01850b25d901340cfbcf8d616d32064fa6fd61feb079503a0784b15f.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 142}
+  scale: 0.0449
+  state: {cap: [1.5056177266201087, 1.1022132365741828], fit: vbush, prefab: general-coral-tree01-06, role: vbush}
+  tags: [zone-set, zs-harbor, zs-vbush]
+zs-harbor-v28:
+  castShadow: true
+  feetPosition: {x: -94.56, y: 0.8002866396623758, z: -128.5}
+  id: zs-harbor-v28
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 117}
+  scale: 0.9923
+  state: {cap: [1.8042573950273253, 1.3155286681910645], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v29:
+  castShadow: true
+  feetPosition: {x: -97.85, y: 0.017434763241131735, z: -128.12}
+  id: zs-harbor-v29
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 31}
+  scale: 1.6406
+  state: {cap: [1.9312050603009785, 1.3225863589079054], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v3:
+  castShadow: true
+  feetPosition: {x: -98.24, y: 0, z: -131.03}
+  id: zs-harbor-v3
+  model: /cdn/value.147c354e9a5923ea9516aaf42ac11a49b37b2a44ababf79bda34b709a553a381.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 130}
+  scale: 0.0825
+  state: {cap: [6.1044673749033675, 8.453072001437224], fit: vtree, prefab: general-azr-tree02, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v30:
+  castShadow: true
+  feetPosition: {x: -79.76, y: 0.11023242451395968, z: -141.98}
+  id: zs-harbor-v30
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 338}
+  scale: 1.0494
+  state: {cap: [1.8969597536590694, 1.0519348109848494], fit: vprop, prefab: elw-barrel, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v31:
+  castShadow: true
+  feetPosition: {x: -84.06, y: 0, z: -107.97}
+  id: zs-harbor-v31
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 185}
+  scale: 0.9549
+  state: {cap: [1.5008376879155811, 1.034265597879079], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v32:
+  castShadow: true
+  feetPosition: {x: -68.56, y: 0.7058246948947131, z: -121.99}
+  id: zs-harbor-v32
+  model: /cdn/value.e60e7fb7d771c7b01b88a3fd1b492f1ee44c444ad68a964415e205422e960119.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 191}
+  scale: 0.1835
+  state: {cap: [1.9003244332505038, 1.4645622309132302], fit: vprop, prefab: sm_prop_capital_canal_rowboat_111, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v33:
+  castShadow: true
+  feetPosition: {x: -77.68, y: 0, z: -144.3}
+  id: zs-harbor-v33
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 171}
+  scale: 1.2898
+  state: {cap: [1.3713984940999182, 1.4208677529920206], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v34:
+  castShadow: true
+  feetPosition: {x: -81.88, y: 0.010079124396833629, z: -142.94}
+  id: zs-harbor-v34
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 220}
+  scale: 0.9758
+  state: {cap: [1.9296069621712002, 0.9781599085210636], fit: vprop, prefab: elw-barrel, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v35:
+  castShadow: true
+  feetPosition: {x: -82.63, y: 1.5773356124258258, z: -137.53}
+  id: zs-harbor-v35
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 5}
+  scale: 1.3097
+  state: {cap: [1.3425759182044192, 1.1050929462560886], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v36:
+  castShadow: true
+  feetPosition: {x: -80.18, y: 1.3677366909375812, z: -114.55}
+  id: zs-harbor-v36
+  model: /cdn/value.3830c24a07361ae1a8d99abd11a7f2f3b0314ca78886a00afc730c88cc4cc948.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 189}
+  scale: 1.2344
+  state: {cap: [1.8554679441524056, 1.2373030271089185], fit: vprop, prefab: elw-barrel, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v37:
+  castShadow: true
+  feetPosition: {x: -84.92, y: 0.8128334138703617, z: -139.12}
+  id: zs-harbor-v37
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 105}
+  scale: 1.598
+  state: {cap: [1.7751275329734792, 1.326335013949468], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v38:
+  castShadow: true
+  feetPosition: {x: -80.19, y: 0.010068768905260829, z: -142.9}
+  id: zs-harbor-v38
+  model: /cdn/value.52cb64a830dab33e6fc76687a54eb5b423d7fc213df02c363b2355fc853b5e1e.glb
+  receiveShadow: true
+  rotation: {yaw: 344}
+  scale: 1.1
+  state: {cap: [1.241681626085975, 1.307317220236788], fit: vprop, prefab: elw-sack, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v39:
+  castShadow: true
+  feetPosition: {x: -92.33, y: 1.6434273629428653, z: -128.46}
+  id: zs-harbor-v39
+  model: /cdn/value.efbf4869d4ee43025a7cd80cfbd4f89843f9a24c5a2999a2fb709b859cace575.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 280}
+  scale: 0.7401
+  state: {cap: [1.2209147017546533, 1.1350442928425242], fit: vprop, prefab: elw-crate, role: vprop}
+  tags: [zone-set, zs-harbor, zs-vprop]
+zs-harbor-v4:
+  castShadow: true
+  feetPosition: {x: -69.01, y: 0.09202667272940457, z: -136.19}
+  id: zs-harbor-v4
+  model: /cdn/value.147c354e9a5923ea9516aaf42ac11a49b37b2a44ababf79bda34b709a553a381.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 219}
+  scale: 0.0791
+  state: {cap: [5.4858133286404485, 8.103383136029999], fit: vtree, prefab: general-azr-tree02, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v5:
+  castShadow: true
+  feetPosition: {x: -89.17, y: 0, z: -109.83}
+  id: zs-harbor-v5
+  model: /cdn/value.94bee95fe0d389ec70532f8e7f2dadcf7207d7a86783dfb8e5da023909418d4b.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 16}
+  scale: 0.3477
+  state: {cap: [4.4645793424987135, 9.896015001412488], fit: vtree, prefab: general-azr-tree04, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v7:
+  castShadow: true
+  feetPosition: {x: -97.87, y: 0, z: -119.75}
+  id: zs-harbor-v7
+  model: /cdn/value.5b60f39835bde50b74298a010faa267c062ff6f1c08b5e694cab76b8905f7222.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 150}
+  scale: 0.0384
+  state: {cap: [4.293671833837252, 9.988018084311866], fit: vtree, prefab: general-azr-tree01, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v8:
+  castShadow: true
+  feetPosition: {x: -98.08, y: 0.006301033603507755, z: -127.76}
+  id: zs-harbor-v8
+  model: /cdn/value.147c354e9a5923ea9516aaf42ac11a49b37b2a44ababf79bda34b709a553a381.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 12}
+  scale: 0.0604
+  state: {cap: [5.7891869193591114, 6.183285869743343], fit: vtree, prefab: general-azr-tree02, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-harbor-v9:
+  castShadow: true
+  feetPosition: {x: -65.15, y: 0.000019382619850971673, z: -131.15}
+  id: zs-harbor-v9
+  model: /cdn/value.70beaa9e33ddd920170f884ad41516c5b6893e1d04dd66ce8bd3645eb3b95164.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 270}
+  scale: 0.1588
+  state: {cap: [3.947609316184004, 7.951643367275429], fit: vtree, prefab: general-azr-tree06, role: vtree}
+  tags: [zone-set, zs-harbor, zs-vtree]
+zs-post-caves:
+  feetPosition: {x: -86.92545921760207, y: 0, z: -80.50585258735288}
+  id: zs-post-caves
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-caves]
+zs-post-harbor:
+  feetPosition: {x: -66.011650419279, y: 0, z: -107.26992394430422}
+  id: zs-post-harbor
+  material: {color: oklch(0.5 0.05 60), texture: cdn/texture-weathered-split-log-oak.png}
+  primitive: {height: 1.7, kind: cylinder, radiusBottom: 0.09, radiusTop: 0.07}
+  tags: [zone-set, zs-harbor]
+zs-sign-caves:
+  feetPosition: {x: -89.63122398270316, y: 2.1, z: -80.23698660963154}
+  id: zs-sign-caves
+  rotation: -103.87811117464408
+  tags: [zone-set, zs-caves]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>CAVES</text></svg>"
+zs-sign-harbor:
+  feetPosition: {x: -68.51394464060998, y: 2.1, z: -108.33386620876237}
+  id: zs-sign-harbor
+  rotation: -132.5874031717697
+  tags: [zone-set, zs-harbor]
+  vector: "<svg viewBox='0 0 220 54' width='3.6m' billboard='yaw'><rect x='4' y='4' width='212' height='46' rx='8' fill='#2a1d14' stroke='#ba8950' stroke-width='3'/><text x='110' y='36' text-anchor='middle' font-family='serif' font-size='24' fill='#f2e6cf'>HARBOR</text></svg>"

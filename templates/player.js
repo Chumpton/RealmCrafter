@@ -1,0 +1,7 @@
+// spawn6 native template "player"
+export const player = {
+  behavior: ["scripts/player.js", "scripts/props-toggle.js", "scripts/pet-wolf-player.js", "scripts/keeper-player.js", "scripts/campfire-player.js", "scripts/wardrobe-player.js", "scripts/humanoid-locomotion.js", "scripts/home-player-feel.js", "scripts/sky-local.js", "scripts/view-settings.js", "scripts/lyre-play.js", "scripts/guitar-play.js", "scripts/savi-wake.js", "scripts/board-input.js", "scripts/ed-history.js", "scripts/ed-gizmo.js", "scripts/build-tool.js", "scripts/terrain-editor.js", "scripts/ed-logic.js", "scripts/ed-logic-player.js", "scripts/ed-ai.js", "scripts/ed-scatter.js", "scripts/ed-outliner.js", "scripts/snow-sound.js", "scripts/skills-player.js", "scripts/combat-player.js", "scripts/class-cast-player.js", "scripts/monster-player.js", "scripts/prayer-player.js", "scripts/magic-player.js", "scripts/context-menu.js", "scripts/minimap-player.js", "scripts/equip-player.js", "scripts/ui-binds.js", "scripts/travel.js", "scripts/stones-player.js", "scripts/enemy-plates.js", "scripts/spellbook-player.js", "scripts/quest-player.js", "scripts/sword-sweep.js", "scripts/light-editor.js", "scripts/bug-tags.js", "scripts/arms-rest.js", "scripts/emotes.js", "scripts/devbook-player.js", "scripts/delaware-rider.js", "scripts/gondola-rider.js", "scripts/os-chat-player.js", "scripts/os-chat-history.js"],
+  feetPosition: { x: 0, y: 2, z: 0 },
+  physics: { body: "character" },
+  tags: ["player"],
+};

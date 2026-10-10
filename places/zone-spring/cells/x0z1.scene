@@ -1,0 +1,78 @@
+# spawn-scene v2 yaml x0z1
+vg-rim3:
+  castShadow: true
+  feetPosition: {x: 57.58042117369915, y: {terrain: 0}, z: 88.8208073509972}
+  id: vg-rim3
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 148.07464574284353}
+  scale: 1.3571099416884687
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim40:
+  castShadow: true
+  feetPosition: {x: -59.96464181425875, y: {terrain: 0}, z: 65.9994646543382}
+  id: vg-rim40
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 74.59586280826093}
+  scale: 1.0957115679939387
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim48:
+  castShadow: true
+  feetPosition: {x: -45.90405775010206, y: {terrain: 0}, z: 66.5868880920506}
+  id: vg-rim48
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 49.31831599149696}
+  scale: 1.33935754125878
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim56:
+  castShadow: true
+  feetPosition: {x: 27.115007897190903, y: {terrain: 0}, z: 90.72116920987739}
+  id: vg-rim56
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 56.824146506212784}
+  scale: 1.1669301305589546
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim61:
+  castShadow: true
+  feetPosition: {x: -63.337224537277145, y: {terrain: 0}, z: 66.54113046683489}
+  id: vg-rim61
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 114.43741013709214}
+  scale: 1.4841965091267568
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim65:
+  castShadow: true
+  feetPosition: {x: -25.62240906500195, y: {terrain: 0}, z: 64.87387524307687}
+  id: vg-rim65
+  model: /cdn/value.61ac3092a63f4ca1fd36d77d9c8326fdc41ba0209ecc3ccffc552f1caae420cc.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {yaw: 186.05718149436376}
+  scale: 1.2141018678565527
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}
+vg-rim95:
+  castShadow: true
+  feetPosition: {x: -49.538382637213765, y: {terrain: 0}, z: 84.91061934491242}
+  id: vg-rim95
+  model: /cdn/value.a1be1f6963ed40e1e7a1e01a95ff02329fb7faa15f4dcb461849c5f4dbaff066.glb
+  physics: {body: static, collider: box}
+  receiveShadow: true
+  rotation: {yaw: 163.00200460758248}
+  scale: 1.3152003134742383
+  tags: [verdant-glade]
+  visibleRange: {max: 1200}

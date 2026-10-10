@@ -1,0 +1,142 @@
+{
+ "sw-timberWolf": {
+  "old": "/cdn/value.49d2541268b5ffc3aac4f497b2d515a9b29f2db9eccad8010ae13b9e04be1ef1.glb",
+  "new": "/cdn/value.d1c23cadca470ac6e32b376140d0c7a754e0814d829254df86c1b3589d4f2c5f.glb",
+  "px": 9670
+ },
+ "sw-stonetuskBoar": {
+  "old": "/cdn/value.25c060b8a27c15d898e5c6f9a28a113f41abfdccbc08b7c6de074a156ec4ce89.glb",
+  "new": "/cdn/value.7658bbcc7d40ca7f552343b3cdaab8d78f9f92057c7472c5bc70d07fc05b17e2.glb",
+  "px": 5549
+ },
+ "sw-forestSpider": {
+  "old": "/cdn/value.0a16f53724225dc5e643f60daa9c72c029b38e3a0e604a5220453be19bef7f64.glb",
+  "new": "/cdn/value.ee6584605048af5122f67f9a807ee7b1528848fd4c85c0be34936ce483d73cd7.glb",
+  "px": 44603
+ },
+ "sm_env_pumpkin_patch_085": {
+  "old": "/cdn/value.3e206da6ad8086a9ebc1259e4b2f605ccf69a0829d9ca7d7c73d6b7360068b93.glb",
+  "new": "/cdn/value.aaa91f025dcaf997dcc554647336e39685be6d253be0c9108df2fd798fb19a13.glb",
+  "px": 4727
+ },
+ "sw-koboldVermin": {
+  "old": "/cdn/value.43b73be19ffd74970bb0d76f1f1a4812c8c2a38226750dfe814c25228c2d8cd9.glb",
+  "new": "/cdn/value.c63d5e8e954f0f44fd20e7b9307777a850c9a5cb1507459eb30e0d9d4794f096.glb",
+  "px": 5178
+ },
+ "sw-koboldGoldtooth": {
+  "old": "/cdn/value.ba713092fc8606cfdb9fb2902ddeadc91f0ebb260fa56fd0eca61523d5fb837a.glb",
+  "new": "/cdn/value.dea275f2b076a4002c37b77cb901840ea54d07d0061877e5750924e8715ae0c5.glb",
+  "px": 5179
+ },
+ "general-burnt-stone-tree-stump02": {
+  "old": "/cdn/value.fc2e1306eb45dd78596ecd791f0bc540dcbe640a11e072d0a995aa9a6a8f6a36.glb",
+  "new": "/cdn/value.5e63de35869ea7becd95be52927384131cb0b44773bd876d84398a8f59c23894.glb",
+  "px": 12372
+ },
+ "sm_prop_capital_statue_ranger_131": {
+  "old": "/cdn/value.e70f4aa359ed675f526c4868e1c7c2eec1b2610ecead2f592c1f8a16cc4c2d8d.glb",
+  "new": "/cdn/value.d694f19fb9b6a3fbefc76f8ead23d82bdbb58493c06cf39d4e909c036ea029de.glb",
+  "px": 1255
+ },
+ "sw-hogger": {
+  "old": "/cdn/value.9d965ca0be45e6cb4c7c6f12bdba50063de2e4403d7e46e1ab1c8beafa9c8d20.glb",
+  "new": "/cdn/value.02bcb1c8e5520876cf6e35c401631afff2bc3b4a6bdab4f131ecfcf80abfdb92.glb",
+  "px": 4126
+ },
+ "sw-harvestGolem": {
+  "old": "/cdn/value.67b2fa57e142c4771e4ea6dd087e4f20e19953dc6c6b92de518732ff610dfb3f.glb",
+  "new": "/cdn/value.64bd44beb03cdcf99a39c585c17686a2c8f97cbe7494bc82467f21d79df48117.glb",
+  "px": 13282
+ },
+ "sw-princessBoar": {
+  "old": "/cdn/value.30b0d19f42562b387296853438fae5c6d768ab3ef95cfb08231f800dc2927f29.glb",
+  "new": "/cdn/value.e61a45c7a19ea0bef0d07ac06faa70f278eeb357d6d64949f4d7ec716543ffbb.glb",
+  "px": 5549
+ },
+ "sk_char_gnoll_chieftain_042": {
+  "old": "/cdn/value.636f992f67066b6c00f605ef22bdaaae816bfcbe7ed3b7ca7053505c9804e63c.glb",
+  "new": "/cdn/value.31ebd074feae6154bf00f9a23ea85ae4e849c3bdf5e2e86a00c674a529db848a.glb",
+  "px": 4126
+ },
+ "sk_char_kobold_leader_052": {
+  "old": "/cdn/value.7c7a29918491ad7d403d85bf69cb4b19e37bcc50e210cacbc4ce9c444141aa6f.glb",
+  "new": "/cdn/value.71586417e4a4ecd1b3d6e64086806ea2bad6a3a5f991809301a5cb7d9d8ee704.glb",
+  "px": 5179
+ },
+ "sk_char_tusked_boar_060": {
+  "old": "/cdn/value.bf1c64980fd2a7eedb418059a3317f1d3a3eb658a60ab99aab5616d18d5e4b52.glb",
+  "new": "/cdn/value.f381b3973a4a25ce600478ad0bac5434818a7fc855fc052a0ee400a05d5ef061.glb",
+  "px": 5549
+ },
+ "general-durotar-tree05": {
+  "old": "/cdn/value.d01ce11bb26cce537996d2003d48260ed05b7d244c4950b67b1407920dda6e1c.glb",
+  "new": "/cdn/value.cfa0f4945d4e78be757d19d23e310647c38432a0f3d0b8f6cc105b153ad66241.glb",
+  "px": 3131
+ },
+ "general-durotar-tree06": {
+  "old": "/cdn/value.1919fb3e1a44899f7b159f765984ad4a7b9ff318071e8fc931973f50e0e89b57.glb",
+  "new": "/cdn/value.a10f81fb2db2d80486c44f5249848807451e05e024515cf3f3d8d1d9518fb9e7.glb",
+  "px": 3131
+ },
+ "sk_char_giant_boar_040": {
+  "old": "/cdn/value.656a50f7b25917f4a05cd2e644158d88a1c740bea35956798231ec51b0a31719.glb",
+  "new": "/cdn/value.7db5a05cf7d31ea9c40014eb2268ada6fc08012db31e67f9ae09b7140e95b9d6.glb",
+  "px": 5549
+ },
+ "general-durotar-tree02": {
+  "old": "/cdn/value.076e499edc723f960a202330264edfffea43700870313eadeced091f03499a5c.glb",
+  "new": "/cdn/value.3d0fd61c1aa751553f0df95f0f4fb19ad49d8c363a1b965fb51217de9a523f26.glb",
+  "px": 3131
+ },
+ "general-durotar-tree03": {
+  "old": "/cdn/value.9243e4fd8cfe1c24c8926ff2bb4210e0b2e61be55bca570f62a1b8dbe32c8706.glb",
+  "new": "/cdn/value.aca65eea25681c91653a602c9a7c2e754d0a88463966282e15bcbe02bb38879a.glb",
+  "px": 3131
+ },
+ "sw-murlocCoastrunner": {
+  "old": "/cdn/value.4a1c33b6bfce0f0f8adafc79c01a3b3f4c84ea398cd6e0cf26063fb8d01c9365.glb",
+  "new": "/cdn/value.30192ee14a8c0e244cee271621522c1a321957d0e4afd1738836529b4f64ed24.glb",
+  "px": 16376
+ },
+ "sw-murlocForager": {
+  "old": "/cdn/value.f67582b7696088223eae8fa6d340a9fc350d3b03522bb3ac23ab364e1641dab3.glb",
+  "new": "/cdn/value.4dd187c7279b7567d3264ba479242e4ca672e1dbbf6a6d87ba1484a1074c6f54.glb",
+  "px": 9288
+ },
+ "sw-murlocTidehunter": {
+  "old": "/cdn/value.3b331ff91c9cd5a4a4dea964d9b3f43d937cf4234e91187ade305dd5536a2c10.glb",
+  "new": "/cdn/value.8a0886966bf7f23fc9082344e00eb7b345feaba396b2ad12b72499178f95a0c1.glb",
+  "px": 12033
+ },
+ "sw-rabbit": {
+  "old": "/cdn/value.ecbc5aece1a1241d656922ac77f9860a6e0ea03a9a182f03b0ac1c1bc8cf6a7e.glb",
+  "new": "/cdn/value.a0f5a32fab749b046d556115e762f056df4db0229f58532de611ef6bedaa7066.glb",
+  "px": 3729
+ },
+ "elw-haystack": {
+  "old": "/cdn/value.c0366fa5e8937b5c46fcafef516e8e3e9d522aac006e3d0e427f34253f65395b.glb",
+  "new": "/cdn/value.8ba7d932ecaa413b2d934228db87a07281ef32995a8edcc8aca989dfcc23c4ca.glb",
+  "px": 324
+ },
+ "sw-chicken": {
+  "old": "/cdn/value.4fcabff8206ce04dcca465c3c114f69d9a5eee715e1967145451eba3f42bdcd8.glb",
+  "new": "/cdn/value.ef3a8af228ebdc451782eb6f64a674e76db59841205c865dfa1c702758813880.glb",
+  "px": 11471
+ },
+ "sw-riverpawGnoll": {
+  "old": "/cdn/value.90b0871c1dcbe322ab4fdb85f3dccbf0f340d0be472017d20ab71b6107c68b3f.glb",
+  "new": "/cdn/value.8984ca4def144cd69b6cf4508f6c0bd31c497f1ae7b5b3fb837e6c30b87839b5.glb",
+  "px": 3839
+ },
+ "sw-riverpawShaman": {
+  "old": "/cdn/value.3d252d6ad10e9c53262feca80caee8835e1b055252ca4311d0c7198dc08e1af8.glb",
+  "new": "/cdn/value.3b7eda03eb14ebc512621ea6811b9446f0eef20fe4e086ebbd343789d8daf0aa.glb",
+  "px": 6943
+ },
+ "sw-mangyWolf": {
+  "old": "/cdn/value.6ab71a0d0eff6567a48bc952fb536575d756459914a5e8232943b45b86229fd9.glb",
+  "new": "/cdn/value.07acf4ba3713ba2d12266b7e5d46e224475d9616981fc29af5d73d43ce57a5ba.glb",
+  "px": 9670
+ }
+}

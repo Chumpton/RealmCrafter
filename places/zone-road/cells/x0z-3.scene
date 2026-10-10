@@ -1,0 +1,12 @@
+# spawn-scene v2 yaml x0z-3
+or-fargate:
+  castShadow: true
+  feetPosition: {x: 20, y: {terrain: 0}, z: -326}
+  id: or-fargate
+  model: /cdn/value.e1f2a98f9699c8b57d309e9c465ba291a9d22a510217b852d382eb3767d038b0.glb
+  physics: {body: static, collider: mesh}
+  receiveShadow: true
+  rotation: {lookAt: {x: 52, y: 0, z: -290}}
+  scale: 0.15
+  tags: [old-road]
+  visibleRange: {max: 900}
