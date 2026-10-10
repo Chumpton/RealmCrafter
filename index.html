@@ -10,18 +10,32 @@
       position: absolute; top: 12px; left: 12px;
       color: #fff; font-family: monospace; background: rgba(0,0,0,0.65);
       padding: 10px 14px; border-radius: 6px; pointer-events: none;
+      z-index: 10;
     }
   </style>
-  <!-- Load Three.js, GLTFLoader, OrbitControls, and js-yaml via CDN -->
-  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
-  <script src="https://unpkg.com/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
-  <script src="https://unpkg.com/three@0.160.0/examples/js/loaders/GLTFLoader.js"></script>
+
+  <!-- External standalone YAML parser -->
   <script src="https://unpkg.com/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+
+  <!-- Modern Three.js Import Map -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
 </head>
 <body>
-  <div id="overlay">RealmCrafter Viewer | Click & Drag to Rotate | Scroll to Zoom</div>
+  <div id="overlay">RealmCrafter Viewer | Left Click + Drag to Rotate | Scroll to Zoom</div>
 
-  <script>
+  <script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+    import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+    // 1. Scene & Atmosphere Setup
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0xa0c8f0);
     scene.fog = new THREE.FogExp2(0xa0c8f0, 0.002);
@@ -34,11 +48,14 @@
     renderer.shadowMap.enabled = true;
     document.body.appendChild(renderer.domElement);
 
-    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    // 2. Controls
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
     controls.target.set(0, 0, 0);
     controls.update();
 
-    // Lighting
+    // 3. Lighting
     const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1.2);
     hemiLight.position.set(0, 200, 0);
     scene.add(hemiLight);
@@ -48,7 +65,7 @@
     dirLight.castShadow = true;
     scene.add(dirLight);
 
-    // Flat green testing floor
+    // 4. Testing Floor Grid
     const groundGeo = new THREE.PlaneGeometry(800, 800);
     const groundMat = new THREE.MeshLambertMaterial({ color: 0x5a7d36 });
     const ground = new THREE.Mesh(groundGeo, groundMat);
@@ -60,9 +77,9 @@
     grid.position.y = 0.05;
     scene.add(grid);
 
-    const gltfLoader = new THREE.GLTFLoader();
+    // 5. Asset Loading
+    const gltfLoader = new GLTFLoader();
 
-    // Parse world YAMLs to spawn assets
     async function loadRealm() {
       try {
         const [assetsRes, configRes] = await Promise.all([
@@ -70,15 +87,14 @@
           fetch('./world.config.yaml')
         ]);
 
-        if (!assetsRes.ok || !configRes.ok) throw new Error("Could not fetch YAML configs");
+        if (!assetsRes.ok || !configRes.ok) throw new Error("Could not fetch YAML files");
 
         const assetsData = jsyaml.load(await assetsRes.text());
         const configData = jsyaml.load(await configRes.text());
 
-        console.log("Assets map:", assetsData);
-        console.log("World config:", configData);
+        console.log("Assets loaded:", assetsData);
+        console.log("Config loaded:", configData);
 
-        // Iterate through entities defined in configData and place them
         const entities = configData.entities || configData.objects || [];
         entities.forEach(item => {
           const modelUrl = assetsData[item.assetId]?.url || item.url;
@@ -92,20 +108,23 @@
           });
         });
       } catch (err) {
-        console.warn("Auto-parse failed or files not structured as entities. Inspect console for structure:", err);
+        console.warn("YAML structure check:", err);
       }
     }
 
     loadRealm();
 
+    // Resize Handler
     window.addEventListener('resize', () => {
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
       renderer.setSize(window.innerWidth, window.innerHeight);
     });
 
+    // Render Loop
     function animate() {
       requestAnimationFrame(animate);
+      controls.update();
       renderer.render(scene, camera);
     }
     animate();
