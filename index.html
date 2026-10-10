@@ -1,29 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RealmCrafter Testing Ground</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RealmCrafter - Offline Viewer</title>
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      background: #000;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
+    body { margin: 0; overflow: hidden; background: #87CEEB; }
+    #overlay {
+      position: absolute; top: 12px; left: 12px;
+      color: #fff; font-family: monospace; background: rgba(0,0,0,0.65);
+      padding: 10px 14px; border-radius: 6px; pointer-events: none;
     }
   </style>
+  <!-- Load Three.js, GLTFLoader, OrbitControls, and js-yaml via CDN -->
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://unpkg.com/three@0.160.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://unpkg.com/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 </head>
 <body>
-  <iframe 
-    src="https://www.spawn.co/@camptons_world/realmcrafter@dev" 
-    allow="fullscreen; camera; microphone; pointer-lock">
-  </iframe>
+  <div id="overlay">RealmCrafter Viewer | Click & Drag to Rotate | Scroll to Zoom</div>
+
+  <script>
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0xa0c8f0);
+    scene.fog = new THREE.FogExp2(0xa0c8f0, 0.002);
+
+    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.5, 2000);
+    camera.position.set(0, 45, 90);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.shadowMap.enabled = true;
+    document.body.appendChild(renderer.domElement);
+
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.target.set(0, 0, 0);
+    controls.update();
+
+    // Lighting
+    const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1.2);
+    hemiLight.position.set(0, 200, 0);
+    scene.add(hemiLight);
+
+    const dirLight = new THREE.DirectionalLight(0xfff0dd, 1.5);
+    dirLight.position.set(100, 150, 50);
+    dirLight.castShadow = true;
+    scene.add(dirLight);
+
+    // Flat green testing floor
+    const groundGeo = new THREE.PlaneGeometry(800, 800);
+    const groundMat = new THREE.MeshLambertMaterial({ color: 0x5a7d36 });
+    const ground = new THREE.Mesh(groundGeo, groundMat);
+    ground.rotation.x = -Math.PI / 2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const grid = new THREE.GridHelper(800, 80, 0xffffff, 0x3d5423);
+    grid.position.y = 0.05;
+    scene.add(grid);
+
+    const gltfLoader = new THREE.GLTFLoader();
+
+    // Parse world YAMLs to spawn assets
+    async function loadRealm() {
+      try {
+        const [assetsRes, configRes] = await Promise.all([
+          fetch('./world.assets.yaml'),
+          fetch('./world.config.yaml')
+        ]);
+
+        if (!assetsRes.ok || !configRes.ok) throw new Error("Could not fetch YAML configs");
+
+        const assetsData = jsyaml.load(await assetsRes.text());
+        const configData = jsyaml.load(await configRes.text());
+
+        console.log("Assets map:", assetsData);
+        console.log("World config:", configData);
+
+        // Iterate through entities defined in configData and place them
+        const entities = configData.entities || configData.objects || [];
+        entities.forEach(item => {
+          const modelUrl = assetsData[item.assetId]?.url || item.url;
+          if (!modelUrl) return;
+
+          gltfLoader.load(modelUrl, (gltf) => {
+            const root = gltf.scene;
+            if (item.position) root.position.set(item.position.x || 0, item.position.y || 0, item.position.z || 0);
+            if (item.scale) root.scale.set(item.scale.x || 1, item.scale.y || 1, item.scale.z || 1);
+            scene.add(root);
+          });
+        });
+      } catch (err) {
+        console.warn("Auto-parse failed or files not structured as entities. Inspect console for structure:", err);
+      }
+    }
+
+    loadRealm();
+
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    function animate() {
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+    }
+    animate();
+  </script>
 </body>
 </html>
