@@ -1,101 +1,99 @@
-async function loadRealm() {
-  try {
-    // 1. Fetch assets map and config
-    const [assetsRes, configRes] = await Promise.all([
-      fetch('./world.assets.yaml'),
-      fetch('./world.config.yaml')
-    ]);
-
-    if (!assetsRes.ok || !configRes.ok) throw new Error("Could not fetch YAML configuration files");
-
-    const assetsData = jsyaml.load(await assetsRes.text());
-    const configData = jsyaml.load(await configRes.text());
-
-    // Spawn puts assets under an 'assets' dictionary key
-    const assetRegistry = assetsData.assets || assetsData;
-    console.log("Parsed Asset Registry:", assetRegistry);
-
-    // 2. Locate the active place definition (e.g. 'main')
-    const placeName = configData.defaultPlace || 'main';
-    let placeData = null;
-
-    // Try fetching places/main.json, fallback to places/main.yaml
-    let placeRes = await fetch(`./places/${placeName}.json`);
-    if (placeRes.ok) {
-      placeData = await placeRes.json();
-    } else {
-      placeRes = await fetch(`./places/${placeName}.yaml`);
-      if (placeRes.ok) {
-        placeData = jsyaml.load(await placeRes.text());
-      }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RealmCrafter - Offline Viewer</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #87ceeb;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
-
-    console.log(`Place [${placeName}] Data:`, placeData);
-
-    if (!placeData) {
-      console.warn(`Could not find place file at ./places/${placeName}.json or .yaml`);
-      return;
+    #overlay {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      color: #e0f2fe;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      padding: 12px 18px;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+      pointer-events: none;
+      z-index: 100;
+      font-size: 13px;
+      line-height: 1.5;
     }
+    #overlay b {
+      color: #38bdf8;
+      display: block;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    #status {
+      margin-top: 6px;
+      font-size: 11px;
+      color: #94a3b8;
+    }
+  </style>
 
-    // 3. Extract items/entities from the place file
-    const items = placeData.entities || placeData.objects || placeData.items || placeData.props || [];
-    console.log(`Found ${items.length} place entities to spawn.`);
+  <!-- Stable UMD Dependencies (No Bundler / No ES Module ImportMap Conflicts) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+<body>
+  <div id="overlay">
+    <b>RealmCrafter World Viewer</b>
+    Left Click + Drag: Orbit &bull; Right Click: Pan &bull; Scroll: Zoom
+    <div id="status">Initializing engine and loading assets...</div>
+  </div>
 
-    items.forEach((item) => {
-      // Find matching asset definition by ID or template
-      const assetKey = item.assetId || item.asset || item.template || item.type;
-      const assetDef = assetRegistry[assetKey];
-      const modelUrl = assetDef?.url || assetDef?.file || assetDef?.path || item.url;
+  <script>
+    const statusEl = document.getElementById('status');
 
-      if (!modelUrl) return;
+    // 1. Scene, Camera & Renderer
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0xa0c8f0);
+    scene.fog = new THREE.FogExp2(0xa0c8f0, 0.0018);
 
-      gltfLoader.load(
-        modelUrl,
-        (gltf) => {
-          const root = gltf.scene;
-          
-          // Position
-          if (item.position) {
-            const p = item.position;
-            root.position.set(
-              Array.isArray(p) ? p[0] : (p.x || 0),
-              Array.isArray(p) ? p[1] : (p.y || 0),
-              Array.isArray(p) ? p[2] : (p.z || 0)
-            );
-          }
+    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.5, 3000);
+    camera.position.set(0, 50, 110);
 
-          // Rotation
-          if (item.rotation) {
-            const r = item.rotation;
-            root.rotation.set(
-              Array.isArray(r) ? r[0] : (r.x || 0),
-              Array.isArray(r) ? r[1] : (r.y || 0),
-              Array.isArray(r) ? r[2] : (r.z || 0)
-            );
-          }
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    document.body.appendChild(renderer.domElement);
 
-          // Scale
-          if (item.scale !== undefined) {
-            const s = item.scale;
-            if (typeof s === 'number') {
-              root.scale.set(s, s, s);
-            } else {
-              root.scale.set(
-                Array.isArray(s) ? s[0] : (s.x || 1),
-                Array.isArray(s) ? s[1] : (s.y || 1),
-                Array.isArray(s) ? s[2] : (s.z || 1)
-              );
-            }
-          }
+    // 2. Controls
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.06;
+    controls.maxPolarAngle = Math.PI / 2 - 0.02; // Keep camera above terrain
+    controls.target.set(0, 5, 0);
+    controls.update();
 
-          scene.add(root);
-        },
-        undefined,
-        (err) => console.error(`Failed to load asset ${assetKey} from ${modelUrl}:`, err)
-      );
-    });
+    // 3. Environmental Lighting
+    const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1.25);
+    hemiLight.position.set(0, 250, 0);
+    scene.add(hemiLight);
 
-  } catch (err) {
-    console.error("World loader error:", err);
-  }
-}
+    const sunLight = new THREE.DirectionalLight(0xfff5e6, 1.5);
+    sunLight.position.set(120, 180, 80);
+    sunLight.castShadow = true;
+    sunLight.shadow.mapSize.width = 2048;
+    sunLight.shadow.mapSize.height = 2048;
+    sunLight.shadow.camera.near = 0.5;
+    sunLight.shadow.camera.far = 600;
+    const shadowD = 150;
+    sunLight.shadow.camera.left = -shadowD;
+    sunLight.shadow
